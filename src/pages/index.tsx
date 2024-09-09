@@ -1,8 +1,8 @@
 import { attributes } from '@/content/index.md';
 
 export default function Home() {
-  const { heading } = attributes;
+  const { title } = attributes;
   return (
-    <p>{heading}</p>
+    <p>{title}</p>
   );
 }
