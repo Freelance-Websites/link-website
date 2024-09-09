@@ -1,0 +1,16 @@
+media_folder: "public/images"
+public_folder: "images"
+editor:
+  preview: false
+backend:
+  name: git-gateway
+  branch: main
+collections:
+  - name: "static"
+    label: "Páginas estáticas"
+    files:
+      - name: "homepage"
+        label: "Homepage"
+        file: "content/index.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
