@@ -1,3 +1,3 @@
 ---
-title: Este texto viene desde el backend!
+title: Bienvenidos a la web de Red Link
 ---
