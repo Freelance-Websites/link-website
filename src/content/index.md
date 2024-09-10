@@ -1,3 +1,3 @@
 ---
-title: Bienvenidos a la web de Red Link
+title: Bienvenidos a la web de Link
 ---
