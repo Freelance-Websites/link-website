@@ -1,3 +1,3 @@
 ---
-title: Este texto viene desde el backend
+title: Este texto viene desde el backend!
 ---
