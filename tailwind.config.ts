@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        circle: 'DMT Vip Regular'
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
