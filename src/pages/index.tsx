@@ -1,14 +1,8 @@
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
-
-import { attributes } from '@/content/index.md';
 
 export default function Home() {
-  const { title } = attributes;
-
   const [size, setSize] = useState(0);
   const [rotation, setRotation] = useState(0);
-  const [weight, setWeight] = useState(400);
 
   const handleMouseMove = (event: MouseEvent) => {
     const { clientX, clientY } = event;
@@ -39,7 +33,7 @@ export default function Home() {
       <h1
         className='font-circle text-[#009496] text-5xl md:text-8xl lg:text-9xl w-full text-center'
         style={{
-          fontVariationSettings: `"SIZE" ${size}, "ROTA" ${rotation}, "wght" ${weight}`
+          fontVariationSettings: `"SIZE" ${size}, "ROTA" ${rotation}, "wght" 400`
         }}
       >
         link
