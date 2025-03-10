@@ -8,12 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        circle: 'DMT Vip Regular'
-      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        logo: "#009597",
+        primary: "#75F493",
+        accent: "#C49609",
+        dark: "#004550",
+        light: "#EEE7E7",
       },
     },
   },
