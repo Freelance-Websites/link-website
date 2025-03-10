@@ -11,7 +11,9 @@
   "dependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-react": "^7.24.7",
+    "@splidejs/react-splide": "^0.7.12",
     "frontmatter-markdown-loader": "^3.7.0",
+    "lucide-react": "^0.479.0",
     "next": "^14.2.24",
     "react": "^18",
     "react-dom": "^18"

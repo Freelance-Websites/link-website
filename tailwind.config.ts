@@ -15,6 +15,10 @@ const config: Config = {
         dark: "#004550",
         light: "#EEE7E7",
       },
+      fontFamily: {
+        serif: ['Georgia', 'ui-serif', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+        replica: ['Replica', 'ui-sans-serif', 'system-ui', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
+      },
     },
   },
   plugins: [],

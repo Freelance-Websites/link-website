@@ -2,10 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-interface MainProps {
-}
-
-const Header: React.FC<MainProps> = ({
+const Header: React.FC = ({
 }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -31,11 +28,21 @@ const Header: React.FC<MainProps> = ({
   }, []);
 
   useEffect(() => {
-    if (window.innerWidth < 768) {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
       setIsMobile(true);
-    } else {
+      } else {
       setIsMobile(false);
-    }
+      }
+    };
+
+    handleResize(); // Set initial value
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
@@ -48,7 +55,7 @@ const Header: React.FC<MainProps> = ({
       }
     >
       <div
-        className='flex items-center justify-between container mx-auto'
+        className='flex items-center justify-between container mx-auto px-4 md:px-0'
       >
         <Link
           href='/'
@@ -75,25 +82,23 @@ const Header: React.FC<MainProps> = ({
             </g>
           </svg>
         </Link>
-        {isMobile && (
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className='transition duration-300 hover:opacity-80'
+        <button
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className='block md:hidden transition duration-300 hover:opacity-80'
+        >
+          <svg
+            fill="inherit"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              fill="inherit"
-              height="24"
-              viewBox="0 0 24 24"
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4 6h16M4 12h16M4 18h16"
-                className={isScrolled || isMenuOpen ? 'stroke-dark' : 'stroke-light'}
-              />
-            </svg>
-          </button>
-        )}
+            <path
+              d="M4 6h16M4 12h16M4 18h16"
+              className={isScrolled || isMenuOpen ? 'stroke-dark' : 'stroke-light'}
+            />
+          </svg>
+        </button>
         <ul
           className={`
             gap-6
@@ -103,7 +108,7 @@ const Header: React.FC<MainProps> = ({
             }
           `}
         >
-          <li className='absolute top-6 right-3'>
+          <li className='block md:hidden absolute top-6 right-6'>
             <button
               onClick={() => setIsMenuOpen(false)}
               className='transition duration-300 hover:opacity-80'
