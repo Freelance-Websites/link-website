@@ -1,6 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
 
 import Button, { ButtonProps } from './Button';
 
@@ -11,6 +9,7 @@ interface MainProps {
   colorScheme?: 'primary' | 'light' | 'dark';
   children?: React.ReactNode;
   isAboveImage?: boolean;
+  byline?: string;
 }
 
 const Heading: React.FC<MainProps> = ({
@@ -19,10 +18,26 @@ const Heading: React.FC<MainProps> = ({
   ctas,
   colorScheme,
   children,
-  isAboveImage
+  isAboveImage,
+  byline
 }) => {
   return (
     <div className="flex flex-col justify-center gap-4">
+      {byline && (
+        <span
+          className={`
+            italic font-serif md:text-lg
+            ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
+              ? 'text-primary'
+              : colorScheme === 'light'
+                ? 'text-dark'
+                : 'text-dark'
+            }
+          `}
+        >
+          {byline}
+        </span>
+      )}
       {title && (
         <h1
           className={`

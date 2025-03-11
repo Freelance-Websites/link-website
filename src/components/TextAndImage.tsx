@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import Heading from './Heading';
 import { ButtonProps } from './Button';
+import DotGrid from './DotGrid';
 
 export interface TextAndImageProps {
   byline?: string;
@@ -12,6 +13,7 @@ export interface TextAndImageProps {
   imageLocation?: 'left' | 'right';
   colorScheme?: 'primary' | 'light' | 'dark';
   ctas?: ButtonProps[];
+  decorations?: boolean;
 }
 
 const TextAndImage: React.FC<TextAndImageProps> = ({
@@ -21,7 +23,8 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
   image,
   imageLocation,
   colorScheme,
-  ctas
+  ctas,
+  decorations
 }) => {
   return (
     <section
@@ -44,6 +47,9 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
           }
         `}
         >
+          {decorations && <div className='absolute inset-0 flex items-center justify-center z-10'>
+            <DotGrid colorScheme={colorScheme} />
+          </div>}
           <Image
             src={image}
             alt={title || 'Link'}
@@ -66,6 +72,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
           description={description}
           ctas={ctas}
           colorScheme={colorScheme}
+          byline={byline}
         />
       </div>
     </section>

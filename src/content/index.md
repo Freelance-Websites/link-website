@@ -16,6 +16,18 @@ sections:
     byline: Quienes Somos
     title: Impulsamos la evolución de la industria financiera
     colorScheme: primary
+    decorations: false
+    description: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad. Bancos, entidades financieras y empresas eligen nuestros productos y servicios para una experiencia sin fricciones.
+    ctas:
+      - link: /
+        text: Conocé más
+  - type: textAndImage
+    image: /images/certifications-image.jpg
+    imageLocation: left
+    byline: Certificaciones
+    title: Seguridad certificada mundialmente
+    colorScheme: light
+    decorations: true
     description: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad. Bancos, entidades financieras y empresas eligen nuestros productos y servicios para una experiencia sin fricciones.
     ctas:
       - link: /

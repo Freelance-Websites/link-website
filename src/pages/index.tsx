@@ -18,6 +18,7 @@ interface SectionProps {
   imageLocation?: 'left' | 'right';
   colorScheme?: 'primary' | 'light' | 'dark';
   ctas?: ButtonProps[];
+  decorations?: boolean;
 }
 
 export default function Home() {
@@ -45,6 +46,7 @@ export default function Home() {
                 imageLocation={section.imageLocation || 'left'}
                 colorScheme={section.colorScheme || 'primary'}
                 ctas={section.ctas}
+                decorations={section.decorations}
               />
             );
         }

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 import Heading from './Heading';
+import DotGrid from './DotGrid';
 import { ButtonProps } from './Button';
 
 interface MainProps {
@@ -90,22 +91,9 @@ const Slider: React.FC<MainProps> = ({
                 <div className="md:max-w-3xl flex gap-4 md:gap-8 items-start flex-col md:flex-row">
                   {/* Decorations */}
                   {slide.decorations && (
-                    <ul className="grid grid-cols-9 grid-rows-9 gap-1 md:gap-4 aspect-square min-w-[120px] min-h-[120px] md:min-w-[230px] md:min-h-[230px]">
-                      {Array.from({ length: 81 }).map((_, index) => (
-                        <li
-                          key={index}
-                          className={`
-                            h-1 w-1 md:w-3 md:h-3 rounded-full
-                            ${slide.colorScheme === 'primary'
-                            ? 'bg-primary'
-                            : slide.colorScheme === 'light'
-                            ? 'bg-dark'
-                            : 'bg-dark'
-                            }
-                          `}
-                          />
-                      ))}
-                    </ul>
+                    <DotGrid
+                      colorScheme={slide.colorScheme}
+                    />
                   )}
                   {/* Title, description, CTA */}
                   <Heading
