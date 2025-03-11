@@ -6,7 +6,7 @@ interface MainProps {
   title?: string;
   description?: string;
   ctas?: ButtonProps[];
-  colorScheme?: 'primary' | 'light' | 'dark';
+  colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   children?: React.ReactNode;
   isAboveImage?: boolean;
   byline?: string;
@@ -59,7 +59,7 @@ const Heading: React.FC<MainProps> = ({
             md:text-lg font-serif md:leading-none
             ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
               ? 'text-light'
-              : colorScheme === 'light' && !isAboveImage || colorScheme === 'primary' && !isAboveImage
+              : colorScheme === 'light' && !isAboveImage || colorScheme === 'primary' && !isAboveImage || colorScheme === 'secondary'
                 ? 'text-dark'
                 : 'text-light'
             }

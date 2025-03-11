@@ -17,7 +17,7 @@ export interface SliderProps {
   media?: string;
   title?: string;
   description?: string;
-  colorScheme?: 'primary' | 'light' | 'dark';
+  colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   ctas?: ButtonProps[];
   decorations?: boolean;
 }

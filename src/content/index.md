@@ -32,4 +32,15 @@ sections:
     ctas:
       - link: /
         text: Conocé más
+  - type: textAndImage
+    image: /images/careers-image.png
+    imageLocation: right
+    byline: Carreras
+    title: Sumate a un equipo que evoluciona
+    colorScheme: secondary
+    decorations: false
+    description: "El #equipolink deja huella en cada proyecto. Descubrí nuestro ADN y conocé las búsquedas abiertas."
+    ctas:
+      - link: https://www.linkedin.com/company/red-link-s-a-/jobs/?viewAsMember=true
+        text: Conocé más
 ---

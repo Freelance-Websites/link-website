@@ -1,7 +1,7 @@
 import React from "react";
 
 interface MainProps {
-  colorScheme?: 'primary' | 'light' | 'dark';
+  colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
 }
 
 const DotGrid: React.FC<MainProps> = ({

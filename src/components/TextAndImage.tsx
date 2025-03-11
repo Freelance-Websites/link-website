@@ -11,7 +11,7 @@ export interface TextAndImageProps {
   description?: string;
   image?: string;
   imageLocation?: 'left' | 'right';
-  colorScheme?: 'primary' | 'light' | 'dark';
+  colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   ctas?: ButtonProps[];
   decorations?: boolean;
 }
@@ -34,13 +34,19 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
           ? 'bg-primary text-dark'
           : colorScheme === 'light'
             ? 'bg-light text-dark'
-            : 'bg-dark text-light'
+            : colorScheme === 'secondary'
+              ? 'bg-secondary text-dark'
+              : 'bg-dark text-light'
         }
       `}
     >
       {image &&
         <div className={`
-          w-full h-96 md:h-[710px] relative md:flex-1
+          relative md:flex-1 w-full
+          ${colorScheme === 'secondary'
+            ? 'h-96 md:h-[560px]'
+            : 'h-96 md:h-[710px]'
+          }
           ${imageLocation === 'left'
             ? 'order-first'
             : 'order-first md:order-last'
@@ -54,7 +60,10 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
             src={image}
             alt={title || 'Link'}
             fill
-            style={{ objectFit: 'cover', objectPosition: 'center' }}
+            style={{
+              objectFit: colorScheme === 'secondary' ? 'contain' : 'cover',
+              objectPosition: 'center'
+            }}
           />
         </div>
       }

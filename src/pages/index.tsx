@@ -16,7 +16,7 @@ interface SectionProps {
   description?: string;
   image?: string;
   imageLocation?: 'left' | 'right';
-  colorScheme?: 'primary' | 'light' | 'dark';
+  colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   ctas?: ButtonProps[];
   decorations?: boolean;
 }

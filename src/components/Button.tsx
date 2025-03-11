@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 export interface ButtonProps {
   text?: string;
   link?: string;
-  colorScheme?: 'primary' | 'light' | 'dark';
+  colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   isLink?: boolean;
   isExternal?: boolean;
   action?: () => void;
