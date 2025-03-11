@@ -1,24 +1,23 @@
 import React from 'react';
 
 import Main from '@/components/Main';
-import Slider from '@/components/Slider';
+import Slider, { SliderProps } from '@/components/Slider';
+import TextAndImage, { TextAndImageProps } from '@/components/TextAndImage';
 
 import { attributes } from '@/content/index.md';
+import { ButtonProps } from '@/components/Button';
 
 interface SectionProps {
   type: string;
-  slider?: SlideProps[];
-}
-
-interface SlideProps {
-  type: string;
-  media?: string;
-  title: string;
+  slider?: SliderProps[];
+  textAndImage?: TextAndImageProps;
+  byline?: string;
+  title?: string;
   description?: string;
+  image?: string;
+  imageLocation?: 'left' | 'right';
   colorScheme?: 'primary' | 'light' | 'dark';
-  ctaText?: string;
-  ctaLink?: string;
-  decorations?: boolean;
+  ctas?: ButtonProps[];
 }
 
 export default function Home() {
@@ -35,6 +34,19 @@ export default function Home() {
                 key={`slider-${index}`}
               />
             ) : null;
+          case 'textAndImage':
+            return (
+              <TextAndImage
+                key={`text-and-image-${index}`}
+                byline={section.byline}
+                title={section.title}
+                description={section.description}
+                image={section.image}
+                imageLocation={section.imageLocation || 'left'}
+                colorScheme={section.colorScheme || 'primary'}
+                ctas={section.ctas}
+              />
+            );
         }
       })}
     </Main>

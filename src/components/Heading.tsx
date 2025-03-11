@@ -2,22 +2,24 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
+import Button, { ButtonProps } from './Button';
+
 interface MainProps {
   title?: string;
   description?: string;
-  ctaText?: string;
-  ctaLink?: string;
+  ctas?: ButtonProps[];
   colorScheme?: 'primary' | 'light' | 'dark';
   children?: React.ReactNode;
+  isAboveImage?: boolean;
 }
 
 const Heading: React.FC<MainProps> = ({
   title,
   description,
-  ctaText,
-  ctaLink,
+  ctas,
   colorScheme,
-  children
+  children,
+  isAboveImage
 }) => {
   return (
     <div className="flex flex-col justify-center gap-4">
@@ -25,7 +27,7 @@ const Heading: React.FC<MainProps> = ({
         <h1
           className={`
             text-3xl md:text-4xl font-bold leading-none
-            ${colorScheme === 'primary'
+            ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
               ? 'text-primary'
               : colorScheme === 'light'
                 ? 'text-dark'
@@ -40,9 +42,9 @@ const Heading: React.FC<MainProps> = ({
         <p
           className={`
             md:text-lg font-serif md:leading-none
-            ${colorScheme === 'primary'
+            ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
               ? 'text-light'
-              : colorScheme === 'light'
+              : colorScheme === 'light' && !isAboveImage || colorScheme === 'primary' && !isAboveImage
                 ? 'text-dark'
                 : 'text-light'
             }
@@ -51,27 +53,28 @@ const Heading: React.FC<MainProps> = ({
           {description}
         </p>
       )}
-      <ul className='flex gap-4 mt-4 md:mt-8'>
-        <li>
-          <Link
-            href={ctaLink || '/'}
-            className={`
-              flex items-center gap-3 px-4 py-3 rounded-full transition duration-300 hover:opacity-80 text-base md:text-lg
-              ${colorScheme === 'primary' || colorScheme === 'light'
-                ? 'bg-primary text-dark'
-                : 'bg-dark text-light'
-              }
-            `}
-          >
-            {ctaText || 'Conocé más'}
-            <ArrowRight
-              size={16}
-              color='currentColor'
-            />
-          </Link>
-        </li>
-      </ul>
-      {children}
+      {ctas &&
+        <ul className='flex gap-4 mt-4 md:mt-8'>
+          {ctas?.map((cta, index) => {
+            const isLink = cta.link?.startsWith('http') || cta.link?.startsWith('#') || cta.link?.startsWith('/') || cta.link?.startsWith('www');
+            const isExternal = cta.link?.startsWith('http') || cta.link?.startsWith('www');
+
+            return (
+              <li key={index}>
+                <Button
+                  text={cta.text}
+                  link={cta.link}
+                  isLink={isLink}
+                  isExternal={isExternal}
+                  colorScheme={colorScheme}
+                  isAboveImage={isAboveImage}
+                />
+              </li>
+            )
+          })}
+        </ul>
+      }
+      {children && children}
     </div>
   )
 }

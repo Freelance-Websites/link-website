@@ -5,19 +5,19 @@ import Image from 'next/image';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 import Heading from './Heading';
+import { ButtonProps } from './Button';
 
 interface MainProps {
   slider: SliderProps[];
 }
 
-interface SliderProps {
+export interface SliderProps {
   type: string;
   media?: string;
   title?: string;
   description?: string;
   colorScheme?: 'primary' | 'light' | 'dark';
-  ctaText?: string;
-  ctaLink?: string;
+  ctas?: ButtonProps[];
   decorations?: boolean;
 }
 
@@ -111,9 +111,9 @@ const Slider: React.FC<MainProps> = ({
                   <Heading
                     title={slide.title}
                     description={slide.description}
-                    ctaText={slide.ctaText}
-                    ctaLink={slide.ctaLink}
+                    ctas={slide.ctas}
                     colorScheme={slide.colorScheme}
+                    isAboveImage={slide.media ? true : false}
                     children={
                       <ul className='flex items-center gap-2 mt-4 md:mt-12'>
                         <li className="flex items-center">
