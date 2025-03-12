@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 
-import Heading from './Heading';
-import { ButtonProps } from './Button';
-import DotGrid from './DotGrid';
+import Heading from '@/components/Heading';
+import { ButtonProps } from '@/components/Button';
+import { BulletProps } from '@/components/Heading';
+import DotGrid from '@/components/DotGrid';
 
 export interface TextAndImageProps {
   byline?: string;
@@ -14,6 +15,7 @@ export interface TextAndImageProps {
   colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   ctas?: ButtonProps[];
   decorations?: boolean;
+  bullets?: BulletProps[];
 }
 
 const TextAndImage: React.FC<TextAndImageProps> = ({
@@ -24,12 +26,13 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
   imageLocation,
   colorScheme,
   ctas,
-  decorations
+  decorations,
+  bullets
 }) => {
   return (
     <section
       className={`
-        flex items-center justify-center flex-col md:flex-row
+        grid items-center justify-center grid-cols-1 md:grid-cols-2
         ${colorScheme === 'primary'
           ? 'bg-primary text-dark'
           : colorScheme === 'light'
@@ -42,10 +45,10 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
     >
       {image &&
         <div className={`
-          relative md:flex-1 w-full
+          relative md:flex-1 w-full h-full
           ${colorScheme === 'secondary'
-            ? 'h-96 md:h-[560px]'
-            : 'h-96 md:h-[710px]'
+            ? 'min-h-96 md:min-h-[560px]'
+            : 'min-h-96 md:min-h-[710px]'
           }
           ${imageLocation === 'left'
             ? 'order-first'
@@ -69,7 +72,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
       }
       <div
         className={`
-          md:flex-1 p-8 lg:p-12 xl:p-16
+          md:flex-1 p-8 lg:p-16 xl:p-24
           ${imageLocation === 'left'
             ? 'order-first md:order-last'
             : 'order-first'
@@ -78,10 +81,12 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
       >
         <Heading
           title={title}
+          titleHierarchy='h2'
           description={description}
           ctas={ctas}
           colorScheme={colorScheme}
           byline={byline}
+          bullets={bullets}
         />
       </div>
     </section>

@@ -6,6 +6,7 @@ import TextAndImage, { TextAndImageProps } from '@/components/TextAndImage';
 
 import { attributes } from '@/content/index.md';
 import { ButtonProps } from '@/components/Button';
+import { BulletProps } from '@/components/Heading';
 
 interface SectionProps {
   type: string;
@@ -19,6 +20,7 @@ interface SectionProps {
   colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   ctas?: ButtonProps[];
   decorations?: boolean;
+  bullets?: BulletProps[];
 }
 
 export default function Home() {
@@ -47,6 +49,7 @@ export default function Home() {
                 colorScheme={section.colorScheme || 'primary'}
                 ctas={section.ctas}
                 decorations={section.decorations}
+                bullets={section.bullets}
               />
             );
         }

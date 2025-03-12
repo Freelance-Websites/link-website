@@ -29,7 +29,7 @@ const Button: React.FC<ButtonProps> = ({
     }
   `;
   return (
-    isLink
+    isLink && !isExternal
       ?  <Link
         href={link || '/'}
         className={defaultStyles}
@@ -40,7 +40,7 @@ const Button: React.FC<ButtonProps> = ({
           color='currentColor'
         />
       </Link>
-      : isExternal
+      : isLink && isExternal
         ? <a
           href={link || '#'}
           target='_blank'

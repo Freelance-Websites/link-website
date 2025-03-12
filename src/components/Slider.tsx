@@ -98,37 +98,36 @@ const Slider: React.FC<MainProps> = ({
                   {/* Title, description, CTA */}
                   <Heading
                     title={slide.title}
+                    titleHierarchy={'h1'}
                     description={slide.description}
                     ctas={slide.ctas}
                     colorScheme={slide.colorScheme}
                     isAboveImage={slide.media ? true : false}
-                    children={
-                      <ul className='flex items-center gap-2 mt-4 md:mt-12'>
-                        <li className="flex items-center">
-                          <button
-                            className="text-light transition duration-300 hover:opacity-80"
-                            onClick={() => splideRef.current?.splide.go('-1')}
-                          >
-                            <ArrowLeft />
-                          </button>
-                        </li>
-                        <li>
-                          <span className="md:text-lg leading-none text-light">
-                              {slider.findIndex(slide => slide === slider[index]) + 1} / {slider.length}
-                          </span>
-                        </li>
-                        <li className="flex items-center">
-                          <button
-                            className="text-light transition duration-300 hover:opacity-80"
-                            onClick={() => splideRef.current?.splide.go('+1')}
-                          >
-                            <ArrowRight />
-                          </button>
-                        </li>
-                      </ul>
-                    }
                   />
                 </div>
+                <ul className='flex items-center gap-2 absolute bottom-4 md:bottom-8 w-full justify-center'>
+                  <li className="flex items-center">
+                    <button
+                      className="text-light transition duration-300 hover:opacity-80"
+                      onClick={() => splideRef.current?.splide.go('-1')}
+                    >
+                      <ArrowLeft />
+                    </button>
+                  </li>
+                  <li>
+                    <span className="md:text-lg leading-none text-light">
+                        {slider.findIndex(slide => slide === slider[index]) + 1} / {slider.length}
+                    </span>
+                  </li>
+                  <li className="flex items-center">
+                    <button
+                      className="text-light transition duration-300 hover:opacity-80"
+                      onClick={() => splideRef.current?.splide.go('+1')}
+                    >
+                      <ArrowRight />
+                    </button>
+                  </li>
+                </ul>
               </div>
             </div>
           </SplideSlide>

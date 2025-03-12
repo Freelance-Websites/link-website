@@ -17,7 +17,16 @@ sections:
     title: Impulsamos la evolución de la industria financiera
     colorScheme: primary
     decorations: false
-    description: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad. Bancos, entidades financieras y empresas eligen nuestros productos y servicios para una experiencia sin fricciones.
+    description: Desde 1988 desarrollamos productos y servicios para entidades financieras, organismos gubernamentales y empresas de todo Argentina.
+    bullets:
+      - title: Lideramos la industria.
+        content: Ofrecemos servicios de primer nivel y procesamiento para grandes volúmenes de datos.
+      - title: Somos expertos.
+        content: Nos especializamos en integrar tecnología y medios de pago en diferentes plataformas.
+      - title: La red más grande de ATM.
+        content: Tenemos cajeros automáticos en cada rincón del país.
+      - title: Socios estratégicos.
+        content: Acompañamos a empresas y entidades financieras que buscan expandirse en Argentina.
     ctas:
       - link: /
         text: Conocé más

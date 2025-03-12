@@ -57,6 +57,15 @@ collections:
                   - { label: Imagen, name: image, widget: file, hint: Tamaño recomendado 1024x1024 o superior, required: false }
                   - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
                   - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+                  - label: "Bullets"
+                    hint: Lista de elementos que se mostrarán debajo de la descripción. Si no se completa, no se mostrarán bullets.
+                    name: "bullets"
+                    widget: "list"
+                    allow_add: true
+                    max: 4
+                    fields:
+                      - { label: Título, name: title, widget: string, hint: "Título del bullet. Opcional, se muestra en bold si existe.", required: false }
+                      - { label: Texto, name: content, widget: string, hint: "Texto del bullet" }
                   - label: "Esquema de color"
                     name: "colorScheme"
                     widget: "select"

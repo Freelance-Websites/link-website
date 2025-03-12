@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button, { ButtonProps } from './Button';
+import Button, { ButtonProps } from '@/components/Button';
 
 interface MainProps {
   title?: string;
@@ -10,17 +10,83 @@ interface MainProps {
   children?: React.ReactNode;
   isAboveImage?: boolean;
   byline?: string;
+  bullets?: BulletProps[];
+  titleHierarchy?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+}
+
+export interface BulletProps {
+  content: string;
+  title?: string;
 }
 
 const Heading: React.FC<MainProps> = ({
   title,
+  titleHierarchy,
   description,
   ctas,
   colorScheme,
   children,
   isAboveImage,
-  byline
+  byline,
+  bullets
 }) => {
+  const createTitle = (titleHierarchy: string | undefined) => {
+    const baseClasses = `
+      font-bold leading-none
+      ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
+        ? 'text-primary'
+        : colorScheme === 'light'
+          ? 'text-dark'
+          : 'text-dark'
+      }
+    `
+
+    switch (titleHierarchy) {
+      case 'h1':
+        return <h1
+          className={`${baseClasses} text-3xl md:text-5xl`}
+        >
+          {title}
+        </h1>
+      case 'h2':
+        return <h2
+        className={`${baseClasses} text-2xl md:text-4xl`}
+        >
+          {title}
+        </h2>
+      case 'h3':
+        return <h3
+        className={`${baseClasses} text-2xl md:text-3xl`}
+        >
+          {title}
+        </h3>
+      case 'h4':
+        return <h4
+        className={`${baseClasses} text-xl md:text-2xl`}
+        >
+          {title}
+        </h4>
+      case 'h5':
+        return <h5
+        className={`${baseClasses} text-lg md:text-xl`}
+        >
+          {title}
+        </h5>
+      case 'h6':
+        return <h6
+        className={`${baseClasses} text-base md:text-lg`}
+        >
+          {title}
+        </h6>
+      default:
+        return <h1
+          className={`${baseClasses} text-3xl md:text-5xl`}
+        >
+          {title}
+        </h1>
+    }
+  }
+  
   return (
     <div className="flex flex-col justify-center gap-4">
       {byline && (
@@ -38,25 +104,11 @@ const Heading: React.FC<MainProps> = ({
           {byline}
         </span>
       )}
-      {title && (
-        <h1
-          className={`
-            text-3xl md:text-4xl font-bold leading-none
-            ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
-              ? 'text-primary'
-              : colorScheme === 'light'
-                ? 'text-dark'
-                : 'text-dark'
-            }
-          `}
-        >
-          {title}
-        </h1>
-      )}
+      {title && createTitle(titleHierarchy)}
       {description && (
         <p
           className={`
-            md:text-lg font-serif md:leading-none
+            md:text-lg font-serif
             ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
               ? 'text-light'
               : colorScheme === 'light' && !isAboveImage || colorScheme === 'primary' && !isAboveImage || colorScheme === 'secondary'
@@ -68,11 +120,54 @@ const Heading: React.FC<MainProps> = ({
           {description}
         </p>
       )}
+      {bullets && (
+        <ul
+          className='list-disc pl-4'
+        >
+          {bullets?.map((bullet, index) => (
+            <li
+              key={index}
+              className='mb-1'
+            >
+              {bullet.title &&
+                <h4
+                  className={`
+                    md:text-lg font-serif font-bold
+                    ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
+                      ? 'text-primary'
+                      : colorScheme === 'light'
+                        ? 'text-dark'
+                        : 'text-dark'
+                    }
+                  `}
+                >
+                  {bullet.title}
+                </h4>
+              }
+              <p
+                className={`
+                  md:text-lg font-serif
+                  ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
+                    ? 'text-light'
+                    : colorScheme === 'light' && !isAboveImage || colorScheme === 'primary' && !isAboveImage || colorScheme === 'secondary'
+                      ? 'text-dark'
+                      : 'text-light'
+                  }
+                `}
+              >
+                {bullet.content}
+              </p>
+            </li>
+          ))}
+        </ul>
+      )}
       {ctas &&
-        <ul className='flex gap-4 mt-4 md:mt-8'>
+        <ul className='flex gap-4 mt-4'>
           {ctas?.map((cta, index) => {
             const isLink = cta.link?.startsWith('http') || cta.link?.startsWith('#') || cta.link?.startsWith('/') || cta.link?.startsWith('www');
             const isExternal = cta.link?.startsWith('http') || cta.link?.startsWith('www');
+
+            console.log(isExternal)
 
             return (
               <li key={index}>
