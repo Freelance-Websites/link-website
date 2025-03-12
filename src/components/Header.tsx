@@ -50,7 +50,7 @@ const Header: React.FC = ({
       className={
         `
           fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4
-          ${isScrolled || isMenuOpen ? 'bg-light' : 'bg-transparent'}
+          ${isScrolled || isMenuOpen ? 'bg-light border-b border-b-gray-300' : 'bg-transparent'}
         `
       }
     >

@@ -1,7 +1,8 @@
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
 
-import Header from './Header';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 interface MainProps {
   tabTitle: string;
@@ -22,6 +23,7 @@ const Main: React.FC<MainProps> = ({
       <main>
         <Header />
         {children}
+        <Footer />
       </main>
     </>
   );

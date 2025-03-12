@@ -3,8 +3,11 @@ import React from 'react';
 import Main from '@/components/Main';
 import Slider, { SliderProps } from '@/components/Slider';
 import TextAndImage, { TextAndImageProps } from '@/components/TextAndImage';
+import CardGrid from '@/components/CardGrid';
+import { CardProps } from '@/components/Card';
 
 import { attributes } from '@/content/index.md';
+
 import { ButtonProps } from '@/components/Button';
 import { BulletProps } from '@/components/Heading';
 
@@ -21,6 +24,8 @@ interface SectionProps {
   ctas?: ButtonProps[];
   decorations?: boolean;
   bullets?: BulletProps[];
+  cards?: CardProps[];
+  cardLayout?: 'horizontal' | 'vertical';
 }
 
 export default function Home() {
@@ -50,6 +55,19 @@ export default function Home() {
                 ctas={section.ctas}
                 decorations={section.decorations}
                 bullets={section.bullets}
+              />
+            );
+          case 'cards':
+            return (
+              <CardGrid
+                key={`cards-${index}`}
+                byline={section.byline}
+                title={section.title}
+                description={section.description}
+                ctas={section.ctas}
+                cards={section.cards || []}
+                cardLayout={section.cardLayout || 'horizontal'}
+                colorScheme={section.colorScheme || 'dark'}
               />
             );
         }

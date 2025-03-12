@@ -30,6 +30,31 @@ sections:
     ctas:
       - link: /
         text: Conocé más
+  - type: cards
+    byline: Servicios
+    title: Conocé nuestros servicios
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.
+    colorScheme: dark
+    cardLayout: horizontal
+    cards:
+      - title: Soluciones de pago
+        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        icon: /images/service-1.png
+      - title: Soluciones de cobro
+        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        icon: /images/service-2.png
+      - title: Banking as a service
+        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        icon: /images/service-3.png
+      - title: API banco
+        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        icon: /images/service-4.png
+      - title: Plataformas digitales
+        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        icon: /images/service-5.png
+      - title: ATM
+        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        icon: /images/service-6.png
   - type: textAndImage
     image: /images/certifications-image.jpg
     imageLocation: left

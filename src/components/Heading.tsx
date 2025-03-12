@@ -93,11 +93,13 @@ const Heading: React.FC<MainProps> = ({
         <span
           className={`
             italic font-serif md:text-lg
-            ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
+            ${colorScheme === 'primary' && isAboveImage
               ? 'text-primary'
               : colorScheme === 'light'
                 ? 'text-dark'
-                : 'text-dark'
+                : colorScheme === 'dark'
+                  ? 'text-light'
+                  : 'text-dark'
             }
           `}
         >
