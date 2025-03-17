@@ -181,8 +181,6 @@ const Heading: React.FC<MainProps> = ({
             const isLink = cta.link?.startsWith('http') || cta.link?.startsWith('#') || cta.link?.startsWith('/') || cta.link?.startsWith('www');
             const isExternal = cta.link?.startsWith('http') || cta.link?.startsWith('www');
 
-            console.log(isExternal)
-
             return (
               <li key={index}>
                 <Button

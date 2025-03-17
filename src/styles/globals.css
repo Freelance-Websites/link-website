@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Replica LL";
+  src: url("/fonts/ReplicaLLWeb-Light.woff") format("woff");
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Replica LL";
+  src: url("/fonts/ReplicaLLWeb-Light.woff2") format("woff2");
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Replica LL";
+  src: url("/fonts/ReplicaLLWeb-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Replica LL";
+  src: url("/fonts/ReplicaLLWeb-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Replica LL";
+  src: url("/fonts/ReplicaLLWeb-Bold.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Replica LL";
+  src: url("/fonts/ReplicaLLWeb-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
