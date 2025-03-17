@@ -18,6 +18,7 @@ const config: Config = {
       fontFamily: {
         serif: ['Georgia', 'ui-serif', 'Cambria', 'Times New Roman', 'Times', 'serif'],
         sans: ['Replica LL Regular', 'ui-sans-serif', 'system-ui', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
+        numbers: ['Baudot', 'ui-monospace', 'monospace'],
       },
     },
   },
