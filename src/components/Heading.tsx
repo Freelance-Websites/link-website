@@ -145,7 +145,7 @@ const Heading: React.FC<MainProps> = ({
                 {bullet.title &&
                   <h4
                     className={`
-                      md:text-lg font-serif font-bold
+                      md:text-lg font-sans font-bold
                       ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
                         ? 'text-primary'
                         : colorScheme === 'light'
