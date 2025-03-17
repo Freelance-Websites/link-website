@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Button, { ButtonProps } from '@/components/Button';
+import { CheckCircle2 } from 'lucide-react';
 
 interface MainProps {
   title?: string;
@@ -123,42 +124,53 @@ const Heading: React.FC<MainProps> = ({
         </p>
       )}
       {bullets && (
-        <ul
-          className='list-disc pl-4'
-        >
+        <ul className='mt-2 md:mt-4 flex flex-col gap-2 md:gap-4'>
           {bullets?.map((bullet, index) => (
             <li
               key={index}
-              className='mb-1'
+              className='mb-1 flex gap-1'
             >
-              {bullet.title &&
-                <h4
-                  className={`
-                    md:text-lg font-serif font-bold
-                    ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
-                      ? 'text-primary'
-                      : colorScheme === 'light'
-                        ? 'text-dark'
-                        : 'text-dark'
-                    }
-                  `}
-                >
-                  {bullet.title}
-                </h4>
-              }
-              <p
+              <div
                 className={`
-                  md:text-lg font-serif
-                  ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
-                    ? 'text-light'
-                    : colorScheme === 'light' && !isAboveImage || colorScheme === 'primary' && !isAboveImage || colorScheme === 'secondary'
-                      ? 'text-dark'
-                      : 'text-light'
+                  flex items-center justify-center w-6 h-6 mr-2
+                  ${colorScheme === 'primary' || colorScheme === 'dark' || colorScheme === 'light'
+                    ? 'text-dark'
+                    : 'text-light'
                   }
                 `}
               >
-                {bullet.content}
-              </p>
+                <CheckCircle2 />
+              </div>
+              <div className='flex flex-col gap-1'>
+                {bullet.title &&
+                  <h4
+                    className={`
+                      md:text-lg font-serif font-bold
+                      ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
+                        ? 'text-primary'
+                        : colorScheme === 'light'
+                          ? 'text-dark'
+                          : 'text-dark'
+                      }
+                    `}
+                  >
+                    {bullet.title}
+                  </h4>
+                }
+                <p
+                  className={`
+                    md:text-lg font-serif
+                    ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
+                      ? 'text-light'
+                      : colorScheme === 'light' && !isAboveImage || colorScheme === 'primary' && !isAboveImage || colorScheme === 'secondary'
+                        ? 'text-dark'
+                        : 'text-light'
+                    }
+                  `}
+                >
+                  {bullet.content}
+                </p>
+              </div>
             </li>
           ))}
         </ul>

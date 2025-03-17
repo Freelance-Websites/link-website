@@ -72,7 +72,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
       }
       <div
         className={`
-          md:flex-1 p-8 lg:p-16 xl:p-20
+          md:flex-1 px-4 py-8 lg:p-16 xl:p-20
           ${imageLocation === 'left'
             ? 'order-first md:order-last'
             : 'order-first'

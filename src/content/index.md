@@ -18,42 +18,33 @@ sections:
     colorScheme: primary
     decorations: false
     description: Desde 1988 desarrollamos productos y servicios para entidades financieras, organismos gubernamentales y empresas de todo Argentina.
-    bullets:
-      - title: Lideramos la industria.
-        content: Ofrecemos servicios de primer nivel y procesamiento para grandes volúmenes de datos.
-      - title: Somos expertos.
-        content: Nos especializamos en integrar tecnología y medios de pago en diferentes plataformas.
-      - title: La red más grande de ATM.
-        content: Tenemos cajeros automáticos en cada rincón del país.
-      - title: Socios estratégicos.
-        content: Acompañamos a empresas y entidades financieras que buscan expandirse en Argentina.
     ctas:
       - link: /
         text: Conocé más
   - type: cards
     byline: Servicios
     title: Conocé nuestros servicios
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.
+    description: Creamos soluciones punta a punta para cada segmento del ecosistema financiero.
     colorScheme: dark
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de pago completa.
         icon: /images/service-1.png
       - title: Soluciones de cobro
-        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        content: Optimizá la forma de cobrar de los comercios y hacé crecer cada negocio.
         icon: /images/service-2.png
       - title: Banking as a service
-        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        content: Creá oportunidades de negocio revendiendo servicios a otros bancos y empresas.
         icon: /images/service-3.png
       - title: API banco
-        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        content: Sumate al ecosistema digital con APIs que amplían tu alcance y potencian tu negocio.
         icon: /images/service-4.png
       - title: Plataformas digitales
-        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        content: Transformá la gestión financiera de tu entidad con plataformas flexibles, seguras y personalizadas.
         icon: /images/service-5.png
       - title: ATM
-        content: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad.
+        content: Formá parte de la red más grande y segura de cajeros de todo el país.
         icon: /images/service-6.png
   - type: textAndImage
     image: /images/certifications-image.jpg
@@ -62,7 +53,16 @@ sections:
     title: Seguridad certificada mundialmente
     colorScheme: light
     decorations: true
-    description: Procesamos grandes volúmenes de datos desde hace más de 30 años y con los más altos estándares de seguridad. Bancos, entidades financieras y empresas eligen nuestros productos y servicios para una experiencia sin fricciones.
+    description: Nuestras certificaciones internacionales ayudan a detectar y prevenir ciberataques con los estándares más altos de la industria.
+    bullets:
+      - title: PCI DSS
+        content: Garantiza la seguridad de los datos de tarjetas de pago con estrictos controles y procedimientos.
+      - title: PCI SLC
+        content: Resguarda el ciclo de vida del software para que cumpla con prácticas de seguridad rigurosas durante todo su desarrollo.
+      - title: PCI PTS
+        content: Asegura la gestión, procesamiento y transmisión segura del PIN en transacciones de pago en ATM y terminales de punto de venta.
+      - title: SWIFT
+        content: Certifica la transferencia segura de información financiera entre instituciones.
     ctas:
       - link: /
         text: Conocé más
