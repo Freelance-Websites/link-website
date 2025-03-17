@@ -63,20 +63,35 @@ const CardGrid: React.FC<CardGridProps> = ({
             py-4 lg:py-8 xl:py-12
           `}
         >
-          {cards.map((card: CardProps, index: Number) => (
+            {cards.map((card: CardProps, index: Number) => (
             <li
               key={`card-${index}`}
+              className="opacity-0 transition-opacity duration-1000"
+              ref={(el) => {
+              if (el) {
+                const observer = new IntersectionObserver(
+                ([entry]) => {
+                  if (entry.isIntersecting) {
+                  el.classList.add('opacity-100');
+                  observer.unobserve(el);
+                  }
+                },
+                { threshold: 0.1 }
+                );
+                observer.observe(el);
+              }
+              }}
             >
               <Card
-                layout={cardLayout || 'horizontal'}
-                title={card.title}
-                content={card.content}
-                icon={card.icon}
-                ctaText={card.ctaText}
-                ctaLink={card.ctaLink}
+              layout={cardLayout || 'horizontal'}
+              title={card.title}
+              content={card.content}
+              icon={card.icon}
+              ctaText={card.ctaText}
+              ctaLink={card.ctaLink}
               />
             </li>
-          ))}
+            ))}
         </ul>
       </div>
     </section>
