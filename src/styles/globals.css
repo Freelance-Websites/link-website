@@ -37,3 +37,7 @@
   src: url("/fonts/ReplicaLLWeb-Bold.woff2") format("woff2");
   font-weight: bold;
 }
+
+::selection {
+  @apply text-dark bg-primary;
+}
