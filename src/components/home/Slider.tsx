@@ -4,12 +4,12 @@ import '@splidejs/react-splide/css';
 import Image from 'next/image';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 
-import Heading from './Heading';
-import DotGrid from './DotGrid';
-import { ButtonProps } from './Button';
+import Heading from '@/components/Heading';
+import DotGrid from '@/components/DotGrid';
+import { ButtonProps } from '@/components/Button';
 
 interface MainProps {
-  content: SliderProps[];
+  slider: SliderProps[];
 }
 
 export interface SliderProps {
@@ -23,7 +23,7 @@ export interface SliderProps {
 }
 
 const Slider: React.FC<MainProps> = ({
-  content
+  slider
 }) => {
   const isVideo = (media: string) => {
     const videoExtensions = ['mp4', 'webm', 'ogg'];
@@ -45,7 +45,7 @@ const Slider: React.FC<MainProps> = ({
         ref={splideRef}
         aria-label="Main Slider"
       >
-        {content.map((slide, index) => (
+        {slider.map((slide, index) => (
           <SplideSlide
             key={index}
           >
@@ -116,7 +116,7 @@ const Slider: React.FC<MainProps> = ({
                   </li>
                   <li>
                     <span className="md:text-lg leading-none text-light">
-                        {content.findIndex(slide => slide === content[index]) + 1} / {content.length}
+                        {slider.findIndex(slide => slide === slider[index]) + 1} / {slider.length}
                     </span>
                   </li>
                   <li className="flex items-center">

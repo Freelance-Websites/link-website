@@ -22,7 +22,7 @@ collections:
               - label: "Slider de imágenes"
                 name: "slider"
                 fields:
-                  - name: "content"
+                  - name: "slider"
                     label: "Contenido"
                     widget: "list"
                     summary: "{{fields.title}}"
@@ -138,6 +138,20 @@ collections:
                     options:
                       - { label: Horizontal, value: "horizontal", required: false }
                       - { label: Vertical, value: "vertical", required: false }
+              - label: Frase
+                name: phrase
+                fields:
+                  - { label: Frase, name: phrase, widget: string, hint: "La frase para la sección." }
+                  - label: "Esquema de color"
+                    name: "colorScheme"
+                    widget: "select"
+                    required: false
+                    hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                    options:
+                      - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                      - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                      - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                      - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
       - name: "about"
         label: "Quienes somos"
         file: "src/content/quienes-somos.md"
@@ -153,7 +167,7 @@ collections:
                   - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 1440x1024 o superior, required: false }
                   - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección.", required: false }
                   - { label: Título, name: title, widget: string, hint: "Título de la sección.", required: false }
-                  - { label: Texto, name: content, widget: string, hint: "Texto de la sección.", required: false }
+                  - { label: Texto, name: description, widget: string, hint: "Texto de la sección.", required: false }
                   - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta la grilla decorativa de puntos, default: true, required: false }
                   - label: "Botones"
                     name: "ctas"
@@ -174,3 +188,17 @@ collections:
                       - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
                       - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
                       - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: Frase
+                name: phrase
+                fields:
+                  - { label: Frase, name: phrase, widget: string, hint: "La frase para la sección." }
+                  - label: "Esquema de color"
+                    name: "colorScheme"
+                    widget: "select"
+                    required: false
+                    hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                    options:
+                      - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                      - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                      - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                      - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro" }

@@ -1,19 +1,20 @@
 import React from 'react';
 
 import Main from '@/components/Main';
-import Slider, { SliderProps } from '@/components/Slider';
+import Slider, { SliderProps } from '@/components/home/Slider';
 import TextAndImage, { TextAndImageProps } from '@/components/TextAndImage';
 import CardGrid from '@/components/CardGrid';
-import { CardProps } from '@/components/Card';
+import Phrase from '@/components/Phrase';
 
 import { attributes } from '@/content/index.md';
 
+import { CardProps } from '@/components/Card';
 import { ButtonProps } from '@/components/Button';
 import { BulletProps } from '@/components/Heading';
 
 interface SectionProps {
   type: string;
-  content?: SliderProps[];
+  slider?: SliderProps[];
   textAndImage?: TextAndImageProps;
   byline?: string;
   title?: string;
@@ -26,6 +27,7 @@ interface SectionProps {
   bullets?: BulletProps[];
   cards?: CardProps[];
   cardLayout?: 'horizontal' | 'vertical';
+  phrase?: string;
 }
 
 export default function Home() {
@@ -36,9 +38,9 @@ export default function Home() {
       {attributes.sections.map((section: SectionProps, index: number) => {
         switch(section.type) {
           case 'slider':
-            return section.content ? (
+            return section.slider ? (
               <Slider
-              content={section.content}
+                slider={section.slider}
                 key={`slider-${index}`}
               />
             ) : null;
@@ -68,6 +70,14 @@ export default function Home() {
                 cards={section.cards || []}
                 cardLayout={section.cardLayout || 'horizontal'}
                 colorScheme={section.colorScheme || 'dark'}
+              />
+            );
+          case 'phrase':
+            return (
+              <Phrase
+                key={`phrase-${index}`}
+                colorScheme={section.colorScheme || 'primary'}
+                phrase={section.phrase || ''}
               />
             );
         }
