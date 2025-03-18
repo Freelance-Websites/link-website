@@ -55,7 +55,7 @@ collections:
                 name: "textAndImage"
                 fields:
                   - { label: Imagen, name: image, widget: file, hint: Tamaño recomendado 1024x1024 o superior, required: false }
-                  - { label: Sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+                  - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
                   - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
                   - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
                   - label: "Bullets"
@@ -138,3 +138,39 @@ collections:
                     options:
                       - { label: Horizontal, value: "horizontal", required: false }
                       - { label: Vertical, value: "vertical", required: false }
+      - name: "about"
+        label: "Quienes somos"
+        file: "src/content/quienes-somos.md"
+        fields:
+          - label: "Secciones"
+            name: "sections"
+            widget: "list"
+            allow_add: true
+            types:
+              - label: "Hero"
+                name: "hero"
+                fields:
+                  - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 1440x1024 o superior, required: false }
+                  - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección.", required: false }
+                  - { label: Título, name: title, widget: string, hint: "Título de la sección.", required: false }
+                  - { label: Texto, name: content, widget: string, hint: "Texto de la sección.", required: false }
+                  - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta la grilla decorativa de puntos, default: true, required: false }
+                  - label: "Botones"
+                    name: "ctas"
+                    widget: "list"
+                    allow_add: true
+                    max: 2
+                    hint: Los botones que se muestran debajo del texto. Si no se completan, no se mostrarán botones.
+                    fields:
+                      - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
+                      - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
+                  - label: "Esquema de color"
+                    name: "colorScheme"
+                    widget: "select"
+                    required: false
+                    hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                    options:
+                      - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                      - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                      - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                      - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }

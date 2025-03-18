@@ -1,0 +1,4 @@
+---
+sections:
+  - type: hero
+---
