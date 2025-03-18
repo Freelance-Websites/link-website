@@ -22,7 +22,7 @@ collections:
               - label: "Slider de imágenes"
                 name: "slider"
                 fields:
-                  - name: "Slide"
+                  - name: "content"
                     label: "Contenido"
                     widget: "list"
                     summary: "{{fields.title}}"
