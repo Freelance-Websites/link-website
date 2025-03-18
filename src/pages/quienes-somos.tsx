@@ -17,7 +17,7 @@ export default function Home() {
         switch(section.type) {
           case 'hero':
             return (
-              <p>test</p>
+              <p key={index}>test</p>
             )
         }
       })}
