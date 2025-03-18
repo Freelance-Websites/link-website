@@ -5,6 +5,7 @@ import Slider, { SliderProps } from '@/components/home/Slider';
 import TextAndImage, { TextAndImageProps } from '@/components/TextAndImage';
 import CardGrid from '@/components/CardGrid';
 import Phrase from '@/components/Phrase';
+import Stats, { StatProp } from '@/components/Stats';
 
 import { attributes } from '@/content/index.md';
 
@@ -28,6 +29,7 @@ interface SectionProps {
   cards?: CardProps[];
   cardLayout?: 'horizontal' | 'vertical';
   phrase?: string;
+  stats?: StatProp[];
 }
 
 export default function Home() {
@@ -80,6 +82,17 @@ export default function Home() {
                 phrase={section.phrase || ''}
               />
             );
+          case 'stats':
+            return (
+              <Stats
+                key={`stats-${index}`}
+                colorScheme={section.colorScheme || 'primary'}
+                stats={section.stats || []}
+                title={section.title || ''}
+                description={section.description || ''}
+                byline={section.byline || ''}
+              />
+            )
         }
       })}
     </Main>

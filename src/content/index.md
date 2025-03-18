@@ -2,7 +2,7 @@
 sections:
   - type: slider
     slider:
-      - media: /images/hero-news-1.jpg
+      - media: /images/homepage-news-1.jpg
         title: Cajero Express en ExpoRed 2023
         description: La red de cajeros automáticos no financieros líder en el mercado del sector expendedor, será uno de los protagonistas de la muestra organizada por YPF y la Asociación de Operadores.
         colorScheme: primary
@@ -11,7 +11,7 @@ sections:
           - link: /
             text: Conocé más
   - type: textAndImage
-    image: /images/about-image.jpg
+    image: /images/homepage-about.jpg
     imageLocation: right
     byline: Quiénes Somos
     title: Impulsamos la evolución de la industria financiera
@@ -30,24 +30,24 @@ sections:
     cards:
       - title: Soluciones de pago
         content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de pago completa.
-        icon: /images/service-1.png
+        icon: /images/homepage-service-1.png
       - title: Soluciones de cobro
         content: Optimizá la forma de cobrar de los comercios y hacé crecer cada negocio.
-        icon: /images/service-2.png
+        icon: /images/homepage-service-2.png
       - title: Banking as a service
         content: Creá oportunidades de negocio revendiendo servicios a otros bancos y empresas.
-        icon: /images/service-3.png
+        icon: /images/homepage-service-3.png
       - title: API banco
         content: Sumate al ecosistema digital con APIs que amplían tu alcance y potencian tu negocio.
-        icon: /images/service-4.png
+        icon: /images/homepage-service-4.png
       - title: Plataformas digitales
         content: Transformá la gestión financiera de tu entidad con plataformas flexibles, seguras y personalizadas.
-        icon: /images/service-5.png
+        icon: /images/homepage-service-5.png
       - title: ATM
         content: Formá parte de la red más grande y segura de cajeros de todo el país.
-        icon: /images/service-6.png
+        icon: /images/homepage-service-6.png
   - type: textAndImage
-    image: /images/certifications-image.jpg
+    image: /images/homepage-certifications.jpg
     imageLocation: left
     byline: Certificaciones
     title: Seguridad certificada mundialmente
@@ -67,7 +67,7 @@ sections:
       - link: /
         text: Conocé más
   - type: textAndImage
-    image: /images/careers-image.png
+    image: /images/homepage-careers.png
     imageLocation: right
     byline: Carreras
     title: Sumate a un equipo que evoluciona

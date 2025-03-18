@@ -89,7 +89,15 @@ const Heading: React.FC<MainProps> = ({
   }
   
   return (
-    <div className="flex flex-col justify-center gap-4">
+    <div
+      className={`
+        flex flex-col justify-center
+        ${titleHierarchy === 'h1'
+          ? 'gap-4'
+          : 'gap-2'
+        }
+      `}
+    >
       {byline && (
         <span
           className={`
