@@ -20,7 +20,7 @@ const Footer: React.FC = ({
         >
           <li>
             <Link
-              href='/'
+              href='#top'
               className='transition duration-300 hover:opacity-80'
             >
               <svg
@@ -49,7 +49,7 @@ const Footer: React.FC = ({
             className='text-dark'
           >
             <Link
-              href='/sobre-nosotros'
+              href='#quienes-somos'
               className={`
                 transition duration-300 hover:opacity-80 text-sm
               `}
@@ -61,7 +61,7 @@ const Footer: React.FC = ({
             className='text-dark'
           >
             <Link
-              href='/servicios'
+              href='#servicios'
               className={`
                 transition duration-300 hover:opacity-80 text-sm
               `}
@@ -73,7 +73,7 @@ const Footer: React.FC = ({
             className='text-dark'
           >
             <Link
-              href='/carreras'
+              href='#carreras'
               className={`
                 transition duration-300 hover:opacity-80 text-sm
               `}
@@ -85,7 +85,7 @@ const Footer: React.FC = ({
             className='text-dark'
           >
             <Link
-              href='/novedades'
+              href='#top'
               className={`
                 transition duration-300 hover:opacity-80 text-sm
               `}

@@ -42,6 +42,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
               : 'bg-dark text-light'
         }
       `}
+      id={byline?.toLowerCase().replaceAll(' ', '-') || title?.toLowerCase().replaceAll(' ', '-')}
     >
       {image &&
         <div className={`

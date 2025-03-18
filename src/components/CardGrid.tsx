@@ -38,6 +38,7 @@ const CardGrid: React.FC<CardGridProps> = ({
               : 'bg-dark text-light'
         }
       `}
+      id={byline?.toLowerCase().replaceAll(' ', '-') || title?.toLowerCase().replaceAll(' ', '-')}
     >
       <div
         className={`

@@ -47,6 +47,7 @@ const Header: React.FC = ({
 
   return (
     <header
+      id='top'
       className={
         `
           fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4
@@ -58,7 +59,7 @@ const Header: React.FC = ({
         className='flex items-center justify-between container mx-auto px-4 md:px-0'
       >
         <Link
-          href='/'
+          href='#top'
           className='transition duration-300 hover:opacity-80'
         >
           <svg
@@ -131,20 +132,20 @@ const Header: React.FC = ({
             className={isScrolled || isMobile ? 'text-dark text-center' : 'text-light'}
           >
             <Link
-              href='/sobre-nosotros'
+              href='#quienes-somos'
               className={`
                 transition duration-300 hover:opacity-80
-                ${active === 'sobre-nosotros' ? 'underline' : ''}
+                ${active === 'quienes-somos' ? 'underline' : ''}
               `}
             >
-              Sobre nosotros
+              Quienes somos
             </Link>
           </li>
           <li
             className={isScrolled || isMobile ? 'text-dark text-center' : 'text-light'}
           >
             <Link
-              href='/servicios'
+              href='#servicios'
               className={`
                 transition duration-300 hover:opacity-80
                 ${active === 'servicios' ? 'underline' : ''}
@@ -157,7 +158,7 @@ const Header: React.FC = ({
             className={isScrolled || isMobile ? 'text-dark text-center' : 'text-light'}
           >
             <Link
-              href='/carreras'
+              href='#carreras'
               className={`
                 transition duration-300 hover:opacity-80
                 ${active === 'carreras' ? 'underline' : ''}
@@ -170,7 +171,7 @@ const Header: React.FC = ({
             className={isScrolled || isMobile ? 'text-dark text-center' : 'text-light'}
           >
             <Link
-              href='/novedades'
+              href='#top'
               className={`
                 transition duration-300 hover:opacity-80
                 ${active === 'novedades' ? 'underline' : ''}
