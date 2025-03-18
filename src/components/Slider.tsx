@@ -31,7 +31,7 @@ const Slider: React.FC<MainProps> = ({
     return videoExtensions.includes(extension || '');
   };
 
-  const splideRef = React.useRef<Splide>(null);
+  const splideRef = React.useRef<{ splide: { go: (direction: string) => void } } | null>(null);
 
   return (
     <section className='slider'>
