@@ -4,77 +4,98 @@ sections:
     slider:
       - media: /images/hero-news-1.jpg
         title: Cajero Express en ExpoRed 2023
-        description: La red de cajeros automáticos no financieros líder en el mercado del sector expendedor, será uno de los protagonistas de la muestra organizada por YPF y la Asociación de Operadores.
+        description: La red de cajeros automáticos no financieros líder en el mercado
+          del sector expendedor, será uno de los protagonistas de la muestra
+          organizada por YPF y la Asociación de Operadores.
         colorScheme: primary
         decorations: true
         ctas:
           - link: /
             text: Conocé más
-  - type: textAndImage
-    image: /images/about-image.jpg
-    imageLocation: right
-    byline: Quienes Somos
-    title: Impulsamos la evolución de la industria financiera
-    colorScheme: primary
-    decorations: false
-    description: Desde 1988 desarrollamos productos y servicios para entidades financieras, organismos gubernamentales y empresas de todo Argentina.
-    ctas:
+    Slide:
+      - decorations: true
+        media: images/hero-news-1.jpg
+        title: Testing
+        description: Test
+        colorScheme: primary
+  - ctas:
       - link: /
         text: Conocé más
+    decorations: false
+    colorScheme: primary
+    byline: Quienes Somos
+    imageLocation: right
+    title: Impulsamos la evolución de la industria financiera
+    type: textAndImage
+    image: /images/about-image.jpg
+    description: Desde 1988 desarrollamos productos y servicios para entidades
+      financieras, organismos gubernamentales y empresas de todo Argentina.
   - type: cards
     byline: Servicios
     title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema financiero.
+    description: Creamos soluciones punta a punta para cada segmento del ecosistema
+      financiero.
     colorScheme: dark
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de pago completa.
+        content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de
+          pago completa.
         icon: /images/service-1.png
       - title: Soluciones de cobro
-        content: Optimizá la forma de cobrar de los comercios y hacé crecer cada negocio.
+        content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
+          negocio.
         icon: /images/service-2.png
       - title: Banking as a service
-        content: Creá oportunidades de negocio revendiendo servicios a otros bancos y empresas.
+        content: Creá oportunidades de negocio revendiendo servicios a otros bancos y
+          empresas.
         icon: /images/service-3.png
       - title: API banco
-        content: Sumate al ecosistema digital con APIs que amplían tu alcance y potencian tu negocio.
+        content: Sumate al ecosistema digital con APIs que amplían tu alcance y
+          potencian tu negocio.
         icon: /images/service-4.png
       - title: Plataformas digitales
-        content: Transformá la gestión financiera de tu entidad con plataformas flexibles, seguras y personalizadas.
+        content: Transformá la gestión financiera de tu entidad con plataformas
+          flexibles, seguras y personalizadas.
         icon: /images/service-5.png
       - title: ATM
         content: Formá parte de la red más grande y segura de cajeros de todo el país.
         icon: /images/service-6.png
-  - type: textAndImage
-    image: /images/certifications-image.jpg
-    imageLocation: left
-    byline: Certificaciones
-    title: Seguridad certificada mundialmente
-    colorScheme: light
-    decorations: true
-    description: Nuestras certificaciones internacionales ayudan a detectar y prevenir ciberataques con los estándares más altos de la industria.
-    bullets:
-      - title: PCI DSS
-        content: Garantiza la seguridad de los datos de tarjetas de pago con estrictos controles y procedimientos.
-      - title: PCI SLC
-        content: Resguarda el ciclo de vida del software para que cumpla con prácticas de seguridad rigurosas durante todo su desarrollo.
-      - title: PCI PTS
-        content: Asegura la gestión, procesamiento y transmisión segura del PIN en transacciones de pago en ATM y terminales de punto de venta.
-      - title: SWIFT
-        content: Certifica la transferencia segura de información financiera entre instituciones.
-    ctas:
+  - ctas:
       - link: /
         text: Conocé más
-  - type: textAndImage
-    image: /images/careers-image.png
-    imageLocation: right
-    byline: Carreras
-    title: Sumate a un equipo que evoluciona
-    colorScheme: secondary
-    decorations: false
-    description: "El #equipolink deja huella en cada proyecto. Descubrí nuestro ADN y conocé las búsquedas abiertas."
-    ctas:
+    decorations: true
+    colorScheme: light
+    byline: Certificaciones
+    imageLocation: left
+    bullets:
+      - title: PCI DSS
+        content: Garantiza la seguridad de los datos de tarjetas de pago con estrictos
+          controles y procedimientos.
+      - title: PCI SLC
+        content: Resguarda el ciclo de vida del software para que cumpla con prácticas
+          de seguridad rigurosas durante todo su desarrollo.
+      - title: PCI PTS
+        content: Asegura la gestión, procesamiento y transmisión segura del PIN en
+          transacciones de pago en ATM y terminales de punto de venta.
+      - title: SWIFT
+        content: Certifica la transferencia segura de información financiera entre
+          instituciones.
+    title: Seguridad certificada mundialmente
+    type: textAndImage
+    image: /images/certifications-image.jpg
+    description: Nuestras certificaciones internacionales ayudan a detectar y
+      prevenir ciberataques con los estándares más altos de la industria.
+  - ctas:
       - link: https://www.linkedin.com/company/red-link-s-a-/jobs/?viewAsMember=true
         text: Conocé más
+    decorations: false
+    colorScheme: secondary
+    byline: Carreras
+    imageLocation: right
+    title: Sumate a un equipo que evoluciona
+    type: textAndImage
+    image: /images/careers-image.png
+    description: "El #equipolink deja huella en cada proyecto. Descubrí nuestro ADN
+      y conocé las búsquedas abiertas."
 ---
