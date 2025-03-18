@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import slugify from 'react-slugify';
 
 import Heading from '@/components/Heading';
 import { ButtonProps } from '@/components/Button';
@@ -42,7 +43,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
               : 'bg-dark text-light'
         }
       `}
-      id={byline?.toLowerCase().replaceAll(' ', '-') || title?.toLowerCase().replaceAll(' ', '-')}
+      id={slugify(byline || title)}
     >
       {image &&
         <div className={`

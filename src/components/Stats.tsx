@@ -1,5 +1,6 @@
 import React from 'react';
 import CountUp from 'react-countup';
+import slugify from 'react-slugify';
 
 import Heading from '@/components/Heading';
 
@@ -42,7 +43,7 @@ const Stats: React.FC<StatsProps> = ({
               : 'bg-dark text-light'
         }
       `}
-      id={byline?.toLowerCase().replaceAll(' ', '-') || title?.toLowerCase().replaceAll(' ', '-')}
+      id={slugify(byline || title)}
     >
       <div
         className={`

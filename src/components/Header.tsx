@@ -59,7 +59,7 @@ const Header: React.FC = ({
         className='flex items-center justify-between container mx-auto px-4 md:px-0'
       >
         <Link
-          href='#top'
+          href={!active ? '#top' : `/`}
           className='transition duration-300 hover:opacity-80'
         >
           <svg
