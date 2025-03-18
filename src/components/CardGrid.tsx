@@ -63,7 +63,7 @@ const CardGrid: React.FC<CardGridProps> = ({
             py-4 lg:py-8 xl:py-12
           `}
         >
-            {cards.map((card: CardProps, index: Number) => (
+            {cards.map((card: CardProps, index: number) => (
             <li
               key={`card-${index}`}
               className="opacity-0 transition-opacity duration-1000"

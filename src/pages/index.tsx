@@ -33,7 +33,7 @@ export default function Home() {
     <Main
       tabTitle='Inicio • Link'
     >
-      {attributes.sections.map((section: SectionProps, index: Number) => {
+      {attributes.sections.map((section: SectionProps, index: number) => {
         switch(section.type) {
           case 'slider':
             return section.slider ? (
