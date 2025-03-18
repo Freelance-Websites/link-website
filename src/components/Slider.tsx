@@ -9,7 +9,7 @@ import DotGrid from './DotGrid';
 import { ButtonProps } from './Button';
 
 interface MainProps {
-  slider: SliderProps[];
+  content: SliderProps[];
 }
 
 export interface SliderProps {
@@ -23,7 +23,7 @@ export interface SliderProps {
 }
 
 const Slider: React.FC<MainProps> = ({
-  slider
+  content
 }) => {
   const isVideo = (media: string) => {
     const videoExtensions = ['mp4', 'webm', 'ogg'];
@@ -45,7 +45,7 @@ const Slider: React.FC<MainProps> = ({
         ref={splideRef}
         aria-label="Main Slider"
       >
-        {slider.map((slide, index) => (
+        {content.map((slide, index) => (
           <SplideSlide
             key={index}
           >
@@ -116,7 +116,7 @@ const Slider: React.FC<MainProps> = ({
                   </li>
                   <li>
                     <span className="md:text-lg leading-none text-light">
-                        {slider.findIndex(slide => slide === slider[index]) + 1} / {slider.length}
+                        {content.findIndex(slide => slide === content[index]) + 1} / {content.length}
                     </span>
                   </li>
                   <li className="flex items-center">

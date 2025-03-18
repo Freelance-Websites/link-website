@@ -13,7 +13,7 @@ import { BulletProps } from '@/components/Heading';
 
 interface SectionProps {
   type: string;
-  slider?: SliderProps[];
+  content?: SliderProps[];
   textAndImage?: TextAndImageProps;
   byline?: string;
   title?: string;
@@ -36,9 +36,9 @@ export default function Home() {
       {attributes.sections.map((section: SectionProps, index: number) => {
         switch(section.type) {
           case 'slider':
-            return section.slider ? (
+            return section.content ? (
               <Slider
-                slider={section.slider}
+              content={section.content}
                 key={`slider-${index}`}
               />
             ) : null;
