@@ -42,13 +42,13 @@ export default function Home() {
 
   React.useEffect(() => {
     async function fetchContent() {
-      const content = await import(`@/content/${router.query.slug || 'index'}.md`);
+      const content = await import(`@/content/${slug || 'index'}.md`);
       setAttributes(content.attributes);
     }
-    if (router.query.slug) {
+    if (slug) {
       fetchContent();
     }
-  }, [router.query.slug]);
+  }, [slug]);
   
   return (
     <Main
