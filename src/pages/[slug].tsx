@@ -35,7 +35,7 @@ interface SectionProps {
   stats?: StatProp[];
 }
 
-export default function Home() {
+export default function Page() {
   const router = useRouter();
   const { slug } = router.query;
   const [attributes, setAttributes] = React.useState<any>(null);
