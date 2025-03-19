@@ -37,7 +37,7 @@ interface SectionProps {
 export default function Page() {
   const router = useRouter();
   const { slug } = router.query;
-  const [attributes, setAttributes] = React.useState<any>(null);
+  const [attributes, setAttributes] = React.useState<{ sections: SectionProps[] } | null>(null);
 
   React.useEffect(() => {
     async function fetchContent() {
