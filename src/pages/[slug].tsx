@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 
 import Main from '@/components/Main';
-import Slider, { SliderProps } from '@/components/home/Slider';
+import Slider, { SliderProps } from '@/components/Slider';
 import TextAndImage, { TextAndImageProps } from '@/components/TextAndImage';
 import CardGrid from '@/components/CardGrid';
 import Phrase from '@/components/Phrase';
@@ -11,7 +11,7 @@ import Stats, { StatProp } from '@/components/Stats';
 import { CardProps } from '@/components/Card';
 import { ButtonProps } from '@/components/Button';
 import { BulletProps } from '@/components/Heading';
-import Hero from '@/components/about/Hero';
+import Hero from '@/components/Hero';
 
 interface SectionProps {
   type: string;
@@ -37,7 +37,7 @@ interface SectionProps {
 export default function Page() {
   const router = useRouter();
   const { slug } = router.query;
-  const [attributes, setAttributes] = React.useState<{ sections: SectionProps[] } | null>(null);
+  const [attributes, setAttributes] = React.useState<{ title?: string; sections: SectionProps[] } | null>(null);
 
   React.useEffect(() => {
     async function fetchContent() {
