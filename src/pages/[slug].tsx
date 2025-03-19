@@ -1,6 +1,5 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import dynamic from 'next/dynamic';
 
 import Main from '@/components/Main';
 import Slider, { SliderProps } from '@/components/home/Slider';
