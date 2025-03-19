@@ -20,8 +20,9 @@ interface SectionProps {
   byline?: string;
   title?: string;
   description?: string;
-  image?: string;
-  imageLocation?: 'left' | 'right';
+  media?: string;
+  mediaPlacement?: 'left' | 'right';
+  mediaSize?: 'full' | 'boxed';
   colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   ctas?: ButtonProps[];
   decorations?: boolean;
@@ -53,8 +54,9 @@ export default function Home() {
                 byline={section.byline}
                 title={section.title}
                 description={section.description}
-                image={section.image}
-                imageLocation={section.imageLocation || 'left'}
+                media={section.media}
+                mediaPlacement={section.mediaPlacement || 'left'}
+                mediaSize={section.mediaSize || 'full'}
                 colorScheme={section.colorScheme || 'primary'}
                 ctas={section.ctas}
                 decorations={section.decorations}

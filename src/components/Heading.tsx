@@ -141,9 +141,11 @@ const Heading: React.FC<MainProps> = ({
               <div
                 className={`
                   flex items-center justify-center w-6 h-6 mr-2
-                  ${colorScheme === 'primary' || colorScheme === 'dark' || colorScheme === 'light'
+                  ${colorScheme === 'primary' || colorScheme === 'light'
                     ? 'text-dark'
-                    : 'text-light'
+                    : colorScheme === 'dark'
+                      ? 'text-primary'
+                      : 'text-light'
                   }
                 `}
               >
@@ -154,11 +156,13 @@ const Heading: React.FC<MainProps> = ({
                   <h4
                     className={`
                       md:text-lg font-sans font-bold
-                      ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
+                      ${colorScheme === 'primary' && isAboveImage
                         ? 'text-primary'
                         : colorScheme === 'light'
                           ? 'text-dark'
-                          : 'text-dark'
+                          : colorScheme === 'dark'
+                            ? 'text-light'
+                            : 'text-dark'
                       }
                     `}
                   >

@@ -22,8 +22,9 @@ interface SectionProps {
   title?: string;
   description?: string;
   ctas?: ButtonProps[];
-  image?: string;
-  imageLocation?: 'left' | 'right';
+  media?: string;
+  mediaPlacement?: 'left' | 'right';
+  mediaSize?: 'full' | 'boxed';
   decorations?: boolean;
   bullets?: BulletProps[];
   cards?: CardProps[];
@@ -71,8 +72,9 @@ export default function Home() {
                   byline={section.byline}
                   title={section.title}
                   description={section.description}
-                  image={section.image}
-                  imageLocation={section.imageLocation || 'left'}
+                  media={section.media}
+                  mediaPlacement={section.mediaPlacement || 'left'}
+                  mediaSize={section.mediaSize || 'full'}
                   colorScheme={section.colorScheme || 'primary'}
                   ctas={section.ctas}
                   decorations={section.decorations}

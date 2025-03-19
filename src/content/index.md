@@ -11,8 +11,8 @@ sections:
           - link: /
             text: Conocé más
   - type: textAndImage
-    image: /images/homepage-about.jpg
-    imageLocation: right
+    media: /images/homepage-about.jpg
+    mediaPlacement: right
     byline: Quiénes Somos
     title: Impulsamos la evolución de la industria financiera
     colorScheme: primary
@@ -47,8 +47,8 @@ sections:
         content: Formá parte de la red más grande y segura de cajeros de todo el país.
         icon: /images/homepage-service-6.png
   - type: textAndImage
-    image: /images/homepage-certifications.jpg
-    imageLocation: left
+    media: /images/homepage-certifications.jpg
+    mediaPlacement: left
     byline: Certificaciones
     title: Seguridad certificada mundialmente
     colorScheme: light
@@ -67,8 +67,8 @@ sections:
       - link: /
         text: Conocé más
   - type: textAndImage
-    image: /images/homepage-careers.png
-    imageLocation: right
+    media: /images/homepage-careers.png
+    mediaPlacement: right
     byline: Carreras
     title: Sumate a un equipo que evoluciona
     colorScheme: secondary

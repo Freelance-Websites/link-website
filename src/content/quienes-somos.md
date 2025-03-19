@@ -26,8 +26,8 @@ sections:
       - value: 28
         content: Millones de clientes
   - type: textAndImage
-    image: /images/about-certifications.jpg
-    imageLocation: left
+    media: /images/about-certifications.jpg
+    mediaPlacement: left
     byline: Certificaciones
     title: Seguridad certificada mundialmente
     colorScheme: primary
@@ -36,4 +36,18 @@ sections:
     ctas:
       - link: /
         text: Conocé más
+  - type: textAndImage
+    media: /images/about-processing.jpg
+    mediaPlacement: right
+    mediaSize: boxed
+    colorScheme: dark
+    title: Procesamiento
+    description: Tenemos el Datacenter más grande de Latam, que procesa grandes volúmenes de datos y brinda servicios tecnológicos a bancos y entidades financieras. 
+    bullets:
+      - title: ANSI/ASHRAE
+        content: American Society of Heating, Refrigerating and Air-Conditioning Engineers
+      - title: ANSI/TIA 942
+        content: Telecommunications Industry Association
+      - title: BICSI 0210
+        content: Building Industry Consultants Service International
 ---

@@ -8,6 +8,8 @@ import Heading from '@/components/Heading';
 import DotGrid from '@/components/DotGrid';
 import { ButtonProps } from '@/components/Button';
 
+import { isVideo } from '@/utils/media';
+
 interface MainProps {
   slider: SliderProps[];
 }
@@ -25,12 +27,6 @@ export interface SliderProps {
 const Slider: React.FC<MainProps> = ({
   slider
 }) => {
-  const isVideo = (media: string) => {
-    const videoExtensions = ['mp4', 'webm', 'ogg'];
-    const extension = media.split('.').pop();
-    return videoExtensions.includes(extension || '');
-  };
-
   const splideRef = React.useRef<{ splide: { go: (direction: string) => void } } | null>(null);
 
   return (
@@ -65,23 +61,23 @@ const Slider: React.FC<MainProps> = ({
                 <>
                   <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20 z-10"></div>
                   {isVideo(slide.media) ?
-                  <video
-                    controls
-                    autoPlay
-                    muted
-                    loop
-                    className="object-cover w-full h-full z-0 absolute top-0 left-0"
-                  >
-                    <source src={slide.media} type={`video/${slide.media.split('.').pop()}`} />
-                    Your browser does not support the video tag.
-                  </video>
+                    <video
+                      autoPlay
+                      muted
+                      loop
+                      className="object-cover w-full h-full z-0 absolute top-0 left-0"
+                    >
+                      <source src={slide.media} type={`video/${slide.media.split('.').pop()}`} />
+                      Your browser does not support the video tag.
+                    </video>
                   :
-                  <Image
-                    src={slide.media}
-                    alt={slide.title || 'Slider Image'}
-                    fill
-                    style={{ objectFit: 'cover', objectPosition: 'center' }}
-                  />}
+                    <Image
+                      src={slide.media}
+                      alt={slide.title || 'Slider Image'}
+                      fill
+                      style={{ objectFit: 'cover', objectPosition: 'center' }}
+                    />
+                  }
                 </>
               )}
               {/* Content */}
