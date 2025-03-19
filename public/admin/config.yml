@@ -231,5 +231,5 @@ collections:
                 widget: "list"
                 allow_add: true
                 fields:
-                  - { label: Imagen, name: logo, widget: file, hint: Alto recomendado: 90px }
+                  - { label: Imagen, name: logo, widget: file, hint: "Alto recomendado: 90px" }
                   - { label: Texto, name: content, widget: string, hint: "Se usa para describir la imagen en los lectores de pantalla.", required: false }
