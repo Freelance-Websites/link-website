@@ -1,4 +1,5 @@
 ---
+title: Inicio
 sections:
   - type: slider
     slider:

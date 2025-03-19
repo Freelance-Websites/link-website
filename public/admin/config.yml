@@ -13,6 +13,7 @@ collections:
     create: false
     slug: "{{slug}}"
     fields:
+      - { label: "Título de la página", name: "title", widget: "string" }
       - label: "Secciones"
         name: "sections"
         widget: "list"

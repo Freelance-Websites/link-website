@@ -1,4 +1,5 @@
 ---
+title: Quiénes somos
 sections:
   - type: hero
     media: /images/about-hero.jpg

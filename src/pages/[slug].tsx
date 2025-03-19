@@ -51,7 +51,7 @@ export default function Page() {
   
   return (
     <Main
-      tabTitle='Inicio • Link'
+      tabTitle={`${attributes && attributes.title} • Link`}
     >
       {attributes && attributes.sections.map((section: SectionProps, index: number) => {
         switch(section.type) {
