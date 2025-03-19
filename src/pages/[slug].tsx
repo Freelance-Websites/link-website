@@ -1,4 +1,6 @@
 import React from 'react';
+import { useRouter } from 'next/router';
+import dynamic from 'next/dynamic';
 
 import Main from '@/components/Main';
 import Slider, { SliderProps } from '@/components/home/Slider';
@@ -7,15 +9,15 @@ import CardGrid from '@/components/CardGrid';
 import Phrase from '@/components/Phrase';
 import Stats, { StatProp } from '@/components/Stats';
 
-import { attributes } from '@/content/index.md';
-
 import { CardProps } from '@/components/Card';
 import { ButtonProps } from '@/components/Button';
 import { BulletProps } from '@/components/Heading';
+import Hero from '@/components/about/Hero';
 
 interface SectionProps {
   type: string;
   slider?: SliderProps[];
+  hero?: SliderProps;
   textAndImage?: TextAndImageProps;
   byline?: string;
   title?: string;
@@ -34,12 +36,39 @@ interface SectionProps {
 }
 
 export default function Home() {
+  const router = useRouter();
+  const { slug } = router.query;
+  const [attributes, setAttributes] = React.useState<any>(null);
+
+  React.useEffect(() => {
+    async function fetchContent() {
+      const content = await import(`@/content/${router.query.slug || 'index'}.md`);
+      setAttributes(content.attributes);
+    }
+    if (router.query.slug) {
+      fetchContent();
+    }
+  }, [router.query.slug]);
+  
   return (
     <Main
       tabTitle='Inicio • Link'
     >
-      {attributes.sections.map((section: SectionProps, index: number) => {
+      {attributes && attributes.sections.map((section: SectionProps, index: number) => {
         switch(section.type) {
+          case 'hero':
+            return (
+              <Hero
+                media={section.media}
+                byline={section.byline}
+                title={section.title}
+                description={section.description}
+                decorations={section.decorations}
+                ctas={section.ctas}
+                colorScheme={section.colorScheme || 'primary'}
+                key={`slider-${index}`}
+              />
+            )
           case 'slider':
             return section.slider ? (
               <Slider

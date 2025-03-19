@@ -6,7 +6,6 @@ import DotGrid from '@/components/DotGrid';
 import { ButtonProps } from '@/components/Button';
 
 export interface HeroProps {
-  type: string;
   media?: string;
   byline?: string;
   title?: string;
