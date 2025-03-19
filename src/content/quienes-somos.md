@@ -51,4 +51,16 @@ sections:
         content: Telecommunications Industry Association
       - title: BICSI 0210
         content: Building Industry Consultants Service International
+  - type: logos
+    colorScheme: light
+    title: Nuestras certificaciones
+    logos:
+      - logo: /images/certification-1.png
+        content: Ministerio de Justicia, Seguridad y Derechos Humanos
+      - logo: /images/certification-2.png
+        content: IRAM
+      - logo: /images/certification-3.png
+        content: IQNET
+      - logo: /images/certification-4.png
+        content: VISA Global Registry of Service Providers
 ---

@@ -3,15 +3,16 @@ import { useRouter } from 'next/router';
 
 import Main from '@/components/Main';
 import Slider, { SliderProps } from '@/components/Slider';
+import Hero from '@/components/Hero';
 import TextAndImage, { TextAndImageProps } from '@/components/TextAndImage';
 import CardGrid from '@/components/CardGrid';
 import Phrase from '@/components/Phrase';
 import Stats, { StatProp } from '@/components/Stats';
+import LogoStrip, { LogosProp } from '@/components/LogoStrip';
 
 import { CardProps } from '@/components/Card';
 import { ButtonProps } from '@/components/Button';
 import { BulletProps } from '@/components/Heading';
-import Hero from '@/components/Hero';
 
 interface SectionProps {
   type: string;
@@ -32,6 +33,7 @@ interface SectionProps {
   cardLayout?: 'horizontal' | 'vertical';
   phrase?: string;
   stats?: StatProp[];
+  logos?: LogosProp[];
 }
 
 export default function Page() {
@@ -121,6 +123,18 @@ export default function Page() {
                 description={section.description || ''}
                 colorScheme={section.colorScheme || 'primary'}
                 stats={section.stats || []}
+              />
+            )
+          case 'logos':
+            return (
+              <LogoStrip
+                key={`logos-${index}`}
+                byline={section.byline || ''}
+                title={section.title || ''}
+                description={section.description || ''}
+                colorScheme={section.colorScheme || 'primary'}
+                logos={section.logos || []}
+                ctas={section.ctas || []}
               />
             )
         }

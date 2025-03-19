@@ -210,3 +210,26 @@ collections:
                 fields:
                   - { label: Valor, name: value, widget: number, hint: "Numero de la estadística.", required: false }
                   - { label: Texto, name: content, widget: string, hint: "Bajada de la estadística.", required: false }
+          - label: "Carousel de logos"
+            name: "logos"
+            fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: "Logos"
+                name: "logos"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - { label: Imagen, name: logo, widget: file, hint: Alto recomendado: 90px }
+                  - { label: Texto, name: content, widget: string, hint: "Se usa para describir la imagen en los lectores de pantalla.", required: false }
