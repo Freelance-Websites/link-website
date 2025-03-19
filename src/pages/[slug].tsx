@@ -116,11 +116,11 @@ export default function Page() {
             return (
               <Stats
                 key={`stats-${index}`}
-                colorScheme={section.colorScheme || 'primary'}
-                stats={section.stats || []}
+                byline={section.byline || ''}
                 title={section.title || ''}
                 description={section.description || ''}
-                byline={section.byline || ''}
+                colorScheme={section.colorScheme || 'primary'}
+                stats={section.stats || []}
               />
             )
         }
