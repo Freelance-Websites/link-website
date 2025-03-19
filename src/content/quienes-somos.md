@@ -63,4 +63,15 @@ sections:
         content: IQNET
       - logo: /images/certification-4.png
         content: VISA Global Registry of Service Providers
+  - type: textAndImage
+    media: /images/about-careers.png
+    mediaPlacement: right
+    byline: Carreras
+    title: Evolucioná con nosotros
+    colorScheme: secondary
+    decorations: false
+    description: "¿Querés ser protagonista de una industria que crece todos los días? Sumate al #equipolink."
+    ctas:
+      - link: https://www.linkedin.com/company/red-link-s-a-/jobs/?viewAsMember=true
+        text: Conocé más
 ---
