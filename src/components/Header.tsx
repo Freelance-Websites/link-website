@@ -9,13 +9,17 @@ const Header: React.FC = ({
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const router = useRouter();
-  const active = router.pathname.split('/')[1];
+  const active = router.asPath.split('/')[1];
 
   useEffect(() => {
+    if (active === 'carreras') {
+      setIsScrolled(true);
+    }
+
     const handleScroll = () => {
       if (window.scrollY > 600) {
         setIsScrolled(true);
-      } else {
+      } else if (window.scrollY < 600 && active !== 'carreras') {
         setIsScrolled(false);
       }
     };
@@ -25,7 +29,7 @@ const Header: React.FC = ({
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [active]);
 
   useEffect(() => {
     const handleResize = () => {

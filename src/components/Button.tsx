@@ -5,11 +5,12 @@ import { ArrowRight } from 'lucide-react';
 export interface ButtonProps {
   text?: string;
   link?: string;
-  colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
+  colorScheme?: 'primary' | 'light' | 'dark' | 'secondary' | 'transparent';
   isLink?: boolean;
   isExternal?: boolean;
   action?: () => void;
   isAboveImage?: boolean;
+  showArrow?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -19,13 +20,16 @@ const Button: React.FC<ButtonProps> = ({
   isLink,
   isExternal,
   isAboveImage,
-  action
+  action,
+  showArrow = true
 }) => {
   const defaultStyles = `
     flex items-center gap-3 px-4 py-3 rounded-full transition duration-300 hover:opacity-80 text-base md:text-lg
     ${colorScheme === 'primary' && isAboveImage || colorScheme === 'light'
       ? 'bg-primary text-dark'
-      : 'bg-dark text-light'
+      : colorScheme === 'transparent'
+        ? 'bg-transparent text-dark'
+        : 'bg-dark text-light'
     }
   `;
   return (
@@ -35,10 +39,12 @@ const Button: React.FC<ButtonProps> = ({
         className={defaultStyles}
       >
         {text || 'Conocé más'}
-        <ArrowRight
-          size={16}
-          color='currentColor'
-        />
+        {showArrow &&
+          <ArrowRight
+            size={16}
+            color='currentColor'
+          />
+        }
       </Link>
       : isLink && isExternal
         ? <a

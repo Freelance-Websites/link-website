@@ -52,7 +52,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
       {/* Image/Video content with overlay */}
       {media && (
         <div className={`
-          relative md:flex-1 w-full h-full
+          relative md:flex-1 w-full h-full mix-blend-multiply
           ${colorScheme === 'secondary'
             ? 'min-h-96 md:min-h-[560px]'
             : 'min-h-96 md:min-h-[710px]'
@@ -97,7 +97,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
                 width={640}
                 height={640}
                 style={{
-                  objectFit: colorScheme === 'secondary' ? 'contain' : 'cover',
+                  objectFit: 'contain',
                   objectPosition: 'center',
                   position: 'relative',
                   width: '100%',

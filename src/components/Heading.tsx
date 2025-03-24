@@ -200,8 +200,9 @@ const Heading: React.FC<MainProps> = ({
                   link={cta.link}
                   isLink={isLink}
                   isExternal={isExternal}
-                  colorScheme={colorScheme}
+                  colorScheme={index === 0 ? colorScheme : 'transparent'}
                   isAboveImage={isAboveImage}
+                  showArrow={index === 0}
                 />
               </li>
             )
