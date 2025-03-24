@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 
 import Heading from '@/components/Heading';
@@ -29,6 +29,30 @@ const Testimonial: React.FC<TestimonialProp> = ({
   decorations,
   colorScheme = 'primary'
 }) => {
+  const quoteRef = useRef<SVGSVGElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.remove('opacity-0');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    if (quoteRef.current) {
+      observer.observe(quoteRef.current);
+    }
+
+    return () => {
+      if (quoteRef.current) {
+        observer.unobserve(quoteRef.current);
+      }
+    };
+  }, []);
+
   return (
     <section
       className={`
@@ -57,6 +81,7 @@ const Testimonial: React.FC<TestimonialProp> = ({
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className={`
+              opacity-0 transition-opacity duration-1000
               w-24 md:w-auto
               ${colorScheme === 'primary'
                 ? 'text-dark'
@@ -67,6 +92,7 @@ const Testimonial: React.FC<TestimonialProp> = ({
                     : 'text-light'
               }
             `}
+            ref={quoteRef}
           >
             <path
               d="M115.317 66.1379L120.122 51.9655L158.561 4.72413L168.171 0H197V9.44829L168.171 56.6896V61.4138L172.976 66.1379H187.39L192.195 70.8621V132.276L187.39 137H120.122L115.317 132.276V66.1379ZM0 66.1379L4.80488 51.9655L43.2439 4.72413L52.8537 0H81.6829V9.44829L52.8537 56.6896V61.4138L57.6585 66.1379H72.0732L76.8781 70.8621V132.276L72.0732 137H4.80488L0 132.276V66.1379Z"

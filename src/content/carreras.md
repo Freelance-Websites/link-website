@@ -13,7 +13,7 @@ sections:
     ctas:
       - link: https://www.linkedin.com/company/red-link-s-a-/jobs/?viewAsMember=true
         text: Sumate al equipo
-      - link: "#team"
+      - link: "#conoce-a-nuestro-equipo"
         text: Conocé más
   - type: textAndImage
     media: /images/careers-team.png
