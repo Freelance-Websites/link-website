@@ -37,8 +37,8 @@ const Card: React.FC<CardProps> = ({
         <Image
           src={icon}
           alt={title || ''}
-          width={120}
-          height={120}
+          width={layout === 'vertical' ? 90 : 120}
+          height={layout === 'vertical' ? 90 : 120}
         />
       )}
       {(title || content || (ctaText && ctaLink)) &&

@@ -25,7 +25,13 @@ const CardGrid: React.FC<CardGridProps> = ({
   cardLayout
 }) => {
   const cardCount = cards.length;
-  const gridLayout = cardCount === 1 ? 'grid-cols-1' : cardCount < 4 ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1 md:grid-cols-3';
+  const gridLayout = cardCount === 1
+    ? 'grid-cols-1'
+    : cardCount < 4
+      ? 'grid-cols-1 md:grid-cols-2'
+      : cardCount <= 4 && cardLayout === 'vertical'
+        ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4'
+        : 'grid-cols-1 md:grid-cols-3';
 
   return cardCount ? (
     <section
