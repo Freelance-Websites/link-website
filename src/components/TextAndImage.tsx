@@ -7,7 +7,7 @@ import { ButtonProps } from '@/components/Button';
 import { BulletProps } from '@/components/Heading';
 import DotGrid from '@/components/DotGrid';
 
-import { isVideo, isTransparentBackground } from '@/utils/media';
+import { isVideo } from '@/utils/media';
 
 export interface TextAndImageProps {
   byline?: string;
@@ -53,7 +53,6 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
       {media && (
         <div className={`
           relative md:flex-1 w-full h-full
-          ${!isTransparentBackground(media) && 'mix-blend-multiply'}
           ${colorScheme === 'secondary'
             ? 'min-h-96 md:min-h-[560px]'
             : 'min-h-96 md:min-h-[710px]'

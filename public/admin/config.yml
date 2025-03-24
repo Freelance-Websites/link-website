@@ -233,3 +233,24 @@ collections:
                 fields:
                   - { label: Imagen, name: logo, widget: file, hint: "Alto recomendado: 90px" }
                   - { label: Texto, name: content, widget: string, hint: "Se usa para describir la imagen en los lectores de pantalla.", required: false }
+          - label: "Testimonial"
+            name: "quote"
+            fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: "El título de la sección", required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción debajo del título, required: false }
+              - { label: Frase, name: testimonial, widget: string, hint: "El testimonio propiamente dicho" }
+              - { label: Avatar, name: avatar, widget: file, hint: Tamaño recomendado 120x120 o superior, required: false }
+              - { label: Nombre, name: username, widget: string, hint: "El nombre de quién brinda el testimonio", required: false }
+              - { label: Rol, name: role, widget: string, hint: "El cargo de quien brinda el testimonio", required: false }
+              - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta las comillas, default: true, required: false }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro" }

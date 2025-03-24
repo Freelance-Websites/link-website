@@ -2,7 +2,7 @@
 title: Carreras
 sections:
   - type: textAndImage
-    media: /images/careers-hero.jpg
+    media: /images/careers-hero.png
     mediaPlacement: right
     byline: Carreras
     title: En link evolucionás vos
@@ -44,4 +44,22 @@ sections:
       - title: Nos adaptamos
         content: Todo puede cambiar en un segundo, incluso nuestros objetivos.  Encaramos cada proyecto con  velocidad y flexibilidad. Nos desafiamos y nos mantenemos a la altura de las demandas del mercado.
         icon: /images/careers-feature-4.png
+  - type: quote
+    colorScheme: light
+    title: Somos protagonistas de la industria financiera
+    testimonial: Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam. Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.
+    avatar: /images/careers-testimonial.png
+    username: Marvin Jones
+    role: Director de producto
+  - type: textAndImage
+    media: /images/careers-cta.jpg
+    mediaPlacement: right
+    byline: Carreras
+    title: Sumate a la evolución del sistema financiero
+    colorScheme: dark
+    decorations: false
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.
+    ctas:
+      - link: https://www.linkedin.com/company/red-link-s-a-/jobs/?viewAsMember=true
+        text: Ver búsquedas
 ---
