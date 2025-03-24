@@ -24,6 +24,7 @@ interface SectionProps {
   title?: string;
   description?: string;
   media?: string;
+  layout?: 'boxed' | 'full';
   mediaPlacement?: 'left' | 'right';
   mediaSize?: 'full' | 'boxed';
   colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
@@ -96,6 +97,7 @@ export default function Page() {
                 ctas={section.ctas}
                 decorations={section.decorations}
                 bullets={section.bullets}
+                layout={section.layout || 'full'}
               />
             );
           case 'cards':

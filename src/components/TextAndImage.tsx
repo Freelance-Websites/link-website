@@ -19,6 +19,7 @@ export interface TextAndImageProps {
   colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   ctas?: ButtonProps[];
   decorations?: boolean;
+  layout?: 'boxed' | 'full';
   bullets?: BulletProps[];
 }
 
@@ -32,7 +33,8 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
   colorScheme,
   ctas,
   decorations,
-  bullets
+  bullets,
+  layout
 }) => {
   return (
     <section
@@ -46,6 +48,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
               ? 'bg-secondary text-dark'
               : 'bg-dark text-light'
         }
+        ${layout === 'boxed' && 'container mx-auto my-0 md:my-16 lg:my-24 rounded-none md:rounded-3xl overflow-hidden'}
       `}
       id={slugify(byline || title)}
     >
@@ -55,7 +58,9 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
           relative md:flex-1 w-full h-full
           ${colorScheme === 'secondary'
             ? 'min-h-96 md:min-h-[560px]'
-            : 'min-h-96 md:min-h-[710px]'
+            : layout !== 'boxed'
+              ? 'min-h-96 md:min-h-[710px]'
+              : 'min-h-96'
           }
           ${mediaPlacement === 'left'
             ? 'order-first'

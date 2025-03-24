@@ -55,6 +55,7 @@ sections:
     media: /images/careers-cta.jpg
     mediaPlacement: right
     byline: Carreras
+    layout: boxed
     title: Sumate a la evolución del sistema financiero
     colorScheme: dark
     decorations: false

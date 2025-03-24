@@ -104,6 +104,14 @@ collections:
                   - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
                   - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
                   - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: "Layout de la sección"
+                name: "layout"
+                widget: "select"
+                required: false
+                hint: Elige si la sección se mostrará a todo el ancho de la página, o con márgenes.
+                options:
+                  - { label: Pantalla completa, value: "full", required: false }
+                  - { label: Con márgenes, value: "boxed", required: false }
               - label: "Ubicación de la imagen/video"
                 name: "mediaPlacement"
                 widget: "select"
