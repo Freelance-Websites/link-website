@@ -23,8 +23,8 @@ sections:
     byline: Quiénes Somos
     title: Sustentamos el ecosistema financiero argentino
     type: textAndImage
-    description: Desde 1988 desarrollamos productos y servicios para entidades
-      financieras, organismos gubernamentales y empresas de todo Argentina.
+    description: "Desde 1988 desarrollamos productos y servicios para entidades
+      financieras, organismos gubernamentales y empresas de todo Argentina. "
   - type: cards
     byline: Servicios
     title: Conocé nuestros servicios
@@ -42,8 +42,8 @@ sections:
           negocio.
         icon: /images/homepage-service-2.png
       - title: Banking as a service
-        content: Creá oportunidades de negocio revendiendo servicios a otros bancos y
-          empresas.
+        content: "Creamos oportunidades de negocio brindando servicios a bancos y
+          empresas. "
         icon: /images/homepage-service-3.png
       - title: API banco
         content: Sumate al ecosistema digital con APIs que amplían tu alcance y
@@ -54,12 +54,10 @@ sections:
           flexibles, seguras y personalizadas.
         icon: /images/homepage-service-5.png
       - title: ATM
-        content: Formá parte de la red más grande y segura de cajeros de todo el país.
+        content: Formá parte de la red más extensa y segura de cajeros de todo el país.
         icon: /images/homepage-service-6.png
   - mediaPlacement: left
-    ctas:
-      - link: /
-        text: Conocé más
+    ctas: []
     decorations: true
     media: /images/homepage-certifications.jpg
     colorScheme: light
@@ -75,8 +73,8 @@ sections:
         content: Asegura la gestión, procesamiento y transmisión segura del PIN en
           transacciones de pago en ATM y terminales de punto de venta.
       - title: SWIFT
-        content: Certifica la transferencia segura de información financiera entre
-          instituciones.
+        content: "Certifica la transferencia segura de información financiera entre
+          instituciones. "
     title: Seguridad certificada mundialmente
     type: textAndImage
     description: Nuestras certificaciones internacionales ayudan a detectar y
@@ -91,6 +89,6 @@ sections:
     byline: Carreras
     title: Sumate a un equipo que evoluciona
     type: textAndImage
-    description: "El #equipolink deja huella en cada proyecto. Descubrí nuestro ADN
-      y conocé las búsquedas abiertas."
+    description: "El #equipolink deja huella en cada proyecto.  Conocé las búsquedas
+      abiertas."
 ---
