@@ -49,4 +49,18 @@ sections:
           - icon: /images/feature-icon-9.png
             title: Seguridad avanzada
             text: Seguridad y confianza en todas las transacciones.
+  - type: textAndImage
+    media: /images/case-study-mockup.png
+    mediaPlacement: right
+    byline: Caso de estudio
+    mediaSize: boxed
+    title: "Buepp: +250.000usuarios activos"
+    colorScheme: primary
+    decorations: false
+    description: "Banco Ciudad buscaba una billetera potente, simple e intuitiva. ¿Qué hicimos? Desarrollamos una app con un enfoque estratégico, basado en benchmarking, análisis de negocio y necesidades realesde los usuarios. Además, incluimos:"
+    bullets:
+      - content: Un módulo de notificaciones para mejorar la comunicación.
+      - content: Accesos intuitivos a promociones.
+      - content: Personalización en la gestión de tarjetas de crédito/débito y prepagas.
+      - content: Beneficios exclusivos a través de promociones con reintegros.
 ---

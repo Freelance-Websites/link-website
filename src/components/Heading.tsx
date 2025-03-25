@@ -103,7 +103,7 @@ const Heading: React.FC<MainProps> = ({
           className={`
             italic font-serif md:text-lg
             ${colorScheme === 'primary' && !isAboveImage
-              ? 'text-primary'
+              ? 'text-dark'
               : colorScheme === 'light'
                 ? 'text-dark'
                 : colorScheme === 'dark' || colorScheme === 'primary' && isAboveImage
