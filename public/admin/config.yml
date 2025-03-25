@@ -262,3 +262,342 @@ collections:
                   - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
                   - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
                   - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro" }
+          - label: "Ventajas"
+            name: "features"
+            fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: Título de la sección, required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción de la sección, required: false }
+              - label: "Botones"
+                name: "ctas"
+                widget: "list"
+                allow_add: true
+                max: 2
+                hint: Los botones que se muestran debajo de la descripción. Si no se completan, no se mostrarán botones.
+                fields:
+                  - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
+                  - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: "Tarjetas"
+                hint: Lista de tarjetas (cards) que se mostrarán debajo de la descripción.
+                name: "features"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 120x120px o superior, required: false }
+                  - { label: Título, name: title, widget: string, hint: "Título de la tarjeta. Opcional", required: false }
+                  - label: "Items"
+                    hint: Lista de ventajas a presentar dentro de la tarjeta.
+                    name: "features"
+                    widget: "list"
+                    allow_add: true
+                    fields:
+                      - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 64x64px o superior, required: false }
+                      - { label: Título, name: title, widget: string, hint: "Título de la tarjeta", required: false }
+                      - { label: Texto, name: text, widget: string }
+  - name: "services"
+    label: "Servicios"
+    folder: "src/content/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título de la página", name: "title", widget: "string" }
+      - label: "Secciones"
+        name: "sections"
+        widget: "list"
+        allow_add: true
+        types:
+          - label: "Slider de imágenes"
+            name: "slider"
+            fields:
+              - name: "slider"
+                label: "Contenido"
+                widget: "list"
+                summary: "{{fields.title}}"
+                allow_add: true
+                fields:
+                  - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 1440x1024 o superior, required: false }
+                  - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
+                  - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+                  - label: "Esquema de color"
+                    name: "colorScheme"
+                    widget: "select"
+                    required: false
+                    hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                    options:
+                      - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                      - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                      - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                      - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+                  - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta la grilla decorativa de puntos, default: true, required: false }
+                  - label: "Botones"
+                    name: "ctas"
+                    widget: "list"
+                    allow_add: true
+                    max: 2
+                    hint: Los botones que se muestran debajo del texto. Si no se completan, no se mostrarán botones.
+                    fields:
+                      - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
+                      - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
+          - label: "Encabezado"
+            name: "hero"
+            fields:
+              - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 1440x1024 o superior, required: false }
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta la grilla decorativa de puntos, default: true, required: false }
+              - label: "Botones"
+                name: "ctas"
+                widget: "list"
+                allow_add: true
+                max: 2
+                hint: Los botones que se muestran debajo del texto. Si no se completan, no se mostrarán botones.
+                fields:
+                  - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
+                  - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
+          - label: "Texto e imagen"
+            name: "textAndImage"
+            fields:
+              - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 1024x1024 o superior, required: false }
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+              - label: "Bullets"
+                hint: Lista de elementos que se mostrarán debajo de la descripción. Si no se completa, no se mostrarán bullets.
+                name: "bullets"
+                widget: "list"
+                allow_add: true
+                max: 4
+                fields:
+                  - { label: Título, name: title, widget: string, hint: "Título del bullet. Opcional, se muestra en bold si existe.", required: false }
+                  - { label: Texto, name: content, widget: string, hint: "Texto del bullet" }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: "Layout de la sección"
+                name: "layout"
+                widget: "select"
+                required: false
+                hint: Elige si la sección se mostrará a todo el ancho de la página, o con márgenes.
+                options:
+                  - { label: Pantalla completa, value: "full", required: false }
+                  - { label: Con márgenes, value: "boxed", required: false }
+              - label: "Ubicación de la imagen/video"
+                name: "mediaPlacement"
+                widget: "select"
+                required: false
+                hint: Ubica el contenido a la izquierda o a la derecha del texto. Si no se completa, se ubicará a la izquierda por defecto.
+                options:
+                  - { label: Izquierda, value: "left", required: false }
+                  - { label: Derecha, value: "right", required: false }
+              - label: "Tamaño de la imagen/video"
+                name: "mediaSize"
+                widget: "select"
+                required: false
+                hint: Determina el tamaño de la imagen/video. Si no se completa, a tamaño completo.
+                options:
+                  - { label: Tamaño completo, value: "full", required: false, hint: Ocupará la mitad de la pantalla }
+                  - { label: Con márgenes, value: "boxed", required: false, hint: Se mostrará más chica y con márgenes alrededor }
+              - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta la grilla decorativa de puntos, default: true, required: false }
+              - label: "Botones"
+                name: "ctas"
+                widget: "list"
+                allow_add: true
+                max: 2
+                hint: Los botones que se muestran debajo del texto. Si no se completan, no se mostrarán botones.
+                fields:
+                  - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
+                  - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
+          - label: "Tarjetas"
+            name: "cards"
+            fields:
+              - { label: Título, name: title, widget: string, hint: Título de la sección, required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción de la sección, required: false }
+              - label: "Botones"
+                name: "ctas"
+                widget: "list"
+                allow_add: true
+                max: 2
+                hint: Los botones que se muestran debajo de la descripción. Si no se completan, no se mostrarán botones.
+                fields:
+                  - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
+                  - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: "Tarjetas"
+                hint: Lista de tarjetas (cards) que se mostrarán debajo de la descripción.
+                name: "cards"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - { label: Título, name: title, widget: string, hint: "Título de la tarjeta. Opcional", required: false }
+                  - { label: Texto, name: content, widget: string, hint: "Texto de la tarjeta. Opcional.", required: false }
+                  - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 240x240px o superior, required: false }
+                  - { label: Texto del botón, name: ctaText, widget: string, hint: "Opcional. Si no se completa, no se mostrará ningún botón", required: false }
+                  - { label: URL del botón, name: ctaLink, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado, required: false }
+              - label: "Estilo de tarjeta"
+                name: "cardLayout"
+                widget: "select"
+                required: false
+                hint: Muestra el contenido en horizontal o vertical. Si no se completa, se mostrará en horizontal por defecto.
+                options:
+                  - { label: Horizontal, value: "horizontal", required: false }
+                  - { label: Vertical, value: "vertical", required: false }
+          - label: Frase
+            name: phrase
+            fields:
+              - { label: Frase, name: phrase, widget: string, hint: "La frase para la sección." }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+          - label: "Estadísticas"
+            name: "stats"
+            fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: "Estadísticas"
+                name: "stats"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - { label: Valor, name: value, widget: number, hint: "Numero de la estadística.", required: false }
+                  - { label: Texto, name: content, widget: string, hint: "Bajada de la estadística.", required: false }
+          - label: "Carousel de logos"
+            name: "logos"
+            fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: "Logos"
+                name: "logos"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - { label: Imagen, name: logo, widget: file, hint: "Alto recomendado: 90px" }
+                  - { label: Texto, name: content, widget: string, hint: "Se usa para describir la imagen en los lectores de pantalla.", required: false }
+          - label: "Testimonial"
+            name: "quote"
+            fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: "El título de la sección", required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción debajo del título, required: false }
+              - { label: Frase, name: testimonial, widget: string, hint: "El testimonio propiamente dicho" }
+              - { label: Avatar, name: avatar, widget: file, hint: Tamaño recomendado 120x120 o superior, required: false }
+              - { label: Nombre, name: username, widget: string, hint: "El nombre de quién brinda el testimonio", required: false }
+              - { label: Rol, name: role, widget: string, hint: "El cargo de quien brinda el testimonio", required: false }
+              - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta las comillas, default: true, required: false }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro" }
+          - label: "Ventajas"
+            name: "features"
+            fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: Título de la sección, required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción de la sección, required: false }
+              - label: "Botones"
+                name: "ctas"
+                widget: "list"
+                allow_add: true
+                max: 2
+                hint: Los botones que se muestran debajo de la descripción. Si no se completan, no se mostrarán botones.
+                fields:
+                  - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
+                  - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: "Tarjetas"
+                hint: Lista de tarjetas (cards) que se mostrarán debajo de la descripción.
+                name: "features"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 120x120px o superior, required: false }
+                  - { label: Título, name: title, widget: string, hint: "Título de la tarjeta. Opcional", required: false }
+                  - label: "Items"
+                    hint: Lista de ventajas a presentar dentro de la tarjeta.
+                    name: "features"
+                    widget: "list"
+                    allow_add: true
+                    fields:
+                      - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 64x64px o superior, required: false }
+                      - { label: Título, name: title, widget: string, hint: "Título de la tarjeta", required: false }
+                      - { label: Texto, name: text, widget: string }

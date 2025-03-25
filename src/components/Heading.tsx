@@ -187,9 +187,9 @@ const Heading: React.FC<MainProps> = ({
           ))}
         </ul>
       )}
-      {ctas &&
+      {ctas && ctas.length > 0 &&
         <ul className='flex gap-4 mt-4 md:mt-8'>
-          {ctas?.map((cta, index) => {
+          {ctas.map((cta, index) => {
             const isLink = cta.link?.startsWith('http') || cta.link?.startsWith('#') || cta.link?.startsWith('/') || cta.link?.startsWith('www');
             const isExternal = cta.link?.startsWith('http') || cta.link?.startsWith('www');
 

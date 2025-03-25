@@ -12,7 +12,7 @@ const Header: React.FC = ({
   const active = router.asPath.split('/')[1];
 
   useEffect(() => {
-    if (active === 'carreras') {
+    if (active === 'carreras' || active === 'servicios') {
       setIsScrolled(true);
     }
 
@@ -40,7 +40,7 @@ const Header: React.FC = ({
       }
     };
 
-    handleResize(); // Set initial value
+    handleResize();
 
     window.addEventListener('resize', handleResize);
 
