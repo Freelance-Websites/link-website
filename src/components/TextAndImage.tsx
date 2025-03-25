@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import slugify from 'react-slugify';
 
@@ -36,6 +36,30 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
   bullets,
   layout
 }) => {
+  const imageRef = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.remove('opacity-0');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    if (imageRef.current) {
+      observer.observe(imageRef.current);
+    }
+
+    return () => {
+      if (imageRef.current) {
+        observer.unobserve(imageRef.current);
+      }
+    };
+  }, []);
+
   return (
     <section
       className={`
@@ -54,23 +78,26 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
     >
       {/* Image/Video content with overlay */}
       {media && (
-        <div className={`
-          relative md:flex-1 w-full h-full
-          ${colorScheme === 'secondary'
-            ? 'min-h-96 md:min-h-[560px]'
-            : layout !== 'boxed'
-              ? 'min-h-96 md:min-h-[710px]'
-              : 'min-h-96'
-          }
-          ${mediaPlacement === 'left'
-            ? 'order-first'
-            : 'order-first md:order-last'
-          }
-          ${mediaSize === 'boxed'
-            ? 'p-4 md:p-8 lg:p-16 xl:p-20'
-            : ''
-          }
-        `}
+        <div
+          className={`
+            opacity-0 transition-opacity duration-1000
+            relative md:flex-1 w-full h-full
+            ${colorScheme === 'secondary'
+              ? 'min-h-96 md:min-h-[560px]'
+              : layout !== 'boxed'
+                ? 'min-h-96 md:min-h-[710px]'
+                : 'min-h-96'
+            }
+            ${mediaPlacement === 'left'
+              ? 'order-first'
+              : 'order-first md:order-last'
+            }
+            ${mediaSize === 'boxed'
+              ? 'p-4 md:p-8 lg:p-16 xl:p-20'
+              : ''
+            }
+          `}
+          ref={imageRef}
         >
           {decorations && <div className='absolute inset-0 flex items-center justify-center z-10'>
             <DotGrid colorScheme={colorScheme} />
