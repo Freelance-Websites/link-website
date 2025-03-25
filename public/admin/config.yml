@@ -306,7 +306,7 @@ collections:
                       - { label: Texto, name: text, widget: string }
   - name: "services"
     label: "Servicios"
-    folder: "src/content/services"
+    folder: "src/content/servicios"
     create: true
     slug: "{{slug}}"
     fields:
