@@ -149,7 +149,7 @@ const Header: React.FC = ({
             className={isScrolled || isMobile ? 'text-dark text-center' : 'text-light'}
           >
             <Link
-              href='#servicios'
+              href='/home#servicios'
               className={`
                 transition duration-300 hover:opacity-80
                 ${active === 'servicios' ? 'underline' : ''}
@@ -175,7 +175,7 @@ const Header: React.FC = ({
             className={isScrolled || isMobile ? 'text-dark text-center' : 'text-light'}
           >
             <Link
-              href='#top'
+              href='/home#top'
               className={`
                 transition duration-300 hover:opacity-80
                 ${active === 'novedades' ? 'underline' : ''}
