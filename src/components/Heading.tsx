@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 import Button, { ButtonProps } from '@/components/Button';
 import { CheckCircle2 } from 'lucide-react';
@@ -31,6 +31,36 @@ const Heading: React.FC<MainProps> = ({
   byline,
   bullets
 }) => {
+  const listRef = useRef<HTMLUListElement>(null);
+  
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const elements = Array.from(entry.target.querySelectorAll('.opacity-0'));
+            elements.forEach((el, index) => {
+              (el as HTMLElement).style.animationDelay = `${index * 0.0125}s`;
+              (el as HTMLElement).classList.remove('opacity-0');
+            });
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (listRef.current) {
+      observer.observe(listRef.current);
+    }
+
+    return () => {
+      if (listRef.current) {
+        observer.unobserve(listRef.current);
+      }
+    };
+  }, []);
+
   const createTitle = (titleHierarchy: string | undefined) => {
     const baseClasses = `
       font-bold leading-none
@@ -132,11 +162,11 @@ const Heading: React.FC<MainProps> = ({
         </p>
       )}
       {bullets && (
-        <ul className='mt-2 md:mt-4 flex flex-col gap-2 md:gap-4'>
+        <ul className='mt-2 md:mt-4 flex flex-col gap-2 md:gap-4' ref={listRef}>
           {bullets?.map((bullet, index) => (
             <li
               key={index}
-              className='mb-1 flex gap-1'
+              className='mb-1 flex gap-1 opacity-0 transition-opacity duration-1000'
             >
               <div
                 className={`

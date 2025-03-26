@@ -105,4 +105,16 @@ sections:
         media: /images/service-detail-feature-1.jpg
         bullets:
           - content: Centro de ayuda integrado.
+  - type: textAndImage
+    media: /images/service-detail-cta.png
+    mediaPlacement: right
+    byline: Contactanos
+    layout: boxed
+    title: Traé tu proyecto a link. Conocenos.
+    colorScheme: dark
+    decorations: false
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.
+    ctas:
+      - link: /quienes-somos
+        text: Conocé más
 ---
