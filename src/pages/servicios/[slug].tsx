@@ -11,6 +11,7 @@ import Stats, { StatProp } from '@/components/Stats';
 import LogoStrip, { LogosProp } from '@/components/LogoStrip';
 import Testimonial from '@/components/Testimonial';
 import Features from '@/components/Features';
+import AccordionPanel, { AccordionPanelProps } from '@/components/Accordion';
 
 import { CardProps } from '@/components/Card';
 import { ButtonProps } from '@/components/Button';
@@ -42,6 +43,7 @@ interface SectionProps {
   username?: string;
   role?: string;
   features?: CardProps[];
+  accordion?: AccordionPanelProps[];
 }
 
 export default function Page() {
@@ -172,6 +174,18 @@ export default function Page() {
                 colorScheme={section.colorScheme || 'primary'}
                 ctas={section.ctas || []}
                 cards={section.cards || []}
+              />
+            )
+          case 'accordion':
+            return (
+              <AccordionPanel
+                key={`accordion-${index}`}
+                byline={section.byline || ''}
+                title={section.title || ''}
+                description={section.description || ''}
+                colorScheme={section.colorScheme || 'primary'}
+                ctas={section.ctas || []}
+                accordion={section.accordion || []}
               />
             )
         }

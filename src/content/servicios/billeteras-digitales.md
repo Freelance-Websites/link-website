@@ -63,4 +63,46 @@ sections:
       - content: Accesos intuitivos a promociones.
       - content: Personalización en la gestión de tarjetas de crédito/débito y prepagas.
       - content: Beneficios exclusivos a través de promociones con reintegros.
+  - type: accordion
+    title: Funcionalidades principales
+    colorScheme: dark
+    description: Conocé cómo funciona la billetera link
+    accordion:
+      - title: Autenticación y gestión de usuarios
+        media: /images/service-detail-feature-1.jpg
+        bullets:
+          - content: Onboarding y registro.
+          - content: Login, recupero de clave, cambio de contraseña.
+          - content: Desbloqueo de usuario.
+          - content: cambio de dispositivo.
+          - content: Alta/cambio de teléfono y gestión de perfil.
+      - title: Home y navegación principal
+        media: /images/service-detail-feature-1.jpg
+        bullets:
+          - content: Home.
+          - content: Comunicaciones.
+          - content: Notificaciones.
+          - content: Promociones.
+      - title: Pagos y operaciones
+        media: /images/service-detail-feature-1.jpg
+        bullets:
+          - content: Pago QR.
+          - content: Transferencias y envío/pedido de dinero.
+          - content: Pago de servicios, AFIP/VEP, ARBA.
+          - content: Recarga de celular y transporte.
+      - title: Gestión de dinero y Operaciones bancarias
+        media: /images/service-detail-feature-1.jpg
+        bullets:
+          - content: Cuentas y tarjetas.
+          - content: Ingreso de dinero.
+          - content: Órdenes de extracción con PIN o PIN+QR.
+      - title: Historial y actividad
+        media: /images/service-detail-feature-1.jpg
+        bullets:
+          - content: Actividad y comprobantes.
+          - content: Emails.
+      - title: Ayuda y soporte
+        media: /images/service-detail-feature-1.jpg
+        bullets:
+          - content: Centro de ayuda integrado.
 ---

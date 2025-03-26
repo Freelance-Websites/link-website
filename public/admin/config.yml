@@ -603,3 +603,43 @@ collections:
                       - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 64x64px o superior, required: false }
                       - { label: Título, name: title, widget: string, hint: "Título de la tarjeta", required: false }
                       - { label: Texto, name: text, widget: string }
+          - label: "Panel expandible"
+            name: "accordion"
+            fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+              - { label: Título, name: title, widget: string, hint: Título de la sección, required: false }
+              - { label: Descripción, name: description, widget: text, hint: Descripción de la sección, required: false }
+              - label: "Botones"
+                name: "ctas"
+                widget: "list"
+                allow_add: true
+                max: 2
+                hint: Los botones que se muestran debajo de la descripción. Si no se completan, no se mostrarán botones.
+                fields:
+                  - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
+                  - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
+              - label: "Esquema de color"
+                name: "colorScheme"
+                widget: "select"
+                required: false
+                hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+                options:
+                  - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+                  - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+                  - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+              - label: "Paneles"
+                hint: Cada una de las secciones que podrán expandirse y colapsarse como un acordión
+                name: "accordion"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - { label: Título, name: title, widget: string, hint: "Título del panel" }
+                  - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 960x960px o superior }
+                  - label: "Bullets"
+                    hint: Los items a mostrar en el acordión
+                    name: "bullets"
+                    widget: "list"
+                    allow_add: true
+                    fields:
+                      - { label: Contenido, name: content, widget: string, hint: "Contenido del item" }
