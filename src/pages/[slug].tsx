@@ -10,6 +10,7 @@ import Phrase from '@/components/Phrase';
 import Stats, { StatProp } from '@/components/Stats';
 import LogoStrip, { LogosProp } from '@/components/LogoStrip';
 import Testimonial from '@/components/Testimonial';
+import Features from '@/components/Features';
 
 import { CardProps } from '@/components/Card';
 import { ButtonProps } from '@/components/Button';
@@ -160,6 +161,18 @@ export default function Page() {
                 ctas={section.ctas || []}
               />
             )
+            case 'features':
+              return (
+                <Features
+                  key={`features-${index}`}
+                  byline={section.byline || ''}
+                  title={section.title || ''}
+                  description={section.description || ''}
+                  colorScheme={section.colorScheme || 'primary'}
+                  ctas={section.ctas || []}
+                  cards={section.cards || []}
+                />
+              )
         }
       })}
     </Main>
