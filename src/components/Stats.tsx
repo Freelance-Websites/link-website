@@ -16,8 +16,9 @@ export interface StatsProps {
 }
 
 export interface StatProp {
-  content: string;
+  content?: string;
   value: number;
+  prepend?: string;
 }
 
 const Stats: React.FC<StatsProps> = ({
@@ -85,6 +86,7 @@ const Stats: React.FC<StatsProps> = ({
                 `}
                 end={stat.value}
                 enableScrollSpy={true}
+                prefix={stat.prepend || ''}
               />
               <p
                 className={`

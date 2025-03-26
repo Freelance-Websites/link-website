@@ -18,14 +18,17 @@ sections:
     title: Impacto en números
     description: Sustentamos el ecosistema financiero, de verdad.
     stats:
+      - value: 56
+        content: Entidades bancarias y tarjetas adheridas
+      - value: 51
+        content: millones de tarjetas de débito administradas
+        prepend: +
+      - value: 14
+        content: millones de usuarios en billeteras digitales
+        prepend: +
       - value: 12
-        content: Millones de usuarios
-      - value: 60
-        content: APIs disponibles
-      - value: 120
-        content: Millones de transacciones
-      - value: 28
-        content: Millones de clientes
+        content: mil ATM en todo el país
+        prepend: +
   - type: textAndImage
     media: /images/about-certifications.jpg
     mediaPlacement: left
