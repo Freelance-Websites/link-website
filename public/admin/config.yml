@@ -141,6 +141,7 @@ collections:
           - label: "Tarjetas"
             name: "cards"
             fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
               - { label: Título, name: title, widget: string, hint: Título de la sección, required: false }
               - { label: Descripción, name: description, widget: text, hint: Descripción de la sección, required: false }
               - label: "Botones"
@@ -479,6 +480,7 @@ collections:
           - label: "Tarjetas"
             name: "cards"
             fields:
+              - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
               - { label: Título, name: title, widget: string, hint: Título de la sección, required: false }
               - { label: Descripción, name: description, widget: text, hint: Descripción de la sección, required: false }
               - label: "Botones"
