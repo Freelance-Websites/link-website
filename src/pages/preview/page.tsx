@@ -14,7 +14,7 @@ import { SectionProps } from '@/components/MainPage';
 import Footer from '@/components/Footer';
 
 export default function PagePreview({ entry } : any) {
-  const sections = entry.getIn(['data', 'sections']).toJS() as SectionProps[];
+  const sections = entry?.getIn(['data', 'sections'])?.toJS() as SectionProps[] || [];
   return (
     <>
       {sections.map((section: SectionProps, index: number) => {
