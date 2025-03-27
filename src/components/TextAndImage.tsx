@@ -99,7 +99,12 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
           `}
           ref={imageRef}
         >
-          {decorations && <div className='absolute inset-0 flex items-center justify-center z-10'>
+          {decorations && <div
+            className={`
+              absolute flex items-center justify-center z-10
+              ${mediaSize === 'boxed' ? 'bottom-0 right-0' : 'inset-0'}
+            `}
+          >
             <DotGrid colorScheme={colorScheme} />
           </div>}
           {isVideo(media) ?

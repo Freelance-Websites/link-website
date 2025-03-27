@@ -5,8 +5,8 @@ sections:
     media: /images/about-hero.jpg
     byline: Quiénes somos
     colorScheme: primary
-    title: Sustentamos ecosistemas financieros argentinos
-    description: Desde 1988 desarrollamos productos y servicios para entidades financieras, organismos gubernamentales y empresas de todo Argentina. Conocenos.
+    title: Sustentamos el ecosistema financiero argentino
+    description: "Desde 1988 link facilita la inclusión financiera. Tenemos un propósito claro: impulsar la evolución del ecosistema financiero argentino a través nuestras soluciones."
     ctas:
       - text: Conocé más
         link: '#claim'
@@ -30,42 +30,21 @@ sections:
         content: mil ATM en todo el país
         prepend: +
   - type: textAndImage
-    media: /images/about-certifications.jpg
-    mediaPlacement: left
-    byline: Certificaciones
-    title: Seguridad certificada mundialmente
-    colorScheme: primary
-    decorations: true
-    description: Cumplimos con los más altos estándares internacionales para proteger cada transacción de extremo a extremo.
-    ctas:
-      - link: /
-        text: Conocé más
-  - type: textAndImage
-    media: /images/about-processing.jpg
+    media: /images/about-technology.jpg
     mediaPlacement: right
-    mediaSize: boxed
-    colorScheme: dark
-    title: Procesamiento
-    description: Tenemos el Datacenter más grande de Latam, que procesa grandes volúmenes de datos y brinda servicios tecnológicos a bancos y entidades financieras. 
-    bullets:
-      - title: ANSI/ASHRAE
-        content: American Society of Heating, Refrigerating and Air-Conditioning Engineers
-      - title: ANSI/TIA 942
-        content: Telecommunications Industry Association
-      - title: BICSI 0210
-        content: Building Industry Consultants Service International
-  - type: logos
+    title: Somos el motor que mueve millones de transacciones
     colorScheme: light
-    title: Nuestras certificaciones
-    logos:
-      - logo: /images/certification-1.png
-        content: Ministerio de Justicia, Seguridad y Derechos Humanos
-      - logo: /images/certification-2.png
-        content: IRAM
-      - logo: /images/certification-3.png
-        content: IQNET
-      - logo: /images/certification-4.png
-        content: VISA Global Registry of Service Providers
+    decorations: true
+    description: >-
+      Todos nuestros productos y servicios están apoyados en una infraestructura que garantiza escalabilidad, flexibilidad y máxima seguridad.
+      
+      Tenemos dos Data Centers interconectados con servicios en la nube, asegurando un alto rendimiento sin interrupciones, las 24h
+    mediaSize: boxed
+    bullets:
+      - title: Máximo nivel de disponibilidad y seguridad
+        content: Para procesar pagos, autenticar usuarios, autorizar transacciones y conectar distintos canales de manera eficiente.
+      - title: Tecnología para crecer sin fricciones
+        content: Con infraestructura que asegura continuidad operativa y un servicio ininterrumpido.
   - type: textAndImage
     media: /images/about-careers.png
     mediaPlacement: right
