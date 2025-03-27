@@ -45,10 +45,15 @@ export interface SectionProps {
   accordion?: AccordionPanelProps[];
 }
 
+export interface MainPageProps {
+  title: string;
+  sections: SectionProps[];
+}
+
 export default function MainPage({
   title,
   sections
-}) {
+}: MainPageProps) {
   return (
     <Main
       tabTitle={`${title ? title : 'Inicio'} • Link`}

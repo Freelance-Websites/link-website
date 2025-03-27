@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Slider from '@/components/Slider';
-import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import TextAndImage from '@/components/TextAndImage';
 import CardGrid from '@/components/CardGrid';
@@ -18,7 +17,6 @@ export default function PagePreview({ entry } : any) {
   const sections = entry.getIn(['data', 'sections']).toJS() as SectionProps[];
   return (
     <>
-      <Header isPreview={true} />
       {sections.map((section: SectionProps, index: number) => {
       switch(section.type) {
         case 'hero':

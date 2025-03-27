@@ -3,40 +3,33 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const Header: React.FC = ({
-  isPreview = false,
-}: {
-  isPreview?: boolean;
 }) => {
-  const [isScrolled, setIsScrolled] = useState(isPreview);
+  const [isScrolled, setIsScrolled] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  let active = '';
-  if (!isPreview) {
-    const router = useRouter();
-    active = router.asPath.split('/')[1];
-    
-    useEffect(() => {
-      if (active === 'carreras' || active === 'servicios') {
-        setIsScrolled(true);
-      }
-  
-      const handleScroll = () => {
-        if (window.scrollY > 600) {
-          setIsScrolled(true);
-        } else if (window.scrollY < 600 && active !== 'carreras') {
-          setIsScrolled(false);
-        }
-      };
-  
-      window.addEventListener('scroll', handleScroll);
-  
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }, [active]);
-  }
+  const router = useRouter();
+  const active = router.asPath.split('/')[1];
 
+  useEffect(() => {
+    if (active === 'carreras' || active === 'servicios') {
+      setIsScrolled(true);
+    }
+
+    const handleScroll = () => {
+      if (window.scrollY > 600) {
+        setIsScrolled(true);
+      } else if (window.scrollY < 600 && active !== 'carreras') {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [active]);
 
   useEffect(() => {
     const handleResize = () => {
