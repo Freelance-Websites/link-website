@@ -13,6 +13,22 @@ sections:
   - type: phrase
     phrase: En un mundo en constante cambio, link impulsa la evolución financiera con soluciones seguras y escalables.
     colorScheme: primary
+  - type: textAndImage
+    media: /images/about-technology.jpg
+    mediaPlacement: right
+    title: Somos el motor que mueve millones de transacciones
+    colorScheme: light
+    decorations: true
+    description: >-
+      Todos nuestros productos y servicios están apoyados en una infraestructura que garantiza escalabilidad, flexibilidad y máxima seguridad.
+      
+      Tenemos dos Data Centers interconectados con servicios en la nube, asegurando un alto rendimiento sin interrupciones, las 24h
+    mediaSize: boxed
+    bullets:
+      - title: Máximo nivel de disponibilidad y seguridad
+        content: Para procesar pagos, autenticar usuarios, autorizar transacciones y conectar distintos canales de manera eficiente.
+      - title: Tecnología para crecer sin fricciones
+        content: Con infraestructura que asegura continuidad operativa y un servicio ininterrumpido.
   - type: stats
     colorScheme: dark
     title: Impacto en números
@@ -30,21 +46,16 @@ sections:
         content: mil ATM en todo el país
         prepend: +
   - type: textAndImage
-    media: /images/about-technology.jpg
-    mediaPlacement: right
-    title: Somos el motor que mueve millones de transacciones
-    colorScheme: light
+    media: /images/about-certifications.jpg
+    mediaPlacement: left
+    byline: Certificaciones
+    title: Seguridad certificada mundialmente
+    colorScheme: primary
     decorations: true
-    description: >-
-      Todos nuestros productos y servicios están apoyados en una infraestructura que garantiza escalabilidad, flexibilidad y máxima seguridad.
-      
-      Tenemos dos Data Centers interconectados con servicios en la nube, asegurando un alto rendimiento sin interrupciones, las 24h
-    mediaSize: boxed
-    bullets:
-      - title: Máximo nivel de disponibilidad y seguridad
-        content: Para procesar pagos, autenticar usuarios, autorizar transacciones y conectar distintos canales de manera eficiente.
-      - title: Tecnología para crecer sin fricciones
-        content: Con infraestructura que asegura continuidad operativa y un servicio ininterrumpido.
+    description: Cumplimos con los más altos estándares internacionales para proteger cada transacción de extremo a extremo.
+    ctas:
+      - link: /
+        text: Conocé más
   - type: textAndImage
     media: /images/about-careers.png
     mediaPlacement: right
