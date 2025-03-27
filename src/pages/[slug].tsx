@@ -20,7 +20,7 @@ export default function Page() {
   
   return (
     <MainPage
-      title={attributes?.title}
+      title={attributes?.title || ''}
       sections={attributes?.sections || []}
     />
   );
