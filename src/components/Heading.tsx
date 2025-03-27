@@ -64,6 +64,7 @@ const Heading: React.FC<MainProps> = ({
   const createTitle = (titleHierarchy: string | undefined) => {
     const baseClasses = `
       font-bold leading-none
+      ${isAboveImage ? 'drop-shadow-md' : ''}
       ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
         ? 'text-primary'
         : colorScheme === 'light'
@@ -132,6 +133,7 @@ const Heading: React.FC<MainProps> = ({
         <span
           className={`
             italic font-serif md:text-lg
+            ${isAboveImage ? 'drop-shadow-sm' : ''}
             ${colorScheme === 'primary' && !isAboveImage
               ? 'text-dark'
               : colorScheme === 'light'
@@ -150,6 +152,7 @@ const Heading: React.FC<MainProps> = ({
         <p
           className={`
             md:text-lg font-serif
+            ${isAboveImage ? 'drop-shadow-sm' : ''}
             ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
               ? 'text-light'
               : colorScheme === 'light' && !isAboveImage || colorScheme === 'primary' && !isAboveImage || colorScheme === 'secondary'
@@ -186,6 +189,7 @@ const Heading: React.FC<MainProps> = ({
                   <h4
                     className={`
                       md:text-lg font-sans font-bold
+                      ${isAboveImage ? 'drop-shadow-sm' : ''}
                       ${colorScheme === 'primary' && isAboveImage
                         ? 'text-primary'
                         : colorScheme === 'light'
@@ -202,6 +206,7 @@ const Heading: React.FC<MainProps> = ({
                 <p
                   className={`
                     md:text-lg font-serif
+                    ${isAboveImage ? 'drop-shadow-sm' : ''}
                     ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
                       ? 'text-light'
                       : colorScheme === 'light' && !isAboveImage || colorScheme === 'primary' && !isAboveImage || colorScheme === 'secondary'

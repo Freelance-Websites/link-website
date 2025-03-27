@@ -59,7 +59,7 @@ const Slider: React.FC<MainProps> = ({
               {/* Image/Video content with overlay */}
               {slide.media && (
                 <>
-                  <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20 z-10"></div>
+                  <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40 z-10"></div>
                   {isVideo(slide.media) ?
                     <video
                       autoPlay
@@ -84,7 +84,7 @@ const Slider: React.FC<MainProps> = ({
               <div
                 className="container mx-auto px-4 md:px-0 relative z-10 absolute top-0 left-0 w-full h-full flex items-center"
               >
-                <div className="md:max-w-3xl flex gap-4 md:gap-8 items-start flex-col md:flex-row">
+                <div className="md:max-w-4xl flex gap-4 md:gap-8 items-start flex-col md:flex-row">
                   {/* Decorations */}
                   {slide.decorations && (
                     <DotGrid

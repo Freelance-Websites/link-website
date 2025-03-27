@@ -4,15 +4,20 @@ sections:
   - type: slider
     slider:
       - media: /images/homepage-news-1.jpg
-        title: Cajero Express en ExpoRed 2023
-        description: La red de cajeros automáticos no financieros líder en el mercado
-          del sector expendedor, será uno de los protagonistas de la muestra
-          organizada por YPF y la Asociación de Operadores.
+        title: Construimos futuro en la nube
+        description: Migramos el Data Lakehouse y la plataforma de APIs a Google Cloud Platform para potenciar nuestra arquitectura tecnológica.
         colorScheme: primary
         decorations: true
-        ctas:
-          - link: /
-            text: Conocé más
+      - media: /images/homepage-news-2.jpg
+        title: BNA y BANCOR habilitan pagos con NFC
+        description: Los acompañamos en el proceso de certificación técnica. Son los primeros del país en ofrecer pagos con Mastercard Debit, a través de Google Pay.
+        colorScheme: primary
+        decorations: true
+      - media: /images/homepage-news-3.jpg
+        title: El transporte público suma pagos con débito sin contacto
+        description: Impulsamos la evolución tecnológica que permite a los usuarios pagar sin contacto, o desde el celular con Mastercard Debit en colectivos y tranvías de Mendoza, Córdoba, Santa Fe y CABA.
+        colorScheme: primary
+        decorations: true
   - mediaPlacement: right
     ctas:
       - link: /
