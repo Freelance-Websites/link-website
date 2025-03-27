@@ -13,7 +13,11 @@ import AccordionPanel from '@/components/Accordion';
 import { SectionProps } from '@/components/MainPage';
 import Footer from '@/components/Footer';
 
-export default function PagePreview({ entry } : any) {
+interface Entry {
+  getIn: (path: string[]) => { toJS: () => any };
+}
+
+export default function PagePreview({ entry }: { entry: Entry }) {
   const sections = entry.getIn(['data', 'sections']).toJS() as SectionProps[];
   return (
     <>
