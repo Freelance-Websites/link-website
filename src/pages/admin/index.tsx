@@ -6,6 +6,7 @@ const Admin = () => {
     ;(async () => {
       const CMS = (await import('netlify-cms-app')).default
       CMS.init()
+      CMS.registerPreviewStyle('/output.css')
       CMS.registerPreviewTemplate('static', PagePreview)
     })()
   }, [])
