@@ -6,7 +6,6 @@ import MainPage, { SectionProps } from '@/components/MainPage';
 export default function Page() {
   const router = useRouter();
   const { slug } = router.query;
-  const isIdentityEmail = router.asPath.includes('recovery_token') || router.asPath.includes('invite_token');
   const [attributes, setAttributes] = React.useState<{ title?: string; sections: SectionProps[] } | null>(null);
 
   useEffect(() => {
@@ -18,13 +17,6 @@ export default function Page() {
       fetchContent();
     }
   }, [slug]);
-
-  useEffect(() => {
-    if (isIdentityEmail) {
-      const token = router.asPath.split('#')[1];
-      router.push(`/admin#${token}`);
-    }
-  }, [isIdentityEmail, router.asPath]);
   
   return (
     <MainPage
