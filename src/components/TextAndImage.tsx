@@ -124,7 +124,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
                 alt={title || 'Link'}
                 fill
                 style={{
-                  objectFit: colorScheme === 'secondary' ? 'contain' : 'cover',
+                  objectFit: layout === 'boxed' ? 'contain' : 'cover',
                   objectPosition: 'center'
                 }}
               />

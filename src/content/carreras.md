@@ -41,7 +41,7 @@ sections:
     username: Paula Debenedetti
     role: Líder de Ecosistema de Servicios
   - type: textAndImage
-    media: /images/careers-cta.jpg
+    media: /images/careers-cta.png
     mediaPlacement: right
     byline: Carreras
     layout: boxed
