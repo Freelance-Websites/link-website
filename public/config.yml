@@ -2,7 +2,7 @@ publish_mode: editorial_workflow
 media_folder: "public/images"
 public_folder: "images"
 backend:
-  name: git-gateway
+  name: github
   branch: main
   repository: /Freelance-Websites/link-website
 collections:
