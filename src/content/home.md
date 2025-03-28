@@ -20,7 +20,7 @@ sections:
         decorations: true
   - mediaPlacement: right
     ctas:
-      - link: /
+      - link: /quienes-somos
         text: Conocé más
     decorations: false
     media: /images/homepage-about.jpg
@@ -86,7 +86,7 @@ sections:
       prevenir ciberataques con los estándares más altos de la industria.
   - mediaPlacement: right
     ctas:
-      - link: https://www.linkedin.com/company/red-link-s-a-/jobs/?viewAsMember=true
+      - link: /carreras
         text: Conocé más
     decorations: false
     media: /images/homepage-careers.png
@@ -94,6 +94,6 @@ sections:
     byline: Carreras
     title: Sumate a un equipo que evoluciona
     type: textAndImage
-    description: "El #equipolink deja huella en cada proyecto.  Conocé las búsquedas
+    description: "El #equipolink deja huella en cada proyecto. Conocé las búsquedas
       abiertas."
 ---
