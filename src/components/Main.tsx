@@ -19,7 +19,7 @@ const Main: React.FC<MainProps> = ({
         <title>
           {tabTitle}
         </title>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async />
       </Head>
       <main>
         <Header />
