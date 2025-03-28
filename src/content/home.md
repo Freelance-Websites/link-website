@@ -92,6 +92,7 @@ sections:
     media: /images/homepage-careers.png
     colorScheme: secondary
     byline: Carreras
+    mediaSize: boxed
     title: Sumate a un equipo que evoluciona
     type: textAndImage
     description: "El #equipolink deja huella en cada proyecto. Conocé las búsquedas

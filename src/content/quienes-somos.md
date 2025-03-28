@@ -51,7 +51,7 @@ sections:
     byline: Certificaciones
     title: Seguridad certificada mundialmente
     colorScheme: primary
-    decorations: true
+    decorations: false
     description: Cumplimos con los más altos estándares internacionales para proteger cada transacción de extremo a extremo.
     ctas:
       - link: /
@@ -63,6 +63,7 @@ sections:
     title: Evolucioná con nosotros
     colorScheme: secondary
     decorations: false
+    mediaSize: boxed
     description: "¿Querés ser protagonista de una industria que crece todos los días? Sumate al #equipolink."
     ctas:
       - link: https://www.linkedin.com/company/red-link-s-a-/jobs/?viewAsMember=true
