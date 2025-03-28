@@ -4,6 +4,7 @@ public_folder: "images"
 backend:
   name: git-gateway
   branch: main
+  repository: /Freelance-Websites/link-website
 collections:
   - name: "static"
     label: "Páginas estáticas"
