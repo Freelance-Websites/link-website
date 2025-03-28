@@ -1,10 +1,11 @@
 publish_mode: editorial_workflow
 media_folder: "public/images"
 public_folder: "images"
+editor:
+  preview: false
 backend:
-  name: github
+  name: git-gateway
   branch: main
-  repo: "https://github.com/Freelance-Websites/link-website.git"
 collections:
   - name: "static"
     label: "Páginas estáticas"
