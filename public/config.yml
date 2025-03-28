@@ -4,7 +4,7 @@ public_folder: "images"
 backend:
   name: github
   branch: main
-  repo: https://github.com/Freelance-Websites/link-website.git
+  repo: "https://github.com/Freelance-Websites/link-website.git"
 collections:
   - name: "static"
     label: "Páginas estáticas"
