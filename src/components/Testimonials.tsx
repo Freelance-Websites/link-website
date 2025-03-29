@@ -160,8 +160,8 @@ const Testimonials: React.FC<TestimonialsProp> = ({
                 <Image
                 src={testimonial.avatar}
                 alt={testimonial.name || 'Avatar'}
-                width={52}
-                height={52 }
+                width={72}
+                height={72}
                 className='rounded-full'
                 />
               }
