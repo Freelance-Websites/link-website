@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 import Heading from '@/components/Heading';
 import { ButtonProps } from '@/components/Button';

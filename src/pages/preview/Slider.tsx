@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 import Heading from '@/components/Heading';
 import DotGrid from '@/components/DotGrid';
