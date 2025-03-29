@@ -22,6 +22,7 @@ export interface SliderProps {
   colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   ctas?: ButtonProps[];
   decorations?: boolean;
+  layout?: 'full' | 'boxed';
 }
 
 const Slider: React.FC<MainProps> = ({
@@ -57,7 +58,7 @@ const Slider: React.FC<MainProps> = ({
             `}
             >
               {/* Image/Video content with overlay */}
-              {slide.media && (
+              {slide.media && slide.layout !== 'boxed' && (
                 <>
                   <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40 z-10"></div>
                   {isVideo(slide.media) ?
@@ -82,7 +83,7 @@ const Slider: React.FC<MainProps> = ({
               )}
               {/* Content */}
               <div
-                className="container mx-auto px-4 md:px-0 relative z-10 absolute top-0 left-0 w-full h-full flex items-center"
+                className="container mx-auto px-4 md:px-0 relative z-10 w-full h-full flex justify-center md:justify-start md:items-center flex-col md:flex-row gap-4 md:gap-12"
               >
                 <div className="md:max-w-4xl flex gap-4 md:gap-8 items-start flex-col md:flex-row">
                   {/* Decorations */}
@@ -101,6 +102,28 @@ const Slider: React.FC<MainProps> = ({
                     isAboveImage={slide.media ? true : false}
                   />
                 </div>
+                {slide.media && slide.layout === 'boxed' &&
+                  <div className='relative order-first h-96 md:aspect-video md:order-last'>
+                    {isVideo(slide.media) ?
+                      <video
+                        autoPlay
+                        muted
+                        loop
+                        className="object-contain w-full h-full"
+                      >
+                        <source src={slide.media} type={`video/${slide.media.split('.').pop()}`} />
+                        Your browser does not support the video tag.
+                      </video>
+                    :
+                      <Image
+                        src={slide.media}
+                        alt={slide.title || 'Slider Image'}
+                        fill
+                        style={{ objectFit: 'contain', objectPosition: 'center' }}
+                      />
+                    }
+                  </div>
+                }
                 <ul className='flex items-center gap-2 absolute bottom-4 md:bottom-8 w-full justify-center'>
                   <li className="flex items-center">
                     <button

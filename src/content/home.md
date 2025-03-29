@@ -3,11 +3,12 @@ title: Inicio
 sections:
   - type: slider
     slider:
-      - media: /images/homepage-news-1.jpg
+      - media: /images/homepage-news-1.png
         title: Construimos futuro en la nube
         description: Migramos el Data Lakehouse y la plataforma de APIs a Google Cloud Platform para potenciar nuestra arquitectura tecnológica.
         colorScheme: primary
-        decorations: true
+        decorations: false
+        layout: boxed
       - media: /images/homepage-news-2.jpg
         title: BNA y BANCOR habilitan pagos con NFC
         description: Los acompañamos en el proceso de certificación técnica. Son los primeros del país en ofrecer pagos con Mastercard Debit, a través de Google Pay.
