@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Slider from '@/pages/preview/Slider';
+import FakeSlider from '@/components/FakeSlider';
 import Hero from '@/components/Hero';
 import TextAndImage from '@/components/TextAndImage';
 import CardGrid from '@/components/CardGrid';
 import Phrase from '@/components/Phrase';
 import Stats from '@/components/Stats';
 import LogoStrip from '@/components/LogoStrip';
-import Testimonials from '@/pages/preview/Testimonials';
+import FakeTestimonials from '@/components/FakeTestimonials';
 import Features from '@/components/Features';
 import AccordionPanel from '@/components/Accordion';
 import { SectionProps } from '@/components/MainPage';
@@ -29,12 +29,12 @@ export default function PagePreview({ entry } : any) {
                 decorations={section.decorations}
                 ctas={section.ctas}
                 colorScheme={section.colorScheme || 'primary'}
-                key={`slider-${index}`}
+                key={`hero-${index}`}
               />
             )
           case 'slider':
             return section.slider ? (
-              <Slider
+              <FakeSlider
                 slider={section.slider}
                 key={`slider-${index}`}
               />
@@ -102,7 +102,7 @@ export default function PagePreview({ entry } : any) {
             )
           case 'quote':
             return (
-              <Testimonials
+              <FakeTestimonials
                 key={`testimonial-${index}`}
                 byline={section.byline || ''}
                 title={section.title || ''}

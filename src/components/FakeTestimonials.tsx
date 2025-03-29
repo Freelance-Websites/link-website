@@ -21,7 +21,7 @@ export interface TestimonialProp {
   role?: string;
 }
 
-const Testimonials: React.FC<TestimonialsProp> = ({
+const FakeTestimonials: React.FC<TestimonialsProp> = ({
   byline,
   title,
   description,
@@ -189,4 +189,4 @@ const Testimonials: React.FC<TestimonialsProp> = ({
   );
 };
 
-export default Testimonials;
+export default FakeTestimonials;
