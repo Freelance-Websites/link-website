@@ -8,7 +8,7 @@ import CardGrid from '@/components/CardGrid';
 import Phrase from '@/components/Phrase';
 import Stats, { StatProp } from '@/components/Stats';
 import LogoStrip, { LogosProp } from '@/components/LogoStrip';
-import Testimonial from '@/components/Testimonial';
+import Testimonials, { TestimonialProp } from '@/components/Testimonials';
 import Features from '@/components/Features';
 import AccordionPanel, { AccordionPanelProps } from '@/components/Accordion';
 
@@ -37,7 +37,7 @@ export interface SectionProps {
   phrase?: string;
   stats?: StatProp[];
   logos?: LogosProp[];
-  testimonial?: string;
+  testimonials?: TestimonialProp[];
   avatar?: string;
   username?: string;
   role?: string;
@@ -143,16 +143,13 @@ export default function MainPage({
             )
           case 'quote':
             return (
-              <Testimonial
+              <Testimonials
                 key={`testimonial-${index}`}
                 byline={section.byline || ''}
                 title={section.title || ''}
                 description={section.description || ''}
-                testimonial={section.testimonial || ''}
+                testimonials={section.testimonials || []}
                 colorScheme={section.colorScheme || 'primary'}
-                avatar={section.avatar || ''}
-                name={section.username || ''}
-                role={section.role || ''}
                 decorations={section.decorations || true}
                 ctas={section.ctas || []}
               />

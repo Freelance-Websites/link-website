@@ -255,10 +255,6 @@ collections:
               - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
               - { label: Título, name: title, widget: string, hint: "El título de la sección", required: false }
               - { label: Descripción, name: description, widget: text, hint: Descripción debajo del título, required: false }
-              - { label: Frase, name: testimonial, widget: string, hint: "El testimonio propiamente dicho" }
-              - { label: Avatar, name: avatar, widget: file, hint: Tamaño recomendado 120x120 o superior, required: false }
-              - { label: Nombre, name: username, widget: string, hint: "El nombre de quién brinda el testimonio", required: false }
-              - { label: Rol, name: role, widget: string, hint: "El cargo de quien brinda el testimonio", required: false }
               - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta las comillas, default: true, required: false }
               - label: "Esquema de color"
                 name: "colorScheme"
@@ -270,6 +266,16 @@ collections:
                   - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
                   - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
                   - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro" }
+              - label: "Frases"
+                hint: Los testimonios a presentar en el carousel
+                name: "testimonials"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - { label: Frase, name: phrase, widget: string, hint: "La frase propiamente dicho" }
+                  - { label: Avatar, name: avatar, widget: file, hint: Tamaño recomendado 180x180 o superior, required: false }
+                  - { label: Nombre, name: name, widget: string, hint: "El nombre de quién brinda el testimonio", required: false }
+                  - { label: Rol, name: role, widget: string, hint: "El cargo de quien brinda el testimonio", required: false }
           - label: "Ventajas"
             name: "features"
             fields:

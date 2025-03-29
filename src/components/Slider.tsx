@@ -37,7 +37,9 @@ const Slider: React.FC<MainProps> = ({
           type: 'loop',
           perPage: 1,
           arrows: false,
-          pagination: false
+          pagination: false,
+          autoplay: true,
+          interval: 6000
         }}
         ref={splideRef}
         aria-label="Main Slider"

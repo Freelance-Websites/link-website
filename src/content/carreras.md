@@ -36,10 +36,15 @@ sections:
   - type: quote
     colorScheme: light
     title: Somos protagonistas del ecosistema financiero
-    testimonial: En link, lo que mejor nos define es que pensamos los proyectos de punta a punta, teniendo en cuenta siempre la experiencia del usuario y entendiendo que la tecnología genera un gran impacto.
-    avatar: /images/careers-testimonial.png
-    username: Paula Debenedetti
-    role: Líder de Ecosistema de Servicios
+    testimonials:
+      - phrase: En link, lo que mejor nos define es que pensamos los proyectos de punta a punta, teniendo en cuenta siempre la experiencia del usuario y entendiendo que la tecnología genera un gran impacto.
+        avatar: /images/careers-testimonial-1.png
+        name: Paula Debenedetti
+        role: Líder de Ecosistema de Servicios
+      - phrase: "Acá tengo la libertad de proponer, equivocarme y volver a intentar, siempre junto a personas que acompañan y escuchan. Nos movemos en equipo, con empatía y un objetivo común—tanto entre nosotros como con los clientes. Cada decisión tiene impacto porque lo que hacemos no queda en la oficina: impulsa el ecosistema financiero."
+        avatar: /images/careers-testimonial-2.png
+        name: Mariana Montalto
+        role: Product Owner de Tarjetas de Débito
   - type: textAndImage
     media: /images/careers-cta.png
     mediaPlacement: right
