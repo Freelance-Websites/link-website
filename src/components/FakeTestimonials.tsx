@@ -144,7 +144,7 @@ const FakeTestimonials: React.FC<TestimonialsProp> = ({
                   alt={testimonial.name || 'Avatar'}
                   width={72}
                   height={72}
-                  className='rounded-full'
+                  className='rounded-full grayscale'
                   />
                 }
                 <div className='flex flex-col'>
