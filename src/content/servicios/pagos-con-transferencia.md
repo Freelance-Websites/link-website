@@ -66,7 +66,6 @@ sections:
 
       La infraestructura link está pensada para escalar y acompañar a entidades financieras en constante crecimiento.
 
-      \
 
       **Confían en nosotros:**
 
