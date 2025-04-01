@@ -10,6 +10,7 @@ const Header: React.FC = ({
 
   const router = useRouter();
   const active = router.asPath.split('/')[1];
+  console.log(active)
 
   useEffect(() => {
     if (active === 'carreras' || active === 'servicios') {
@@ -19,7 +20,7 @@ const Header: React.FC = ({
     const handleScroll = () => {
       if (window.scrollY > 600) {
         setIsScrolled(true);
-      } else if (window.scrollY < 600 && active !== 'carreras') {
+      } else if (window.scrollY < 600 && active !== 'carreras' && active !== 'servicios') {
         setIsScrolled(false);
       }
     };

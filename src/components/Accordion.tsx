@@ -131,7 +131,16 @@ const AccordionPanel: React.FC<AccordionProps> = ({
                   <div>
                     <ul className='list-disc'>
                       {panel.bullets.map((bullet, index: number) => (
-                        <li key={index} className='md:text-lg font-serif text-light font-normal'>
+                        <li
+                          key={index}
+                          className={`
+                            md:text-lg font-serif font-normal
+                            ${colorScheme === 'primary' || colorScheme === 'light' || colorScheme === 'secondary'
+                              ? 'text-dark'
+                              : 'text-light'
+                            }
+                          `}
+                        >
                           {bullet.content}
                         </li>
                       ))}

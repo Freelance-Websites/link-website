@@ -27,7 +27,7 @@ const CardGrid: React.FC<CardGridProps> = ({
 }) => {
   const router = useRouter();
   const cardCount = cards.length;
-  const isServices = router.asPath.includes('servicios');
+  const isServices = router.asPath.includes('servicios') && !router.asPath.includes('home');
 
   const gridLayout = cardCount === 1
     ? 'grid-cols-1'

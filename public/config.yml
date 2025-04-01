@@ -244,6 +244,7 @@ collections:
                 fields:
                   - { label: Símbolo pre-valor, name: prepend, widget: string, hint: "Para sumar un símbolo, como un +, delante del número", required: false }
                   - { label: Valor, name: value, widget: number, hint: "Numero de la estadística.", required: false }
+                  - { label: Símbolo post-valor, name: append, widget: string, hint: "Para sumar un símbolo, como un %, detrás del número", required: false }
                   - { label: Texto, name: content, widget: string, hint: "Bajada de la estadística.", required: false }
           - label: "Carousel de logos"
             name: "logos"
@@ -600,6 +601,7 @@ collections:
                 fields:
                   - { label: Símbolo pre-valor, name: prepend, widget: string, hint: "Para sumar un símbolo, como un +, delante del número", required: false }
                   - { label: Valor, name: value, widget: number, hint: "Numero de la estadística.", required: false }
+                  - { label: Símbolo post-valor, name: append, widget: string, hint: "Para sumar un símbolo, como un %, detrás del número", required: false }
                   - { label: Texto, name: content, widget: string, hint: "Bajada de la estadística.", required: false }
           - label: "Carousel de logos"
             name: "logos"

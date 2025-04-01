@@ -31,7 +31,7 @@ sections:
         content: "Optimizá la gestión de pagos con tecnología link. Transferencias en tiempo real, seguridad garantizada y total control de operaciones."
         icon: /images/homepage-service-2.png
         ctaText: Conocé más
-        ctaLink: /servicios/pagos-por-transferencias
+        ctaLink: /servicios/pagos-con-transferencias
         features:
           - text: Automatización 24/7 para procesar pagos sin demoras.
             icon: /images/check-circle.png

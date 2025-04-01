@@ -31,7 +31,7 @@ sections:
         content: "Activá cobros con QR usando APIs y toda la tecnología link para procesar millones de transacciones en tiempo real."
         icon: /images/homepage-service-2.png
         ctaText: Conocé más
-        ctaLink: /servicios/pagos-con-transferencias
+        ctaLink: /servicios/pagos-con-transferencia
         features:
           - text: Visibilidad total de cada transacción, desde el inicio hasta la confirmación.
             icon: /images/check-circle.png
