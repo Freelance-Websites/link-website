@@ -152,6 +152,7 @@ const Heading: React.FC<MainProps> = ({
       {description && (
         <div
           className={`
+            grid gap-4
             md:text-lg font-serif
             ${isAboveImage ? 'drop-shadow-sm' : ''}
             ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
