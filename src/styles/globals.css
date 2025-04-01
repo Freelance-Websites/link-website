@@ -41,3 +41,97 @@
 ::selection {
   @apply text-dark bg-primary;
 }
+
+/* Rich text styles */
+.rich-text h1 {
+  @apply font-bold leading-none text-3xl md:text-5xl;
+}
+
+.rich-text h2 {
+  @apply font-bold leading-none text-2xl md:text-4xl;
+}
+
+.rich-text h3 {
+  @apply font-bold leading-none text-2xl md:text-3xl;
+}
+
+.rich-text h4 {
+  @apply font-bold leading-none text-xl md:text-2xl;
+}
+
+.rich-text h5 {
+  @apply font-bold leading-none text-lg md:text-xl;
+}
+
+.rich-text h6 {
+  @apply font-bold leading-none text-base md:text-lg;
+}
+
+.rich-text ul {
+  @apply list-disc pl-5;
+}
+
+.rich-text ol {
+  @apply list-decimal pl-5;
+}
+
+.rich-text li {
+  @apply mb-2;
+}
+
+.rich-text a {
+  @apply underline;
+}
+
+.rich-text a:hover {
+  @apply no-underline;
+}
+
+.rich-text strong {
+  @apply font-bold;
+}
+
+.rich-text em {
+  @apply italic;
+}
+
+.rich-text blockquote {
+  @apply border-l-4 border-primary pl-4 italic text-gray-700;
+}
+
+.rich-text blockquote p {
+  @apply mb-0;
+}
+
+.rich-text img {
+  @apply max-w-full h-auto;
+}
+
+.rich-text table {
+  @apply w-full border-collapse;
+}
+
+.rich-text th {
+  @apply bg-gray-100 text-left p-2;
+}
+
+.rich-text td {
+  @apply border-t border-gray-200 p-2;
+}
+
+.rich-text th,
+.rich-text td {
+  @apply text-sm;
+}
+
+.rich-text pre {
+  @apply bg-gray-100 p-4 rounded overflow-x-auto;
+}
+
+.rich-text code {
+  @apply bg-gray-200 p-1 rounded;
+}
+
+.rich-text hr {
+  @apply border-t border-gray-300 my-4;
+}
