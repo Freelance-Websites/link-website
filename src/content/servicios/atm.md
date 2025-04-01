@@ -1,17 +1,19 @@
 ---
 title: ATM
 sections:
-  - type: textAndImage
-    media: /images/services-mockup.png
-    mediaPlacement: right
-    byline: Servicios
-    title: ATM
-    colorScheme: primary
-    decorations: false
-    description: "Optimizá tus cajeros automáticos con tecnología avanzada y mantenelos siempre a la vanguardia. Reducí costos, aumentá la disponibilidad y ofrecé herramientas de marketing para vender más."
+  - mediaPlacement: right
     ctas:
       - link: "#ventajas-de-los-atm-link"
         text: Conocé más
+    decorations: false
+    media: /images/services-mockup.png
+    colorScheme: primary
+    byline: Servicios
+    title: ATM
+    type: textAndImage
+    description: Optimizá tus cajeros automáticos con tecnología avanzada y
+      mantenelos siempre a la vanguardia. Reducí costos, aumentá la
+      disponibilidad y ofrecé herramientas de marketing para vender más.
   - type: features
     title: Ventajas de los ATM link
     colorScheme: dark
@@ -30,10 +32,11 @@ sections:
             text: Plataforma confiable y operativa todo el año.
           - icon: /images/feature-icon-4.png
             title: Marketing personalizado
-            text: "Campañas dirigidas en cajeros para potenciar productos financieros."
+            text: Campañas dirigidas en cajeros para potenciar productos financieros.
           - icon: /images/feature-icon-5.png
             title: Reducción de la huella de carbono
-            text: Emisión de comprobantes digitales con estándares de sostenibilidad ISO 14064. 
+            text: Emisión de comprobantes digitales con estándares de sostenibilidad ISO
+              14064.
           - icon: /images/feature-icon-6.png
             title: Seguridad avanzada
             text: Ciberseguridad y cumplimiento normativo para prevenir fraudes.
@@ -55,15 +58,28 @@ sections:
           - icon: /images/feature-icon-9.png
             title: Identificación con huella digital
             text: Más seguridad y menos dependencia de claves y tarjetas.
-  - type: textAndImage
-    media: /images/case-study-mockup.png
-    mediaPlacement: right
-    byline: Caso de estudio
-    mediaSize: boxed
-    title: "Transformamos cada transacción en una oportunidad"
-    colorScheme: primary
+  - mediaPlacement: right
     decorations: false
-    description: "Grupo Petersen buscaba convertir sus ATM en un canal estratégico para vender sus productos financieros."
+    media: /images/case-study-mockup.png
+    mediaSize: boxed
+    colorScheme: primary
+    byline: Caso de estudio
+    title: Transformamos cada transacción en una oportunidad
+    type: textAndImage
+    description: >-
+      Grupo Petersen buscaba convertir sus ATM en un canal estratégico para
+      vender sus productos financieros.
+
+
+      **¿Qué hicimos?**\
+
+      Implementamos Vynamic Marketing en sus ATMs, personalizando la experiencia del cliente con ofertas dirigidas en el momento exacto.\
+
+      \
+
+      **¿Qué logramos?**\
+
+      Un 30% de conversión en productos financieros, transformando cada transacción en una oportunidad de negocio.
   - type: accordion
     title: Funcionalidades principales
     colorScheme: dark
@@ -83,16 +99,18 @@ sections:
         media: /images/service-detail-feature-1.jpg
       - title: Pago y Recarga de Servicios
         media: /images/service-detail-feature-1.jpg
-  - type: textAndImage
-    media: /images/service-detail-cta.png
-    mediaPlacement: right
-    byline: Contactanos
-    layout: boxed
-    title: Traé tu proyecto a link. Conocenos.
-    colorScheme: dark
-    decorations: false
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.
+  - mediaPlacement: right
     ctas:
       - link: /quienes-somos
         text: Conocé más
+    decorations: false
+    media: /images/service-detail-cta.png
+    colorScheme: dark
+    layout: boxed
+    byline: Contactanos
+    title: Traé tu proyecto a link. Conocenos.
+    type: textAndImage
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim
+      leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin
+      purus quis consectetur.
 ---
