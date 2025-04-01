@@ -70,9 +70,11 @@ sections:
       ofrecer una experiencia ágil. 
 
 
+
+
       **¿Qué hicimos?**\
 
-      Los integramos a la billetera Google Pay y ahora sus clientes usan tarjetas digitales en billeteras abiertas
+      Los integramos a la billetera Google Pay y ahora sus clientes usan tarjetas digitales en billeteras abiertas.
   - type: stats
     colorScheme: dark
     stats:
