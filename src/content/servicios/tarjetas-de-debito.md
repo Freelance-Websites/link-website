@@ -72,6 +72,8 @@ sections:
 
 
 
+
+
       **¿Qué hicimos?**\
 
       Los integramos a la billetera Google Pay y ahora sus clientes usan tarjetas digitales en billeteras abiertas.
