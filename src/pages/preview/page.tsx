@@ -25,6 +25,7 @@ export default function PagePreview({ entry } : any) {
                 media={section.media}
                 byline={section.byline}
                 title={section.title}
+                layout={section.layout || 'full'}
                 description={section.description}
                 decorations={section.decorations}
                 ctas={section.ctas}

@@ -45,7 +45,7 @@ const CardGrid: React.FC<CardGridProps> = ({
               : 'bg-dark text-light'
         }
       `}
-      id={slugify(byline || title)}
+      id={slugify(byline || title) || 'cards'}
     >
       <div
         className={`
@@ -91,12 +91,13 @@ const CardGrid: React.FC<CardGridProps> = ({
               }}
             >
               <Card
-              layout={cardLayout || 'horizontal'}
-              title={card.title}
-              content={card.content}
-              icon={card.icon}
-              ctaText={card.ctaText}
-              ctaLink={card.ctaLink}
+                layout={cardLayout || 'horizontal'}
+                title={card.title}
+                content={card.content}
+                icon={card.icon}
+                ctaText={card.ctaText}
+                ctaLink={card.ctaLink}
+                features={card.features}
               />
             </li>
             ))}

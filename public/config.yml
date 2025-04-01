@@ -65,6 +65,14 @@ collections:
               - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
               - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
               - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+              - label: "Layout del hero"
+                name: "layout"
+                widget: "select"
+                required: false
+                hint: Elige si la imagen se mostrará en el fondo y el texto encima, o la imagen primero y el texto debajo.
+                options:
+                  - { label: Imagen de fondo, value: "full", required: false }
+                  - { label: "Imagen arriba, texto debajo", value: "boxed", required: false }
               - label: "Esquema de color"
                 name: "colorScheme"
                 widget: "select"
@@ -176,9 +184,19 @@ collections:
                 widget: "list"
                 allow_add: true
                 fields:
+                  - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 240x240px o superior, required: false }
                   - { label: Título, name: title, widget: string, hint: "Título de la tarjeta. Opcional", required: false }
                   - { label: Texto, name: content, widget: string, hint: "Texto de la tarjeta. Opcional.", required: false }
-                  - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 240x240px o superior, required: false }
+                  - label: "Bullets"
+                    hint: Lista de elementos que se mostrarán debajo de la descripción. Si no se completa, no se mostrarán bullets.
+                    name: "features"
+                    widget: "list"
+                    allow_add: true
+                    max: 6
+                    fields:
+                      - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 64x64px o superior, required: false }
+                      - { label: Título, name: title, widget: string, hint: "Título de la tarjeta", required: false }
+                      - { label: Texto, name: text, widget: string }
                   - { label: Texto del botón, name: ctaText, widget: string, hint: "Opcional. Si no se completa, no se mostrará ningún botón", required: false }
                   - { label: URL del botón, name: ctaLink, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado, required: false }
               - label: "Estilo de tarjeta"
@@ -524,6 +542,16 @@ collections:
                   - { label: Título, name: title, widget: string, hint: "Título de la tarjeta. Opcional", required: false }
                   - { label: Texto, name: content, widget: string, hint: "Texto de la tarjeta. Opcional.", required: false }
                   - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 240x240px o superior, required: false }
+                  - label: "Bullets"
+                    hint: Lista de elementos que se mostrarán debajo de la descripción. Si no se completa, no se mostrarán bullets.
+                    name: "features"
+                    widget: "list"
+                    allow_add: true
+                    max: 6
+                    fields:
+                      - { label: Ícono, name: icon, widget: file, hint: Opcional. Tamaño recomendado 64x64px o superior, required: false }
+                      - { label: Título, name: title, widget: string, hint: "Título de la tarjeta", required: false }
+                      - { label: Texto, name: text, widget: string }
                   - { label: Texto del botón, name: ctaText, widget: string, hint: "Opcional. Si no se completa, no se mostrará ningún botón", required: false }
                   - { label: URL del botón, name: ctaLink, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado, required: false }
               - label: "Estilo de tarjeta"
