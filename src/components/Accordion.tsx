@@ -17,7 +17,7 @@ export interface AccordionProps {
 
 export interface AccordionPanelProps {
   title: string;
-  bullets: {
+  bullets?: {
     content: string;
   }[];
   media: string;
@@ -127,15 +127,17 @@ const AccordionPanel: React.FC<AccordionProps> = ({
                 `}
                 onClick={() => toggleAccordion(index)}
               >
-                <div>
-                  <ul className='list-disc'>
-                    {panel.bullets.map((bullet, index: number) => (
-                      <li key={index} className='md:text-lg font-serif text-light font-normal'>
-                        {bullet.content}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                {panel.bullets &&
+                  <div>
+                    <ul className='list-disc'>
+                      {panel.bullets.map((bullet, index: number) => (
+                        <li key={index} className='md:text-lg font-serif text-light font-normal'>
+                          {bullet.content}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                }
               </AccordionItem>
             ))}
           </ControlledAccordion>

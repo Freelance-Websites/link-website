@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 import Button, { ButtonProps } from '@/components/Button';
 import { CheckCircle2 } from 'lucide-react';
@@ -149,7 +150,7 @@ const Heading: React.FC<MainProps> = ({
       )}
       {title && createTitle(titleHierarchy)}
       {description && (
-        <p
+        <div
           className={`
             md:text-lg font-serif
             ${isAboveImage ? 'drop-shadow-sm' : ''}
@@ -161,8 +162,8 @@ const Heading: React.FC<MainProps> = ({
             }
           `}
         >
-          {description}
-        </p>
+          <ReactMarkdown>{description}</ReactMarkdown>
+        </div>
       )}
       {bullets && (
         <ul className='mt-2 md:mt-4 flex flex-col gap-2 md:gap-4' ref={listRef}>

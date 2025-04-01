@@ -1,5 +1,6 @@
 import React from 'react';
 import slugify from 'react-slugify';
+import { useRouter } from 'next/router';
 
 import Heading from '@/components/Heading';
 import { ButtonProps } from '@/components/Button';
@@ -24,14 +25,19 @@ const CardGrid: React.FC<CardGridProps> = ({
   cards,
   cardLayout
 }) => {
+  const router = useRouter();
   const cardCount = cards.length;
+  const isServices = router.asPath.includes('servicios');
+
   const gridLayout = cardCount === 1
     ? 'grid-cols-1'
     : cardCount < 4
       ? 'grid-cols-1 md:grid-cols-2'
-      : cardCount <= 4 && cardLayout === 'vertical'
+      : cardCount <= 4 && cardLayout === 'vertical' && !isServices
         ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4'
-        : 'grid-cols-1 md:grid-cols-3';
+        : isServices
+          ? 'grid-cols-1 md:grid-cols-2'
+          : 'grid-cols-1 md:grid-cols-3';
 
   return cardCount ? (
     <section

@@ -99,7 +99,7 @@ collections:
               - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 1024x1024 o superior, required: false }
               - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
               - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
-              - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+              - { label: Descripción, name: description, widget: markdown, hint: Descripción sobre el video/imagen, required: false }
               - label: "Bullets"
                 hint: Lista de elementos que se mostrarán debajo de la descripción. Si no se completa, no se mostrarán bullets.
                 name: "bullets"
@@ -373,6 +373,7 @@ collections:
                   - label: "Bullets"
                     hint: Los items a mostrar en el acordión
                     name: "bullets"
+                    required: false
                     widget: "list"
                     allow_add: true
                     fields:
@@ -454,7 +455,7 @@ collections:
               - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 1024x1024 o superior, required: false }
               - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
               - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
-              - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+              - { label: Descripción, name: description, widget: markdown, hint: Descripción sobre el video/imagen, required: false }
               - label: "Bullets"
                 hint: Lista de elementos que se mostrarán debajo de la descripción. Si no se completa, no se mostrarán bullets.
                 name: "bullets"
@@ -723,6 +724,7 @@ collections:
                     hint: Los items a mostrar en el acordión
                     name: "bullets"
                     widget: "list"
+                    required: false
                     allow_add: true
                     fields:
                       - { label: Contenido, name: content, widget: string, hint: "Contenido del item" }

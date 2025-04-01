@@ -72,7 +72,7 @@ const Card: React.FC<CardProps> = ({
       <ul
         className={`
           grid grid-cols-1 gap-4
-          ${layout === 'list' ? 'mt-4 md:mt-6 md:grid-cols-2' : 'order-last'}
+          ${layout === 'list' ? 'mt-4 md:mt-6 md:grid-cols-2' : 'order-last flex-1 content-start'}
         `}
       >
         {features.map((feature, index) => (
