@@ -17,6 +17,7 @@ interface MainProps {
 export interface SliderProps {
   type: string;
   media?: string;
+  byline?: string;
   title?: string;
   description?: string;
   colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
@@ -96,6 +97,7 @@ const Slider: React.FC<MainProps> = ({
                   )}
                   {/* Title, description, CTA */}
                   <Heading
+                    byline={slide.byline}
                     title={slide.title}
                     titleHierarchy={'h1'}
                     description={slide.description}
