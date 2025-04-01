@@ -1,17 +1,19 @@
 ---
 title: Pagos con transferencia
 sections:
-  - type: textAndImage
-    media: /images/services-mockup.png
-    mediaPlacement: right
-    byline: Servicios
-    title: Pagos con transferencia
-    colorScheme: primary
-    decorations: false
-    description: Integrá pagos con QR con APIs que simplifican y mejoran la experiencia. Conectá el negocio al ecosistema de pagos link con alta disponibilidad y cumplimiento normativo garantizado.
+  - mediaPlacement: right
     ctas:
       - link: "#ventajas"
         text: Conocé más
+    decorations: false
+    media: /images/services-mockup.png
+    colorScheme: primary
+    byline: Servicios
+    title: Pagos con transferencia
+    type: textAndImage
+    description: Integrá pagos con QR con APIs que simplifican y mejoran la
+      experiencia. Conectá el negocio al ecosistema de pagos link con alta
+      disponibilidad y cumplimiento normativo garantizado.
   - type: features
     title: Ventajas
     colorScheme: dark
@@ -57,31 +59,39 @@ sections:
     colorScheme: primary
     decorations: false
     description: >-
-      A través de esta solución procesamos más de $230 mil millones de cobros por mes y gestionamos más de 16 millones de transacciones mensuales, sin comprometer velocidad ni estabilidad.
+      A través de esta solución procesamos más de $230 mil millones de cobros
+      por mes y gestionamos más de 16 millones de transacciones mensuales, sin
+      comprometer velocidad ni estabilidad.
 
 
       La infraestructura link está pensada para escalar y acompañar a entidades financieras en constante crecimiento.
 
       \
 
-      **Confían en nosotros**\
+      **Confían en nosotros:**
 
-      - LinkingPOS
-      - GOAT
-      - IBBA Group
-      - PVS (Pagos Virtuales del Sur)
-      - MODO (Play Digital SA)
-      - BAPRO (Cuenta DNI Comercios)
-  - type: textAndImage
-    media: /images/service-detail-cta.png
-    mediaPlacement: right
-    byline: Contactanos
-    layout: boxed
-    title: Traé tu proyecto a link. Conocenos.
-    colorScheme: dark
-    decorations: false
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.
+
+      * LinkingPOS
+
+      * GOAT
+
+      * IBBA Group
+
+      * PVS (Pagos Virtuales del Sur)
+
+      * MODO (Play Digital SA) - BAPRO (Cuenta DNI Comercios)
+  - mediaPlacement: right
     ctas:
       - link: /quienes-somos
         text: Conocé más
+    decorations: false
+    media: /images/service-detail-cta.png
+    colorScheme: dark
+    layout: boxed
+    byline: Contactanos
+    title: Traé tu proyecto a link. Conocenos.
+    type: textAndImage
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim
+      leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin
+      purus quis consectetur.
 ---
