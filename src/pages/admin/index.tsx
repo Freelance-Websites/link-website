@@ -8,6 +8,7 @@ const Admin = () => {
       CMS.init()
       CMS.registerPreviewStyle('/output.css')
       CMS.registerPreviewTemplate('static', PagePreview)
+      CMS.registerPreviewTemplate('services', PagePreview)
     })()
   }, [])
 
