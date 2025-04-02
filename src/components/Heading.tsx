@@ -208,7 +208,7 @@ const Heading: React.FC<MainProps> = ({
                 }
                 <div
                   className={`
-                    md:text-lg font-serif
+                    md:text-lg font-serif rich-text
                     ${isAboveImage ? 'drop-shadow-sm' : ''}
                     ${colorScheme === 'primary' && isAboveImage || colorScheme === 'dark'
                       ? 'text-light'
