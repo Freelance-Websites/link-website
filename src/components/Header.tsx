@@ -49,12 +49,24 @@ const Header: React.FC = ({
     };
   }, []);
 
+  useEffect(() => {
+    const handleRouteChange = () => {
+      setIsMenuOpen(false);
+    };
+
+    router.events.on('routeChangeStart', handleRouteChange);
+
+    return () => {
+      router.events.off('routeChangeStart', handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <header
       id='top'
       className={
         `
-          fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4
+          ${active === 'carreras' ? 'sticky' : 'fixed'} top-0 left-0 w-full z-50 transition-all duration-300 py-4
           ${isScrolled || isMenuOpen ? 'bg-light border-b border-b-gray-300' : 'bg-transparent'}
         `
       }
