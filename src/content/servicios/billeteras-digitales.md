@@ -17,7 +17,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para entidades financieras
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: 100% personalizado
@@ -38,7 +38,7 @@ sections:
             title: Autogestión del contenido
             text: Control de las notificaciones, comunicaciones y promociones, sin desarrollos adicionales.
       - title: Para usuarios
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Practicidad

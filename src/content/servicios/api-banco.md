@@ -17,7 +17,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para Bancos
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: Integración sin barreras
@@ -35,7 +35,7 @@ sections:
             title: Innovación competitiva
             text: Ofrecé servicios innovadores y mejorá la experiencia de tus clientes.
       - title: Para personas
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Banca más simple

@@ -17,7 +17,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para entidades financieras
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: Disponibilidad 24/7
@@ -29,7 +29,7 @@ sections:
             title: Cumplimiento normativo
             text: Total adherencia a las regulaciones del BCRA.
       - title: Para personas usuarias
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Omnicanalidad

@@ -19,7 +19,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para entidades financieras
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: Menos costos, más eficiencia
@@ -41,7 +41,7 @@ sections:
             title: Seguridad avanzada
             text: Ciberseguridad y cumplimiento normativo para prevenir fraudes.
       - title: Para personas
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Acceso sin límites

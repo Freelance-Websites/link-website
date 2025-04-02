@@ -17,7 +17,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para entidades financieras y empresas
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: Rápida implementación
@@ -32,7 +32,7 @@ sections:
             title: Experiencia mejorada para tus clientes
             text: Brindá servicios financieros sin fricciones.
       - title: Para personas
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Acceso inmediato a servicios financieros

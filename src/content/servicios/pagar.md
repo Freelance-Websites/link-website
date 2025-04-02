@@ -17,7 +17,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para entidades financieras y comercios
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: Mayor recaudación
@@ -35,7 +35,7 @@ sections:
             title: Atención personalizada
             text: Soporte exclusivo para resolver dudas y optimizar la operatoria.
       - title: Para personas
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Comodidad

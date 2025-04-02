@@ -17,7 +17,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para entidades financieras
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: Automatización
@@ -41,7 +41,7 @@ sections:
             title: Control en cada transacción
             text: Firmas personalizadas para autorizar operaciones según montos, usuarios y niveles de aprobación.
       - title: Para las empresas
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Omnicanalidad

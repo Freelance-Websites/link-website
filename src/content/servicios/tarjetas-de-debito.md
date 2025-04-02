@@ -17,7 +17,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para entidades financieras
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: Digitalización
@@ -38,7 +38,7 @@ sections:
             title: Personalización y embozado
             text: Gestionamos el diseño y embozado de tarjetas EMV contactless. 
       - title: Para personas usuarias
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Tarjeta digital lista para usar

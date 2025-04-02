@@ -19,7 +19,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para entidades financieras
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: Datos en tiempo real
@@ -37,7 +37,7 @@ sections:
             title: Gran capacidad de procesamiento
             text: Permite operar altos volúmenes de transacciones sin interrupciones.
       - title: Para comercios y aceptadores
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Cobros simples

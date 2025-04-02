@@ -17,7 +17,7 @@ sections:
     colorScheme: dark
     cards:
       - title: Para entidades financieras
-        icon: /images/homepage-service-3.png
+        icon: /images/entidades-financieras.png
         features:
           - icon: /images/feature-icon-1.png
             title: Protección de datos
@@ -35,7 +35,7 @@ sections:
             title: Personalización
             text: Promociones y mensajes exclusivos que se adaptan a cada persona.
       - title: Para los gobiernos
-        icon: /images/homepage-service-3.png
+        icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Capacidad para grandes operaciones

@@ -17,7 +17,7 @@ sections:
     cards:
       - title: PAGAR
         content: "Cobrá servicios y recargas de productos prepagos desde múltiples canales, como billeteras virtuales, home banking y cajeros."
-        icon: /images/homepage-service-1.png
+        icon: /images/pagos-transferencia.png
         ctaText: Conocé más
         ctaLink: /servicios/pagar
         features:
@@ -29,7 +29,7 @@ sections:
             icon: /images/check-circle.png
       - title: Pagos con transferencias
         content: "Activá cobros con QR usando APIs y toda la tecnología link para procesar millones de transacciones en tiempo real."
-        icon: /images/homepage-service-2.png
+        icon: /images/billeteras-digitales.png
         ctaText: Conocé más
         ctaLink: /servicios/pagos-con-transferencia
         features:

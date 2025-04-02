@@ -17,7 +17,7 @@ sections:
     cards:
       - title: Tarjetas de débito
         content: "Gestionamos todo el ciclo de vida de las tarjetas y sus transacciones: Desde la emisión y autorización en tiempo real, hasta la compensación y liquidación."
-        icon: /images/homepage-service-1.png
+        icon: /images/tarjetas-debito.png
         ctaText: Conocé más
         ctaLink: /servicios/tarjetas-de-debito
         features:
@@ -29,7 +29,7 @@ sections:
             icon: /images/check-circle.png
       - title: Pagos con transferencias
         content: "Optimizá la gestión de pagos con tecnología link. Transferencias en tiempo real, seguridad garantizada y total control de operaciones."
-        icon: /images/homepage-service-2.png
+        icon: /images/pagos-transferencia.png
         ctaText: Conocé más
         ctaLink: /servicios/pagos-con-transferencias
         features:
