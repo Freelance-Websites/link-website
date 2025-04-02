@@ -10,7 +10,6 @@ const Header: React.FC = ({
 
   const router = useRouter();
   const active = router.asPath.split('/')[1];
-  console.log(active)
 
   useEffect(() => {
     if (active === 'carreras' || active === 'servicios') {
@@ -146,18 +145,56 @@ const Header: React.FC = ({
               Quienes somos
             </Link>
           </li>
-          <li
-            className={isScrolled || isMobile ? 'text-dark text-center' : 'text-light'}
-          >
-            <Link
-              href='/home#servicios'
+            <li
+            className={isScrolled || isMobile ? 'text-dark text-center relative group' : 'text-light text-center relative group'}
+            >
+            <span
               className={`
-                transition duration-300 hover:opacity-80
-                ${active === 'servicios' ? 'underline' : ''}
+              transition duration-300 hover:opacity-80 cursor-pointer
+              ${active === 'servicios' ? 'underline' : ''}
               `}
             >
               Servicios
-            </Link>
+            </span>
+            <ul
+              className='md:absolute left-0 w-full md:w-52 top-full bg-light md:shadow-lg rounded-md p-2 hidden group-hover:block text-dark md:text-left'
+            >
+              <li className='py-1 px-4 hover:bg-gray-200'>
+                <Link href='/servicios/soluciones-de-pago' className='block'>
+                  Soluciones de pago
+                </Link>
+              </li>
+              <li className='py-1 px-4 hover:bg-gray-200'>
+                <Link href='/servicios/soluciones-de-cobro' className='block'>
+                  Soluciones de cobro
+                </Link>
+              </li>
+              <li className='py-1 px-4 hover:bg-gray-200'>
+                <Link href='/servicios/banking-as-a-service' className='block'>
+                  Banking as a Service
+                </Link>
+              </li>
+              <li className='py-1 px-4 hover:bg-gray-200'>
+                <Link href='/servicios/api-banco' className='block'>
+                  API banco
+                </Link>
+              </li>
+              <li className='py-1 px-4 hover:bg-gray-200'>
+                <Link href='/servicios/plataformas-digitales' className='block'>
+                  Plataformas digitales
+                </Link>
+              </li>
+              <li className='py-1 px-4 hover:bg-gray-200'>
+                <Link href='/servicios/atm' className='block'>
+                  ATM
+                </Link>
+              </li>
+              <li className='py-1 px-4 hover:bg-gray-200'>
+                <Link href='/servicios/seguridad' className='block'>
+                  Seguridad
+                </Link>
+              </li>
+            </ul>
           </li>
           <li
             className={isScrolled || isMobile ? 'text-dark text-center' : 'text-light'}
