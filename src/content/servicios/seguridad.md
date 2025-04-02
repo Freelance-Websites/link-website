@@ -57,13 +57,13 @@ sections:
         content: "Garantiza la seguridad de los datos de tarjetas de pago mediante
           estrictos controles y procedimientos: [Link al
           certificado.](/images/pci-dss-certificate.pdf)"
-      - title: SLC (Secure Software Life Cycle)
+      - title: SSLC (Secure Software Life Cycle)
         content: "Asegura que el desarrollo de software siga prácticas seguras a lo
           largo de su ciclo de vida: [Link al
-          certificado](/images/pci-slc-certificate.pdf)."
+          certificado](/images/pci-sslc-certificate.pdf)."
       - title: PTS (PIN Transaction Security)
         content: "Certificación que protege las transacciones de PIN en dispositivos de
-          pago: [Link al certificado](/images/pci-pts-certificate.pdf)."
+          pago: [Link al certificado](/images/pci-pin-certificate.pdf)."
       - title: Service bureau de SWIFT
         content: Cumplimiento con los estándares de seguridad de SWIFT para la
           transferencia segura de información financiera entre instituciones.
