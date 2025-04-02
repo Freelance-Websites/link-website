@@ -19,34 +19,34 @@ sections:
       - title: Para Bancos
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Integración sin barreras
             text: Conectá tu banco con nuevas soluciones sin grandes desarrollos.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Optimización de costos
             text: Reducí gastos en infraestructura y tecnología.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Máxima seguridad
             text: Biometría facial, autenticación 2FA y claves OTP para operaciones blindadas.
-          - icon: /images/feature-icon-4.png
+          - icon: /images/check-circle.png
             title: Escalabilidad asegurada
             text: Crecé sin límites con soluciones flexibles.
-          - icon: /images/feature-icon-5.png
+          - icon: /images/check-circle.png
             title: Innovación competitiva
             text: Ofrecé servicios innovadores y mejorá la experiencia de tus clientes.
       - title: Para personas
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Banca más simple
             text: Acceso inmediato a pagos, transferencias y consultas.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Seguridad de última generación
             text: Protegemos cada transacción con autenticación avanzada.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Disponibilidad total
             text: Servicios 24/7 sin interrupciones.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Experiencia digital completa
             text: Todo en un solo lugar, sin complicaciones.
   - mediaPlacement: right

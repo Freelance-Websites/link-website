@@ -19,25 +19,25 @@ sections:
       - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Disponibilidad 24/7
             text: Plataforma confiable y operativa todo el año.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Seguridad avanzada
             text: Protección de datos con monitoreo continuo y pruebas de vulnerabilidad.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Cumplimiento normativo
             text: Total adherencia a las regulaciones del BCRA.
       - title: Para personas usuarias
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Omnicanalidad
             text: Soluciones para manejar sus finanzas desde la PC o el celular.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Tranquilidad
             text: Seguridad y confianza en todas las transacciones.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Agilidad
             text: Acceso a productos y servicios bancarios en un clic.
   - type: accordion

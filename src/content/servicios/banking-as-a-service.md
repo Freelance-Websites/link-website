@@ -19,28 +19,28 @@ sections:
       - title: Para entidades financieras y empresas
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Rápida implementación
             text: Integrá servicios financieros sin complicaciones.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Ahorro de costos
             text: Evitá desarrollar desde cero y aprovechá nuestra infraestructura.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Escalabilidad
             text: Expandí tu oferta sin límites.
-          - icon: /images/feature-icon-4.png
+          - icon: /images/check-circle.png
             title: Experiencia mejorada para tus clientes
             text: Brindá servicios financieros sin fricciones.
       - title: Para personas
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Acceso inmediato a servicios financieros
             text: Pagos, transferencias y gestión de cuentas al instante.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Seguridad garantizada
             text: Autenticación avanzada para operaciones protegidas.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Experiencia digital completa
             text: Todo en un solo lugar y sin complicaciones.
   - mediaPlacement: right

@@ -20,29 +20,29 @@ sections:
       - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Reducción de riesgos
             text: Blindá tu operación con tecnología avanzada que minimiza ciberataques.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Cumplimiento normativo a nivel mundial
             text: Operá con los más altos estándares internacionales de seguridad y
               regulaciones vigentes.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Defensa en tiempo real
             text: Monitoreo constante para detectar y prevenir amenazas antes de que
               sucedan.
       - title: Para personas
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Máxima protección de datos
             text: Transacciones y almacenamiento blindados para evitar accesos no
               autorizados.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Confianza y seguridad
             text: Seguridad de nivel bancario para que tus clientes operen sin
               preocupaciones.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Acceso seguro 24/7
             text: Servicios financieros digitales siempre disponibles, con tecnología que
               garantiza operaciones confiables.

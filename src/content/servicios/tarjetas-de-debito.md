@@ -19,37 +19,37 @@ sections:
       - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Digitalización
             text: Alta en línea y tarjeta digital.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Servicio de procesamiento Emisor
             text: Conciliación, generación de reportes y gestión de mandatos de marca.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Administración de Riesgo
             text: Monitoreo transaccional, con herramientas de control y prevención de fraude. 
-          - icon: /images/feature-icon-4.png
+          - icon: /images/check-circle.png
             title: Disponibilidad 24/7
             text: Servicios disponibles para operar en todo momento.
-          - icon: /images/feature-icon-5.png
+          - icon: /images/check-circle.png
             title: Tokenización
             text: Protección de datos sensibles durante las transacciones.
-          - icon: /images/feature-icon-6.png
+          - icon: /images/check-circle.png
             title: Personalización y embozado
             text: Gestionamos el diseño y embozado de tarjetas EMV contactless. 
       - title: Para personas usuarias
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Tarjeta digital lista para usar
             text: Puede operar sin necesidad del plástico.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Acceso a servicios financieros
             text: Disponibilidad para hacer compras con tarjetas de débito sin interrupciones.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Experiencia segura y confiable
             text: Protección de datos y transacciones con  cifrado de información.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Experiencia digital completa
             text:  Servicios que permiten agregar tarjetas a billeteras abiertas como GPay y Apple Pay.
   - type: textAndImage

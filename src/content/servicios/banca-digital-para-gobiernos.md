@@ -19,46 +19,46 @@ sections:
       - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Protección de datos
             text: Monitoreo continuo y pruebas de vulnerabilidad.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Seguridad certificada a nivel mundial
             text: Certificaciones con los más altos estándares internacionales de seguridad.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Cumplimiento normativo
             text: Total adherencia a las regulaciones del BCRA.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Control en cada transacción
             text: Firmas personalizadas para autorizar operaciones según montos, usuarios y niveles de aprobación.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Personalización
             text: Promociones y mensajes exclusivos que se adaptan a cada persona.
       - title: Para los gobiernos
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Capacidad para grandes operaciones
             text: Transacciones de alto volumen con límites ampliados.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Administración centralizada
             text: Un solo usuario para gestionar múltiples CUITs, simplificando la operatoria.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Procesamiento automatizado
             text: Pagos y transferencias masivas en segundos, optimizando la gestión pública.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Operatoria 24/7
             text: Disponibilidad total para gestionar fondos y pagos en cualquier momento.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Omnicanalidad
             text: Soluciones para manejar finanzas desde la PC o el celular.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Personalización
             text: Promociones y mensajes exclusivos que se adaptan a cada persona.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Agilidad
             text: Acceso a productos y servicios bancarios en un clic.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Transparencia
             text: Control preciso de cada operación para facilitar auditorías.
   - type: accordion

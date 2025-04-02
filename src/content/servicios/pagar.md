@@ -19,31 +19,31 @@ sections:
       - title: Para entidades financieras y comercios
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Mayor recaudación
             text: Más pagos gracias a múltiples canales digitales.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Disponibilidad 24/7
             text: Cobros en cualquier momento, sin restricciones horarias.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Conciliación automática
             text: Facilita la administración y control de pagos recibidos.
-          - icon: /images/feature-icon-4.png
+          - icon: /images/check-circle.png
             title: Seguridad garantizada
             text: Cumple con estándares bancarios y regulaciones del BCRA.
-          - icon: /images/feature-icon-5.png
+          - icon: /images/check-circle.png
             title: Atención personalizada
             text: Soporte exclusivo para resolver dudas y optimizar la operatoria.
       - title: Para personas
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Comodidad
             text: Pueden pagar desde home banking, billeteras, cajeros o banca empresas.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Tranquilidad
             text: Protección de datos y confirmaciones en tiempo real.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Agilidad
             text: Operaciones intuitivas sin necesidad de filas o trámites presenciales.
   - type: textAndImage

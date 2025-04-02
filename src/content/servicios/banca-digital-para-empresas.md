@@ -19,40 +19,40 @@ sections:
       - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Automatización
             text: Procesamiento automático de las operaciones, reduciendo costos.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Mantenimiento continuo
             text: Monitoreo proactivo para garantizar el mejor rendimiento.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Protección de datos
             text: Monitoreo continuo y pruebas de vulnerabilidad.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Seguridad certificada a nivel mundial
             text: Certificaciones con los más altos estándares internacionales de seguridad.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Cumplimiento normativo
             text: Total adherencia a las regulaciones del BCRA.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Comunicación dirigida
             text: Promociones y mensajes exclusivos que se adaptan a la estrategia de venta.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Control en cada transacción
             text: Firmas personalizadas para autorizar operaciones según montos, usuarios y niveles de aprobación.
       - title: Para las empresas
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Omnicanalidad
             text: Soluciones para manejar sus finanzas desde la PC o el celular. 
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Tranquilidad
             text: Seguridad y confianza en todas las transacciones.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Agilidad
             text: Acceso a productos y servicios bancarios en un clic.
-          - icon: /images/feature-icon-9.png
+          - icon: /images/check-circle.png
             title: Transparencia
             text: Control preciso de cada operación para facilitar auditorías.
   - type: accordion

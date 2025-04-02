@@ -82,8 +82,8 @@ const Card: React.FC<CardProps> = ({
                 <Image
                   src={feature.icon}
                   alt={feature.title || ''}
-                  width={layout === 'list' ? 42 : 21}
-                  height={layout === 'list' ? 42 : 21}
+                  width={layout === 'list' ? 42 : 32}
+                  height={layout === 'list' ? 42 : 32}
                 />
               }
               <div className='flex flex-col'>

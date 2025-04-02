@@ -21,34 +21,34 @@ sections:
       - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Datos en tiempo real
             text: Información instantánea para un control preciso de cada transacción.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Disponibilidad total
             text: Una solución confiable y operativa 24/7.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Cumplimiento normativo
             text: Total adherencia a las regulaciones del BCRA.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Integración rápida
             text: Implementación simple, a través de APIs.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Gran capacidad de procesamiento
             text: Permite operar altos volúmenes de transacciones sin interrupciones.
       - title: Para comercios y aceptadores
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Cobros simples
             text: Aceptación de pagos con QR desde cuentas o billeteras.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Devoluciones ágiles
             text: Permite revertir pagos de manera automática.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Notificaciones en tiempo real
             text: Información al instante sobre el estado de cada transacción.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Más información, mejores decisiones
             text: Acceso a datos útiles para entender y optimizar cada operación.
   - type: textAndImage

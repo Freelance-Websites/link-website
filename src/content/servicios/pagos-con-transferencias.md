@@ -19,22 +19,22 @@ sections:
       - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
-          - icon: /images/feature-icon-1.png
+          - icon: /images/check-circle.png
             title: Transferencia on/off
             text: Validación automática que garantiza disponibilidad 24/7 del servicio.
-          - icon: /images/feature-icon-2.png
+          - icon: /images/check-circle.png
             title: Control de límites
             text: Montos máximos de transferencias diarias por cuenta  para prevenir estafas y errores.
-          - icon: /images/feature-icon-3.png
+          - icon: /images/check-circle.png
             title: Supervisión de fraude
             text: Monitoreo en tiempo real para identificar comportamientos sospechosos.
       - title: Para personas
         icon: /images/usuarios.png
         features:
-          - icon: /images/feature-icon-7.png
+          - icon: /images/check-circle.png
             title: Tranquilidad
             text: Seguridad y confianza en todas las transacciones.
-          - icon: /images/feature-icon-8.png
+          - icon: /images/check-circle.png
             title: Experiencia sin fricciones
             text: Transferencias en tiempo real, en todo momento.
   - type: textAndImage
