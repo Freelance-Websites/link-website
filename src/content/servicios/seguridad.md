@@ -11,7 +11,8 @@ sections:
     byline: Servicios
     title: Seguridad
     type: textAndImage
-    description: Blindamos todas las operaciones financieras con tecnología de punta y estándares globales.
+    description: Blindamos todas las operaciones financieras con tecnología de punta
+      y estándares globales.
   - type: features
     title: Ventajas de la seguridad link
     colorScheme: dark
@@ -24,39 +25,50 @@ sections:
             text: Blindá tu operación con tecnología avanzada que minimiza ciberataques.
           - icon: /images/feature-icon-2.png
             title: Cumplimiento normativo a nivel mundial
-            text: Operá con los más altos estándares internacionales de seguridad y regulaciones vigentes.
+            text: Operá con los más altos estándares internacionales de seguridad y
+              regulaciones vigentes.
           - icon: /images/feature-icon-3.png
             title: Defensa en tiempo real
-            text: Monitoreo constante para detectar y prevenir amenazas antes de que sucedan.
+            text: Monitoreo constante para detectar y prevenir amenazas antes de que
+              sucedan.
       - title: Para personas
         icon: /images/usuarios.png
         features:
           - icon: /images/feature-icon-7.png
             title: Máxima protección de datos
-            text: Transacciones y almacenamiento blindados para evitar accesos no autorizados.
+            text: Transacciones y almacenamiento blindados para evitar accesos no
+              autorizados.
           - icon: /images/feature-icon-8.png
             title: Confianza y seguridad
-            text: Seguridad de nivel bancario para que tus clientes operen sin preocupaciones.
+            text: Seguridad de nivel bancario para que tus clientes operen sin
+              preocupaciones.
           - icon: /images/feature-icon-9.png
             title: Acceso seguro 24/7
-            text: Servicios financieros digitales siempre disponibles, con tecnología que garantiza operaciones confiables.
+            text: Servicios financieros digitales siempre disponibles, con tecnología que
+              garantiza operaciones confiables.
   - mediaPlacement: right
     decorations: false
     media: /images/case-study-mockup.png
     mediaSize: boxed
     colorScheme: primary
     byline: Certificaciones
-    title: Seguridad sin límites para tu negocio
-    type: textAndImage
     bullets:
       - title: PCI DSS (Payment Card Industry Data Security Standard)
-        content: Garantiza la seguridad de los datos de tarjetas de pago mediante estrictos controles y procedimientos
+        content: "Garantiza la seguridad de los datos de tarjetas de pago mediante
+          estrictos controles y procedimientos: [Link al
+          certificado.](/images/pci-dss-certificate.pdf)"
       - title: SLC (Secure Software Life Cycle)
-        content: Asegura que el desarrollo de software siga prácticas seguras a lo largo de su ciclo de vida.
+        content: "Asegura que el desarrollo de software siga prácticas seguras a lo
+          largo de su ciclo de vida: [Link al
+          certificado](/images/pci-slc-certificate.pdf)."
       - title: PTS (PIN Transaction Security)
-        content: Certificación que protege las transacciones de PIN en dispositivos de pago.
+        content: "Certificación que protege las transacciones de PIN en dispositivos de
+          pago: [Link al certificado](/images/pci-pts-certificate.pdf)."
       - title: Service bureau de SWIFT
-        content: Cumplimiento con los estándares de seguridad de SWIFT para la transferencia segura de información financiera entre instituciones.
+        content: Cumplimiento con los estándares de seguridad de SWIFT para la
+          transferencia segura de información financiera entre instituciones.
+    title: Seguridad sin límites para tu negocio
+    type: textAndImage
   - mediaPlacement: right
     ctas:
       - link: /quienes-somos
