@@ -206,7 +206,7 @@ const Heading: React.FC<MainProps> = ({
                     {bullet.title}
                   </h4>
                 }
-                <p
+                <div
                   className={`
                     md:text-lg font-serif
                     ${isAboveImage ? 'drop-shadow-sm' : ''}
@@ -218,8 +218,8 @@ const Heading: React.FC<MainProps> = ({
                     }
                   `}
                 >
-                  {bullet.content}
-                </p>
+                  <ReactMarkdown>{bullet.content}</ReactMarkdown>
+                </div>
               </div>
             </li>
           ))}

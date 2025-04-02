@@ -108,7 +108,7 @@ collections:
                 max: 4
                 fields:
                   - { label: Título, name: title, widget: string, hint: "Título del bullet. Opcional, se muestra en bold si existe.", required: false }
-                  - { label: Texto, name: content, widget: string, hint: "Texto del bullet" }
+                  - { label: Texto, name: content, widget: markdown, hint: "Texto del bullet" }
               - label: "Esquema de color"
                 name: "colorScheme"
                 widget: "select"
@@ -465,7 +465,7 @@ collections:
                 max: 4
                 fields:
                   - { label: Título, name: title, widget: string, hint: "Título del bullet. Opcional, se muestra en bold si existe.", required: false }
-                  - { label: Texto, name: content, widget: string, hint: "Texto del bullet" }
+                  - { label: Texto, name: content, widget: markdown, hint: "Texto del bullet" }
               - label: "Esquema de color"
                 name: "colorScheme"
                 widget: "select"
