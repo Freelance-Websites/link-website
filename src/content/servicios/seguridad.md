@@ -56,7 +56,7 @@ sections:
       - title: PCI DSS (Payment Card Industry Data Security Standard)
         content: "Garantiza la seguridad de los datos de tarjetas de pago mediante
           estrictos controles y procedimientos: [Link al
-          certificado.](/images/pci-dss-certificate.pdf)"
+          certificado](/images/pci-dss-certificate.pdf)."
       - title: SSLC (Secure Software Life Cycle)
         content: "Asegura que el desarrollo de software siga prácticas seguras a lo
           largo de su ciclo de vida: [Link al
