@@ -18,7 +18,7 @@ sections:
       tu lugar. Sumate a un equipo en evolución.
   - type: cards
     title: Descubrí el ADN link
-    description: Lideramos la evolución desde adentro hacia afuera. Conocenos.
+    description: Lideramos la evolución desde adentro hacia afuera.
     colorScheme: dark
     cardLayout: vertical
     cards:
