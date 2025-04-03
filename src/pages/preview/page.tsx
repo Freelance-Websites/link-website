@@ -1,13 +1,13 @@
 import React from 'react';
 
-import FakeSlider from '@/components/FakeSlider';
+import FakeSlider from '@/components/preview/FakeSlider';
+import FakeTestimonials from '@/components/preview/FakeTestimonials';
+import FakeCardGrid from '@/components/preview/FakeCardGrid';
 import Hero from '@/components/Hero';
 import TextAndImage from '@/components/TextAndImage';
-import CardGrid from '@/components/CardGrid';
 import Phrase from '@/components/Phrase';
 import Stats from '@/components/Stats';
 import LogoStrip from '@/components/LogoStrip';
-import FakeTestimonials from '@/components/FakeTestimonials';
 import Features from '@/components/Features';
 import AccordionPanel from '@/components/Accordion';
 import { SectionProps } from '@/components/MainPage';
@@ -59,7 +59,7 @@ export default function PagePreview({ entry } : any) {
             );
           case 'cards':
             return (
-              <CardGrid
+              <FakeCardGrid
                 key={`cards-${index}`}
                 byline={section.byline}
                 title={section.title}
@@ -68,7 +68,6 @@ export default function PagePreview({ entry } : any) {
                 cards={section.cards || []}
                 cardLayout={section.cardLayout || 'horizontal'}
                 colorScheme={section.colorScheme || 'dark'}
-                isPreview={true}
               />
             );
           case 'phrase':
