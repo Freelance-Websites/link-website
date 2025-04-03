@@ -51,19 +51,42 @@ sections:
     mediaPlacement: right
     mediaSize: boxed
     title: Tecnología que respalda millones de cobros por mes
-    colorScheme: primary
+    colorScheme: light
     decorations: false
     description: Procesamos más de 20 millones de transacciones mensuales en todo el país, integrando pagos digitales con canales que las personas usan en su día a día. Así, ampliamos las posibilidades de pago y hacemos que la operatoria sea eficiente en cada rincón de Argentina.
-  - type: textAndImage
-    media: /images/service-detail-cta.png
-    mediaPlacement: right
-    byline: Contactanos
-    layout: boxed
-    title: Traé tu proyecto a link. Conocenos.
+  - type: cards
+    byline: Servicios
+    title: Conocé nuestros servicios
+    description: Creamos soluciones punta a punta para cada segmento del ecosistema
+      financiero.
     colorScheme: dark
-    decorations: false
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.
-    ctas:
-      - link: /quienes-somos
-        text: Conocé más
+    cardLayout: horizontal
+    cards:
+      - title: Soluciones de pago
+        content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de
+          pago completa.
+        icon: /images/homepage-service-1.png
+        ctaLink: /servicios/soluciones-de-pago
+      - title: ATM
+        content: Formá parte de la red más extensa y segura de cajeros de todo el país.
+        icon: /images/homepage-service-6.png
+        ctaLink: /servicios/atm
+      - title: Banking as a service
+        content: "Creamos oportunidades de negocio brindando servicios a bancos y
+          empresas. "
+        icon: /images/homepage-service-3.png
+        ctaLink: /servicios/banking-as-a-service
+      - title: Seguridad
+        content: Blindamos todas las operaciones financieras con tecnología de punta y estándares globales.
+        icon: /images/homepage-service-7.png
+        ctaLink: /servicios/seguridad
+      - title: Plataformas digitales
+        content: Transformá la gestión financiera de tu entidad con plataformas
+          flexibles, seguras y personalizadas.
+        icon: /images/homepage-service-5.png
+        ctaLink: /servicios/plataformas-digitales
+      - title: API banco
+        content: Sumate al ecosistema digital con APIs que amplían tu alcance y
+          potencian tu negocio.
+        icon: /images/homepage-service-4.png
 ---

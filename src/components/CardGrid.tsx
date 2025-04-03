@@ -27,17 +27,15 @@ const CardGrid: React.FC<CardGridProps> = ({
 }) => {
   const router = useRouter();
   const cardCount = cards.length;
-  const isServices = router.asPath.includes('servicios') && !router.asPath.includes('home');
+  const isPlatforms = router.asPath.includes('plataformas-digitales') && !router.asPath.includes('home');
 
   const gridLayout = cardCount === 1
     ? 'grid-cols-1'
-    : cardCount < 4
+    : cardCount < 4 || isPlatforms
       ? 'grid-cols-1 md:grid-cols-2'
-      : cardCount <= 4 && cardLayout === 'vertical' && !isServices
+      : cardCount <= 4 && cardLayout === 'vertical' && !isPlatforms
         ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4'
-        : isServices
-          ? 'grid-cols-1 md:grid-cols-2'
-          : 'grid-cols-1 md:grid-cols-3';
+        : 'grid-cols-1 md:grid-cols-3';
 
   return cardCount ? (
     <section

@@ -69,18 +69,41 @@ sections:
           transferencia segura de información financiera entre instituciones.
     title: Seguridad sin límites para tu negocio
     type: textAndImage
-  - mediaPlacement: right
-    ctas:
-      - link: /quienes-somos
-        text: Conocé más
-    decorations: false
-    media: /images/service-detail-cta.png
+  - type: cards
+    byline: Servicios
+    title: Conocé nuestros servicios
+    description: Creamos soluciones punta a punta para cada segmento del ecosistema
+      financiero.
     colorScheme: dark
-    layout: boxed
-    byline: Contactanos
-    title: Traé tu proyecto a link. Conocenos.
-    type: textAndImage
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim
-      leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin
-      purus quis consectetur.
+    cardLayout: horizontal
+    cards:
+      - title: Soluciones de pago
+        content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de
+          pago completa.
+        icon: /images/homepage-service-1.png
+        ctaLink: /servicios/soluciones-de-pago
+      - title: Soluciones de cobro
+        content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
+          negocio.
+        icon: /images/homepage-service-2.png
+        ctaLink: /servicios/soluciones-de-cobro
+      - title: Banking as a service
+        content: "Creamos oportunidades de negocio brindando servicios a bancos y
+          empresas. "
+        icon: /images/homepage-service-3.png
+        ctaLink: /servicios/banking-as-a-service
+      - title: API banco
+        content: Sumate al ecosistema digital con APIs que amplían tu alcance y
+          potencian tu negocio.
+        icon: /images/homepage-service-4.png
+        ctaLink: /servicios/api-banco
+      - title: Plataformas digitales
+        content: Transformá la gestión financiera de tu entidad con plataformas
+          flexibles, seguras y personalizadas.
+        icon: /images/homepage-service-5.png
+        ctaLink: /servicios/plataformas-digitales
+      - title: ATM
+        content: Formá parte de la red más extensa y segura de cajeros de todo el país.
+        icon: /images/homepage-service-6.png
+        ctaLink: /servicios/atm
 ---

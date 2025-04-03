@@ -58,7 +58,7 @@ sections:
     byline: Caso de éxito
     mediaSize: boxed
     title: Millones de personas pagan con NFC
-    colorScheme: primary
+    colorScheme: light
     decorations: false
     description: >-
       BNA y BANCOR decidieron digitalizar los pagos con tarjetas de débito para ofrecer una experiencia ágil. 
@@ -68,7 +68,7 @@ sections:
 
       Los integramos a la billetera Google Pay y ahora sus clientes usan tarjetas digitales en billeteras abiertas.
   - type: stats
-    colorScheme: dark
+    colorScheme: primary
     stats:
       - value: 51
         prepend: +
@@ -79,16 +79,39 @@ sections:
       - value: 40
         content: Bancos adheridos
         prepend: +
-  - type: textAndImage
-    media: /images/service-detail-cta.png
-    mediaPlacement: right
-    byline: Contactanos
-    layout: boxed
-    title: Traé tu proyecto a link. Conocenos.
+  - type: cards
+    byline: Servicios
+    title: Conocé nuestros servicios
+    description: Creamos soluciones punta a punta para cada segmento del ecosistema
+      financiero.
     colorScheme: dark
-    decorations: false
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.
-    ctas:
-      - link: /quienes-somos
-        text: Conocé más
+    cardLayout: horizontal
+    cards:
+      - title: ATM
+        content: Formá parte de la red más extensa y segura de cajeros de todo el país.
+        icon: /images/homepage-service-6.png
+        ctaLink: /servicios/atm
+      - title: Soluciones de cobro
+        content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
+          negocio.
+        icon: /images/homepage-service-2.png
+        ctaLink: /servicios/soluciones-de-cobro
+      - title: Banking as a service
+        content: "Creamos oportunidades de negocio brindando servicios a bancos y
+          empresas. "
+        icon: /images/homepage-service-3.png
+        ctaLink: /servicios/banking-as-a-service
+      - title: Seguridad
+        content: Blindamos todas las operaciones financieras con tecnología de punta y estándares globales.
+        icon: /images/homepage-service-7.png
+        ctaLink: /servicios/seguridad
+      - title: Plataformas digitales
+        content: Transformá la gestión financiera de tu entidad con plataformas
+          flexibles, seguras y personalizadas.
+        icon: /images/homepage-service-5.png
+        ctaLink: /servicios/plataformas-digitales
+      - title: API banco
+        content: Sumate al ecosistema digital con APIs que amplían tu alcance y
+          potencian tu negocio.
+        icon: /images/homepage-service-4.png
 ---
