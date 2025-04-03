@@ -68,6 +68,7 @@ export default function PagePreview({ entry } : any) {
                 cards={section.cards || []}
                 cardLayout={section.cardLayout || 'horizontal'}
                 colorScheme={section.colorScheme || 'dark'}
+                isPreview={true}
               />
             );
           case 'phrase':

@@ -14,6 +14,7 @@ export interface CardGridProps {
   ctas?: ButtonProps[];
   cards: CardProps[];
   cardLayout?: 'horizontal' | 'vertical';
+  isPreview?: boolean;
 }
 
 const CardGrid: React.FC<CardGridProps> = ({
@@ -23,11 +24,15 @@ const CardGrid: React.FC<CardGridProps> = ({
   colorScheme,
   ctas,
   cards,
-  cardLayout
+  cardLayout,
+  isPreview
 }) => {
-  const router = useRouter();
+  let isPlatforms = false;
+  if (!isPreview) {
+    const router = useRouter();
+    isPlatforms = router.asPath.includes('plataformas-digitales') && !router.asPath.includes('home');
+  }
   const cardCount = cards.length;
-  const isPlatforms = router.asPath.includes('plataformas-digitales') && !router.asPath.includes('home');
 
   const gridLayout = cardCount === 1
     ? 'grid-cols-1'
