@@ -47,30 +47,36 @@ sections:
           pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
+        ctaText: Conocé más
       - title: Soluciones de cobro
         content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
+        ctaText: Conocé más
       - title: Banking as a service
         content: "Creamos oportunidades de negocio brindando servicios a bancos y
           empresas. "
         icon: /images/homepage-service-3.png
         ctaLink: /servicios/banking-as-a-service
+        ctaText: Conocé más
       - title: API banco
         content: Sumate al ecosistema digital con APIs que amplían tu alcance y
           potencian tu negocio.
         icon: /images/homepage-service-4.png
         ctaLink: /servicios/api-banco
+        ctaText: Conocé más
       - title: Plataformas digitales
         content: Transformá la gestión financiera de tu entidad con plataformas
           flexibles, seguras y personalizadas.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
+        ctaText: Conocé más
       - title: ATM
         content: Formá parte de la red más extensa y segura de cajeros de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
+        ctaText: Conocé más
   - mediaPlacement: left
     ctas: []
     decorations: true

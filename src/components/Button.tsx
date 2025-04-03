@@ -24,7 +24,8 @@ const Button: React.FC<ButtonProps> = ({
   showArrow = true
 }) => {
   const defaultStyles = `
-    inline-flex items-center gap-3 px-4 py-3 rounded-full transition duration-300 hover:opacity-80 text-base md:text-lg
+    inline-flex items-center gap-3 rounded-full transition duration-300 hover:opacity-80 text-base md:text-lg
+    ${colorScheme !== 'transparent' ? 'px-4 py-3' : 'group-hover:opacity-80'}
     ${colorScheme === 'primary' && isAboveImage || colorScheme === 'light' || colorScheme === 'dark' && !isAboveImage
       ? 'bg-primary text-dark'
       : colorScheme === 'transparent'

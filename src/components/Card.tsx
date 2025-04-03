@@ -105,9 +105,18 @@ const Card: React.FC<CardProps> = ({
         {content &&
           <p className='font-serif text-dark'>{content}</p>
         }
+        {ctaText && ctaLink && layout === 'horizontal' &&
+          <Button
+            text={ctaText}
+            link={ctaLink}
+            colorScheme='transparent'
+            isExternal={isExternal || false}
+            isLink={isLink || false}
+          />
+        }
       </div>
     }
-    {ctaText && ctaLink &&
+    {ctaText && ctaLink && layout !== 'horizontal' &&
       <div className='mt-4 inline order-last'>
         <Button
           text={ctaText}
