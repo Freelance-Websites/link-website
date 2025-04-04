@@ -746,6 +746,7 @@ collections:
         picker_utc: false
       - label: "Encabezado"
         name: "hero"
+        widget: "object"
         fields:
           - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 1440x1024 o superior, required: false }
           - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
