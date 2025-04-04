@@ -61,12 +61,12 @@ const Hero: React.FC<HeroProps> = ({
                 ${layout === 'full' ? 'absolute top-0 left-0' : 'relative aspect-video'}
               `}
             >
-              <source src={media.startsWith('/') ? media : `/${media}`} type={`video/${media.split('.').pop()}`} />
+              <source src={media} type={`video/${media.split('.').pop()}`} />
               Your browser does not support the video tag.
             </video>
             :
             <Image
-              src={media.startsWith('/') ? media : `/${media}`}
+              src={media}
               alt={title || 'Slider Image'}
               fill
               className={`

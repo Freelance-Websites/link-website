@@ -108,7 +108,7 @@
 }
 
 .rich-text img {
-  @apply max-w-full h-auto rounded-lg;
+  @apply max-w-full h-auto rounded-lg my-4;
 }
 
 .rich-text table {

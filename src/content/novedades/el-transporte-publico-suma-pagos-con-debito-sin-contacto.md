@@ -27,7 +27,7 @@ text: >-
   In volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euis.volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euis.
 
 
-  ![Imagen de prueba](images/blog-post-image.jpg "Imagen de prueba")
+  ![Imagen de prueba](/images/blog-post-image.jpg "Imagen de prueba")
 
 
   > Mattis sit phasellus mollis sit aliquam sit nullam. Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.

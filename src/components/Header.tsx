@@ -12,14 +12,14 @@ const Header: React.FC = ({
   const active = router.asPath.split('/')[1];
 
   useEffect(() => {
-    if (active === 'carreras' || active === 'servicios') {
+    if (active === 'carreras' || active === 'servicios' || active === 'novedades') {
       setIsScrolled(true);
     }
 
     const handleScroll = () => {
       if (window.scrollY > 600) {
         setIsScrolled(true);
-      } else if (window.scrollY < 600 && active !== 'carreras' && active !== 'servicios') {
+      } else if (window.scrollY < 600 && active !== 'carreras' && active !== 'servicios' && active !== 'novedades') {
         setIsScrolled(false);
       }
     };

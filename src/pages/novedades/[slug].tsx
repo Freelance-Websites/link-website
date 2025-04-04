@@ -27,7 +27,7 @@ export default function Page() {
     >
       {content?.hero && (
         <TextAndImage
-          media={`/${content.hero.media}`}
+          media={content.hero.media}
           byline={content.timestamp ? new Date(content.timestamp).toLocaleDateString('en-GB').replace(/\//g, '/') : undefined}
           title={content.hero.title}
           mediaSize='full'
