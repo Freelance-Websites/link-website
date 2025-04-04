@@ -773,4 +773,4 @@ collections:
             fields:
               - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
               - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
-      - { label: Contenido, name: text, widget: markdown, hint: "Texto de la novedad" }
+      - { label: Contenido, name: text, widget: markdown, hint: "Contenido de la novedad", required: false }
