@@ -9,5 +9,40 @@ hero:
   title: El transporte público suma pagos con débito sin contacto
   colorScheme: primary
   decorations: true
-text: Coming soon
+text: >-
+  ## Subtitulo
+
+
+
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex.
+
+
+  \
+
+  In volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euis.volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euis.
+
+
+  ![Imagen de prueba](images/blog-post-image.jpg "Imagen de prueba")
+
+
+  > Mattis sit phasellus mollis sit aliquam sit nullam. Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.
+
+
+  ## Subtitulo
+
+
+
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex.
+
+
+  In volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euis.volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euismod bibendum ex. In volutpat sollicitudin purus quis consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim leo, ornare ut aliquet et, euis.
+
+
+  * Lorem impsum dolor sit amet, concectur elit. Duis enim leo, ornare.
+
+  * Telecommunications Industry Association
+
+  * Building Industry Consultants Service International
 ---
