@@ -14,4 +14,5 @@ hero:
     - text: Conocé más
       link: /novedades/construimos-futuro-en-la-nube
   byline: Novedades
+  layout: boxed
 ---
