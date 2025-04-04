@@ -75,12 +75,13 @@ export default function MainPage({
               />
             )
           case 'slider':
-            return section.slider ? (
-              <Slider
-                slider={section.slider}
-                key={`slider-${index}`}
-              />
-            ) : null;
+            console.log('Slider', section.slider);
+            // return section.slider ? (
+            //   <Slider
+            //     slider={section.slider}
+            //     key={`slider-${index}`}
+            //   />
+            // ) : null;
           case 'textAndImage':
             return (
               <TextAndImage

@@ -20,15 +20,18 @@ collections:
         types:
           - label: Carousel de novedades
             name: slider
-            widget: relation
-            collection: blog
-            multiple: true
-            search_fields: [title]
-            display_fields: [title]
-            value_field: '{{slug}}'
-            filters: 
-              - field: draft
-                values: [false]
+            fields:
+              - label: "Novedad"
+                name: "blog"
+                widget: relation
+                collection: blog
+                multiple: true
+                search_fields: [title]
+                display_fields: [title]
+                value_field: '{{slug}}'
+                filters: 
+                  - field: draft
+                    values: [false]
           - label: "Encabezado"
             name: "hero"
             fields:
