@@ -9,6 +9,10 @@ hero:
   title: El transporte público suma pagos con débito sin contacto
   colorScheme: primary
   decorations: true
+  byline: Novedades
+  ctas:
+    - text: Conocé más
+      link: /novedades/el-transporte-publico-suma-pagos-con-debito-sin-contacto
 text: >-
   ## Subtitulo
 
