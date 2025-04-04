@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 import { useRouter } from 'next/router';
 
 import Main from '@/components/Main';
@@ -35,6 +36,20 @@ export default function Page() {
           ctas={[]}
           colorScheme={content.hero.colorScheme || 'primary'}
         />
+      )}
+      {content?.text && (
+        <div
+          className={`
+            prose rich-text max-w-3xl mx-auto
+            px-4 py-8 md:py-16 lg:py-24
+            grid gap-4
+            text-dark font-serif
+          `}
+        >
+          <ReactMarkdown>
+            {content.text}
+          </ReactMarkdown>
+        </div>
       )}
     </Main>
   );
