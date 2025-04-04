@@ -3,6 +3,8 @@ title: Inicio
 sections:
   - type: slider
     slider:
+      - bna-y-bancor-habilitan-pagos-con-nfc
+      - construimos-futuro-en-la-nube
       - el-transporte-publico-suma-pagos-con-debito-sin-contacto
   - mediaPlacement: right
     ctas:
