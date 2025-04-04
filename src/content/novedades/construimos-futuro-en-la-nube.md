@@ -2,7 +2,7 @@
 title: Construimos futuro en la nube
 timestamp: 2025-04-03T11:12:04.708Z
 hero:
-  decorations: true
+  decorations: false
   media: images/homepage-news-1.png
   title: Construimos futuro en la nube
   description: >-
