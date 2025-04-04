@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 import Heading from '@/components/Heading';
@@ -8,7 +8,7 @@ import { ButtonProps } from '@/components/Button';
 import { isVideo } from '@/utils/media';
 
 interface MainProps {
-  slider: SliderProps[];
+  slider: string[];
 }
 
 export interface SliderProps {
@@ -23,13 +23,31 @@ export interface SliderProps {
   layout?: 'full' | 'boxed';
 }
 
+export interface SliderContent {
+  hero?: SliderProps[];
+  title: string;
+  timestamp: string;
+  text?: string;
+}
+
 const FakeSlider: React.FC<MainProps> = ({
   slider
 }) => {
+  const [slides, setSlides] = useState<SliderProps[]>([]);
+    
+  useEffect(() => {
+    async function fetchContent(slug: string) {
+      const content = await import(`@/content/novedades/${slug || 'index'}.md`);
+      setSlides((prev) => [...prev, content.attributes.hero]);
+    }
+    if (slider) {
+      slider.forEach((slide) => fetchContent(slide));
+    }
+  }, [slider]);
 
   return (
     <section className='slider'>
-      {slider.map((slide, index) => (
+      {Array.from(new Set(slides)).map((slide, index) => (
         <div key={index} className={`
           w-full h-screen relative
           flex flex-col justify-center items-center
@@ -57,7 +75,7 @@ const FakeSlider: React.FC<MainProps> = ({
                 </video>
               :
                 <Image
-                  src={slide.media}
+                  src={`/${slide.media}`}
                   alt={slide.title || 'Slider Image'}
                   fill
                   style={{ objectFit: 'cover', objectPosition: 'center' }}
@@ -101,7 +119,7 @@ const FakeSlider: React.FC<MainProps> = ({
                   </video>
                 :
                   <Image
-                    src={slide.media}
+                    src={`/${slide.media}`}
                     alt={slide.title || 'Slider Image'}
                     fill
                     style={{ objectFit: 'contain', objectPosition: 'center' }}

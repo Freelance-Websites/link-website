@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Image from 'next/image';
@@ -11,7 +11,7 @@ import { ButtonProps } from '@/components/Button';
 import { isVideo } from '@/utils/media';
 
 interface MainProps {
-  slider: SliderProps[];
+  slider: string[];
 }
 
 export interface SliderProps {
@@ -26,11 +26,29 @@ export interface SliderProps {
   layout?: 'full' | 'boxed';
 }
 
+export interface SliderContent {
+  hero?: SliderProps[];
+  title: string;
+  timestamp: string;
+  text?: string;
+}
+
 const Slider: React.FC<MainProps> = ({
   slider
 }) => {
-  const splideRef = React.useRef<{ splide: { go: (direction: string) => void } } | null>(null);
+  const [slides, setSlides] = useState<SliderProps[]>([]);
+  
+  useEffect(() => {
+    async function fetchContent(slug: string) {
+      const content = await import(`@/content/novedades/${slug || 'index'}.md`);
+      setSlides((prev) => [...prev, content.attributes.hero]);
+    }
+    if (slider) {
+      slider.forEach((slide) => fetchContent(slide));
+    }
+  }, [slider]);
 
+  const splideRef = React.useRef<{ splide: { go: (direction: string) => void } } | null>(null);
   return (
     <section className='slider'>
       <Splide
@@ -45,7 +63,7 @@ const Slider: React.FC<MainProps> = ({
         ref={splideRef}
         aria-label="Main Slider"
       >
-        {slider.map((slide, index) => (
+        {slides.map((slide, index) => (
           <SplideSlide
             key={index}
           >
@@ -76,7 +94,7 @@ const Slider: React.FC<MainProps> = ({
                     </video>
                   :
                     <Image
-                      src={slide.media}
+                      src={`/${slide.media}`}
                       alt={slide.title || 'Slider Image'}
                       fill
                       style={{ objectFit: 'cover', objectPosition: 'center' }}
@@ -120,7 +138,7 @@ const Slider: React.FC<MainProps> = ({
                       </video>
                     :
                       <Image
-                        src={slide.media}
+                        src={`/${slide.media}`}
                         alt={slide.title || 'Slider Image'}
                         fill
                         style={{ objectFit: 'contain', objectPosition: 'center' }}

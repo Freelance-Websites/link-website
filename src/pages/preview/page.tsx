@@ -36,7 +36,7 @@ export default function PagePreview({ entry } : any) {
           case 'slider':
             return section.slider ? (
               <FakeSlider
-                slider={section.slider}
+                slider={section.slider || []}
                 key={`slider-${index}`}
               />
             ) : null;

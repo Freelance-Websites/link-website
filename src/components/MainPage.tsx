@@ -18,7 +18,7 @@ import { BulletProps } from '@/components/Heading';
 
 export interface SectionProps {
   type: string;
-  slider?: SliderProps[];
+  slider?: string[];
   hero?: SliderProps;
   textAndImage?: TextAndImageProps;
   byline?: string;
@@ -75,13 +75,12 @@ export default function MainPage({
               />
             )
           case 'slider':
-            console.log('Slider', section.slider);
-            // return section.slider ? (
-            //   <Slider
-            //     slider={section.slider}
-            //     key={`slider-${index}`}
-            //   />
-            // ) : null;
+            return section.slider ? (
+              <Slider
+                slider={section.slider || []}
+                key={`slider-${index}`}
+              />
+            ) : null;
           case 'textAndImage':
             return (
               <TextAndImage

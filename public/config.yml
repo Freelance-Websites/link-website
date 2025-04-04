@@ -22,7 +22,7 @@ collections:
             name: slider
             fields:
               - label: "Novedad"
-                name: "blog"
+                name: "slider"
                 widget: relation
                 collection: blog
                 multiple: true
