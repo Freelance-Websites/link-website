@@ -2,7 +2,7 @@
 title: El transporte publico suma pagos con debito sin contacto
 timestamp: 2025-04-02T09:59:49.595Z
 hero:
-  media: images/homepage-news-3.jpg
+  media: /images/homepage-news-3.jpg
   description: Impulsamos la evolución tecnológica que permite a los usuarios
     pagar sin contacto, o desde el celular con Mastercard Debit en colectivos y
     tranvías de Mendoza, Córdoba, Santa Fe y CABA.
