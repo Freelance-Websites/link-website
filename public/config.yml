@@ -730,3 +730,45 @@ collections:
                     allow_add: true
                     fields:
                       - { label: Contenido, name: content, widget: string, hint: "Contenido del item" }
+  - name: "blog"
+    label: "Novedades"
+    folder: "src/content/novedades"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título de la página", name: "title", widget: "string" }
+      - label: "Fecha de publicación"
+        name: "timestamp"
+        widget: "datetime"
+        default: "{{now}}"
+        date_format: "DD.MM.YYYY"
+        time_format: false
+        picker_utc: false
+      - label: "Encabezado"
+        name: "hero"
+        fields:
+          - { label: Imagen o video, name: media, widget: file, hint: Tamaño recomendado 1440x1024 o superior, required: false }
+          - { label: Indicador de sección, name: byline, widget: string, hint: "Texto que se muestra arriba del título, en general indicando la sección. Opcional", required: false }
+          - { label: Título, name: title, widget: string, hint: Título sobre el video/imagen, required: false }
+          - { label: Descripción, name: description, widget: text, hint: Descripción sobre el video/imagen, required: false }
+          - label: "Esquema de color"
+            name: "colorScheme"
+            widget: "select"
+            required: false
+            hint: Determina los colores a utilizar para el fondo, el texto y los botones. Si no se completa, se usará el verde claro por defecto.
+            options:
+              - { label: "Verde claro", value: "primary", hint: "Color de título y botón verde claro, color de texto blanco" }
+              - { label: "Verde oscuro", value: "dark", hint: "Color de todos los elementos verde oscuro" }
+              - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
+              - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
+          - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta la grilla decorativa de puntos, default: true, required: false }
+          - label: "Botones"
+            name: "ctas"
+            widget: "list"
+            allow_add: true
+            max: 2
+            hint: Los botones que se muestran debajo del texto. Si no se completan, no se mostrarán botones.
+            fields:
+              - { label: Texto del botón, name: text, widget: string, hint: "Si no se completa, el texto por defecto será 'Conocé más'", required: false }
+              - { label: URL del botón, name: link, widget: string, hint: La URL a la que direcciona el botón cuando es clickeado }
+      - { label: Contenido, name: text, widget: markdown, hint: "Texto de la novedad" }
