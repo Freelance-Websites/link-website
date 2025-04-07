@@ -27,8 +27,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de
-          pago completa.
+        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
+          único hub.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más
@@ -38,7 +38,7 @@ sections:
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
         ctaText: Conocer más
-      - title: Banking as a service
+      - title: Banking as a Service
         content: Integrá servicios financieros en tus plataformas de forma rápida y
           simple. Evolucioná con nosotros.
         icon: /images/homepage-service-3.png
@@ -51,13 +51,14 @@ sections:
         ctaLink: /servicios/api-banco
         ctaText: Conocer más
       - title: Plataformas digitales
-        content: Transformá la gestión financiera de tu entidad con plataformas
-          flexibles, seguras y personalizadas.
+        content: Diseñadas para individuos, empresas y gobiernos, 100% integrables y
+          personalizables.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
         ctaText: Conocer más
       - title: ATM
-        content: Formá parte de la red más extensa y segura de cajeros de todo el país.
+        content: Formá parte de la red lider más extensa y segura de cajeros automáticos
+          de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
         ctaText: Conocer más
