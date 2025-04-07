@@ -76,6 +76,7 @@ export default function PagePreview({ entry } : any) {
                 key={`phrase-${index}`}
                 colorScheme={section.colorScheme || 'primary'}
                 phrase={section.phrase || ''}
+                title={section.title || ''}
               />
             );
           case 'stats':

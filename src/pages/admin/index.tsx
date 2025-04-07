@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import PagePreview from '../preview/page'
+import BlogPreview from '../preview/blog'
 
 const Admin = () => {
   useEffect(() => {
@@ -9,6 +10,7 @@ const Admin = () => {
       CMS.registerPreviewStyle('/output.css')
       CMS.registerPreviewTemplate('static', PagePreview)
       CMS.registerPreviewTemplate('services', PagePreview)
+      CMS.registerPreviewTemplate('blog', BlogPreview)
     })()
   }, [])
 
