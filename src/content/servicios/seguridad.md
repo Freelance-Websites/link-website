@@ -113,8 +113,8 @@ sections:
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
       - title: ATM
-        content: Formá parte de la red líder más extensa y segura de cajeros automáticos
-          de todo el país.
+        content: Formá parte de la red líder más extensa y segura de cajeros
+          automáticosde todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
 ---
