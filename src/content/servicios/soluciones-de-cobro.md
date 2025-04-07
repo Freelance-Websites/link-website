@@ -11,7 +11,7 @@ sections:
       transferencias y cobros electrónicos con APIs integrables, soporte 24/7 y
       protección de datos sensibles.
     ctas:
-      - text: Conocé más
+      - text: Conocer más
         link: "#cards"
   - type: cards
     colorScheme: dark
@@ -21,7 +21,7 @@ sections:
         content: Cobrá servicios y recargas de productos prepagos desde múltiples
           canales, como billeteras virtuales, home banking y cajeros.
         icon: /images/pagos-transferencia.png
-        ctaText: Conocé más
+        ctaText: Conocer más
         ctaLink: /servicios/pagar
         features:
           - text: Más alcance para ampliar la cantidad de clientes abonan sus servicios.
@@ -34,7 +34,7 @@ sections:
         content: Activá cobros con QR usando APIs y toda la tecnología link para
           procesar millones de transacciones en tiempo real.
         icon: /images/billeteras-digitales.png
-        ctaText: Conocé más
+        ctaText: Conocer más
         ctaLink: /servicios/pagos-con-transferencia
         features:
           - text: Visibilidad total de cada transacción, desde el inicio hasta la
