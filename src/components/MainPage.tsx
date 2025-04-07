@@ -1,4 +1,5 @@
 import React from 'react';
+import dynamic from 'next/dynamic';
 
 import Main from '@/components/Main';
 import Slider, { SliderProps } from '@/components/Slider';
@@ -54,6 +55,7 @@ export default function MainPage({
   title,
   sections
 }: MainPageProps) {
+
   return (
     <Main
       tabTitle={`${title ? title : 'Inicio'} • Link`}

@@ -36,17 +36,23 @@ export interface SliderContent {
 const Slider: React.FC<MainProps> = ({
   slider
 }) => {
+  const [resizeFlag, setResizeFlag] = useState(false);
   const [slides, setSlides] = useState<SliderProps[]>([]);
   
   useEffect(() => {
     async function fetchContent(slug: string) {
       const content = await import(`@/content/novedades/${slug || 'index'}.md`);
       setSlides((prev) => [...prev, content.attributes.hero]);
+
+      // Needed to ensure the slider gets rendered correctly when the data is fetched
+      if (resizeFlag === false) {
+        setResizeFlag(true);
+      }
     }
     if (slider) {
       slider.forEach((slide) => fetchContent(slide));
     }
-  }, [slider]);
+  }, [slider, resizeFlag]);
 
   const splideRef = React.useRef<{ splide: { go: (direction: string) => void } } | null>(null);
   return (
