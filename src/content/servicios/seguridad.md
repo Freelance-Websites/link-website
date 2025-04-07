@@ -73,7 +73,7 @@ sections:
           pago.
 
 
-          [Link nIrk al certificad](/images/pci-pin-certificate.pdf).
+          [Ir al certificado](/images/pci-pin-certificate.pdf)
       - title: Service bureau de SWIFT
         content: Cumplimiento con los estándares de seguridad de SWIFT para la
           transferencia segura de información financiera entre instituciones.
