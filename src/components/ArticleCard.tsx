@@ -22,7 +22,6 @@ export interface ArticleProps {
 }
 
 const ArticleCard: React.FC<ArticleProps> = ({
-  id,
   timestamp,
   hero
 }) => {
