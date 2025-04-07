@@ -4,7 +4,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas"
-        text: Conocé más
+        text: Conocer más
     decorations: false
     media: /images/services-mockup.png
     colorScheme: primary
@@ -61,7 +61,7 @@ sections:
   - type: accordion
     title: Funcionalidades principales
     colorScheme: light
-    description: Conocé cómo funciona la billetera link
+    description: Conocé cómo funciona nuestra banca digital.
     accordion:
       - title: Autenticación y gestión de usuarios
         media: /images/service-detail-feature-1.jpg
@@ -102,9 +102,8 @@ sections:
           - content: Centro de ayuda integrado.
   - type: cards
     byline: Servicios
-    title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema
-      financiero.
+    title: Tenemos la solución que buscás
+    description: Conocé nuestros servicios.
     colorScheme: dark
     cardLayout: horizontal
     cards:
@@ -133,7 +132,7 @@ sections:
           de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
-      - title: API banco
+      - title: API Banco
         content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
           oferta.
         icon: /images/homepage-service-4.png
