@@ -1,5 +1,5 @@
 ---
-title: PAGAR
+title: Pagar
 sections:
   - mediaPlacement: right
     ctas:
@@ -15,7 +15,7 @@ sections:
       manera digital. Brindamos conciliación automática, seguridad y amplia
       cobertura para que las personas puedan pagar sus facturas de manera ágil.
   - type: features
-    title: Ventajas de PAGAR
+    title: Ventajas de Pagar
     colorScheme: dark
     cards:
       - title: Para entidades financieras y comercios
@@ -64,9 +64,8 @@ sections:
       Así, ampliamos las posibilidades de pago y hacemos que la operatoria sea eficiente en cada rincón de Argentina.
   - type: cards
     byline: Servicios
-    title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema
-      financiero.
+    title: Tenemos la solución que buscás
+    description: Conocé nuestros servicios.
     colorScheme: dark
     cardLayout: horizontal
     cards:
