@@ -87,9 +87,9 @@ sections:
         prepend: +
   - type: cards
     byline: Servicios
-    title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema
-      financiero.
+    title: Tenemos la solución que buscás
+    description: |
+      Conocé nuestros servicios.
     colorScheme: dark
     cardLayout: horizontal
     cards:
