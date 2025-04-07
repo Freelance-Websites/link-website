@@ -4,7 +4,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas"
-        text: Conocé más
+        text: Conocer más
     decorations: false
     media: /images/services-mockup.png
     colorScheme: primary
@@ -148,7 +148,7 @@ sections:
           de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
-      - title: API banco
+      - title: API Banco
         content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
           oferta.
         icon: /images/homepage-service-4.png
