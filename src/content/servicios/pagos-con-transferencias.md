@@ -4,7 +4,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas"
-        text: Conocé más
+        text: Conocer más
     decorations: false
     media: /images/services-mockup.png
     colorScheme: primary
