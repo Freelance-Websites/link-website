@@ -98,11 +98,12 @@ sections:
       - value: 29
         prepend: +
         content: Bancos usan nuestras APIs
-      - value: 100
-        content: disponibilidad garantizada
-        append: "%"
-      - value: 9000
-        content: APIs disponibles
+      - value: 28
+        content: empresas usan nuestras APIs
+        append: ""
+        prepend: +
+      - value: 60
+        content: servicios apificados
         prepend: +
   - type: cards
     byline: Servicios
