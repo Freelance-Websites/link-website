@@ -1,5 +1,4 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
 
 import Main from '@/components/Main';
 import Slider, { SliderProps } from '@/components/Slider';
