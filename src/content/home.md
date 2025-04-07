@@ -39,14 +39,14 @@ sections:
         ctaLink: /servicios/soluciones-de-cobro
         ctaText: Conocé más
       - title: Banking as a service
-        content: "Creamos oportunidades de negocio brindando servicios a bancos y
-          empresas. "
+        content: Integrá servicios financieros en tus plataformas de forma rápida y
+          simple. Evolucioná con nosotros.
         icon: /images/homepage-service-3.png
         ctaLink: /servicios/banking-as-a-service
         ctaText: Conocé más
       - title: API banco
-        content: Sumate al ecosistema digital con APIs que amplían tu alcance y
-          potencian tu negocio.
+        content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
+          oferta.
         icon: /images/homepage-service-4.png
         ctaLink: /servicios/api-banco
         ctaText: Conocé más
