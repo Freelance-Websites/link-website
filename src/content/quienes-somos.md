@@ -9,7 +9,7 @@ sections:
     description: "Desde 1988 link facilita la inclusión financiera. Tenemos un propósito claro: impulsar la evolución del ecosistema financiero argentino a través nuestras soluciones."
     ctas:
       - text: Conocé más
-        link: '#claim'
+        link: '#quienes-somos'
   - type: phrase
     phrase: En un mundo en constante cambio, link impulsa la evolución financiera con soluciones seguras y escalables.
     colorScheme: primary

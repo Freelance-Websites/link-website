@@ -42,7 +42,7 @@
   @apply text-dark bg-primary;
 }
 
-html, body {
+html:not(.scroll-smooth) body {
   @apply bg-light;
 }
 

@@ -75,7 +75,7 @@ const FakeSlider: React.FC<MainProps> = ({
                 </video>
               :
                 <Image
-                  src={`/${slide.media}`}
+                  src={slide.media.startsWith('/') ? slide.media : `/${slide.media}`}
                   alt={slide.title || 'Slider Image'}
                   fill
                   style={{ objectFit: 'cover', objectPosition: 'center' }}

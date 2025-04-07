@@ -117,6 +117,7 @@ export default function MainPage({
                 key={`phrase-${index}`}
                 colorScheme={section.colorScheme || 'primary'}
                 phrase={section.phrase || ''}
+                title={title || ''}
               />
             );
           case 'stats':

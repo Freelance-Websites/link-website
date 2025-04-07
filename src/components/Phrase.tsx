@@ -1,17 +1,17 @@
 import React, { useEffect, useRef } from 'react';
-import { useRouter } from 'next/router';
+import slugify from 'react-slugify';
 
 export interface PhraseProps {
   colorScheme: 'primary' | 'light' | 'dark' | 'secondary';
   phrase: string;
+  title: string;
 }
 
 const Phrase: React.FC<PhraseProps> = ({
   colorScheme,
-  phrase
+  phrase,
+  title
 }) => {
-  const router = useRouter();
-  const pageSlug = router.pathname.split('/').pop();
   const phraseRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const Phrase: React.FC<PhraseProps> = ({
         `}
       </style>
       <section
-        id={pageSlug === 'quienes-somos' ? 'claim' : ''}
+        id={slugify(title)}
         className={`
           ${colorScheme === 'primary'
             ? 'bg-primary text-dark'
