@@ -42,6 +42,10 @@
   @apply text-dark bg-primary;
 }
 
+html, body {
+  @apply bg-light;
+}
+
 /* Rich text styles */
 .rich-text h1 {
   @apply font-sans mt-4 md:mt-8 font-bold leading-none text-3xl md:text-5xl;

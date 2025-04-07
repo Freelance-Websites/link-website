@@ -39,16 +39,17 @@ export default function Page({
       tabTitle={`${content?.title ? content?.title : 'Inicio'} • Link`}
     >
       {content?.hero && (
-      <TextAndImage
-        media={content.hero.media}
-        byline={content.timestamp ? new Date(content.timestamp).toLocaleDateString('en-GB').replace(/\//g, '/') : undefined}
-        title={content.hero.title}
-        mediaSize='full'
-        description={content.hero.description}
-        decorations={content.hero.decorations}
-        ctas={[]}
-        colorScheme={content.hero.colorScheme || 'primary'}
-      />
+        <TextAndImage
+          media={content.hero.media}
+          byline={content.timestamp ? new Date(content.timestamp).toLocaleDateString('en-GB').replace(/\//g, '/') : undefined}
+          title={content.hero.title}
+          description={content.hero.description}
+          decorations={content.hero.decorations}
+          mediaSize={content.hero.mediaSize}
+          layout={content.hero.layout}
+          ctas={[]}
+          colorScheme={content.hero.colorScheme || 'primary'}
+        />
       )}
       {content?.text && (
       <div

@@ -75,7 +75,7 @@ const Header: React.FC = ({
         className='flex items-center justify-between container mx-auto px-4 md:px-0'
       >
         <Link
-          href={!active ? '#top' : `/`}
+          href='/'
           className='transition duration-300 hover:opacity-80'
         >
           <svg
@@ -225,7 +225,7 @@ const Header: React.FC = ({
             className={isScrolled || isMobile ? 'text-dark text-center' : 'text-light'}
           >
             <Link
-              href='/home#top'
+              href='/novedades'
               className={`
                 transition duration-300 hover:opacity-80
                 ${active === 'novedades' ? 'underline' : ''}

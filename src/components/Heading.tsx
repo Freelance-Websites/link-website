@@ -226,7 +226,7 @@ const Heading: React.FC<MainProps> = ({
         </ul>
       )}
       {ctas && ctas.length > 0 &&
-        <ul className='flex gap-4 mt-4 md:mt-8'>
+        <ul className='flex items-center gap-4 mt-4 md:mt-8'>
           {ctas.map((cta, index) => {
             const isLink = cta.link?.startsWith('http') || cta.link?.startsWith('#') || cta.link?.startsWith('/') || cta.link?.startsWith('www');
             const isExternal = cta.link?.startsWith('http') || cta.link?.startsWith('www');
@@ -238,7 +238,12 @@ const Heading: React.FC<MainProps> = ({
                   link={cta.link}
                   isLink={isLink}
                   isExternal={isExternal}
-                  colorScheme={index === 0 ? colorScheme : 'transparent'}
+                  colorScheme={
+                    index === 0 && !isAboveImage ? colorScheme
+                    : index === 0 && isAboveImage ? 'primary'
+                    : 'transparent'
+
+                  }
                   isAboveImage={isAboveImage}
                   showArrow={index === 0}
                 />

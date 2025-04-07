@@ -723,6 +723,14 @@ collections:
               - { label: "Amarillo", value: "secondary", hint: "Color de todos los elementos verde oscuro" }
               - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
           - { label: Decoraciones, name: decorations, widget: boolean, hint: Muestra u oculta la grilla decorativa de puntos, default: true, required: false }
+          - label: "Tamaño de la imagen/video"
+            name: "mediaSize"
+            widget: "select"
+            required: false
+            hint: Determina el tamaño de la imagen/video. Si no se completa, a tamaño completo.
+            options:
+              - { label: Tamaño completo, value: "full", required: false, hint: Ocupará la mitad de la pantalla }
+              - { label: Con márgenes, value: "boxed", required: false, hint: Se mostrará más chica y con márgenes alrededor }
           - label: "Botones"
             name: "ctas"
             widget: "list"

@@ -71,10 +71,10 @@ const Slider: React.FC<MainProps> = ({
               w-full h-screen relative
               flex flex-col justify-center items-center
               ${slide.colorScheme === 'primary'
-                ? 'bg-dark'
+                ? 'bg-primary'
                 : slide.colorScheme === 'light'
                   ? 'bg-light'
-                  : 'bg-primary'
+                  : 'bg-dark'
               }
             `}
             >
@@ -110,7 +110,7 @@ const Slider: React.FC<MainProps> = ({
                   {/* Decorations */}
                   {slide.decorations && (
                     <DotGrid
-                      colorScheme={slide.colorScheme}
+                      colorScheme={slide.media ? 'primary' : slide.colorScheme}
                     />
                   )}
                   {/* Title, description, CTA */}

@@ -9,7 +9,8 @@ hero:
     Migramos el Data Lakehouse y la plataforma de 
 
     APIs a Google Cloud Platform para potenciar nuestra arquitectura tecnológica.
-  colorScheme: primary
+  colorScheme: dark
+  mediaSize: boxed
   ctas:
     - text: Conocé más
       link: /novedades/construimos-futuro-en-la-nube

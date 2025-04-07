@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import Button from '@/components/Button';
 
-export interface CardProps {
+export interface ArticleProps {
   id: string;
   timestamp?: string;
   description?: string;
@@ -13,6 +13,7 @@ export interface CardProps {
     title?: string;
     description?: string;
     colorScheme?: 'primary' | 'light' | 'secondary' | 'dark';
+    mediaSize?: 'full' | 'boxed' | 'cover';
     ctas?: {
       text?: string;
       link?: string;
@@ -20,29 +21,46 @@ export interface CardProps {
   };
 }
 
-const ArticleCard: React.FC<CardProps> = ({
+const ArticleCard: React.FC<ArticleProps> = ({
   id,
   timestamp,
   hero
 }) => {
+  const router = useRouter();
+
   return (
-    <Link
-      href={hero?.ctas?.[0]?.link || '#'}
-      className='group grid gap-4'
+    <div
+      onClick={() => router.push(hero?.ctas?.[0]?.link || '#')}
+      className='relative group grid gap-4 content-start cursor-pointer'
     >
-      <div className='relative aspect-video w-full h-auto'>
+      <div
+        className={`
+          relative w-full h-64 md:h-80 rounded-xl
+          ${hero?.colorScheme === 'primary'
+            ? 'bg-primary'
+            : hero?.colorScheme === 'secondary'
+            ? 'bg-secondary'
+            : hero?.colorScheme === 'dark'
+            ? 'bg-dark'
+            : 'bg-light'
+          }
+        `}
+      >
         <Image
           src={hero?.media?.startsWith('/') ? hero?.media : `/${hero?.media}`}
           alt={hero?.title || ''}
           fill
-          className="w-full h-auto object-cover rounded-lg group-hover:opacity-80 transition-opacity duration-300"
+          className={`
+            w-full h-full group-hover:opacity-80 transition-opacity duration-300 rounded-xl
+            ${hero?.mediaSize === 'full' ? 'object-cover' : 'object-contain'}
+          `}
         />
       </div>
       <div className='grid gap-2'>
         {timestamp && (
           <p className={`
-            text-lg
-            ${hero?.colorScheme === 'dark' ? 'text-light' : 'text-dark'}
+            text-lg font-serif italic
+            text-dark
           `}
           >
             {new Date(timestamp).toLocaleDateString('en-GB').replace(/\//g, '/')}
@@ -51,7 +69,7 @@ const ArticleCard: React.FC<CardProps> = ({
         <h3
           className={`
             text-xl md:text-2xl font-bold
-            ${hero?.colorScheme === 'dark' ? 'text-light' : 'text-dark'}
+            text-dark
           `}
         >
           {hero?.title}
@@ -60,7 +78,7 @@ const ArticleCard: React.FC<CardProps> = ({
             <p
             className={`
               font-serif
-              ${hero?.colorScheme === 'dark' ? 'text-light' : 'text-dark'}
+              text-dark
             `}
             >
             {hero?.description?.slice(0, 200)}
@@ -77,7 +95,7 @@ const ArticleCard: React.FC<CardProps> = ({
           />
         )}
       </div>
-    </Link>
+    </div>
   )
 }
 

@@ -37,6 +37,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
   layout
 }) => {
   const imageRef = useRef<HTMLImageElement>(null);
+  const mediaExtension = media?.split('.').pop();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -124,7 +125,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
                 alt={title || 'Link'}
                 fill
                 style={{
-                  objectFit: layout === 'boxed' ? 'contain' : 'cover',
+                  objectFit: layout === 'boxed' && mediaExtension === 'png' ? 'contain' : 'cover',
                   objectPosition: 'center'
                 }}
               />

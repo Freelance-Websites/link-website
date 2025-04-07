@@ -10,6 +10,7 @@ hero:
     primeros del país en ofrecer pagos con Mastercard Debit, a través de Google
     Pay.
   colorScheme: primary
+  mediaSize: full
   ctas:
     - text: Conocé más
       link: /novedades/bna-y-bancor-habilitan-pagos-con-nfc

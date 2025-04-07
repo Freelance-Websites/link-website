@@ -8,6 +8,7 @@ hero:
     tranvías de Mendoza, Córdoba, Santa Fe y CABA.
   title: El transporte público suma pagos con débito sin contacto
   colorScheme: primary
+  mediaSize: full
   decorations: true
   byline: Novedades
   ctas:

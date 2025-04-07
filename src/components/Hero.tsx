@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Heading from '@/components/Heading';
 import DotGrid from '@/components/DotGrid';
 import { ButtonProps } from '@/components/Button';
+import { isVideo } from '@/utils/media';
 
 export interface HeroProps {
   media?: string;
@@ -14,6 +15,7 @@ export interface HeroProps {
   colorScheme?: 'primary' | 'light' | 'dark' | 'secondary';
   ctas?: ButtonProps[];
   decorations?: boolean;
+  mediaSize?: 'full' | 'boxed';
 }
 
 const Hero: React.FC<HeroProps> = ({
@@ -26,12 +28,6 @@ const Hero: React.FC<HeroProps> = ({
   ctas,
   colorScheme = 'primary'
 }) => {
-  const isVideo = (media: string) => {
-    const videoExtensions = ['mp4', 'webm', 'ogg'];
-    const extension = media.split('.').pop();
-    return videoExtensions.includes(extension || '');
-  };
-
   return (
     <section
       className={`
