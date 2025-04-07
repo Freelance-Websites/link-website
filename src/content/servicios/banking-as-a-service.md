@@ -4,7 +4,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas-de-banking as a service"
-        text: Conocé más
+        text: Conocer más
     decorations: false
     media: /images/services-mockup.png
     colorScheme: primary
@@ -62,7 +62,7 @@ sections:
         content: Creá productos financieros sin invertir en infraestructura bancaria.
       - title: Empresas de servicios
         content: Agilizá cobros, pagos y gestión de fondos con tecnología escalable.
-    title: Banking as a Service para Empresas
+    title: Banking as a Service para empresas
     type: textAndImage
     description: Monetizá servicios financieros y diferenciá tu negocio. Conocé las
       industrias que podés alcanzar.
