@@ -4,7 +4,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas-de-las-api-link"
-        text: Conocé más
+        text: Conocer más
     decorations: false
     media: /images/services-mockup.png
     colorScheme: primary
