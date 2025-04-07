@@ -120,7 +120,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
           :
             mediaSize === 'full'
               ? <Image
-                src={media}
+                src={media.startsWith('/') ? media : `/${media}`}
                 alt={title || 'Link'}
                 fill
                 style={{
@@ -129,7 +129,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
                 }}
               />
               : <Image
-                src={media}
+                src={media.startsWith('/') ? media : `/${media}`}
                 alt={title || 'Link'}
                 width={640}
                 height={640}
