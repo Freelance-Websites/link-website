@@ -88,15 +88,15 @@ sections:
       protagonista del futuro de la banca. Conocé todo lo que podés hacer:"
   - type: cards
     byline: Servicios
-    title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema
-      financiero.
+    title: Tenemos la solución que buscás
+    description: |
+      Conocé nuestros servicios.
     colorScheme: dark
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de
-          pago completa.
+        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
+          único hub.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
       - title: Soluciones de cobro
@@ -114,12 +114,12 @@ sections:
         icon: /images/homepage-service-7.png
         ctaLink: /servicios/seguridad
       - title: Plataformas digitales
-        content: Transformá la gestión financiera de tu entidad con plataformas
-          flexibles, seguras y personalizadas.
+        content: Diseñadas para individuos, empresas y gobiernos, 100% integrables y
+          personalizables.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
       - title: API banco
-        content: Sumate al ecosistema digital con APIs que amplían tu alcance y
-          potencian tu negocio.
+        content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
+          oferta.
         icon: /images/homepage-service-4.png
 ---
