@@ -76,7 +76,7 @@ const Stats: React.FC<StatsProps> = ({
             >
               <CountUp
                 className={`
-                  text-7xl lg:text-9xl
+                  text-7xl lg:text-8xl
                   font-bold leading-none font-numbers
                   ${colorScheme === 'dark'
                     ? 'text-primary'
