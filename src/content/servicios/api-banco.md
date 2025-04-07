@@ -1,5 +1,5 @@
 ---
-title: API Banco
+title: APIs Banco
 sections:
   - mediaPlacement: right
     ctas:
