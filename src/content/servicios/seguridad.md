@@ -4,7 +4,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas-de-la-seguridad-link"
-        text: Conocé más
+        text: Conocer más
     decorations: false
     media: /images/services-mockup.png
     colorScheme: primary
@@ -54,16 +54,26 @@ sections:
     byline: Certificaciones
     bullets:
       - title: PCI DSS (Payment Card Industry Data Security Standard)
-        content: "Garantiza la seguridad de los datos de tarjetas de pago mediante
-          estrictos controles y procedimientos: [Link al
-          certificado](/images/pci-dss-certificate.pdf)."
+        content: >-
+          Garantiza la seguridad de los datos de tarjetas de pago mediante
+          estrictos controles y procedimientos.
+
+
+          [Ir al certificado](/images/pci-dss-certificate.pdf)
       - title: SSLC (Secure Software Life Cycle)
-        content: "Asegura que el desarrollo de software siga prácticas seguras a lo
-          largo de su ciclo de vida: [Link al
-          certificado](/images/pci-sslc-certificate.pdf)."
+        content: >-
+          Asegura que el desarrollo de software siga prácticas seguras a lo
+          largo de su ciclo de vida. [](/images/pci-sslc-certificate.pdf)
+
+
+          [Ir al certificado](/images/pci-sslc-certificate.pdf)
       - title: PTS (PIN Transaction Security)
-        content: "Certificación que protege las transacciones de PIN en dispositivos de
-          pago: [Link al certificado](/images/pci-pin-certificate.pdf)."
+        content: >-
+          Certificación que protege las transacciones de PIN en dispositivos de
+          pago.
+
+
+          [Link nIrk al certificad](/images/pci-pin-certificate.pdf).
       - title: Service bureau de SWIFT
         content: Cumplimiento con los estándares de seguridad de SWIFT para la
           transferencia segura de información financiera entre instituciones.
