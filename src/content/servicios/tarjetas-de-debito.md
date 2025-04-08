@@ -1,17 +1,19 @@
 ---
 title: Tarjetas de débito
 sections:
-  - type: textAndImage
-    media: /images/services-mockup.png
-    mediaPlacement: right
-    byline: Servicios
-    title: Tarjetas de débito
-    colorScheme: primary
-    decorations: false
-    description: Fidelizá clientes con tarjetas de débito personalizadas y de alta disponibilidad. Ofrecemos un servicio 24/7 que autoriza transacciones en tiempo real. 
+  - mediaPlacement: right
     ctas:
       - link: "#ventajas"
-        text: Conocé más
+        text: Conocer más
+    decorations: false
+    media: /images/services-mockup.png
+    colorScheme: primary
+    byline: Servicios
+    title: Tarjetas de débito
+    type: textAndImage
+    description: Fidelizá clientes con tarjetas de débito personalizadas y de alta
+      disponibilidad. Ofrecemos un servicio 24/7 que autoriza transacciones en
+      tiempo real.
   - type: features
     title: Ventajas
     colorScheme: dark
@@ -27,7 +29,8 @@ sections:
             text: Conciliación, generación de reportes y gestión de mandatos de marca.
           - icon: /images/check-circle.png
             title: Administración de Riesgo
-            text: Monitoreo transaccional, con herramientas de control y prevención de fraude. 
+            text: Monitoreo transaccional, con herramientas de control y prevención de
+              fraude.
           - icon: /images/check-circle.png
             title: Disponibilidad 24/7
             text: Servicios disponibles para operar en todo momento.
@@ -36,7 +39,7 @@ sections:
             text: Protección de datos sensibles durante las transacciones.
           - icon: /images/check-circle.png
             title: Personalización y embozado
-            text: Gestionamos el diseño y embozado de tarjetas EMV contactless. 
+            text: Gestionamos el diseño y embozado de tarjetas EMV contactless.
       - title: Para personas usuarias
         icon: /images/usuarios.png
         features:
@@ -45,23 +48,26 @@ sections:
             text: Puede operar sin necesidad del plástico.
           - icon: /images/check-circle.png
             title: Acceso a servicios financieros
-            text: Disponibilidad para hacer compras con tarjetas de débito sin interrupciones.
+            text: Disponibilidad para hacer compras con tarjetas de débito sin
+              interrupciones.
           - icon: /images/check-circle.png
             title: Experiencia segura y confiable
             text: Protección de datos y transacciones con  cifrado de información.
           - icon: /images/check-circle.png
             title: Experiencia digital completa
-            text:  Servicios que permiten agregar tarjetas a billeteras abiertas como GPay y Apple Pay.
-  - type: textAndImage
-    media: /images/case-study-mockup.png
-    mediaPlacement: right
-    byline: Caso de éxito
-    mediaSize: boxed
-    title: Millones de personas pagan con NFC
-    colorScheme: light
+            text: Servicios que permiten agregar tarjetas a billeteras abiertas como GPay y
+              Apple Pay.
+  - mediaPlacement: right
     decorations: false
+    media: /images/case-study-mockup.png
+    mediaSize: boxed
+    colorScheme: light
+    byline: Caso de éxito
+    title: Millones de personas pagan con NFC
+    type: textAndImage
     description: >-
-      BNA y BANCOR decidieron digitalizar los pagos con tarjetas de débito para ofrecer una experiencia ágil. 
+      BNA y BANCOR decidieron digitalizar los pagos con tarjetas de débito para
+      ofrecer una experiencia ágil. 
 
 
       **¿Qué hicimos?**\
@@ -81,14 +87,15 @@ sections:
         prepend: +
   - type: cards
     byline: Servicios
-    title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema
-      financiero.
+    title: Tenemos la solución que buscás
+    description: |
+      Conocé nuestros servicios.
     colorScheme: dark
     cardLayout: horizontal
     cards:
       - title: ATM
-        content: Formá parte de la red más extensa y segura de cajeros de todo el país.
+        content: Formá parte de la red líder más extensa y segura de cajeros automáticos
+          de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
       - title: Soluciones de cobro
@@ -96,22 +103,23 @@ sections:
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
-      - title: Banking as a service
-        content: "Creamos oportunidades de negocio brindando servicios a bancos y
-          empresas. "
+      - title: Banking as a Service
+        content: Integrá servicios financieros en tus plataformas de forma rápida,
+          simple. Evolucioná con nosotros.
         icon: /images/homepage-service-3.png
         ctaLink: /servicios/banking-as-a-service
       - title: Seguridad
-        content: Blindamos todas las operaciones financieras con tecnología de punta y estándares globales.
+        content: Blindamos todas las operaciones financieras con tecnología de punta y
+          estándares globales.
         icon: /images/homepage-service-7.png
         ctaLink: /servicios/seguridad
       - title: Plataformas digitales
-        content: Transformá la gestión financiera de tu entidad con plataformas
-          flexibles, seguras y personalizadas.
+        content: Diseñadas para individuos, empresas y gobiernos, 100% integrables y
+          personalizables.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
-      - title: API banco
-        content: Sumate al ecosistema digital con APIs que amplían tu alcance y
-          potencian tu negocio.
+      - title: API Banco
+        content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
+          oferta.
         icon: /images/homepage-service-4.png
 ---
