@@ -1,17 +1,19 @@
 ---
 title: Banca digital para individuos
 sections:
-  - type: textAndImage
-    media: /images/services-mockup.png
-    mediaPlacement: right
-    byline: Servicios
-    title: Banca digital para individuos
-    colorScheme: primary
-    decorations: false
-    description: Convertí tu home banking en una experiencia digital completa. Construimos plataformas confiables, con funcionalidades desarrolladas para el segmento Individuos.
+  - mediaPlacement: right
     ctas:
       - link: "#ventajas"
         text: Conocé más
+    decorations: false
+    media: /images/services-mockup.png
+    colorScheme: primary
+    byline: Servicios
+    title: Banca digital para individuos
+    type: textAndImage
+    description: Convertí tu home banking en una experiencia digital completa.
+      Construimos plataformas confiables, con funcionalidades desarrolladas para
+      el segmento Individuos.
   - type: features
     title: Ventajas
     colorScheme: dark
@@ -65,7 +67,7 @@ sections:
         bullets:
           - content: Pago QR.
           - content: Transferencias y envío/pedido de dinero.
-          - content: Pago de servicios, AFIP/VEP, ARBA.
+          - content: Pago de servicios, ARCA/VEP/ARBA
           - content: Recarga de celular y transporte.
       - title: Gestión de dinero y Operaciones bancarias
         media: /images/service-detail-feature-1.jpg
@@ -84,15 +86,14 @@ sections:
           - content: Centro de ayuda integrado.
   - type: cards
     byline: Servicios
-    title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema
-      financiero.
+    title: Tenemos la solución que buscás
+    description: Conocé nuestros servicios.
     colorScheme: dark
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de
-          pago completa.
+        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
+          único hub.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
       - title: Soluciones de cobro
@@ -100,21 +101,23 @@ sections:
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
-      - title: Banking as a service
-        content: "Creamos oportunidades de negocio brindando servicios a bancos y
-          empresas. "
+      - title: Banking as a Service
+        content: Integrá servicios financieros en tus plataformas de forma rápida,
+          simple. Evolucioná con nosotros.
         icon: /images/homepage-service-3.png
         ctaLink: /servicios/banking-as-a-service
       - title: Seguridad
-        content: Blindamos todas las operaciones financieras con tecnología de punta y estándares globales.
+        content: Blindamos todas las operaciones financieras con tecnología de punta y
+          estándares globales.
         icon: /images/homepage-service-7.png
         ctaLink: /servicios/seguridad
       - title: ATM
-        content: Formá parte de la red más extensa y segura de cajeros de todo el país.
+        content: Formá parte de la red líder más extensa y segura de cajeros automáticos
+          de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
-      - title: API banco
-        content: Sumate al ecosistema digital con APIs que amplían tu alcance y
-          potencian tu negocio.
+      - title: API Banco
+        content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
+          oferta.
         icon: /images/homepage-service-4.png
 ---
