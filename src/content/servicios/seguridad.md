@@ -4,7 +4,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas-de-la-seguridad-link"
-        text: Conocé más
+        text: Conocer más
     decorations: false
     media: /images/services-mockup.png
     colorScheme: primary
@@ -54,16 +54,26 @@ sections:
     byline: Certificaciones
     bullets:
       - title: PCI DSS (Payment Card Industry Data Security Standard)
-        content: "Garantiza la seguridad de los datos de tarjetas de pago mediante
-          estrictos controles y procedimientos: [Link al
-          certificado](/images/pci-dss-certificate.pdf)."
+        content: >-
+          Garantiza la seguridad de los datos de tarjetas de pago mediante
+          estrictos controles y procedimientos.
+
+
+          [Ir al certificado](/images/pci-dss-certificate.pdf)
       - title: SSLC (Secure Software Life Cycle)
-        content: "Asegura que el desarrollo de software siga prácticas seguras a lo
-          largo de su ciclo de vida: [Link al
-          certificado](/images/pci-sslc-certificate.pdf)."
+        content: >-
+          Asegura que el desarrollo de software siga prácticas seguras a lo
+          largo de su ciclo de vida. [](/images/pci-sslc-certificate.pdf)
+
+
+          [Ir al certificado](/images/pci-sslc-certificate.pdf)
       - title: PTS (PIN Transaction Security)
-        content: "Certificación que protege las transacciones de PIN en dispositivos de
-          pago: [Link al certificado](/images/pci-pin-certificate.pdf)."
+        content: >-
+          Certificación que protege las transacciones de PIN en dispositivos de
+          pago.
+
+
+          [Ir al certificado](/images/pci-pin-certificate.pdf)
       - title: Service bureau de SWIFT
         content: Cumplimiento con los estándares de seguridad de SWIFT para la
           transferencia segura de información financiera entre instituciones.
@@ -78,8 +88,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Transferencias, tarjetas y más. Tenemos todo para una experiencia de
-          pago completa.
+        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
+          único hub.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
       - title: Soluciones de cobro
@@ -87,23 +97,24 @@ sections:
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
-      - title: Banking as a service
-        content: "Creamos oportunidades de negocio brindando servicios a bancos y
-          empresas. "
+      - title: Banking as a Service
+        content: Integrá servicios financieros en tus plataformas de forma rápida,
+          simple. Evolucioná con nosotros.
         icon: /images/homepage-service-3.png
         ctaLink: /servicios/banking-as-a-service
-      - title: API banco
-        content: Sumate al ecosistema digital con APIs que amplían tu alcance y
-          potencian tu negocio.
+      - title: API Banco
+        content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
+          oferta.
         icon: /images/homepage-service-4.png
         ctaLink: /servicios/api-banco
       - title: Plataformas digitales
-        content: Transformá la gestión financiera de tu entidad con plataformas
-          flexibles, seguras y personalizadas.
+        content: Diseñadas para individuos, empresas y gobiernos, 100% integrables y
+          personalizables.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
       - title: ATM
-        content: Formá parte de la red más extensa y segura de cajeros de todo el país.
+        content: Formá parte de la red líder más extensa y segura de cajeros
+          automáticosde todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
 ---
