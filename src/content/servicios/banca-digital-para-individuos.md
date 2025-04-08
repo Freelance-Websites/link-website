@@ -67,7 +67,7 @@ sections:
         bullets:
           - content: Pago QR.
           - content: Transferencias y envío/pedido de dinero.
-          - content: Pago de servicios, AFIP/VEP, ARBA.
+          - content: Pago de servicios, ARCA/VEP/ARBA
           - content: Recarga de celular y transporte.
       - title: Gestión de dinero y Operaciones bancarias
         media: /images/service-detail-feature-1.jpg
