@@ -5,7 +5,7 @@ import BlogPreview from '../preview/blog'
 const Admin = () => {
   useEffect(() => {
     ;(async () => {
-      const CMS = (await import('netlify-cms-app')).default
+      const CMS = (await import('decap-cms-app')).default
       CMS.init()
       CMS.registerPreviewStyle('/output.css')
       CMS.registerPreviewTemplate('static', PagePreview)
