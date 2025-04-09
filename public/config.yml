@@ -297,7 +297,7 @@ collections:
                   - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
               - label: "Tarjetas"
                 hint: Lista de tarjetas (cards) que se mostrarán debajo de la descripción.
-                name: "features"
+                name: "cards"
                 widget: "list"
                 allow_add: true
                 fields:
@@ -627,7 +627,7 @@ collections:
                   - { label: "Blanco", value: "light", hint: "Color de fondo blanco, color de texto verde oscuro, color de botón verde claro"  }
               - label: "Tarjetas"
                 hint: Lista de tarjetas (cards) que se mostrarán debajo de la descripción.
-                name: "features"
+                name: "cards"
                 widget: "list"
                 allow_add: true
                 fields:
