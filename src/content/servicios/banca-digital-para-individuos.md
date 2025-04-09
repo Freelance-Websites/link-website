@@ -4,16 +4,16 @@ sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas"
-        text: Conocé más
+        text: Conocer más
     decorations: false
     media: /images/services-mockup.png
     colorScheme: primary
     byline: Servicios
     title: Banca digital para individuos
     type: textAndImage
-    description: Convertí tu home banking en una experiencia digital completa.
-      Construimos plataformas confiables, con funcionalidades desarrolladas para
-      el segmento Individuos.
+    description: Transformá tu home banking en una experiencia digital que conecta,
+      simplifica y fideliza. Creamos plataformas flexibles, seguras y
+      escalables, pensadas para el presente y el futuro de la banca digital.
   - type: features
     title: Ventajas
     colorScheme: dark
@@ -45,45 +45,41 @@ sections:
   - type: accordion
     title: Funcionalidades principales
     colorScheme: light
-    description: Conocé cómo funciona la billetera link
+    description: Conocé cómo funciona nuestra banca digital
     accordion:
       - title: Autenticación y gestión de usuarios
         media: /images/service-detail-feature-1.jpg
         bullets:
-          - content: Onboarding y registro.
-          - content: Login, recupero de clave, cambio de contraseña.
-          - content: Desbloqueo de usuario.
-          - content: cambio de dispositivo.
-          - content: Alta/cambio de teléfono y gestión de perfil.
-      - title: Home y navegación principal
+          - content: Onboarding 100% digital
+          - content: Login con ingreso rápido
+          - content: Autogestión de credenciales y datos personales
+      - title: Gestión de dinero y operaciones bancarias
         media: /images/service-detail-feature-1.jpg
         bullets:
-          - content: Home.
-          - content: Comunicaciones.
-          - content: Notificaciones.
-          - content: Promociones.
-      - title: Pagos y operaciones
+          - content: Administración de cuentas y tarjetas
+          - content: Plazo Fijo y CEDIP
+          - content: Préstamos y adelanto de haberes
+          - content: Transferencias a CBU/ CVU/ entre cuentas propias
+          - content: "Historial de transferencias  "
+          - content: Debin
+          - content: Credin
+          - content: Cheques electrónicos
+          - content: Órdenes de extracción
+          - content: Comprobantes
+      - title: Pagos y recargas
         media: /images/service-detail-feature-1.jpg
         bullets:
-          - content: Pago QR.
-          - content: Transferencias y envío/pedido de dinero.
-          - content: Pago de servicios, ARCA/VEP/ARBA
-          - content: Recarga de celular y transporte.
-      - title: Gestión de dinero y Operaciones bancarias
+          - content: Agenda de pagos y recargas
+          - content: Adhesión
+          - content: Consulta de pagos y recargas realizados
+          - content: Pagos ARCA
+      - title: Notificaciones
         media: /images/service-detail-feature-1.jpg
         bullets:
-          - content: Cuentas y tarjetas.
-          - content: Ingreso de dinero.
-          - content: Órdenes de extracción con PIN o PIN+QR.
-      - title: Historial y actividad
-        media: /images/service-detail-feature-1.jpg
-        bullets:
-          - content: Actividad y comprobantes.
-          - content: Emails.
-      - title: Ayuda y soporte
-        media: /images/service-detail-feature-1.jpg
-        bullets:
-          - content: Centro de ayuda integrado.
+          - content: Notificaciones Push
+          - content: Buzón de novedades
+          - content: Autogestión de mensajes y alertas
+          - content: Avisos por correo electrónico
   - type: cards
     byline: Servicios
     title: Tenemos la solución que buscás
