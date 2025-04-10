@@ -3,7 +3,7 @@ title: APIs Banco
 sections:
   - mediaPlacement: right
     ctas:
-      - link: "#ventajas-de-las-api-link"
+      - link: "#Ventajas-de-conectarse-a-nuestro-Ecosistema-de-Servicios-apificado"
         text: Conocer más
     decorations: false
     media: /images/services-mockup.png
