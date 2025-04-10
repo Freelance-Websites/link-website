@@ -64,8 +64,8 @@ sections:
         content: Agilizá cobros, pagos y gestión de fondos con tecnología escalable.
     title: Banking as a Service para empresas
     type: textAndImage
-    description: Monetizá servicios financieros y diferenciá tu negocio. Conocé las
-      industrias que podés alcanzar.
+    description: "Accedé a servicios financieros y diferenciá tu negocio. Conocé
+      algunas de las industrias que pueden usarlo:"
   - mediaPlacement: left
     ctas: []
     decorations: false
