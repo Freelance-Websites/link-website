@@ -28,7 +28,7 @@ sections:
             title: Optimización de costos
             text: Reducí gastos en infraestructura y tecnología.
           - icon: /images/check-circle.png
-            title: Máxima seguridad
+            title: Accesos seguros
             text: Biometría facial, autenticación 2FA y claves OTP para operaciones
               blindadas.
           - icon: /images/check-circle.png
@@ -48,7 +48,7 @@ sections:
             text: Protegemos cada transacción con autenticación avanzada.
           - icon: /images/check-circle.png
             title: Disponibilidad total
-            text: Servicios 24/7 sin interrupciones.
+            text: Servicios 24/7
           - icon: /images/check-circle.png
             title: Experiencia digital completa
             text: Todo en un solo lugar, sin complicaciones.
