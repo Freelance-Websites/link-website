@@ -15,7 +15,7 @@ sections:
       servicios digitales, optimizá costos y garantizá la mejor experiencia, con
       tecnología y seguridad link.
   - type: features
-    title: Ventajas de las APIs link
+    title: Ventajas de conectarse a nuestro Ecosistema de Servicios apificado
     colorScheme: dark
     cards:
       - title: Para Bancos
