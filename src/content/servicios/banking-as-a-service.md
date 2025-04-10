@@ -16,7 +16,7 @@ sections:
       permite integrar soluciones de pagos, cuentas y financiamiento con
       rapidez, seguridad y escalabilidad.
   - type: features
-    title: Ventajas de Banking as a Service
+    title: Ventajas del Banking as a Service
     colorScheme: dark
     cards:
       - title: Para entidades financieras y empresas
