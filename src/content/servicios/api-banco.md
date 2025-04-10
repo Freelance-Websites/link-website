@@ -54,7 +54,7 @@ sections:
             text: Todo en un solo lugar, sin complicaciones.
   - mediaPlacement: right
     ctas:
-      - text: Ir al Marketplace
+      - text: Contactanos y accedé al Portal de APIs
         link: /
     decorations: false
     media: /images/case-study-mockup.png
@@ -63,11 +63,12 @@ sections:
     byline: Marketplace
     bullets:
       - title: Expansión sin límites
-        content: Monetizá tus servicios y generá nuevas fuentes de ingresos.
+        content: A﻿ccedé a los servicios modularizados de link con integraciones
+          rápidas.
       - title: Conectividad Open Banking
-        content: Prepará tu banco para operar en un ecosistema financiero abierto y
+        content: Prepará tu Banco para operar en un ecosistema financiero abierto y
           colaborativo.
-      - title: Rol administrador de link
+      - title: Credenciales link
         content: Gestioná tus integraciones con total autonomía y control.
     title: Apificá tu Banco y preparate para el futuro
     type: textAndImage
