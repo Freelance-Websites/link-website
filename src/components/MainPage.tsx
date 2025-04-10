@@ -48,13 +48,14 @@ export interface SectionProps {
 export interface MainPageProps {
   title: string;
   sections: SectionProps[];
+  referral?: string;
 }
 
 export default function MainPage({
   title,
-  sections
+  sections,
+  referral
 }: MainPageProps) {
-
   return (
     <Main
       tabTitle={`${title ? title : 'Inicio'} • Link`}
@@ -167,6 +168,7 @@ export default function MainPage({
                   colorScheme={section.colorScheme || 'primary'}
                   ctas={section.ctas || []}
                   cards={section.cards || []}
+                  referral={referral || ''}
                 />
               )
             case 'accordion':

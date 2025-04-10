@@ -11,7 +11,8 @@ const Features: React.FC<CardGridProps> = ({
   description,
   colorScheme,
   ctas,
-  cards
+  cards,
+  referral
 }) => {
   const cardCount = cards.length;
   const gridLayout = cardCount === 1
@@ -32,7 +33,11 @@ const Features: React.FC<CardGridProps> = ({
               : 'bg-dark text-light'
         }
       `}
-      id={slugify(byline || title)}
+      id={
+        referral === 'servicios'
+        ? 'ventajas'
+        : slugify(byline || title)
+      }
     >
       <div
         className={`

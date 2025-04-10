@@ -14,6 +14,7 @@ export interface CardGridProps {
   ctas?: ButtonProps[];
   cards: CardProps[];
   cardLayout?: 'horizontal' | 'vertical';
+  referral?: string;
 }
 
 const CardGrid: React.FC<CardGridProps> = ({
