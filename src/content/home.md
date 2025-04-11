@@ -63,7 +63,9 @@ sections:
         ctaLink: /servicios/atm
         ctaText: Conocer más
   - mediaPlacement: left
-    ctas: []
+    ctas:
+      - text: Conocer más
+        link: /servicios/seguridad
     decorations: true
     media: /images/homepage-certifications.jpg
     colorScheme: light
