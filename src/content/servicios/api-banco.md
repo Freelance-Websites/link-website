@@ -15,7 +15,7 @@ sections:
       servicios digitales, optimizá costos y garantizá la mejor experiencia, con
       tecnología y seguridad link.
   - type: features
-    title: Ventajas de las APIs link
+    title: Ventajas de conectarse nuestro Ecosistema de ervicios apificado
     colorScheme: dark
     cards:
       - title: Para Bancos
@@ -28,7 +28,7 @@ sections:
             title: Optimización de costos
             text: Reducí gastos en infraestructura y tecnología.
           - icon: /images/check-circle.png
-            title: Máxima seguridad
+            title: Seguridad
             text: Biometría facial, autenticación 2FA y claves OTP para operaciones
               blindadas.
           - icon: /images/check-circle.png
@@ -41,9 +41,6 @@ sections:
             title: Banca más simple
             text: Acceso inmediato a pagos, transferencias y consultas.
           - icon: /images/check-circle.png
-            title: Seguridad de última generación
-            text: Protegemos cada transacción con autenticación avanzada.
-          - icon: /images/check-circle.png
             title: Disponibilidad total
             text: Servicios 24/7 sin interrupciones.
           - title: Experiencia digital completa
@@ -51,7 +48,7 @@ sections:
             text: Todo en un solo lugar, sin complicaciones.
   - mediaPlacement: right
     ctas:
-      - text: Ir al Marketplace
+      - text: Contactanos y empezá a apificar
         link: /
     decorations: false
     media: /images/case-study-mockup.png
@@ -59,13 +56,11 @@ sections:
     colorScheme: primary
     byline: Marketplace
     bullets:
-      - title: Expansión sin límites
-        content: Monetizá tus servicios y generá nuevas fuentes de ingresos.
       - title: Conectividad Open Banking
-        content: Prepará tu banco para operar en un ecosistema financiero abierto y
+        content: Prepará tu Banco para operar en un ecosistema financiero abierto y
           colaborativo.
-      - title: Rol administrador de link
-        content: Gestioná tus integraciones con total autonomía y control.
+      - title: Autogestión link
+        content: Gestioná integraciones con total autonomía y control.
     title: Apificá tu Banco y preparate para el futuro
     type: textAndImage
     description: Integrá soluciones digitales de manera ágil y segura desde nuestro
