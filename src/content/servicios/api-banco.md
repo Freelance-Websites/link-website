@@ -15,7 +15,7 @@ sections:
       servicios digitales, optimizá costos y garantizá la mejor experiencia, con
       tecnología y seguridad link.
   - type: features
-    title: Ventajas de las APIs link
+    title: Ventajas de conectarse nuestro Ecosistema de servicios apificado
     colorScheme: dark
     cards:
       - title: Para Bancos
@@ -28,7 +28,7 @@ sections:
             title: Optimización de costos
             text: Reducí gastos en infraestructura y tecnología.
           - icon: /images/check-circle.png
-            title: Máxima seguridad
+            title: Seguridad
             text: Biometría facial, autenticación 2FA y claves OTP para operaciones
               blindadas.
           - icon: /images/check-circle.png
@@ -37,24 +37,18 @@ sections:
           - icon: /images/check-circle.png
             title: Innovación competitiva
             text: Ofrecé servicios innovadores y mejorá la experiencia de tus clientes.
-      - title: Para personas
-        icon: /images/usuarios.png
-        features:
           - icon: /images/check-circle.png
             title: Banca más simple
             text: Acceso inmediato a pagos, transferencias y consultas.
           - icon: /images/check-circle.png
-            title: Seguridad de última generación
-            text: Protegemos cada transacción con autenticación avanzada.
-          - icon: /images/check-circle.png
             title: Disponibilidad total
             text: Servicios 24/7 sin interrupciones.
-          - icon: /images/check-circle.png
-            title: Experiencia digital completa
+          - title: Experiencia digital completa
+            icon: /images/check-circle.png
             text: Todo en un solo lugar, sin complicaciones.
   - mediaPlacement: right
     ctas:
-      - text: Ir al Marketplace
+      - text: Contactanos y empezá a apificar
         link: /
     decorations: false
     media: /images/case-study-mockup.png
@@ -62,13 +56,11 @@ sections:
     colorScheme: primary
     byline: Marketplace
     bullets:
-      - title: Expansión sin límites
-        content: Monetizá tus servicios y generá nuevas fuentes de ingresos.
       - title: Conectividad Open Banking
-        content: Prepará tu banco para operar en un ecosistema financiero abierto y
+        content: Prepará tu Banco para operar en un ecosistema financiero abierto y
           colaborativo.
-      - title: Rol administrador de link
-        content: Gestioná tus integraciones con total autonomía y control.
+      - title: Autogestión link
+        content: Gestioná integraciones con total autonomía y control.
     title: Apificá tu Banco y preparate para el futuro
     type: textAndImage
     description: Integrá soluciones digitales de manera ágil y segura desde nuestro
@@ -117,29 +109,35 @@ sections:
           único hub.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
+        ctaText: Conocer más
       - title: Soluciones de cobro
         content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
+        ctaText: Conocer más
       - title: Banking as a Service
         content: Integrá servicios financieros en tus plataformas de forma rápida,
           simple. Evolucioná con nosotros.
         icon: /images/homepage-service-3.png
         ctaLink: /servicios/banking-as-a-service
+        ctaText: Conocer más
       - title: Seguridad
         content: Blindamos todas las operaciones financieras con tecnología de punta y
           estándares globales.
         icon: /images/homepage-service-7.png
         ctaLink: /servicios/seguridad
+        ctaText: Conocer más
       - title: Plataformas digitales
         content: Diseñadas para individuos, empresas y gobiernos, 100% integrables y
           personalizables.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
+        ctaText: Conocer más
       - title: ATM
         content: Formá parte de la red lider más extensa y segura de cajeros automáticos
           de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
+        ctaText: Conocer más
 ---
