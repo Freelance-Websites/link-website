@@ -16,10 +16,10 @@ sections:
       permite integrar soluciones de pagos, cuentas y financiamiento con
       rapidez, seguridad y escalabilidad.
   - type: features
-    title: Ventajas de Banking as a Service
+    title: Ventajas del Banking as a Service
     colorScheme: dark
     cards:
-      - title: Para entidades financieras y empresas
+      - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
           - icon: /images/check-circle.png
@@ -34,7 +34,7 @@ sections:
           - icon: /images/check-circle.png
             title: Experiencia mejorada para tus clientes
             text: Brindá servicios financieros sin fricciones.
-      - title: Para personas
+      - title: Para empresas
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
@@ -64,8 +64,8 @@ sections:
         content: Agilizá cobros, pagos y gestión de fondos con tecnología escalable.
     title: Banking as a Service para empresas
     type: textAndImage
-    description: Monetizá servicios financieros y diferenciá tu negocio. Conocé las
-      industrias que podés alcanzar.
+    description: "Accedé a servicios financieros y diferenciá tu negocio. Conocé
+      algunas de las industrias que pueden usarlo:"
   - mediaPlacement: left
     ctas: []
     decorations: false
