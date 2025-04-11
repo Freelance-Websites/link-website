@@ -19,7 +19,7 @@ sections:
     title: Ventajas del Banking as a Service
     colorScheme: dark
     cards:
-      - title: Para entidades financieras y empresas
+      - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
           - icon: /images/check-circle.png
@@ -34,7 +34,7 @@ sections:
           - icon: /images/check-circle.png
             title: Experiencia mejorada para tus clientes
             text: Brindá servicios financieros sin fricciones.
-      - title: Para personas
+      - title: Para empresas
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
