@@ -21,27 +21,62 @@ sections:
       - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
+          - title: Multiplataforma
+            icon: /images/check-circle.png
+            text: "Web responsive para un óptimo funcionamiento y apps nativas Android e
+              iOS. "
+          - icon: /images/check-circle.png
+            title: Seguridad
+            text: Protección de datos en tiempo real con monitoreo continuo y pruebas de
+              vulnerabilidad.
+          - icon: /images/check-circle.png
+            title: Usabilidad
+            text: Evolución permanente para crear experiencias digitales fluidas y sin
+              fricciones.
+          - icon: /images/check-circle.png
+            text: "Amplio catálogo y desarrollo continuo de nuevos productos. "
+            title: Variedad de funcionalidades
+          - icon: /images/check-circle.png
+            title: Autogestión por backoffice
+            text: Gestión de notificaciones y múltiples parámetros con diferentes accesos
+              por roles, tanto en la web como en la app.
           - icon: /images/check-circle.png
             title: Disponibilidad 24/7
-            text: Plataforma confiable y operativa todo el año.
-          - icon: /images/check-circle.png
-            title: Seguridad avanzada
-            text: Protección de datos con monitoreo continuo y pruebas de vulnerabilidad.
+            text: Infraestructura robusta y confiable para un mantenimiento operativo las 24
+              h, los 365 días del año.
           - icon: /images/check-circle.png
             title: Cumplimiento normativo
-            text: Total adherencia a las regulaciones del BCRA.
+            text: Seguimiento y aplicación de normativas del BCRA para el cumplimiento
+              efectivo en las fechas establecidas.
       - title: Para personas usuarias
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
-            title: Omnicanalidad
-            text: Soluciones para manejar sus finanzas desde la PC o el celular.
+            title: Disponibilidad
+            text: Acceso 24/7 desde cualquier dispositivo con aplicaciones nativas y web
+              responsive.
           - icon: /images/check-circle.png
-            title: Tranquilidad
-            text: Seguridad y confianza en todas las transacciones.
+            title: Simplicidad y tranquilidad
+            text: Operaciones simples y seguras como transferencias, pagos y más.
           - icon: /images/check-circle.png
-            title: Agilidad
-            text: Acceso a productos y servicios bancarios en un clic.
+            title: Experiencia fluida
+            text: Navegación intuitiva, rápida y amigable que facilita cada operación y
+              permite resolver cualquier gestión bancaria en pocos pasos.
+  - mediaPlacement: right
+    decorations: true
+    media: /images/case-study-mockup.png
+    mediaSize: boxed
+    layout: full
+    byline: Caso de éxito
+    title: Una plataforma que se siente simple, pero trabaja en serio
+    type: textAndImage
+    description: >-
+      Más de **1 millón de personas** **gestionan sus finanzas** de manera ágil
+      y segura todos los días, **a través de las 18 entidades financieras** que
+      eligen nuestra solución de home banking. 
+
+
+      Además, **procesamos más de 1.634 millones de operaciones** al año en nuestras apps nativas y el sitio web responsive.
   - type: accordion
     title: Funcionalidades principales
     colorScheme: light
@@ -92,28 +127,35 @@ sections:
           único hub.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
+        ctaText: Conocer más
       - title: Soluciones de cobro
         content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
+        ctaText: Conocer más
       - title: Banking as a Service
         content: Integrá servicios financieros en tus plataformas de forma rápida,
           simple. Evolucioná con nosotros.
         icon: /images/homepage-service-3.png
         ctaLink: /servicios/banking-as-a-service
+        ctaText: Conocer más
       - title: Seguridad
         content: Blindamos todas las operaciones financieras con tecnología de punta y
           estándares globales.
         icon: /images/homepage-service-7.png
         ctaLink: /servicios/seguridad
+        ctaText: Conocer más
       - title: ATM
         content: Formá parte de la red líder más extensa y segura de cajeros automáticos
           de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
+        ctaText: Conocer más
       - title: API Banco
         content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
           oferta.
         icon: /images/homepage-service-4.png
+        ctaText: Conocer más
+        ctaLink: /servicios/api-banco
 ---
