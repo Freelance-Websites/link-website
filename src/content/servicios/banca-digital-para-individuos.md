@@ -21,15 +21,33 @@ sections:
       - title: Para entidades financieras
         icon: /images/entidades-financieras.png
         features:
+          - title: Multiplataforma
+            icon: /images/check-circle.png
+            text: "Web responsive para un óptimo funcionamiento y apps nativas Android e
+              iOS. "
+          - icon: /images/check-circle.png
+            title: Seguridad
+            text: Protección de datos en tiempo real con monitoreo continuo y pruebas de
+              vulnerabilidad.
+          - icon: /images/check-circle.png
+            title: Usabilidad
+            text: Evolución permanente para crear experiencias digitales fluidas y sin
+              fricciones.
+          - icon: /images/check-circle.png
+            text: "Amplio catálogo y desarrollo continuo de nuevos productos. "
+            title: Variedad de funcionalidades
+          - icon: /images/check-circle.png
+            title: Autogestión por backoffice
+            text: Gestión de notificaciones y múltiples parámetros con diferentes accesos
+              por roles, tanto en la web como en la app.
           - icon: /images/check-circle.png
             title: Disponibilidad 24/7
-            text: Plataforma confiable y operativa todo el año.
-          - icon: /images/check-circle.png
-            title: Seguridad avanzada
-            text: Protección de datos con monitoreo continuo y pruebas de vulnerabilidad.
+            text: Infraestructura robusta y confiable para un mantenimiento operativo las 24
+              h, los 365 días del año.
           - icon: /images/check-circle.png
             title: Cumplimiento normativo
-            text: Total adherencia a las regulaciones del BCRA.
+            text: Seguimiento y aplicación de normativas del BCRA para el cumplimiento
+              efectivo en las fechas establecidas.
       - title: Para personas usuarias
         icon: /images/usuarios.png
         features:
