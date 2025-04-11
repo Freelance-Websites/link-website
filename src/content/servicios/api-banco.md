@@ -37,9 +37,6 @@ sections:
           - icon: /images/check-circle.png
             title: Innovación competitiva
             text: Ofrecé servicios innovadores y mejorá la experiencia de tus clientes.
-      - title: Para personas
-        icon: /images/usuarios.png
-        features:
           - icon: /images/check-circle.png
             title: Banca más simple
             text: Acceso inmediato a pagos, transferencias y consultas.
@@ -49,8 +46,8 @@ sections:
           - icon: /images/check-circle.png
             title: Disponibilidad total
             text: Servicios 24/7 sin interrupciones.
-          - icon: /images/check-circle.png
-            title: Experiencia digital completa
+          - title: Experiencia digital completa
+            icon: /images/check-circle.png
             text: Todo en un solo lugar, sin complicaciones.
   - mediaPlacement: right
     ctas:
