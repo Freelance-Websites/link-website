@@ -62,6 +62,21 @@ sections:
             title: Experiencia fluida
             text: Navegación intuitiva, rápida y amigable que facilita cada operación y
               permite resolver cualquier gestión bancaria en pocos pasos.
+  - mediaPlacement: right
+    decorations: true
+    media: /images/case-study-mockup.png
+    mediaSize: boxed
+    layout: full
+    byline: Caso de éxito
+    title: Una plataforma que se siente simple, pero trabaja en serio
+    type: textAndImage
+    description: >-
+      Más de **1 millón de personas** **gestionan sus finanzas** de manera ágil
+      y segura todos los días, **a través de las 18 entidades financieras** que
+      eligen nuestra solución de home banking. 
+
+
+      Además, **procesamos más de 1.634 millones de operaciones** al año en nuestras apps nativas y el sitio web responsive.
   - type: accordion
     title: Funcionalidades principales
     colorScheme: light
@@ -136,19 +151,4 @@ sections:
         content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
           oferta.
         icon: /images/homepage-service-4.png
-  - mediaPlacement: right
-    decorations: true
-    media: /images/case-study-mockup.png
-    mediaSize: full
-    layout: full
-    byline: Caso de éxito
-    title: Una plataforma que se siente simple, pero trabaja en serio
-    type: textAndImage
-    description: >-
-      Más de **1 millón de personas** **gestionan sus finanzas** de manera ágil
-      y segura todos los días, **a través de las 18 entidades financieras** que
-      eligen nuestra solución de home banking. 
-
-
-      Además, **procesamos más de 1.634 millones de operaciones** al año en nuestras apps nativas y el sitio web responsive.
 ---
