@@ -15,7 +15,7 @@ sections:
       servicios digitales, optimizá costos y garantizá la mejor experiencia, con
       tecnología y seguridad link.
   - type: features
-    title: Ventajas de conectarse nuestro Ecosistema de ervicios apificado
+    title: Ventajas de conectarse nuestro Ecosistema de servicios apificado
     colorScheme: dark
     cards:
       - title: Para Bancos
