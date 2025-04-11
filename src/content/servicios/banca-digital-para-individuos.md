@@ -52,14 +52,16 @@ sections:
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
-            title: Omnicanalidad
-            text: Soluciones para manejar sus finanzas desde la PC o el celular.
+            title: Disponibilidad
+            text: Acceso 24/7 desde cualquier dispositivo con aplicaciones nativas y web
+              responsive.
           - icon: /images/check-circle.png
-            title: Tranquilidad
-            text: Seguridad y confianza en todas las transacciones.
+            title: Simplicidad y tranquilidad
+            text: Operaciones simples y seguras como transferencias, pagos y más.
           - icon: /images/check-circle.png
-            title: Agilidad
-            text: Acceso a productos y servicios bancarios en un clic.
+            title: Experiencia fluida
+            text: Navegación intuitiva, rápida y amigable que facilita cada operación y
+              permite resolver cualquier gestión bancaria en pocos pasos.
   - type: accordion
     title: Funcionalidades principales
     colorScheme: light
