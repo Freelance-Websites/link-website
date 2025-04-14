@@ -32,15 +32,16 @@ sections:
           - text: Promociones y beneficios personalizados para fidelizar clientes.
             icon: /images/check-circle.png
       - title: Banca digital para individuos
-        content: Una plataforma con apps nativas y web responsive para simplificar la
-          gestión financiera y mejorar la experiencia de tus clientes.
+        content: Simplificá la gestión financiera de tus clientes con apps nativas y un
+          sitio web responsive adaptados a su día a día.
         icon: /images/usuarios.png
         ctaText: Conocer más
         ctaLink: /servicios/banca-digital-para-individuos
         features:
           - text: Disponibilidad 24/7 para operaciones sin interrupciones.
             icon: /images/check-circle.png
-          - text: Experiencia omnicanal  operar desde cualquier dispositivo.
+          - text: Experiencia omnicanal para gestionar las finanzas desde cualquier
+              dispositivo.
             icon: /images/check-circle.png
           - text: Gestión ágil y segura, con foco en la experiencia de usuario.
             icon: /images/check-circle.png
