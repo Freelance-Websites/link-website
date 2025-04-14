@@ -23,8 +23,8 @@ sections:
         features:
           - title: Multiplataforma
             icon: /images/check-circle.png
-            text: "Web responsive para un óptimo funcionamiento y apps nativas Android e
-              iOS. "
+            text: "Apps nativas Android e iOS y web responsive para un óptimo
+              funcionamiento. "
           - icon: /images/check-circle.png
             title: Seguridad
             text: Protección de datos en tiempo real con monitoreo continuo y pruebas de
@@ -38,8 +38,8 @@ sections:
             title: Variedad de funcionalidades
           - icon: /images/check-circle.png
             title: Autogestión por backoffice
-            text: Gestión de notificaciones y múltiples parámetros con diferentes accesos
-              por roles, tanto en la web como en la app.
+            text: Control total del contenido de la app y el sitio web, con múltiples
+              parámetros y diferentes accesos por roles.
           - icon: /images/check-circle.png
             title: Disponibilidad 24/7
             text: Infraestructura robusta y confiable para un mantenimiento operativo las 24
@@ -72,8 +72,7 @@ sections:
     type: textAndImage
     description: >-
       Más de **1 millón de personas** **gestionan sus finanzas** de manera ágil
-      y segura todos los días, **a través de las 18 entidades financieras** que
-      eligen nuestra solución de home banking. 
+      y segura todos los días con nuestra banca digital. 
 
 
       Además, **procesamos más de 1.634 millones de operaciones** al año en nuestras apps nativas y el sitio web responsive.
@@ -88,6 +87,7 @@ sections:
           - content: Onboarding 100% digital
           - content: Login con ingreso rápido
           - content: Autogestión de credenciales y datos personales
+          - content: Alta en línea
       - title: Gestión de dinero y operaciones bancarias
         media: /images/service-detail-feature-1.jpg
         bullets:
@@ -101,6 +101,7 @@ sections:
           - content: Cheques electrónicos
           - content: Órdenes de extracción
           - content: Comprobantes
+          - content: Tarjeta digital
       - title: Pagos y recargas
         media: /images/service-detail-feature-1.jpg
         bullets:
