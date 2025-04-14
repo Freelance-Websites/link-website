@@ -38,8 +38,8 @@ sections:
             title: Variedad de funcionalidades
           - icon: /images/check-circle.png
             title: Autogestión por backoffice
-            text: Control total del contenido de app y web, con múltiples parámetros y
-              diferentes accesos por roles.
+            text: Control total del contenido de la app y el sitio web, con múltiples
+              parámetros y diferentes accesos por roles.
           - icon: /images/check-circle.png
             title: Disponibilidad 24/7
             text: Infraestructura robusta y confiable para un mantenimiento operativo las 24
