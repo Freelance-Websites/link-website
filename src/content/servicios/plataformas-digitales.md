@@ -32,18 +32,17 @@ sections:
           - text: Promociones y beneficios personalizados para fidelizar clientes.
             icon: /images/check-circle.png
       - title: Banca digital para individuos
-        content: Llevá tu home banking al siguiente nivel con una plataforma diseñada
-          para simplificar la gestión financiera y mejorar la experiencia de tus
-          clientes.
+        content: Una plataforma con apps nativas y web responsive para simplificar la
+          gestión financiera y mejorar la experiencia de tus clientes.
         icon: /images/usuarios.png
         ctaText: Conocer más
         ctaLink: /servicios/banca-digital-para-individuos
         features:
           - text: Disponibilidad 24/7 para operaciones sin interrupciones.
             icon: /images/check-circle.png
-          - text: Experiencia omnicanal para gestionar finanzas también desde el celular.
+          - text: Experiencia omnicanal  operar desde cualquier dispositivo.
             icon: /images/check-circle.png
-          - text: Personalización y promociones segmentadas, adaptadas a cada cliente.
+          - text: Gestión ágil y segura, con foco en la experiencia de usuario.
             icon: /images/check-circle.png
       - title: Banca digital para empresas
         content: Grandes, medianas y pequeñas empresas necesitan una plataforma que
