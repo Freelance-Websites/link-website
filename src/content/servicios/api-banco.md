@@ -3,7 +3,7 @@ title: APIs Banco
 sections:
   - mediaPlacement: right
     ctas:
-      - link: "#ventajas-de-las-api-link"
+      - link: "#ventajas"
         text: Conocer más
     decorations: false
     media: /images/services-mockup.png
@@ -68,7 +68,7 @@ sections:
   - mediaPlacement: left
     ctas:
       - text: Contactanos y sumá este servicio
-        link: /quienes-somos
+        link: mailto:ecosistema@redlink.com.ar
     decorations: false
     media: /images/case-study-mockup.png
     mediaSize: boxed
