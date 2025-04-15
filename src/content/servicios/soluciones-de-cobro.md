@@ -24,7 +24,7 @@ sections:
         ctaText: Conocer más
         ctaLink: /servicios/pagar
         features:
-          - text: Más alcance para ampliar la cantidad de clientes abonan sus servicios.
+          - text: Más alcance para ampliar la cantidad de clientes que abonan sus servicios.
             icon: /images/check-circle.png
           - text: Control de todos los pagos en una sola plataforma.
             icon: /images/check-circle.png
