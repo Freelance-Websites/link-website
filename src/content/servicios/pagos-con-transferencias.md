@@ -30,6 +30,10 @@ sections:
           - icon: /images/check-circle.png
             title: Supervisión de fraude
             text: Monitoreo en tiempo real para identificar comportamientos sospechosos.
+          - icon: /images/check-circle.png
+            title: Transacciones protegidas
+            text: Cumple con todos los estándares bancarios de seguridad y regulaciones del
+              BCRA.
       - title: Para personas
         icon: /images/usuarios.png
         features:
