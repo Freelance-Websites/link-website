@@ -32,7 +32,7 @@ sections:
             title: Escalabilidad
             text: Expandí tu oferta sin límites.
           - icon: /images/check-circle.png
-            title: Experiencia mejorada para tus clientes
+            title: Experiencia mejorada
             text: Brindá servicios financieros sin fricciones.
       - title: Para empresas
         icon: /images/usuarios.png
