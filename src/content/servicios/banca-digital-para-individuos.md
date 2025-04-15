@@ -159,4 +159,18 @@ sections:
         icon: /images/homepage-service-4.png
         ctaText: Conocer más
         ctaLink: /servicios/api-banco
+  - mediaPlacement: right
+    ctas:
+      - text: Conocer billeteras digitales
+    decorations: true
+    media: /images/blog-post-image.jpg
+    mediaSize: full
+    colorScheme: secondary
+    layout: boxed
+    byline: ""
+    bullets: []
+    title: Billeteras digitales
+    type: textAndImage
+    description: Ofrecé a una billetera digital completa y a medida, que permite
+      pagar desde el celular con total fluidez.
 ---
