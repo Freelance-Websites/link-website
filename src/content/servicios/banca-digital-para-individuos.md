@@ -63,6 +63,20 @@ sections:
             text: Navegación intuitiva, rápida y amigable que facilita cada operación y
               permite resolver cualquier gestión bancaria en pocos pasos.
   - mediaPlacement: right
+    ctas:
+      - text: Conocer billeteras digitales
+    decorations: true
+    media: /images/case-study-mockup.png
+    mediaSize: full
+    colorScheme: secondary
+    layout: boxed
+    byline: ""
+    bullets: []
+    title: Billeteras digitales
+    type: textAndImage
+    description: Ofrecé a una billetera digital completa y a medida, que permite
+      pagar desde el celular con total fluidez.
+  - mediaPlacement: right
     decorations: true
     media: /images/case-study-mockup.png
     mediaSize: boxed
@@ -119,7 +133,8 @@ sections:
   - type: cards
     byline: Servicios
     title: Tenemos la solución que buscás
-    description: Conocé nuestros servicios.
+    description: Ofrecé a una billetera digital completa y a medida, que permite
+      pagar desde el celular con total fluidez.
     colorScheme: dark
     cardLayout: horizontal
     cards:
@@ -159,18 +174,4 @@ sections:
         icon: /images/homepage-service-4.png
         ctaText: Conocer más
         ctaLink: /servicios/api-banco
-  - mediaPlacement: right
-    ctas:
-      - text: Conocer billeteras digitales
-    decorations: true
-    media: /images/blog-post-image.jpg
-    mediaSize: full
-    colorScheme: secondary
-    layout: boxed
-    byline: ""
-    bullets: []
-    title: Billeteras digitales
-    type: textAndImage
-    description: Ofrecé a una billetera digital completa y a medida, que permite
-      pagar desde el celular con total fluidez.
 ---
