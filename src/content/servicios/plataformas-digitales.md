@@ -16,21 +16,6 @@ sections:
     colorScheme: dark
     cardLayout: vertical
     cards:
-      - title: Billeteras digitales
-        content: Ofrecé a una billetera digital completa y a medida, que permite pagar
-          desde el celular con total fluidez.
-        icon: /images/billeteras-digitales.png
-        ctaText: Conocer más
-        ctaLink: /servicios/billeteras-digitales
-        features:
-          - text: Pagos digitales al instante
-            icon: /images/check-circle.png
-          - text: Ingreso y envío de dinero entre cuentas con acreditación inmediata.
-            icon: /images/check-circle.png
-          - text: Pago de servicios y recargas desde una única plataforma.
-            icon: /images/check-circle.png
-          - text: Promociones y beneficios personalizados para fidelizar clientes.
-            icon: /images/check-circle.png
       - title: Banca digital para individuos
         content: Simplificá la gestión financiera de tus clientes con apps nativas y un
           sitio web responsive adaptados a su día a día.
