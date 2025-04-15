@@ -3,7 +3,7 @@ title: Banking as a Service
 sections:
   - mediaPlacement: right
     ctas:
-      - link: "#ventajas-de-banking as a service"
+      - link: "#ventajas"
         text: Conocer más
     decorations: false
     media: /images/services-mockup.png
@@ -99,27 +99,34 @@ sections:
           único hub.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
+        ctaText: Conocer más
       - title: Soluciones de cobro
         content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
+        ctaText: Conocer más
       - title: ATM
         content: Formá parte de la red más extensa y segura de cajeros de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
+        ctaText: Conocer más
       - title: Seguridad
         content: Blindamos todas las operaciones financieras con tecnología de punta y
           estándares globales.
         icon: /images/homepage-service-7.png
         ctaLink: /servicios/seguridad
+        ctaText: Conocer más
       - title: Plataformas digitales
         content: Diseñadas para individuos, empresas y gobiernos, 100% integrables y
           personalizables.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
+        ctaText: Conocer más
       - title: API banco
         content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
           oferta.
         icon: /images/homepage-service-4.png
+        ctaLink: /servicios/api-banco
+        ctaText: Conocer más
 ---
