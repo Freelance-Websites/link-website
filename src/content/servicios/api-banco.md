@@ -23,7 +23,7 @@ sections:
         features:
           - icon: /images/check-circle.png
             title: Integración sin barreras
-            text: Conectá tu banco con nuevas soluciones sin grandes desarrollos.
+            text: Conectá tu Banco con nuevas soluciones sin grandes desarrollos.
           - icon: /images/check-circle.png
             title: Optimización de costos
             text: Reducí gastos en infraestructura y tecnología.
