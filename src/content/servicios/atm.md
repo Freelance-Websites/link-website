@@ -111,28 +111,35 @@ sections:
           único hub.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
+        ctaText: Conocer más
       - title: Soluciones de cobro
         content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
+        ctaText: Conocer más
       - title: Banking as a Service
         content: Integrá servicios financieros en tus plataformas de forma rápida,
           simple. Evolucioná con nosotros.
         icon: /images/homepage-service-3.png
         ctaLink: /servicios/banking-as-a-service
+        ctaText: Conocer más
       - title: Seguridad
         content: Blindamos todas las operaciones financieras con tecnología de punta y
           estándares globales.
         icon: /images/homepage-service-7.png
         ctaLink: /servicios/seguridad
+        ctaText: Conocer más
       - title: Plataformas digitales
         content: Diseñadas para individuos, empresas y gobiernos, 100% integrables y
           personalizables.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
+        ctaText: Conocer más
       - title: API Banco
         content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
           oferta.
         icon: /images/homepage-service-4.png
+        ctaText: Conocer más
+        ctaLink: /servicios/api-banco
 ---
