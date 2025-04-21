@@ -40,10 +40,10 @@ sections:
         features:
           - text: " Seguridad y control en cada transacción, con trazabilidad total."
             icon: /images/check-circle.png
-          - text: Acceso ágil a servicios bancarios desde cualquier dispositivo.
+          - text: Acceso a servicios bancarios desde cualquier dispositivo.
             icon: /images/check-circle.png
           - icon: /images/check-circle.png
-            text: Gestión transparente para facilitar auditorías y toma de decisiones.
+            text: Gestión ágil que facilita las decisiones financieras.
       - title: Banca digital para gobiernos
         content: Plataforma de alta disponibilidad diseñada que aporta agilidad y
           transparencia en la gestión pública. Con servicios personalizados,
@@ -56,6 +56,6 @@ sections:
             text: Operaciones de alto volumen, centralizadas y siempre disponibles.
           - text: " Seguridad certificada y control total para cada transacción."
             icon: /images/check-circle.png
-          - text: Gestión ágil, transparente y personalizada para cada nivel de gobierno.
+          - text: Gestión transparente y personalizada para cada segmento de gobierno.
             icon: /images/check-circle.png
 ---
