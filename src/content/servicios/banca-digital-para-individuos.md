@@ -11,9 +11,10 @@ sections:
     byline: Servicios
     title: Banca digital para individuos
     type: textAndImage
-    description: Transformá tu home banking en una experiencia digital que conecta,
-      simplifica y fideliza. Creamos plataformas flexibles, seguras y
-      escalables, pensadas para el presente y el futuro de la banca digital.
+    description: Transformá la gestión financiera de tus clientes en una experiencia
+      omnicanal que  simplifica su día a día. Creamos apps y sitios web
+      flexibles, seguros y escalables, pensados para el presente y el futuro de
+      la banca digital.
   - type: features
     title: Ventajas
     colorScheme: dark
@@ -65,6 +66,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - text: Conocer billeteras digitales
+        link: /servicios/billeteras-digitales
     decorations: true
     media: /images/case-study-mockup.png
     mediaSize: full
@@ -72,9 +74,9 @@ sections:
     layout: boxed
     byline: ""
     bullets: []
-    title: Billeteras digitales
+    title: Una billetera para llevar a todos lados
     type: textAndImage
-    description: Ofrecé a una billetera digital completa y a medida, que permite
+    description: Ofrecé a tus clientes una app completa y a medida, que permite
       pagar desde el celular con total fluidez.
   - mediaPlacement: right
     decorations: true
