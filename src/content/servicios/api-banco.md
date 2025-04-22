@@ -3,7 +3,7 @@ title: APIs Banco
 sections:
   - mediaPlacement: right
     ctas:
-      - link: "#ventajas-de-las-api-link"
+      - link: "#ventajas"
         text: Conocer más
     decorations: false
     media: /images/services-mockup.png
@@ -23,7 +23,7 @@ sections:
         features:
           - icon: /images/check-circle.png
             title: Integración sin barreras
-            text: Conectá tu banco con nuevas soluciones sin grandes desarrollos.
+            text: Conectá tu Banco con nuevas soluciones sin grandes desarrollos.
           - icon: /images/check-circle.png
             title: Optimización de costos
             text: Reducí gastos en infraestructura y tecnología.
@@ -49,7 +49,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - text: Contactanos y empezá a apificar
-        link: /
+        link: mailto:ecosistema@redlink.com.ar
     decorations: false
     media: /images/case-study-mockup.png
     mediaSize: boxed
@@ -68,7 +68,7 @@ sections:
   - mediaPlacement: left
     ctas:
       - text: Contactanos y sumá este servicio
-        link: /quienes-somos
+        link: mailto:ecosistema@redlink.com.ar
     decorations: false
     media: /images/case-study-mockup.png
     mediaSize: boxed
