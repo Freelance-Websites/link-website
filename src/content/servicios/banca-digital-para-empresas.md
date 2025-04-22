@@ -18,7 +18,7 @@ sections:
     title: Ventajas
     colorScheme: dark
     cards:
-      - title: Para entidades financieras
+      - title: Para Bancos
         icon: /images/entidades-financieras.png
         features:
           - icon: /images/check-circle.png
@@ -59,21 +59,28 @@ sections:
             title: Analítica de Gestión
             text: Integración nativa con Power BI, brindando a las información estratégica
               para la toma de decisiones.
-      - title: Para las empresas
+      - title: Para empresas
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
             title: Omnicanalidad
-            text: Soluciones para manejar sus finanzas desde la PC o el celular.
+            text: Gestión financiera desde cualquier dispositivo.
           - icon: /images/check-circle.png
-            title: Tranquilidad
-            text: Seguridad y confianza en todas las transacciones.
+            title: Seguridad y confianza
+            text: Protección de todas las operaciones con altos estándares de seguridad y
+              tecnología de autenticación avanzada.
           - icon: /images/check-circle.png
             title: Agilidad
-            text: Acceso a productos y servicios bancarios en un clic.
+            text: Acceso inmediato a productos y servicios bancarios para operar en pocos
+              clics.
           - icon: /images/check-circle.png
-            title: Transparencia
-            text: Control preciso de cada operación para facilitar auditorías.
+            title: Disponibilidad 24/7
+            text: Plataforma disponible las 24 horas, los 7 días de la semana, desde
+              cualquier lugar del mundo y sin interrupciones.
+          - title: Administración multiempresa
+            icon: /images/check-circle.png
+            text: Operatoria centralizada de múltiples empresas o razones sociales bajo un
+              mismo usuario.
   - type: accordion
     title: Funcionalidades principales
     colorScheme: light
