@@ -19,7 +19,7 @@ sections:
     title: Ventajas
     colorScheme: dark
     cards:
-      - title: Para entidades financieras
+      - title: Para Bancos
         icon: /images/entidades-financieras.png
         features:
           - title: Multiplataforma
@@ -49,7 +49,7 @@ sections:
             title: Cumplimiento normativo
             text: Seguimiento y aplicación de normativas del BCRA para el cumplimiento
               efectivo en las fechas establecidas.
-      - title: Para personas usuarias
+      - title: Para personas
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
