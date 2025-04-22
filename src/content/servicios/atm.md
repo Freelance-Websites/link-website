@@ -63,7 +63,7 @@ sections:
     media: /images/case-study-mockup.png
     mediaSize: boxed
     colorScheme: primary
-    byline: Caso de estudio
+    byline: Caso de éxito
     title: Transformamos cada transacción en una oportunidad
     type: textAndImage
     description: >-
