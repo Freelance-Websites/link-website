@@ -40,7 +40,7 @@ sections:
           - icon: /images/check-circle.png
             title: Personalización y embozado
             text: Gestionamos el diseño y embozado de tarjetas EMV contactless.
-      - title: Para personas usuarias
+      - title: Para personas
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
