@@ -19,54 +19,74 @@ sections:
     title: Ventajas
     colorScheme: dark
     cards:
-      - title: Para entidades financieras
+      - title: Para Bancos
         icon: /images/entidades-financieras.png
         features:
           - icon: /images/check-circle.png
-            title: Protección de datos
-            text: Monitoreo continuo y pruebas de vulnerabilidad.
+            title: " Automatización operativa"
+            text: Procesamiento automático de operaciones, que optimiza recursos y reduce
+              costos.
           - icon: /images/check-circle.png
-            title: Seguridad certificada a nivel mundial
-            text: Certificaciones con los más altos estándares internacionales de seguridad.
+            title: Mantenimiento y disponibilidad 24/7
+            text: Monitoreo 360° y configuración de alertas que garantizan la disponibilidad
+              continua de la plataforma.
           - icon: /images/check-circle.png
             title: Cumplimiento normativo
-            text: Total adherencia a las regulaciones del BCRA.
+            text: Calidad y transparencia aseguradas con normativas del BCRA, ISAE 3402 y la
+              certificación PCI DSS.
           - icon: /images/check-circle.png
-            title: Control en cada transacción
-            text: Firmas personalizadas para autorizar operaciones según montos, usuarios y
-              niveles de aprobación.
+            title: Agilidad y time to market
+            text: Arquitectura basada en microservicios que aceleran los tiempos de
+              desarrollo, testing e implementación de nuevas funcionalidades.
           - icon: /images/check-circle.png
-            title: Personalización
-            text: Promociones y mensajes exclusivos que se adaptan a cada persona.
-      - title: Para los gobiernos
+            title: Integración SSO (Single Sign-On)
+            text: Integración segura hacia otras plataformas con autenticación unificada.
+          - icon: /images/check-circle.png
+            title: Experiencia de usuario diferenciada (UX/UI)
+            text: Interfaz intuitiva y adaptable, con diseño de front y flujos
+              personalizados.
+          - icon: /images/check-circle.png
+            title: Flexibilidad en esquemas de firmas
+            text: Gestión a través del módulo de back office, adaptado a las necesidades de
+              cada entidad y tipo de empresa.
+          - icon: /images/check-circle.png
+            title: Soporte integral
+            text: Atención especializada para gestión de consultas, incidentes y reclamos.
+          - title: Analítica de gestión
+            text: " Integración nativa con Power BI, brindando información estratégica para
+              la toma de decisiones."
+            icon: /images/check-circle.png
+      - title: Para gobiernos
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
-            title: Capacidad para grandes operaciones
-            text: Transacciones de alto volumen con límites ampliados.
-          - icon: /images/check-circle.png
-            title: Administración centralizada
-            text: Un solo usuario para gestionar múltiples CUITs, simplificando la
-              operatoria.
-          - icon: /images/check-circle.png
-            title: Procesamiento automatizado
-            text: Pagos y transferencias masivas en segundos, optimizando la gestión
-              pública.
-          - icon: /images/check-circle.png
-            title: Operatoria 24/7
-            text: Disponibilidad total para gestionar fondos y pagos en cualquier momento.
-          - icon: /images/check-circle.png
             title: Omnicanalidad
-            text: Soluciones para manejar finanzas desde la PC o el celular.
+            text: Administración de finanzas públicas desde cualquier dispositivo, con
+              acceso permanente a la información.
           - icon: /images/check-circle.png
-            title: Personalización
-            text: Promociones y mensajes exclusivos que se adaptan a cada persona.
+            title: Seguridad y confianza
+            text: Protección de todas las operaciones con altos estándares de seguridad.
           - icon: /images/check-circle.png
             title: Agilidad
-            text: Acceso a productos y servicios bancarios en un clic.
+            text: Acceso inmediato a productos y servicios bancarios para operar en pocos
+              clics.
           - icon: /images/check-circle.png
-            title: Transparencia
-            text: Control preciso de cada operación para facilitar auditorías.
+            title: Disponibilidad 24/7
+            text: Plataforma disponible las 24 horas, los 7 días de la semana, desde
+              cualquier lugar y sin interrupciones.
+          - icon: /images/check-circle.png
+            title: Gestión Multiinstitucional
+            text: Administración centralizada de múltiples organismos o cuentas bajo un
+              mismo usuario.
+          - icon: /images/check-circle.png
+            title: Capacidad para grandes operaciones
+            text: Procesamiento de transacciones de alto volumen, con límites ampliados para
+              cubrir las necesidades de operaciones gubernamentales de gran
+              escala.
+          - icon: /images/check-circle.png
+            title: Transparencia y control
+            text: Registro de cada operación, que facilita el control interno y la auditoría
+              externa.
   - type: accordion
     title: Funcionalidades principales
     colorScheme: light
