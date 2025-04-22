@@ -49,7 +49,7 @@ sections:
   - mediaPlacement: right
     ctas:
       - text: Contactanos y empezá a apificar
-        link: /
+        link: mailto:ecosistema@redlink.com.ar
     decorations: false
     media: /images/case-study-mockup.png
     mediaSize: boxed
