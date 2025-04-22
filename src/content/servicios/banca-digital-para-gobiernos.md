@@ -19,25 +19,43 @@ sections:
     title: Ventajas
     colorScheme: dark
     cards:
-      - title: Para entidades financieras
+      - title: Para Bancos
         icon: /images/entidades-financieras.png
         features:
           - icon: /images/check-circle.png
-            title: Protección de datos
-            text: Monitoreo continuo y pruebas de vulnerabilidad.
+            title: " Automatización operativa"
+            text: Procesamiento automático de operaciones, que optimiza recursos y reduce
+              costos.
           - icon: /images/check-circle.png
-            title: Seguridad certificada a nivel mundial
-            text: Certificaciones con los más altos estándares internacionales de seguridad.
+            title: Mantenimiento y disponibilidad 24/7
+            text: Monitoreo 360° y configuración de alertas que garantizan la disponibilidad
+              continua de la plataforma.
           - icon: /images/check-circle.png
             title: Cumplimiento normativo
-            text: Total adherencia a las regulaciones del BCRA.
+            text: Calidad y transparencia aseguradas con normativas del BCRA, ISAE 3402 y la
+              certificación PCI DSS.
           - icon: /images/check-circle.png
-            title: Control en cada transacción
-            text: Firmas personalizadas para autorizar operaciones según montos, usuarios y
-              niveles de aprobación.
+            title: Agilidad y time to market
+            text: Arquitectura basada en microservicios que aceleran los tiempos de
+              desarrollo, testing e implementación de nuevas funcionalidades.
           - icon: /images/check-circle.png
-            title: Personalización
-            text: Promociones y mensajes exclusivos que se adaptan a cada persona.
+            title: Integración SSO (Single Sign-On)
+            text: Integración segura hacia otras plataformas con autenticación unificada.
+          - icon: /images/check-circle.png
+            title: Experiencia de usuario diferenciada (UX/UI)
+            text: Interfaz intuitiva y adaptable, con diseño de front y flujos
+              personalizados.
+          - icon: /images/check-circle.png
+            title: Flexibilidad en esquemas de firmas
+            text: Gestión a través del módulo de back office, adaptado a las necesidades de
+              cada entidad y tipo de empresa.
+          - icon: /images/check-circle.png
+            title: Soporte integral
+            text: Atención especializada para gestión de consultas, incidentes y reclamos.
+          - title: Analítica de gestión
+            text: " Integración nativa con Power BI, brindando información estratégica para
+              la toma de decisiones."
+            icon: /images/check-circle.png
       - title: Para los gobiernos
         icon: /images/usuarios.png
         features:
