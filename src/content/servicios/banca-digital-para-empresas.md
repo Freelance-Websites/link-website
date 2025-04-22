@@ -34,7 +34,7 @@ sections:
             text: Protección con Biometría, monitoreo transaccional, Second Factor
               Authentication (SFA) y soluciones basadas en IA.
           - icon: /images/check-circle.png
-            title: Cumplimiento Normativo
+            title: Cumplimiento normativo
             text: Calidad y transparencia aseguradas con normativas del BCRA,  ISAE 3402 y
               la certificación PCI DSS.
           - icon: /images/check-circle.png
@@ -53,12 +53,12 @@ sections:
             text: Gestión a través del módulo de back office, adaptado a las necesidades de
               cada entidad y tipo de empresa.
           - icon: /images/check-circle.png
-            title: Soporte Integral
+            title: Soporte integral
             text: Atención especializada para gestión de consultas, incidentes y reclamos.
           - icon: /images/check-circle.png
-            title: Analítica de Gestión
-            text: Integración nativa con Power BI, brindando a las información estratégica
-              para la toma de decisiones.
+            title: Analítica de gestión
+            text: Integración nativa con Power BI, brindando información estratégica para la
+              toma de decisiones.
       - title: Para empresas
         icon: /images/usuarios.png
         features:
