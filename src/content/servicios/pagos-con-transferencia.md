@@ -70,15 +70,17 @@ sections:
       **Confían en nosotros:**
 
 
+      * BAPRO
+
+      * MODO
+
+      * PVS
+
       * LinkingPOS
 
       * GOAT
 
       * IBBA Group
-
-      * PVS (Pagos Virtuales del Sur)
-
-      * MODO (Play Digital SA) - BAPRO (Cuenta DNI Comercios)
   - type: cards
     byline: Servicios
     title: Tenemos la solución que buscás
