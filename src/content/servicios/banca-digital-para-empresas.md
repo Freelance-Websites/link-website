@@ -86,43 +86,54 @@ sections:
     colorScheme: light
     description: Conocé cómo funciona nuestra banca digital.
     accordion:
-      - title: Autenticación y gestión de usuarios
-        media: /images/service-detail-feature-1.jpg
-        bullets:
-          - content: Onboarding y registro.
-          - content: Login, recupero de clave, cambio de contraseña.
-          - content: Desbloqueo de usuario.
-          - content: cambio de dispositivo.
-          - content: Alta/cambio de teléfono y gestión de perfil.
       - title: Home y navegación principal
         media: /images/service-detail-feature-1.jpg
         bullets:
-          - content: Home.
-          - content: Comunicaciones.
-          - content: Notificaciones.
-          - content: Promociones.
+          - content: Navegación simple e intuitiva.
+          - content: Accesos directos a las funcionalidades más utilizadas.
+          - content: Banners personalizables con redirección para comunicaciones o
+              publicidad.
+          - content: Información de cuentas con visualización de saldos, últimos movimientos
+              y transferencias.
+      - title: Seguridad y acceso
+        media: /images/service-detail-feature-1.jpg
+        bullets:
+          - content: Autogestión de los usuarios para desbloqueo.
+          - content: Modificación de usuario y contraseña.
+          - content: Modificación de datos personales.
+          - content: "Usuario multiempresa: un solo usuario para administrar varias
+              empresas."
+          - content: Única aplicación de SFA multibanco.
+      - title: Administración de empresas y usuarios
+        media: /images/service-detail-feature-1.jpg
+        bullets:
+          - content: Back Office para alta, baja y modificación de empresas y usuarios.
+          - content: Asignación de permisos por funcionalidad.
+          - content: Administración de límites y esquemas de firma.
       - title: Pagos y operaciones
         media: /images/service-detail-feature-1.jpg
         bullets:
-          - content: Pago QR.
-          - content: Transferencias y envío/pedido de dinero.
-          - content: Pago de servicios, ARCA / VEP / ARBA.
-          - content: Recarga de celular y transporte.
-      - title: Gestión de dinero y Operaciones bancarias
+          - content: Pago de haberes y proveedores.
+          - content: Pago de impuestos, servicios y ARCA.
+          - content: Emisión y gestión de eCheqs (individual y masiva).
+          - content: Aprobación remota de transacciones desde una app.
+          - content: Operaciones seguras 7x24.
+      - title: Cumplimiento normativo y soporte regulatorio
         media: /images/service-detail-feature-1.jpg
         bullets:
-          - content: Cuentas y tarjetas.
-          - content: Ingreso de dinero.
-          - content: Órdenes de extracción con PIN o PIN+QR.
-      - title: Historial y actividad
-        media: /images/service-detail-feature-1.jpg
-        bullets:
-          - content: Actividad y comprobantes.
-          - content: Emails.
+          - content: Análisis y desarrollo de requerimientos normativos BCRA.
+          - content: Certificación PCI DSS Compliant.
+          - content: Calidad en los procesos financieros certificada bajo la Norma ISAE
+              3402.
+      - bullets:
+          - content: Consulta de saldos, movimientos y operaciones realizadas.
+          - content: Exportación de reportes de operaciones.
+          - content: Descarga de comprobantes de transacciones.
+        title: Consultas y seguimiento de operaciones
       - title: Ayuda y soporte
         media: /images/service-detail-feature-1.jpg
         bullets:
-          - content: Centro de ayuda integrado.
+          - content: Contacto con Mesa de Ayuda.
   - type: cards
     byline: Servicios
     title: Tenemos la solución que buscás
