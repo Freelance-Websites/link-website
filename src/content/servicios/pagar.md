@@ -6,8 +6,8 @@ sections:
       - link: "#ventajas-de-pagar"
         text: Conocer más
     decorations: false
-    media: /images/group-480955344-1.png
-    mediaSize: boxed
+    media: /images/services-mockup.png
+    mediaSize: full
     colorScheme: primary
     layout: full
     byline: Servicios
@@ -52,7 +52,7 @@ sections:
             text: Operaciones intuitivas sin necesidad de filas o trámites presenciales.
   - mediaPlacement: right
     decorations: false
-    media: /images/group-480955344-1.png
+    media: /images/group-480955344-2.png
     mediaSize: boxed
     colorScheme: light
     layout: full
