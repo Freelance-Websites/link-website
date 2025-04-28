@@ -135,8 +135,7 @@ sections:
   - type: cards
     byline: Servicios
     title: Tenemos la solución que buscás
-    description: Ofrecé a una billetera digital completa y a medida, que permite
-      pagar desde el celular con total fluidez.
+    description: Conocé nuestros servicios.
     colorScheme: dark
     cardLayout: horizontal
     cards:
