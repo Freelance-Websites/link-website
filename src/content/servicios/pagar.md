@@ -51,7 +51,7 @@ sections:
   - type: textAndImage
     media: /images/group-480955344-1.png
     mediaPlacement: right
-    mediaSize: boxed
+    mediaSize: full
     title: Tecnología que respalda millones de cobros por mes
     colorScheme: light
     decorations: false
