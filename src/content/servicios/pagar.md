@@ -6,8 +6,10 @@ sections:
       - link: "#ventajas-de-pagar"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/group-480955344-1.png
+    mediaSize: full
     colorScheme: primary
+    layout: full
     byline: Servicios
     title: Pagar
     type: textAndImage
