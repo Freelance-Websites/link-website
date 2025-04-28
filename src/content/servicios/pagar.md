@@ -49,7 +49,7 @@ sections:
             title: Agilidad
             text: Operaciones intuitivas sin necesidad de filas o trámites presenciales.
   - type: textAndImage
-    media: /images/case-study-mockup.png
+    media: /images/group-480955344-1.png
     mediaPlacement: right
     mediaSize: boxed
     title: Tecnología que respalda millones de cobros por mes
