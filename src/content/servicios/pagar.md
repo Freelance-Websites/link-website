@@ -7,7 +7,7 @@ sections:
         text: Conocer más
     decorations: false
     media: /images/group-480955344-1.png
-    mediaSize: full
+    mediaSize: boxed
     colorScheme: primary
     layout: full
     byline: Servicios
