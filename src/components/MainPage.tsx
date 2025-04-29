@@ -93,8 +93,8 @@ export default function MainPage({
       shouldPreventScroll={shouldShowAnimation}
     >
       <FollowCursor
-        backgroundColor='#74F291'
-        textColor='#004550'
+        backgroundColor='#009597'
+        textColor='#EEE7E7'
         textContent='click'
       />
       {shouldShowAnimation && (

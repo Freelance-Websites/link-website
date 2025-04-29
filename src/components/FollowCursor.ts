@@ -50,9 +50,10 @@ const FollowCursor: React.FC<FollowCursorProps> = ({ backgroundColor = '#323232a
 
         // Draw the text
         context.fillStyle = textColor;
-        context.font = `bold ${60}px Replica LL`;
+        context.font = `bold ${72}px Replica LL`;
         context.textAlign = 'center';
         context.textBaseline = 'middle';
+        context.letterSpacing = '-2px';
         context.fillText(
           textContent,
           this.position.x,
@@ -78,8 +79,6 @@ const FollowCursor: React.FC<FollowCursorProps> = ({ backgroundColor = '#323232a
     };
 
     const onCanvasClick = () => {
-      backgroundColor = '#009597';
-      textColor = '#EEE7E7';
       textContent = 'link';
       
       setTimeout(() => {
