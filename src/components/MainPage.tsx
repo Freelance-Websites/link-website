@@ -86,6 +86,11 @@ export default function MainPage({
     if (isHomepage) {
       setShouldShowAnimation(true);
     }
+
+    const video = document.querySelector('#loading-animation video') as HTMLVideoElement;
+    if (video) {
+      video.playbackRate = 1.2;
+    }
   }, [isHomepage]);
   return (
     <Main
