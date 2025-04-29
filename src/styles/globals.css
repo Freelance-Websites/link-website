@@ -143,3 +143,16 @@ html:not(.scroll-smooth) body {
 .rich-text hr {
   @apply border-t border-gray-300 my-4;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+blockquote,
+td, th {
+  @apply tracking-tight;
+}

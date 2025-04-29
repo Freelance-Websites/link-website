@@ -1506,6 +1506,19 @@ html:not(.scroll-smooth) body {
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+blockquote,
+td, th {
+  letter-spacing: -0.025em;
+}
+
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));

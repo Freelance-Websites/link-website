@@ -154,7 +154,7 @@ const Header: React.FC = ({
                 ${active === 'quienes-somos' ? 'underline' : ''}
               `}
             >
-              Quienes somos
+              Qui&eacute;nes somos
             </Link>
           </li>
             <li
