@@ -59,13 +59,11 @@ export default function MainPage({
   referral,
   isHomepage
 }: MainPageProps) {
-  const [isVideoClicked, setIsVideoClicked] = useState(false);
   const [shouldShowAnimation, setShouldShowAnimation] = useState(false);
 
   const closeAnimation = () => {
     const animationDiv = document.querySelector('#loading-animation');
     if (animationDiv) {
-      setIsVideoClicked(true);
       setTimeout(() => {
         animationDiv.animate(
           [
