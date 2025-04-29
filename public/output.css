@@ -1514,10 +1514,6 @@ html:not(.scroll-smooth) body {
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
-.custom-cursor::after {
-  content: 'Click';
-}
-
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));

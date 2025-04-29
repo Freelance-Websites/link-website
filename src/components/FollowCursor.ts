@@ -77,6 +77,16 @@ const FollowCursor: React.FC<FollowCursorProps> = ({ backgroundColor = '#323232a
       }
     };
 
+    const onCanvasClick = () => {
+      backgroundColor = '#009597';
+      textColor = '#EEE7E7';
+      textContent = 'link';
+      
+      setTimeout(() => {
+        destroy();
+      }, 1000);
+    };
+
     const updateDot = () => {
       if (context) {
         context.clearRect(0, 0, width, height);
@@ -105,13 +115,17 @@ const FollowCursor: React.FC<FollowCursorProps> = ({ backgroundColor = '#323232a
       canvas.height = height;
       document.body.appendChild(canvas);
 
+      window.addEventListener('click', onCanvasClick);
       window.addEventListener('mousemove', onMouseMove);
       window.addEventListener('resize', onWindowResize);
       loop();
     };
 
     const destroy = () => {
-      if (canvas) canvas.remove();
+      if (canvas) {
+        canvas.removeEventListener('click', onCanvasClick);
+        canvas.remove();
+      }
       cancelAnimationFrame(animationFrame);
       window.removeEventListener('mousemove', onMouseMove);
       window.removeEventListener('resize', onWindowResize);

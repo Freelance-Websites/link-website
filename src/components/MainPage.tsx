@@ -66,19 +66,21 @@ export default function MainPage({
     const animationDiv = document.querySelector('#loading-animation');
     if (animationDiv) {
       setIsVideoClicked(true);
-      animationDiv.animate(
-        [
-          { height: `${animationDiv.clientHeight}px` },
-          { height: '0px' }
-        ],
-        {
-          duration: 500,
-          easing: 'ease-in-out',
-          fill: 'forwards'
-        }
-      ).onfinish = () => {
-        setShouldShowAnimation(false);
-      };
+      setTimeout(() => {
+        animationDiv.animate(
+          [
+            { height: `${animationDiv.clientHeight}px` },
+            { height: '0px' }
+          ],
+          {
+            duration: 500,
+            easing: 'ease-in-out',
+            fill: 'forwards'
+          }
+        ).onfinish = () => {
+          setShouldShowAnimation(false);
+        };
+      }, 500);
     }
   };
 
@@ -92,17 +94,17 @@ export default function MainPage({
       tabTitle={`${title ? title : 'Inicio'} • Link`}
       shouldPreventScroll={shouldShowAnimation}
     >
+      <FollowCursor
+        backgroundColor='#74F291'
+        textColor='#004550'
+        textContent='click'
+      />
       {shouldShowAnimation && (
         <div
           className="w-full h-screen"
           id="loading-animation"
           onClick={() => closeAnimation()}
         >
-          <FollowCursor
-            backgroundColor={isVideoClicked ? '#009597' : '#74F291'}
-            textColor={isVideoClicked ? '#EEE7E7' : '#004550'}
-            textContent={isVideoClicked ? 'link' : 'click'}
-          />
           <video
             className="w-full h-full object-cover"
             autoPlay
