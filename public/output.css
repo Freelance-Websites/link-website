@@ -1575,6 +1575,10 @@ td, th {
     margin-top: 2rem;
   }
 
+  .md\:-mt-16 {
+    margin-top: -4rem;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -1707,6 +1711,10 @@ td, th {
     border-radius: 1.5rem;
   }
 
+  .md\:rounded-xl {
+    border-radius: 0.75rem;
+  }
+
   .md\:p-8 {
     padding: 2rem;
   }
@@ -1729,6 +1737,11 @@ td, th {
   .md\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .md\:pb-8 {
@@ -1790,6 +1803,10 @@ td, th {
     margin-top: 4rem;
   }
 
+  .lg\:-mt-24 {
+    margin-top: -6rem;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1825,8 +1842,17 @@ td, th {
     padding-bottom: 2rem;
   }
 
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .lg\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .lg\:pb-8 {
+    padding-bottom: 2rem;
   }
 
   .lg\:text-6xl {
@@ -1853,6 +1879,15 @@ td, th {
   .xl\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .xl\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .xl\:pb-12 {
+    padding-bottom: 3rem;
   }
 
   .xl\:text-7xl {

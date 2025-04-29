@@ -73,7 +73,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
               ? 'bg-secondary text-dark'
               : 'bg-dark text-light'
         }
-        ${layout === 'boxed' && 'container mx-auto my-0 md:my-16 lg:my-24 rounded-none md:rounded-3xl overflow-hidden'}
+        ${layout === 'boxed' && 'container mx-auto my-0 md:my-16 lg:my-24 rounded-none md:rounded-xl overflow-hidden'}
       `}
       id={slugify(byline || title)}
     >
