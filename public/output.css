@@ -588,6 +588,10 @@ video {
   }
 }
 
+.visible {
+  visibility: visible;
+}
+
 .static {
   position: static;
 }
@@ -893,6 +897,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .overflow-hidden {
@@ -1504,6 +1512,10 @@ html:not(.scroll-smooth) body {
   border-top-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+
+.custom-cursor::after {
+  content: 'Click';
 }
 
 .hover\:bg-gray-200:hover {
