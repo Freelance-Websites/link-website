@@ -29,9 +29,6 @@ collections:
                 search_fields: ["title"]
                 display_fields: ["title"]
                 value_field: '{{slug}}'
-                filters: 
-                  - field: draft
-                    values: [false]
           - label: "Encabezado"
             name: "hero"
             fields:
@@ -373,9 +370,6 @@ collections:
             search_fields: ["title"]
             display_fields: ["title"]
             value_field: '{{slug}}'
-            filters: 
-              - field: draft
-                values: [false]
           - label: "Encabezado"
             name: "hero"
             fields:
