@@ -40,7 +40,7 @@ export default function Page({
     >
       <div className='pt-12'>
         <TextAndImage
-          byline={new Date(timestamp || '').toLocaleDateString('en-GB').replace(/\//g, '/')}
+          byline={new Date(timestamp || Date.now()).toISOString().slice(0, 10).split('-').reverse().join('/')}
           title={hero.title}
           description={hero.description}
           media={hero.media}
