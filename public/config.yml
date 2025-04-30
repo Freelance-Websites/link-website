@@ -694,7 +694,6 @@ collections:
         name: "timestamp"
         widget: "datetime"
         default: "{{now}}"
-        date_format: "DD.MM.YYYY"
         time_format: false
         picker_utc: false
       - label: "Encabezado"
