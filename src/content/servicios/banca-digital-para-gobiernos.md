@@ -6,7 +6,8 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/header-banca-digital-gobierno.png
+    mediaSize: full
     colorScheme: primary
     byline: Servicios
     title: Banca digital para gobiernos
@@ -137,6 +138,7 @@ sections:
           - content: Consulta de saldos, movimientos y operaciones realizadas.
           - content: Exportación de reportes de operaciones.
           - content: Descarga de comprobantes de transacciones.
+        media: /images/service-detail-feature-1.jpg
       - title: Ayuda y soporte
         media: /images/service-detail-feature-1.jpg
         bullets:
