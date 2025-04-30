@@ -112,7 +112,7 @@ const AccordionPanel: React.FC<AccordionProps> = ({
                 header={panel.title}
                 initialEntered={index === 0}
                 buttonProps={{
-                  className: 'p-4 hover:opacity-80'
+                  className: 'p-4 hover:opacity-80 text-left'
                 }}
                 contentProps={{
                   className: "transition-height duration-200 ease-out"
