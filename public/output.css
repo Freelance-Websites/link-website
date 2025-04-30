@@ -1559,6 +1559,10 @@ td, th {
     margin-bottom: 4rem;
   }
 
+  .md\:-mt-16 {
+    margin-top: -4rem;
+  }
+
   .md\:mt-12 {
     margin-top: 3rem;
   }
@@ -1573,10 +1577,6 @@ td, th {
 
   .md\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .md\:-mt-16 {
-    margin-top: -4rem;
   }
 
   .md\:hidden {
@@ -1707,10 +1707,6 @@ td, th {
     gap: 2rem;
   }
 
-  .md\:rounded-3xl {
-    border-radius: 1.5rem;
-  }
-
   .md\:rounded-xl {
     border-radius: 0.75rem;
   }
@@ -1734,14 +1730,14 @@ td, th {
     padding-bottom: 4rem;
   }
 
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:pb-8 {
@@ -1799,12 +1795,12 @@ td, th {
     margin-bottom: 6rem;
   }
 
-  .lg\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .lg\:-mt-24 {
     margin-top: -6rem;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
   }
 
   .lg\:grid-cols-4 {
@@ -1842,17 +1838,8 @@ td, th {
     padding-bottom: 2rem;
   }
 
-  .lg\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
   .lg\:pt-16 {
     padding-top: 4rem;
-  }
-
-  .lg\:pb-8 {
-    padding-bottom: 2rem;
   }
 
   .lg\:text-6xl {
@@ -1879,15 +1866,6 @@ td, th {
   .xl\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
-  }
-
-  .xl\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .xl\:pb-12 {
-    padding-bottom: 3rem;
   }
 
   .xl\:text-7xl {
