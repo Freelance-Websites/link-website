@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 export default function Page() {
   useEffect(() => {
+    // @ts-expect-error: Suppressing TypeScript error for netlifyIdentity as its type definitions are not available
     netlifyIdentity.open();
   }, []);
   
