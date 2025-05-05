@@ -5,6 +5,8 @@ export default function Page() {
   useEffect(() => {
     // @ts-expect-error: Suppressing TypeScript error for netlifyIdentity as its type definitions are not available
     netlifyIdentity.open();
+    // @ts-expect-error: Suppressing TypeScript error for netlifyIdentity as its type definitions are not available
+    netlifyIdentity.on('login', window.location.replace('/admin'));
   }, []);
   
   return (
@@ -12,9 +14,6 @@ export default function Page() {
       <Head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async />
       </Head>
-      {/* <main>
-        <p>Login</p>
-      </main> */}
     </>
   );
 }
