@@ -17,8 +17,8 @@ sections:
     cardLayout: vertical
     cards:
       - title: Banca digital para individuos
-        content: Simplificá la gestión financiera de tus clientes con apps nativas y un
-          sitio web responsive adaptados a su día a día.
+        content: Simplificá la gestión financiera de tus clientes con apps nativas y una
+          plataforma web responsive adaptadas a su día a día.
         icon: /images/usuarios.png
         ctaText: Conocer más
         ctaLink: /servicios/banca-digital-para-individuos
