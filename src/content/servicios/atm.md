@@ -31,8 +31,10 @@ sections:
             title: Disponibilidad 24/7
             text: Plataforma confiable y operativa todo el año.
           - icon: /images/check-circle.png
-            title: Marketing personalizado
-            text: Campañas dirigidas en cajeros para potenciar productos financieros.
+            title: Marketing y personalización
+            text: Herramienta para crear campañas segmentadas en cajeros, generando
+              comunicación dirigida y aumentando la conversión en productos
+              financieros.
           - icon: /images/check-circle.png
             title: Reducción de la huella de carbono
             text: Emisión de comprobantes digitales con estándares de sostenibilidad ISO
@@ -40,6 +42,10 @@ sections:
           - icon: /images/check-circle.png
             title: Seguridad avanzada
             text: Ciberseguridad y cumplimiento normativo para prevenir fraudes.
+          - icon: /images/check-circle.png
+            title: Predictivo de efectivo
+            text: Gestión eficiente del dinero en los cajeros, reduciendo costos operativos
+              y mejorando la disponibilidad.
       - title: Para personas
         icon: /images/usuarios.png
         features:
@@ -62,7 +68,7 @@ sections:
     decorations: false
     media: /images/case-study-mockup.png
     mediaSize: boxed
-    colorScheme: primary
+    colorScheme: secondary
     byline: Caso de éxito
     title: Transformamos cada transacción en una oportunidad
     type: textAndImage
