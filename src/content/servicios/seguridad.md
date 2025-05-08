@@ -46,11 +46,42 @@ sections:
             title: Acceso seguro 24/7
             text: Servicios financieros digitales siempre disponibles, con tecnología que
               garantiza operaciones confiables.
+  - type: accordion
+    title: Sistema de Prevención de Fraude Tradicional
+    accordion:
+      - title: " Sistema de Prevención de Fraude Digital"
+        bullets:
+          - content: Sistema automatizado que detecta y bloquea actividades sospechosas en
+              tiempo real mediante análisis de comportamiento, reglas y machine
+              learning para prevenir fraudes digitales
+        media: /images/service-detail-feature-1.jpg
+      - title: Gestor Operativo Unificado (linkGO)
+        bullets:
+          - content: Centraliza y automatiza las gestiones operativas, como por ejemplo
+              conciliaciones de procesos. Permite identificar la operación,
+              generar el descuento al cliente y devolver el dinero en tiempo
+              real, notificando al sobre el beneficio obtenido.
+        media: /images/service-detail-feature-1.jpg
+      - title: CSIRT
+        media: /images/service-detail-feature-1.jpg
+        bullets:
+          - content: Centraliza la detección, análisis y respuesta ante incidentes de
+              seguridad para proteger sitios web y servicios digitales,
+              minimizando riesgos y tiempos de recuperación.
+      - title: Servicio de Notificaciones Push
+        bullets:
+          - content: "Permite mantener informados a los usuarios sobre sus movimientos
+              transacciones y notificarlos en base a diferentes categorias:
+              Promociones, Compras y más."
+        media: /images/service-detail-feature-1.jpg
+    colorScheme: light
+    ctas: []
+    byline: Productos y servicios
   - mediaPlacement: right
     decorations: false
     media: /images/case-study-mockup.png
     mediaSize: boxed
-    colorScheme: primary
+    colorScheme: secondary
     byline: Certificaciones
     bullets:
       - title: PCI DSS (Payment Card Industry Data Security Standard)
