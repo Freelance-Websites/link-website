@@ -12,8 +12,8 @@ sections:
     title: Banca digital para individuos
     type: textAndImage
     description: Transformá la gestión financiera de tus clientes en una experiencia
-      omnicanal que  simplifica su día a día. Creamos apps y sitios web
-      flexibles, seguros y escalables, pensados para el presente y el futuro de
+      omnicanal que  simplifica su día a día. Creamos apps y plataformas web
+      flexibles, seguras y escalables, pensadas para el presente y el futuro de
       la banca digital.
   - type: features
     title: Ventajas
