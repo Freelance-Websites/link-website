@@ -32,8 +32,8 @@ sections:
             text: Plataforma confiable y operativa todo el año.
           - icon: /images/check-circle.png
             title: Marketing y personalización
-            text: Creación de campañas segmentadas, generando comunicación dirigida y
-              aumentando la conversión.
+            text: Creación de campañas de comunicación segmentadas para aumentar la
+              conversión de productos financieros.
           - icon: /images/check-circle.png
             title: Reducción de la huella de carbono
             text: Emisión de comprobantes digitales con estándares de sostenibilidad ISO
