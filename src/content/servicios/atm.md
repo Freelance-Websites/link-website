@@ -9,7 +9,7 @@ sections:
     media: /images/services-mockup.png
     colorScheme: primary
     byline: Servicios
-    title: ATM
+    title: ATM y terminales de autoservicio
     type: textAndImage
     description: Optimizá tus cajeros automáticos con tecnología avanzada y
       mantenelos siempre a la vanguardia. Reducí costos, aumentá la
@@ -89,27 +89,6 @@ sections:
       **¿Qué logramos?**\
 
       Un 30% de conversión en productos financieros, transformando cada transacción en una oportunidad de negocio.
-  - type: accordion
-    title: Funcionalidades principales
-    colorScheme: light
-    description: Conocé todo lo que se puede hacer con nuestros ATM.
-    accordion:
-      - title: Extracción de efectivo
-        media: /images/service-detail-feature-1.jpg
-      - title: Consulta de saldo y últimos movimientos
-        media: /images/service-detail-feature-1.jpg
-      - title: Transferencias
-        media: /images/service-detail-feature-1.jpg
-      - title: Depósito de Efectivo y cheques
-        media: /images/service-detail-feature-1.jpg
-      - title: Préstamos
-        media: /images/service-detail-feature-1.jpg
-      - title: Plazo fijo
-        media: /images/service-detail-feature-1.jpg
-      - title: Pago y Recarga de Servicios
-        media: /images/service-detail-feature-1.jpg
-      - title: Extracción y Depósito con QR
-        media: /images/service-detail-feature-1.jpg
   - type: cards
     byline: Servicios
     title: Tenemos la solución que buscás
