@@ -40,16 +40,19 @@ sections:
     title: Impacto en números
     description: Sustentamos el ecosistema financiero, de verdad.
     stats:
-      - value: 56
-        content: Entidades bancarias trabajan con nosotros
+      - value: 31
+        content: de transacciones en 12 meses.
+        append: MM
       - value: 51
-        content: millones de tarjetas de débito administradas
+        content: de tarjetas administradas.
         prepend: +
-      - value: 14
-        content: millones de usuarios en billeteras digitales
+        append: M
+      - value: 28
+        content: de personas a las que damos servicio
         prepend: +
-      - value: 12
-        content: mil ATM en todo el país
+        append: M
+      - value: 61
+        content: servicios apificados para Bancos y Empresas
         prepend: +
   - mediaPlacement: left
     ctas:
