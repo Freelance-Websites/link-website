@@ -40,7 +40,11 @@ sections:
           - icon: /images/check-circle.png
             title: Personalización y embozado
             text: Gestionamos el diseño y embozado de tarjetas EMV contactless.
-      - title: Para personas usuarias
+          - icon: /images/check-circle.png
+            title: Protocolo 3DS
+            text: Autenticación segura de transacciones sin tarjeta física, reduciendo la
+              posibilidad de fraude.
+      - title: Para personas
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
@@ -78,10 +82,12 @@ sections:
     stats:
       - value: 51
         prepend: +
-        content: millones de tarjetas de débito administradas
-      - value: 26300
+        content: de tarjetas administradas
+        append: M
+      - value: 26
         prepend: +
-        content: millones de transacciones anuales
+        content: de transacciones anuales
+        append: M
       - value: 40
         content: Bancos adheridos
         prepend: +
