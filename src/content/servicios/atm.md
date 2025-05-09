@@ -64,6 +64,10 @@ sections:
           - icon: /images/check-circle.png
             title: Identificación con huella digital
             text: Más seguridad y menos dependencia de claves y tarjetas.
+          - icon: /images/check-circle.png
+            title: Operaciones con QR
+            text: Extracción y depósito con código QR, que simplifica la operatoria y mejora
+              la experiencia.
   - mediaPlacement: right
     decorations: false
     media: /images/case-study-mockup.png
@@ -104,6 +108,8 @@ sections:
       - title: Plazo fijo
         media: /images/service-detail-feature-1.jpg
       - title: Pago y Recarga de Servicios
+        media: /images/service-detail-feature-1.jpg
+      - title: Extracción y Depósito con QR
         media: /images/service-detail-feature-1.jpg
   - type: cards
     byline: Servicios
