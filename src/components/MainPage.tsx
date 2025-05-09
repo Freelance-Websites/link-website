@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
+import FollowCursor from '@/components/FollowCursor';
 import Main from '@/components/Main';
 import Slider, { SliderProps } from '@/components/Slider';
 import Hero from '@/components/Hero';
@@ -49,17 +50,76 @@ export interface MainPageProps {
   title: string;
   sections: SectionProps[];
   referral?: string;
+  isHomepage?: boolean;
 }
 
 export default function MainPage({
   title,
   sections,
-  referral
+  referral,
+  isHomepage
 }: MainPageProps) {
+  const [shouldShowAnimation, setShouldShowAnimation] = useState(false);
+
+  const closeAnimation = () => {
+    const animationDiv = document.querySelector('#loading-animation');
+    if (animationDiv) {
+      setTimeout(() => {
+        animationDiv.animate(
+          [
+            { height: `${animationDiv.clientHeight}px` },
+            { height: '0px' }
+          ],
+          {
+            duration: 500,
+            easing: 'ease-in-out',
+            fill: 'forwards'
+          }
+        ).onfinish = () => {
+          setShouldShowAnimation(false);
+        };
+      }, 500);
+    }
+  };
+
+  useEffect(() => {
+    if (isHomepage) {
+      setShouldShowAnimation(true);
+    }
+
+    const video = document.querySelector('#loading-animation video') as HTMLVideoElement;
+    if (video) {
+      video.playbackRate = 1.2;
+    }
+  }, [isHomepage]);
   return (
     <Main
       tabTitle={`${title ? title : 'Inicio'} • Link`}
+      shouldPreventScroll={shouldShowAnimation}
     >
+      <FollowCursor
+        backgroundColor='#009597'
+        textColor='#EEE7E7'
+        textContent='click'
+      />
+      {shouldShowAnimation && (
+        <div
+          className="w-full h-screen"
+          id="loading-animation"
+          onClick={() => closeAnimation()}
+        >
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="/images/loading.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      )}
       {sections && sections.map((section: SectionProps, index: number) => {
         switch(section.type) {
           case 'hero':

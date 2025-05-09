@@ -7,11 +7,13 @@ import Footer from '@/components/Footer';
 interface MainProps {
   tabTitle: string;
   children: ReactNode;
+  shouldPreventScroll?: boolean;
 }
 
 const Main: React.FC<MainProps> = ({ 
   tabTitle = 'Link',
   children,
+  shouldPreventScroll
 }) => {
   return (
     <>
@@ -21,7 +23,9 @@ const Main: React.FC<MainProps> = ({
         </title>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async />
       </Head>
-      <main>
+      <main
+        className={`flex flex-col h-screen ${shouldPreventScroll ? 'overflow-hidden' : 'overflow-auto'}`}
+      >
         <Header />
         {children}
         <Footer />

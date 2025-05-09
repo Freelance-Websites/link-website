@@ -22,6 +22,7 @@ export default function Page() {
     <MainPage
       title={attributes?.title || ''}
       sections={attributes?.sections || []}
+      isHomepage={slug === 'home'}
     />
   );
 }
