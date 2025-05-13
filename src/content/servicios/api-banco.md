@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_705684260.jpeg
     colorScheme: primary
     byline: Servicios
     title: API Banco
