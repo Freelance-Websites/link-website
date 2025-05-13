@@ -7,6 +7,7 @@ sections:
         text: Conocer más
     decorations: false
     media: /images/empresas.png
+    mediaSize: full
     colorScheme: primary
     byline: Servicios
     title: Banca digital para empresas
@@ -83,11 +84,11 @@ sections:
               mismo usuario.
   - type: accordion
     title: Funcionalidades principales
-    colorScheme: light
+    colorScheme: dark
     description: Conocé cómo funciona nuestra banca digital.
     accordion:
       - title: Home y navegación principal
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Navegación simple e intuitiva.
           - content: Accesos directos a las funcionalidades más utilizadas.
@@ -96,7 +97,7 @@ sections:
           - content: Información de cuentas con visualización de saldos, últimos movimientos
               y transferencias.
       - title: Seguridad y acceso
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Autogestión de los usuarios para desbloqueo.
           - content: Modificación de usuario y contraseña.
@@ -105,13 +106,13 @@ sections:
               empresas."
           - content: Única aplicación de SFA multibanco.
       - title: Administración de empresas y usuarios
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Back Office para alta, baja y modificación de empresas y usuarios.
           - content: Asignación de permisos por funcionalidad.
           - content: Administración de límites y esquemas de firma.
       - title: Pagos y operaciones
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Pago de haberes y proveedores.
           - content: Pago de impuestos, servicios y ARCA.
@@ -119,7 +120,7 @@ sections:
           - content: Aprobación remota de transacciones desde una app.
           - content: Operaciones seguras 7x24.
       - title: Cumplimiento normativo y soporte regulatorio
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Análisis y desarrollo de requerimientos normativos BCRA.
           - content: Certificación PCI DSS Compliant.
@@ -132,7 +133,7 @@ sections:
         title: Consultas y seguimiento de operaciones
         media: /images/adobestock_582581410.png
       - title: Ayuda y soporte
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Contacto con Mesa de Ayuda.
   - type: cards
