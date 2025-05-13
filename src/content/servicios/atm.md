@@ -1,12 +1,12 @@
 ---
-title: ATM
+title: ATM y terminales de autoservicio
 sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas-de-los-atm-link"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_332033726-1-.png
     colorScheme: primary
     byline: Servicios
     title: ATM y terminales de autoservicio
@@ -97,8 +97,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más
