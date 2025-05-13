@@ -128,5 +128,5 @@ sections:
           oferta.
         icon: /images/homepage-service-4.png
         ctaText: Conocer más
-        ctaLink: /servicios/api-bancos
+        ctaLink: /servicios/api-banco
 ---
