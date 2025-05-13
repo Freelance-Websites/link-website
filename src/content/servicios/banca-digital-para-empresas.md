@@ -83,7 +83,7 @@ sections:
               mismo usuario.
   - type: accordion
     title: Funcionalidades principales
-    colorScheme: light
+    colorScheme: dark
     description: Conocé cómo funciona nuestra banca digital.
     accordion:
       - title: Home y navegación principal
