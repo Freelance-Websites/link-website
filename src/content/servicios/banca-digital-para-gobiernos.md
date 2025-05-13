@@ -6,7 +6,8 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/header-banca-digital-gobierno.png
+    mediaSize: full
     colorScheme: primary
     byline: Servicios
     title: Banca digital para gobiernos
@@ -93,7 +94,7 @@ sections:
     description: Conocé cómo funciona nuestra banca digital
     accordion:
       - title: Home y navegación principal
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Navegación simple e intuitiva.
           - content: Comunicaciones.
@@ -103,7 +104,7 @@ sections:
           - content: Información de cuentas con visualización de saldos, últimos movimientos
               y transferencias.
       - title: Seguridad y acceso
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Autogestión de los usuarios para desbloqueo.
           - content: Modificación de usuario y contraseña.
@@ -112,13 +113,13 @@ sections:
               empresas."
           - content: Única aplicación de SFA multibanco.
       - title: Administración de empresas y usuarios
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Back Office para alta, baja y modificación de empresas y usuarios.
           - content: Asignación de permisos por funcionalidad.
           - content: Administración de límites y esquemas de firma.
       - title: Pagos y operaciones
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Pago de haberes y proveedores.
           - content: Pago de impuestos, servicios y ARCA.
@@ -126,7 +127,7 @@ sections:
           - content: Aprobación remota de transacciones desde una app.
           - content: Operaciones seguras 7x24.
       - title: Cumplimiento normativo y soporte regulatorio
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Análisis y desarrollo de requerimientos normativos BCRA.
           - content: Certificación PCI DSS Compliant.
@@ -137,8 +138,9 @@ sections:
           - content: Consulta de saldos, movimientos y operaciones realizadas.
           - content: Exportación de reportes de operaciones.
           - content: Descarga de comprobantes de transacciones.
+        media: /images/adobestock_582581410.png
       - title: Ayuda y soporte
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Contacto con Mesa de Ayuda.
           - content: Centro de ayuda integrado en la plataforma.
@@ -151,8 +153,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
       - title: Soluciones de cobro
