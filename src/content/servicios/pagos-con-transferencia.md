@@ -1,15 +1,15 @@
 ---
-title: Pagos con transferencia
+title: Cobros con transferencia
 sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/transferencia.png
     colorScheme: primary
     byline: Servicios
-    title: Pagos con transferencia
+    title: Cobros con transferencia
     type: textAndImage
     description: Integrá pagos con QR con APIs que simplifican y mejoran la
       experiencia. Conectá el negocio al ecosistema de pagos link con alta
@@ -51,13 +51,14 @@ sections:
           - icon: /images/check-circle.png
             title: Más información, mejores decisiones
             text: Acceso a datos útiles para entender y optimizar cada operación.
-  - type: textAndImage
-    media: /images/case-study-mockup.png
-    mediaPlacement: right
-    mediaSize: boxed
-    title: Escalá con tecnología a la altura de tu negocio
-    colorScheme: light
+  - mediaPlacement: right
     decorations: false
+    media: /images/negocio-floreria_chica-adelante.png
+    mediaSize: full
+    colorScheme: secondary
+    bullets: []
+    title: Escalá con tecnología a la altura de tu negocio
+    type: textAndImage
     description: >-
       A través de esta solución **procesamos más de $230 mil millones** de
       cobros por mes y **gestionamos** **más de 16 millones de transacciones**
@@ -89,8 +90,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más
