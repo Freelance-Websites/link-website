@@ -67,7 +67,7 @@ sections:
     ctas:
       - text: Conocer billeteras digitales
         link: /servicios/billeteras-digitales
-    decorations: true
+    decorations: false
     media: /images/case-study-mockup.png
     mediaSize: full
     colorScheme: light
