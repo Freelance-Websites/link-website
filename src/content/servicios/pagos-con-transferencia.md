@@ -51,13 +51,14 @@ sections:
           - icon: /images/check-circle.png
             title: Más información, mejores decisiones
             text: Acceso a datos útiles para entender y optimizar cada operación.
-  - type: textAndImage
-    media: /images/case-study-mockup.png
-    mediaPlacement: right
-    mediaSize: boxed
-    title: Escalá con tecnología a la altura de tu negocio
-    colorScheme: light
+  - mediaPlacement: right
     decorations: false
+    media: /images/negocio-floreria_chica-adelante.png
+    mediaSize: full
+    colorScheme: secondary
+    bullets: []
+    title: Escalá con tecnología a la altura de tu negocio
+    type: textAndImage
     description: >-
       A través de esta solución **procesamos más de $230 mil millones** de
       cobros por mes y **gestionamos** **más de 16 millones de transacciones**
