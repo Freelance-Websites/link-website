@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_90935052.jpeg
     colorScheme: primary
     byline: Servicios
     title: Billeteras digitales
@@ -57,7 +57,7 @@ sections:
     decorations: false
     media: /images/case-study-mockup.png
     mediaSize: boxed
-    colorScheme: primary
+    colorScheme: secondary
     byline: Caso de éxito
     bullets:
       - content: Un **módulo de notificaciones** para mejorar la comunicación.
@@ -76,11 +76,11 @@ sections:
       Hoy tiene más de 250 mil cuentas activas. Además, incluimos:
   - type: accordion
     title: Funcionalidades principales
-    colorScheme: light
+    colorScheme: dark
     description: Conocé cómo funciona la billetera link
     accordion:
       - title: Autenticación y gestión de usuarios
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Onboarding y registro.
           - content: Login, recupero de clave, cambio de contraseña.
@@ -88,32 +88,32 @@ sections:
           - content: cambio de dispositivo.
           - content: Alta/cambio de teléfono y gestión de perfil.
       - title: Home y navegación principal
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Home.
           - content: Comunicaciones.
           - content: Notificaciones.
           - content: Promociones.
       - title: Pagos y operaciones
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Pago QR.
           - content: Transferencias y envío/pedido de dinero.
           - content: Pago de servicios, ARCA /VEP / ARBA.
           - content: Recarga de celular y transporte.
       - title: Gestión de dinero y Operaciones bancarias
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Cuentas y tarjetas.
           - content: Ingreso de dinero.
           - content: Órdenes de extracción con PIN o PIN+QR.
       - title: Historial y actividad
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Actividad y comprobantes.
           - content: Emails.
       - title: Ayuda y soporte
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Centro de ayuda integrado.
   - type: cards
@@ -124,8 +124,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más
