@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/banca-digital-individuos.png
     colorScheme: primary
     byline: Servicios
     title: Banca digital para individuos
@@ -70,7 +70,7 @@ sections:
     decorations: true
     media: /images/case-study-mockup.png
     mediaSize: full
-    colorScheme: secondary
+    colorScheme: light
     layout: boxed
     byline: ""
     bullets: []
@@ -80,8 +80,9 @@ sections:
       pagar desde el celular con total fluidez.
   - mediaPlacement: right
     decorations: true
-    media: /images/case-study-mockup.png
+    media: /images/link-ingeniero_v1.png
     mediaSize: boxed
+    colorScheme: secondary
     layout: full
     byline: Caso de éxito
     title: Una plataforma que se siente simple, pero trabaja en serio
@@ -94,7 +95,7 @@ sections:
       Además, **procesamos más de 1.634 millones de operaciones** al año en nuestras apps nativas y el sitio web responsive.
   - type: accordion
     title: Funcionalidades principales
-    colorScheme: light
+    colorScheme: dark
     description: Conocé cómo funciona nuestra banca digital
     accordion:
       - title: Autenticación y gestión de usuarios
