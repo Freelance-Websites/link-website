@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/empresas.png
     colorScheme: primary
     byline: Servicios
     title: Banca digital para empresas
@@ -130,6 +130,7 @@ sections:
           - content: Exportación de reportes de operaciones.
           - content: Descarga de comprobantes de transacciones.
         title: Consultas y seguimiento de operaciones
+        media: /images/adobestock_582581410.png
       - title: Ayuda y soporte
         media: /images/service-detail-feature-1.jpg
         bullets:
@@ -142,8 +143,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más
