@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/banca-digital-individuos.png
+    media: /images/banca-individuos-png.png
     colorScheme: primary
     byline: Servicios
     title: Banca digital para individuos
