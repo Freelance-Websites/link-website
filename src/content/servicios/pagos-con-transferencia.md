@@ -9,7 +9,7 @@ sections:
     media: /images/transferencia.png
     colorScheme: primary
     byline: Servicios
-    title: Pagos con transferencia
+    title: Cobros con transferencia
     type: textAndImage
     description: Integrá pagos con QR con APIs que simplifican y mejoran la
       experiencia. Conectá el negocio al ecosistema de pagos link con alta
