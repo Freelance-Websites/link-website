@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/nordwood-themes-q8u1ygbarqk-unsplash.jpg
     colorScheme: primary
     byline: Servicios
     title: Pagos con transferencias
@@ -45,27 +45,16 @@ sections:
             text: Transferencias en tiempo real, en todo momento.
   - mediaPlacement: right
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/pagos-con-trasferencuas_ilus.png
     mediaSize: boxed
-    colorScheme: light
+    colorScheme: secondary
+    layout: full
     byline: Caso de éxito
     title: Procesamos +300 millones de transferencias en un año
     type: textAndImage
     description: Durante 2024 procesamos grandes volúmenes de transferencias, siendo
       un socio clave para que entidades financieras y empresas optimicen sus
       pagos.
-  - type: stats
-    colorScheme: primary
-    stats:
-      - value: 51
-        prepend: +
-        content: millones de tarjetas de débito administradas
-      - value: 26300
-        prepend: +
-        content: millones de transacciones anuales
-      - value: 40
-        content: Bancos adheridos
-        prepend: +
   - type: cards
     byline: Servicios
     title: Tenemos la solución que buscás
