@@ -1,12 +1,12 @@
 ---
-title: Pagos con transferencia
+title: Cobros con transferencia
 sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/transferencia.png
     colorScheme: primary
     byline: Servicios
     title: Pagos con transferencia
