@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas-de-banking as a service"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_1317156873.jpeg
     colorScheme: primary
     byline: Servicios
     title: Banking as a Service
@@ -71,7 +71,7 @@ sections:
     decorations: false
     media: /images/case-study-mockup.png
     mediaSize: boxed
-    colorScheme: light
+    colorScheme: secondary
     byline: Casos de uso
     bullets:
       - title: Expansión digital
@@ -95,31 +95,38 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
+        ctaText: Conocer más
       - title: Soluciones de cobro
         content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
+        ctaText: Conocer más
       - title: ATM
         content: Formá parte de la red más extensa y segura de cajeros de todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
+        ctaText: Conocer más
       - title: Seguridad
         content: Blindamos todas las operaciones financieras con tecnología de punta y
           estándares globales.
         icon: /images/homepage-service-7.png
         ctaLink: /servicios/seguridad
+        ctaText: Conocer más
       - title: Plataformas digitales
         content: Diseñadas para individuos, empresas y gobiernos, 100% integrables y
           personalizables.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
+        ctaText: Conocer más
       - title: API banco
         content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
           oferta.
         icon: /images/homepage-service-4.png
+        ctaText: Conocer más
+        ctaLink: /servicios/api-bancos
 ---
