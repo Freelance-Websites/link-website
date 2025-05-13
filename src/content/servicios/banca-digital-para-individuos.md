@@ -79,9 +79,9 @@ sections:
     description: Ofrecé a tus clientes una app completa y a medida, que permite
       pagar desde el celular con total fluidez.
   - mediaPlacement: right
-    decorations: true
+    decorations: false
     media: /images/link-ingeniero_v1.png
-    mediaSize: boxed
+    mediaSize: full
     colorScheme: secondary
     layout: full
     byline: Caso de éxito
