@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_159563923.jpeg
     colorScheme: primary
     byline: Servicios
     title: Tarjetas de débito
@@ -63,7 +63,7 @@ sections:
               Apple Pay.
   - mediaPlacement: right
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/link-tarjeta-debito_remera_v1-copia.png
     mediaSize: boxed
     colorScheme: light
     byline: Caso de éxito
