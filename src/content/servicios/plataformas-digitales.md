@@ -2,7 +2,7 @@
 title: Plataformas digitales
 sections:
   - type: hero
-    media: /images/services-hero.jpg
+    media: /images/recurso-20-2x.png
     byline: Servicios
     layout: boxed
     title: Plataformas digitales
@@ -34,7 +34,7 @@ sections:
         content: Grandes, medianas y pequeñas empresas necesitan una plataforma que
           evolucione con su negocio. Brindales una herramienta flexible y con un
           alto nivel de configuración que se adapte a cada una de ellas.
-        icon: /images/empresas.png
+        icon: /images/group-197.png
         ctaText: Conocer más
         ctaLink: /servicios/banca-digital-para-empresas
         features:
