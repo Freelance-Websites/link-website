@@ -11,7 +11,7 @@ sections:
     byline: Servicios
     title: Cobros con transferencia
     type: textAndImage
-    description: Integrá pagos con QR con APIs que simplifican y mejoran la
+    description: Integrá cobros con QR a través de APIs que simplifican y mejoran la
       experiencia. Conectá el negocio al ecosistema de pagos link con alta
       disponibilidad y cumplimiento normativo garantizado.
   - type: features
