@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas-de-banking as a service"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_618864020.jpeg
     colorScheme: primary
     byline: Servicios
     title: Banking as a Service
@@ -49,7 +49,7 @@ sections:
   - mediaPlacement: right
     ctas: []
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/icono_tienda_blue_green.png
     mediaSize: boxed
     colorScheme: primary
     byline: Casos de uso
@@ -69,9 +69,9 @@ sections:
   - mediaPlacement: left
     ctas: []
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/icono_banco_glow_green.png
     mediaSize: boxed
-    colorScheme: light
+    colorScheme: secondary
     byline: Casos de uso
     bullets:
       - title: Expansión digital
