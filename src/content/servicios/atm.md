@@ -69,7 +69,7 @@ sections:
               la experiencia.
   - mediaPlacement: right
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/08-link-cajero-automatico_promo.png
     mediaSize: boxed
     colorScheme: secondary
     byline: Caso de éxito
