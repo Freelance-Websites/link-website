@@ -99,14 +99,14 @@ sections:
     description: Conocé cómo funciona nuestra banca digital
     accordion:
       - title: Autenticación y gestión de usuarios
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Onboarding 100% digital
           - content: Login con ingreso rápido
           - content: Autogestión de credenciales y datos personales
           - content: Alta en línea
       - title: Gestión de dinero y operaciones bancarias
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Administración de cuentas y tarjetas
           - content: Plazo Fijo y CEDIP
@@ -120,14 +120,14 @@ sections:
           - content: Comprobantes
           - content: Tarjeta digital
       - title: Pagos y recargas
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Agenda de pagos y recargas
           - content: Adhesión
           - content: Consulta de pagos y recargas realizados
           - content: Pagos ARCA
       - title: Notificaciones
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Notificaciones Push
           - content: Buzón de novedades
