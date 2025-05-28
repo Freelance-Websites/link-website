@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas-de-pagar"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/mockup_pagar.png
     mediaSize: full
     colorScheme: primary
     layout: full
