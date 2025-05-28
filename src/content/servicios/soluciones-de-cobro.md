@@ -2,7 +2,7 @@
 title: Soluciones de cobro
 sections:
   - type: hero
-    media: /images/services-hero.jpg
+    media: /images/recurso-20-2x.png
     byline: Servicios
     layout: boxed
     title: Soluciones de cobro
