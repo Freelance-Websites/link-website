@@ -51,9 +51,9 @@ sections:
       - text: Contactanos y empezá a apificar
         link: mailto:ecosistema@redlink.com.ar
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/icono_banco_glow_green.png
     mediaSize: boxed
-    colorScheme: primary
+    colorScheme: secondary
     byline: Marketplace
     bullets:
       - title: Conectividad Open Banking
@@ -70,9 +70,9 @@ sections:
       - text: Contactanos y sumá este servicio
         link: mailto:ecosistema@redlink.com.ar
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/icono_nube_glow_green.png
     mediaSize: boxed
-    colorScheme: secondary
+    colorScheme: light
     byline: Data
     bullets:
       - content: Impulsá nuevos productos y servicios
