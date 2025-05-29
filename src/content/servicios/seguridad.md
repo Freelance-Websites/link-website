@@ -84,10 +84,11 @@ sections:
     ctas: []
     byline: ""
   - mediaPlacement: right
-    decorations: false
+    decorations: true
     media: ""
     mediaSize: boxed
     colorScheme: secondary
+    layout: boxed
     byline: Certificaciones
     bullets:
       - title: PCI DSS (Payment Card Industry Data Security Standard)
