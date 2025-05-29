@@ -70,7 +70,7 @@ sections:
   - mediaPlacement: right
     decorations: false
     media: /images/08-link-cajero-automatico_promo.png
-    mediaSize: boxed
+    mediaSize: full
     colorScheme: secondary
     byline: Caso de éxito
     title: Transformamos cada transacción en una oportunidad
