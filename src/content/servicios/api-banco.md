@@ -54,6 +54,7 @@ sections:
     media: /images/icono_banco_glow_green.png
     mediaSize: boxed
     colorScheme: secondary
+    layout: boxed
     byline: Marketplace
     bullets:
       - title: Conectividad Open Banking
@@ -72,7 +73,8 @@ sections:
     decorations: false
     media: /images/icono_nube_glow_green.png
     mediaSize: boxed
-    colorScheme: light
+    colorScheme: secondary
+    layout: boxed
     byline: Data
     bullets:
       - content: Impulsá nuevos productos y servicios
