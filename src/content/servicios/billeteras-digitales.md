@@ -55,7 +55,7 @@ sections:
             text: Seguridad y confianza en todas las transacciones.
   - mediaPlacement: right
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/mockup-buepp-1-.png
     mediaSize: boxed
     colorScheme: secondary
     byline: Caso de éxito
