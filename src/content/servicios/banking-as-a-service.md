@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas-de-banking as a service"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_618864020.jpeg
     colorScheme: primary
     byline: Servicios
     title: Banking as a Service
