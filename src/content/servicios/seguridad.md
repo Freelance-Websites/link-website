@@ -85,7 +85,7 @@ sections:
     byline: ""
   - mediaPlacement: right
     decorations: false
-    media: /images/case-study-mockup.png
+    media: ""
     mediaSize: boxed
     colorScheme: secondary
     byline: Certificaciones
