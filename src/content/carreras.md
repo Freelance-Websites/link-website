@@ -52,7 +52,7 @@ sections:
           entendiendo que la tecnología genera un gran impacto.
         avatar: /images/careers-testimonial-1.png
         name: Paula Debenedetti
-        role: Líder de Ecosistema de Servicios
+        role: Líder de negocio BaaS y APIempresas
       - phrase: "Acá tengo la libertad de proponer, equivocarme y volver a intentar,
           siempre junto a personas que acompañan y escuchan. Nos movemos en
           equipo, con empatía y un objetivo común—tanto entre nosotros como con
