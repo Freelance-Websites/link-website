@@ -64,7 +64,7 @@ sections:
   - mediaPlacement: right
     decorations: false
     media: /images/link-tarjeta-debito_remera_v1-copia.png
-    mediaSize: boxed
+    mediaSize: full
     colorScheme: secondary
     byline: Caso de éxito
     title: Millones de personas pagan con NFC
