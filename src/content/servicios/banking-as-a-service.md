@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas-de-banking as a service"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_618864020.jpeg
     colorScheme: primary
     byline: Servicios
     title: Banking as a Service
@@ -49,9 +49,10 @@ sections:
   - mediaPlacement: right
     ctas: []
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/iconos.png
     mediaSize: boxed
     colorScheme: primary
+    layout: boxed
     byline: Casos de uso
     bullets:
       - title: E-commerce & Marketplaces
@@ -69,9 +70,10 @@ sections:
   - mediaPlacement: left
     ctas: []
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/icono_banco_glow_green.png
     mediaSize: boxed
-    colorScheme: light
+    colorScheme: secondary
+    layout: boxed
     byline: Casos de uso
     bullets:
       - title: Expansión digital
@@ -95,8 +97,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
       - title: Soluciones de cobro
