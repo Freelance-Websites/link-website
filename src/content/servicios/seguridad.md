@@ -85,7 +85,7 @@ sections:
     byline: ""
   - mediaPlacement: right
     decorations: true
-    media: ""
+    media: /images/group-198.png
     mediaSize: boxed
     colorScheme: secondary
     layout: boxed
