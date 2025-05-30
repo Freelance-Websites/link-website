@@ -28,8 +28,8 @@ sections:
               funcionamiento. "
           - icon: /images/check-circle.png
             title: Seguridad
-            text: Protección de datos en tiempo real con monitoreo continuo y pruebas de
-              vulnerabilidad.
+            text: Análisis del comportamiento del usuario para anticipar amenazas y proteger
+              operaciones al instante.
           - icon: /images/check-circle.png
             title: Usabilidad
             text: Evolución permanente para crear experiencias digitales fluidas y sin
