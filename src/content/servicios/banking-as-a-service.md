@@ -69,7 +69,7 @@ sections:
   - mediaPlacement: left
     ctas: []
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/banca-individuos-png.png
     mediaSize: boxed
     colorScheme: light
     byline: Casos de uso
