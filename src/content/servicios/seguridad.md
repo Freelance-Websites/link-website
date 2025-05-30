@@ -84,7 +84,7 @@ sections:
     ctas: []
     byline: ""
   - mediaPlacement: right
-    decorations: true
+    decorations: false
     media: /images/group-198.png
     mediaSize: boxed
     colorScheme: secondary
