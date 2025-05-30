@@ -18,7 +18,7 @@ sections:
       tu lugar. Sumate a un equipo en evolución.
   - type: cards
     title: Descubrí el ADN link
-    description: Lideramos la evolución desde adentro hacia afuera.
+    description: ""
     colorScheme: dark
     cardLayout: vertical
     cards:
@@ -72,5 +72,5 @@ sections:
     byline: Carreras
     title: Sumate al equipo link
     type: textAndImage
-    description: Buscamos personas con ganas de dejar huella. ¿Te sumás?
+    description: Buscamos personas con ganas de impulsar la evolución. ¿Te sumás?
 ---
