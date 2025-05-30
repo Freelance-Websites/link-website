@@ -18,7 +18,7 @@ sections:
       tu lugar. Sumate a un equipo en evolución.
   - type: cards
     title: Descubrí el ADN link
-    description: Lideramos la evolución desde adentro hacia afuera.
+    description: ""
     colorScheme: dark
     cardLayout: vertical
     cards:
@@ -52,7 +52,7 @@ sections:
           entendiendo que la tecnología genera un gran impacto.
         avatar: /images/careers-testimonial-1.png
         name: Paula Debenedetti
-        role: Líder de Ecosistema de Servicios
+        role: Líder de negocio BaaS y APIempresas
       - phrase: "Acá tengo la libertad de proponer, equivocarme y volver a intentar,
           siempre junto a personas que acompañan y escuchan. Nos movemos en
           equipo, con empatía y un objetivo común—tanto entre nosotros como con
@@ -72,5 +72,5 @@ sections:
     byline: Carreras
     title: Sumate al equipo link
     type: textAndImage
-    description: Buscamos personas con ganas de dejar huella. ¿Te sumás?
+    description: Buscamos personas con ganas de impulsar la evolución. ¿Te sumás?
 ---
