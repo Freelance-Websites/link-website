@@ -18,10 +18,9 @@ sections:
     description: "Desde 1988 desarrollamos productos y servicios para entidades
       financieras, organismos gubernamentales y empresas de todo Argentina. "
   - type: cards
-    byline: Servicios
+    byline: ""
     title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema
-      financiero.
+    description: ""
     colorScheme: dark
     cardLayout: horizontal
     cards:
