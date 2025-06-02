@@ -20,7 +20,7 @@ sections:
   - type: cards
     byline: ""
     title: Conocé nuestros servicios
-    description: Creamos soluciones a medida
+    description: ""
     colorScheme: dark
     cardLayout: horizontal
     cards:
