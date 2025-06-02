@@ -20,8 +20,7 @@ sections:
   - type: cards
     byline: ""
     title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema
-      financiero.
+    description: Creamos soluciones a medida
     colorScheme: dark
     cardLayout: horizontal
     cards:
