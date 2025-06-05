@@ -3,6 +3,7 @@ title: Inicio
 sections:
   - type: slider
     slider:
+      - impacto-en-números
       - construimos-futuro-en-la-nube
       - el-transporte-publico-suma-pagos-con-debito-sin-contacto
   - mediaPlacement: right
