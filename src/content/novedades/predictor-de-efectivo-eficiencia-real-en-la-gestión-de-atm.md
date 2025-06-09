@@ -2,15 +2,16 @@
 title: "Predictor de Efectivo: eficiencia real en la gestión de ATM"
 timestamp: 2025-06-09T00:00:00.000Z
 hero:
-  decorations: false
-  media: /images/diseño-sin-título-2-.png
+  ctas: []
+  decorations: true
+  media: /images/diseño-sin-título-4-.png
+  mediaSize: full
+  colorScheme: dark
+  layout: boxed
   byline: Novedades
   title: "Predictor de Efectivo: eficiencia real en la gestión de ATM"
   description: "Ya está en producción y los resultados son concretos: reducción
     del 20% en costos y planificación basada en datos."
-  layout: full
-  colorScheme: dark
-  mediaSize: full
 text: >-
   En un escenario donde la **eficiencia operativa** es clave para la
   rentabilidad bancaria, la gestión del efectivo en cajeros
