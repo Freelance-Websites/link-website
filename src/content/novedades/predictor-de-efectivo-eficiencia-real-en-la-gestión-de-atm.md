@@ -2,13 +2,13 @@
 title: "Predictor de Efectivo: eficiencia real en la gestión de ATM"
 timestamp: 2025-06-09T00:00:00.000Z
 hero:
-  decorations: false
+  decorations: true
   media: /images/diseño-sin-título-2-.png
   byline: Novedades
   title: "Predictor de Efectivo: eficiencia real en la gestión de ATM"
   description: "Ya está en producción y los resultados son concretos: reducción
     del 20% en costos y planificación basada en datos."
-  layout: full
+  layout: boxed
   colorScheme: dark
   mediaSize: full
 text: >-
