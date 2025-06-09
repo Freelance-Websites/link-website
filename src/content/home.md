@@ -3,6 +3,7 @@ title: Inicio
 sections:
   - type: slider
     slider:
+      - predictor-de-efectivo-eficiencia-real-en-la-gestión-de-atm
       - construimos-futuro-en-la-nube
       - el-transporte-publico-suma-pagos-con-debito-sin-contacto
   - mediaPlacement: right
