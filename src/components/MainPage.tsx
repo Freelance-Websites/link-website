@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-import FollowCursor from '@/components/FollowCursor';
 import Main from '@/components/Main';
 import Slider, { SliderProps } from '@/components/Slider';
 import Hero from '@/components/Hero';
