@@ -97,25 +97,35 @@ export default function MainPage({
       tabTitle={`${title ? title : 'Inicio'} • Link`}
       shouldPreventScroll={shouldShowAnimation}
     >
-      <FollowCursor
-        backgroundColor='#009597'
-        textColor='#EEE7E7'
-        textContent='click'
-      />
       {shouldShowAnimation && (
         <div
           className="w-full h-screen"
           id="loading-animation"
           onClick={() => closeAnimation()}
         >
+          <img
+            src="/images/logo.png"
+            alt="Link Logo"
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 lg:w-32 lg:h-32"
+          />
           <video
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover hidden lg:block"
             autoPlay
             loop
             muted
             playsInline
           >
-            <source src="/images/loading.mp4" type="video/mp4" />
+            <source src="/images/loading-desktop.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <video
+            className="w-full h-full object-cover lg:hidden"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="/images/loading-mobile.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
