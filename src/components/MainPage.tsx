@@ -109,6 +109,7 @@ export default function MainPage({
           />
           <video
             className="w-full h-full object-cover hidden lg:block"
+            poster='/images/loading-desktop-poster.jpg'
             autoPlay
             loop
             muted
@@ -119,6 +120,7 @@ export default function MainPage({
           </video>
           <video
             className="w-full h-full object-cover lg:hidden"
+            poster='/images/loading-mobile-poster.jpg'
             autoPlay
             loop
             muted
