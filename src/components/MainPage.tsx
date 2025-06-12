@@ -105,7 +105,7 @@ export default function MainPage({
           <img
             src="/images/logo.png"
             alt="Link Logo"
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 lg:w-32 lg:h-32"
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 lg:w-44 lg:h-44"
           />
           <video
             className="w-full h-full object-cover hidden lg:block"
