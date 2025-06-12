@@ -70,7 +70,7 @@ export default function MainPage({
             { height: '0px' }
           ],
           {
-            duration: 500,
+            duration: 1000,
             easing: 'ease-in-out',
             fill: 'forwards'
           }
@@ -98,7 +98,7 @@ export default function MainPage({
     >
       {shouldShowAnimation && (
         <div
-          className="w-full h-screen"
+          className="w-full h-screen z-[51]"
           id="loading-animation"
           onClick={() => closeAnimation()}
         >
