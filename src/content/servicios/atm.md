@@ -1,15 +1,15 @@
 ---
-title: ATM
+title: ATM y terminales de autoservicio
 sections:
   - mediaPlacement: right
     ctas:
       - link: "#ventajas-de-los-atm-link"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_332033726-1-.png
     colorScheme: primary
     byline: Servicios
-    title: ATM
+    title: ATM y terminales de autoservicio
     type: textAndImage
     description: Optimizá tus cajeros automáticos con tecnología avanzada y
       mantenelos siempre a la vanguardia. Reducí costos, aumentá la
@@ -31,8 +31,9 @@ sections:
             title: Disponibilidad 24/7
             text: Plataforma confiable y operativa todo el año.
           - icon: /images/check-circle.png
-            title: Marketing personalizado
-            text: Campañas dirigidas en cajeros para potenciar productos financieros.
+            title: Marketing y personalización
+            text: Creación de campañas de comunicación segmentadas para aumentar la
+              conversión de productos financieros.
           - icon: /images/check-circle.png
             title: Reducción de la huella de carbono
             text: Emisión de comprobantes digitales con estándares de sostenibilidad ISO
@@ -40,6 +41,10 @@ sections:
           - icon: /images/check-circle.png
             title: Seguridad avanzada
             text: Ciberseguridad y cumplimiento normativo para prevenir fraudes.
+          - icon: /images/check-circle.png
+            title: Predictivo de efectivo
+            text: Gestión eficiente del dinero en los cajeros, reduciendo costos operativos
+              y mejorando la disponibilidad.
       - title: Para personas
         icon: /images/usuarios.png
         features:
@@ -58,11 +63,15 @@ sections:
           - icon: /images/check-circle.png
             title: Identificación con huella digital
             text: Más seguridad y menos dependencia de claves y tarjetas.
+          - icon: /images/check-circle.png
+            title: Operaciones con QR
+            text: Extracción y depósito con código QR, que simplifica la operatoria y mejora
+              la experiencia.
   - mediaPlacement: right
     decorations: false
-    media: /images/case-study-mockup.png
-    mediaSize: boxed
-    colorScheme: primary
+    media: /images/08-link-cajero-automatico_promo.png
+    mediaSize: full
+    colorScheme: secondary
     byline: Caso de éxito
     title: Transformamos cada transacción en una oportunidad
     type: textAndImage
@@ -80,25 +89,6 @@ sections:
       **¿Qué logramos?**\
 
       Un 30% de conversión en productos financieros, transformando cada transacción en una oportunidad de negocio.
-  - type: accordion
-    title: Funcionalidades principales
-    colorScheme: light
-    description: Conocé todo lo que se puede hacer con nuestros ATM.
-    accordion:
-      - title: Extracción de efectivo
-        media: /images/service-detail-feature-1.jpg
-      - title: Consulta de saldo y últimos movimientos
-        media: /images/service-detail-feature-1.jpg
-      - title: Transferencias
-        media: /images/service-detail-feature-1.jpg
-      - title: Depósito de Efectivo y cheques
-        media: /images/service-detail-feature-1.jpg
-      - title: Préstamos
-        media: /images/service-detail-feature-1.jpg
-      - title: Plazo fijo
-        media: /images/service-detail-feature-1.jpg
-      - title: Pago y Recarga de Servicios
-        media: /images/service-detail-feature-1.jpg
   - type: cards
     byline: Servicios
     title: Tenemos la solución que buscás
@@ -107,8 +97,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más

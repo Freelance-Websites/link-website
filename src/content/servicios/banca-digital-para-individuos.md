@@ -6,14 +6,14 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/banca-individuos-png.png
     colorScheme: primary
     byline: Servicios
     title: Banca digital para individuos
     type: textAndImage
     description: Transformá la gestión financiera de tus clientes en una experiencia
-      omnicanal que  simplifica su día a día. Creamos apps y sitios web
-      flexibles, seguros y escalables, pensados para el presente y el futuro de
+      omnicanal que  simplifica su día a día. Creamos apps y plataformas web
+      flexibles, seguras y escalables, pensadas para el presente y el futuro de
       la banca digital.
   - type: features
     title: Ventajas
@@ -28,8 +28,8 @@ sections:
               funcionamiento. "
           - icon: /images/check-circle.png
             title: Seguridad
-            text: Protección de datos en tiempo real con monitoreo continuo y pruebas de
-              vulnerabilidad.
+            text: Análisis del comportamiento del usuario para anticipar amenazas y proteger
+              operaciones al instante.
           - icon: /images/check-circle.png
             title: Usabilidad
             text: Evolución permanente para crear experiencias digitales fluidas y sin
@@ -67,10 +67,10 @@ sections:
     ctas:
       - text: Conocer billeteras digitales
         link: /servicios/billeteras-digitales
-    decorations: true
+    decorations: false
     media: /images/case-study-mockup.png
     mediaSize: full
-    colorScheme: secondary
+    colorScheme: light
     layout: boxed
     byline: ""
     bullets: []
@@ -79,9 +79,10 @@ sections:
     description: Ofrecé a tus clientes una app completa y a medida, que permite
       pagar desde el celular con total fluidez.
   - mediaPlacement: right
-    decorations: true
-    media: /images/case-study-mockup.png
-    mediaSize: boxed
+    decorations: false
+    media: /images/link-ingeniero_v1.png
+    mediaSize: full
+    colorScheme: secondary
     layout: full
     byline: Caso de éxito
     title: Una plataforma que se siente simple, pero trabaja en serio
@@ -94,18 +95,18 @@ sections:
       Además, **procesamos más de 1.634 millones de operaciones** al año en nuestras apps nativas y el sitio web responsive.
   - type: accordion
     title: Funcionalidades principales
-    colorScheme: light
+    colorScheme: dark
     description: Conocé cómo funciona nuestra banca digital
     accordion:
       - title: Autenticación y gestión de usuarios
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Onboarding 100% digital
           - content: Login con ingreso rápido
           - content: Autogestión de credenciales y datos personales
           - content: Alta en línea
       - title: Gestión de dinero y operaciones bancarias
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Administración de cuentas y tarjetas
           - content: Plazo Fijo y CEDIP
@@ -119,14 +120,14 @@ sections:
           - content: Comprobantes
           - content: Tarjeta digital
       - title: Pagos y recargas
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Agenda de pagos y recargas
           - content: Adhesión
           - content: Consulta de pagos y recargas realizados
           - content: Pagos ARCA
       - title: Notificaciones
-        media: /images/service-detail-feature-1.jpg
+        media: /images/adobestock_582581410.png
         bullets:
           - content: Notificaciones Push
           - content: Buzón de novedades
@@ -135,14 +136,13 @@ sections:
   - type: cards
     byline: Servicios
     title: Tenemos la solución que buscás
-    description: Ofrecé a una billetera digital completa y a medida, que permite
-      pagar desde el celular con total fluidez.
+    description: Conocé nuestros servicios.
     colorScheme: dark
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más

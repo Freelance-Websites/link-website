@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas-de-pagar"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/mockup_pagar.png
     mediaSize: full
     colorScheme: primary
     layout: full
@@ -52,9 +52,9 @@ sections:
             text: Operaciones intuitivas sin necesidad de filas o trámites presenciales.
   - mediaPlacement: right
     decorations: false
-    media: /images/group-480955344-2.png
+    media: /images/billetera_ilus.png
     mediaSize: boxed
-    colorScheme: light
+    colorScheme: secondary
     layout: full
     title: Tecnología que respalda millones de cobros por mes
     type: textAndImage
@@ -73,8 +73,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más

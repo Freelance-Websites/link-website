@@ -3,7 +3,7 @@ title: Inicio
 sections:
   - type: slider
     slider:
-      - bna-y-bancor-habilitan-pagos-con-nfc
+      - predictor-de-efectivo-eficiencia-real-en-la-gestión-de-atm
       - construimos-futuro-en-la-nube
       - el-transporte-publico-suma-pagos-con-debito-sin-contacto
   - mediaPlacement: right
@@ -19,16 +19,15 @@ sections:
     description: "Desde 1988 desarrollamos productos y servicios para entidades
       financieras, organismos gubernamentales y empresas de todo Argentina. "
   - type: cards
-    byline: Servicios
+    byline: ""
     title: Conocé nuestros servicios
-    description: Creamos soluciones punta a punta para cada segmento del ecosistema
-      financiero.
+    description: ""
     colorScheme: dark
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más

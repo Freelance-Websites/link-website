@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_705684260.jpeg
     colorScheme: primary
     byline: Servicios
     title: API Banco
@@ -51,9 +51,10 @@ sections:
       - text: Contactanos y empezá a apificar
         link: mailto:ecosistema@redlink.com.ar
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/icono_banco_glow_green.png
     mediaSize: boxed
-    colorScheme: primary
+    colorScheme: secondary
+    layout: boxed
     byline: Marketplace
     bullets:
       - title: Conectividad Open Banking
@@ -70,9 +71,10 @@ sections:
       - text: Contactanos y sumá este servicio
         link: mailto:ecosistema@redlink.com.ar
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/icono_nube_glow_green.png
     mediaSize: boxed
-    colorScheme: light
+    colorScheme: secondary
+    layout: boxed
     byline: Data
     bullets:
       - content: Impulsá nuevos productos y servicios
@@ -105,8 +107,8 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
         ctaText: Conocer más

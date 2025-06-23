@@ -40,7 +40,7 @@ export default function Page({
     >
       <div className='pt-12'>
         <TextAndImage
-          byline={new Date(timestamp || '').toLocaleDateString('en-GB').replace(/\//g, '/')}
+          byline={new Date(timestamp || Date.now()).toISOString().slice(0, 10).split('-').reverse().join('/')}
           title={hero.title}
           description={hero.description}
           media={hero.media}
@@ -53,11 +53,12 @@ export default function Page({
         />
         <ul
           className={`
-            container mx-auto
+            relative container mx-auto
             px-4 md:px-0
             grid gap-8 md:gap-4
             ${gridLayout}
-            py-4 lg:py-8 xl:py-12
+            py-4 md:py-4
+            mt-0 md:-mt-16 lg:-mt-24
           `}
         >
             {sortedBlogPosts.slice(1).map((article: ArticleProps, index: number) => (

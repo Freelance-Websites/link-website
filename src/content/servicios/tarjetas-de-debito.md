@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_159563923.jpeg
     colorScheme: primary
     byline: Servicios
     title: Tarjetas de débito
@@ -40,7 +40,11 @@ sections:
           - icon: /images/check-circle.png
             title: Personalización y embozado
             text: Gestionamos el diseño y embozado de tarjetas EMV contactless.
-      - title: Para personas usuarias
+          - icon: /images/check-circle.png
+            title: Protocolo 3DS
+            text: Autenticación segura de transacciones sin tarjeta física, reduciendo la
+              posibilidad de fraude.
+      - title: Para personas
         icon: /images/usuarios.png
         features:
           - icon: /images/check-circle.png
@@ -59,9 +63,9 @@ sections:
               Apple Pay.
   - mediaPlacement: right
     decorations: false
-    media: /images/case-study-mockup.png
-    mediaSize: boxed
-    colorScheme: light
+    media: /images/link-tarjeta-debito_remera_v1-copia.png
+    mediaSize: full
+    colorScheme: secondary
     byline: Caso de éxito
     title: Millones de personas pagan con NFC
     type: textAndImage
@@ -78,10 +82,12 @@ sections:
     stats:
       - value: 51
         prepend: +
-        content: millones de tarjetas de débito administradas
-      - value: 26300
+        content: de tarjetas administradas
+        append: M
+      - value: 26
         prepend: +
-        content: millones de transacciones anuales
+        content: de transacciones anuales
+        append: M
       - value: 40
         content: Bancos adheridos
         prepend: +

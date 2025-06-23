@@ -6,7 +6,7 @@ sections:
       - link: "#ventajas-de-la-seguridad-link"
         text: Conocer más
     decorations: false
-    media: /images/services-mockup.png
+    media: /images/adobestock_1056919194.jpeg
     colorScheme: primary
     byline: Servicios
     title: Seguridad
@@ -46,11 +46,49 @@ sections:
             title: Acceso seguro 24/7
             text: Servicios financieros digitales siempre disponibles, con tecnología que
               garantiza operaciones confiables.
+  - type: accordion
+    title: Productos y servicios
+    accordion:
+      - title: " Sistema de Prevención de Fraude Digital"
+        bullets:
+          - content: Sistema automatizado que detecta y bloquea actividades sospechosas en
+              tiempo real mediante análisis de comportamiento, reglas y machine
+              learning para prevenir fraudes digitales
+        media: /images/adobestock_582581410.png
+      - title: Gestor Operativo Unificado (linkGO)
+        bullets:
+          - content: Centraliza y automatiza las gestiones operativas, como por ejemplo
+              conciliaciones de procesos. Permite identificar la operación,
+              generar el descuento al cliente y devolver el dinero en tiempo
+              real, notificando al sobre el beneficio obtenido.
+        media: /images/adobestock_582581410.png
+      - title: CSIRT
+        media: /images/adobestock_582581410.png
+        bullets:
+          - content: Centraliza la detección, análisis y respuesta ante incidentes de
+              seguridad para proteger sitios web y servicios digitales,
+              minimizando riesgos y tiempos de recuperación.
+      - title: Servicio de Notificaciones Push
+        bullets:
+          - content: "Permite mantener informados a los usuarios sobre sus movimientos
+              transacciones y notificarlos en base a diferentes categorias:
+              Promociones, Compras y más."
+        media: /images/adobestock_582581410.png
+      - title: Servicio de Promociones Inmediatas
+        bullets:
+          - content: Permite Identificar la Operación, generar el Descuento al Cliente y
+              devolver el dinero en tiempo real, notificando al usuario sobre el
+              beneficio obtenido.
+        media: /images/adobestock_582581410.png
+    colorScheme: light
+    ctas: []
+    byline: ""
   - mediaPlacement: right
     decorations: false
-    media: /images/case-study-mockup.png
+    media: /images/group-198.png
     mediaSize: boxed
-    colorScheme: primary
+    colorScheme: secondary
+    layout: boxed
     byline: Certificaciones
     bullets:
       - title: PCI DSS (Payment Card Industry Data Security Standard)
@@ -88,33 +126,39 @@ sections:
     cardLayout: horizontal
     cards:
       - title: Soluciones de pago
-        content: Pagos digitales, autogestión, alertas y promociones. Todo desde un
-          único hub.
+        content: Transferencias, tarjetas y procesamiento. Tenemos todo para una
+          experiencia de pago completa.
         icon: /images/homepage-service-1.png
         ctaLink: /servicios/soluciones-de-pago
+        ctaText: Conocer más
       - title: Soluciones de cobro
         content: Optimizá la forma de cobrar de los comercios y hacé crecer cada
           negocio.
         icon: /images/homepage-service-2.png
         ctaLink: /servicios/soluciones-de-cobro
+        ctaText: Conocer más
       - title: Banking as a Service
         content: Integrá servicios financieros en tus plataformas de forma rápida,
           simple. Evolucioná con nosotros.
         icon: /images/homepage-service-3.png
         ctaLink: /servicios/banking-as-a-service
+        ctaText: Conocer más
       - title: API Banco
         content: Tecnología de vanguardia para utilizar nuestros servicios y ampliar la
           oferta.
         icon: /images/homepage-service-4.png
         ctaLink: /servicios/api-banco
+        ctaText: Conocer más
       - title: Plataformas digitales
         content: Diseñadas para individuos, empresas y gobiernos, 100% integrables y
           personalizables.
         icon: /images/homepage-service-5.png
         ctaLink: /servicios/plataformas-digitales
+        ctaText: Conocer más
       - title: ATM
         content: Formá parte de la red líder más extensa y segura de cajeros
           automáticosde todo el país.
         icon: /images/homepage-service-6.png
         ctaLink: /servicios/atm
+        ctaText: Conocer más
 ---

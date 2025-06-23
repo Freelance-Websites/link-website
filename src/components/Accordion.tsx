@@ -46,7 +46,7 @@ const AccordionPanel: React.FC<AccordionProps> = ({
 
   const isVideo = (media: string) => {
     const videoExtensions = ['mp4', 'webm', 'ogg'];
-    const extension = media.split('.').pop();
+    const extension = media?.split('.').pop();
     return videoExtensions.includes(extension || '');
   };
 
@@ -112,7 +112,7 @@ const AccordionPanel: React.FC<AccordionProps> = ({
                 header={panel.title}
                 initialEntered={index === 0}
                 buttonProps={{
-                  className: 'p-4 hover:opacity-80'
+                  className: 'p-4 hover:opacity-80 text-left'
                 }}
                 contentProps={{
                   className: "transition-height duration-200 ease-out"

@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import Head from 'next/head'
 import PagePreview from '../preview/page'
 import BlogPreview from '../preview/blog'
 
@@ -14,7 +15,11 @@ const Admin = () => {
     })()
   }, [])
 
-  return <div />
+  return <>
+    <Head>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async />
+    </Head>
+  </>
 }
 
 export default Admin

@@ -2,7 +2,7 @@
 title: Plataformas digitales
 sections:
   - type: hero
-    media: /images/services-hero.jpg
+    media: /images/recurso-20-2x.png
     byline: Servicios
     layout: boxed
     title: Plataformas digitales
@@ -17,8 +17,8 @@ sections:
     cardLayout: vertical
     cards:
       - title: Banca digital para individuos
-        content: Simplificá la gestión financiera de tus clientes con apps nativas y un
-          sitio web responsive adaptados a su día a día.
+        content: Simplificá la gestión financiera de tus clientes con apps nativas y una
+          plataforma web responsive adaptadas a su día a día.
         icon: /images/usuarios.png
         ctaText: Conocer más
         ctaLink: /servicios/banca-digital-para-individuos
@@ -34,16 +34,16 @@ sections:
         content: Grandes, medianas y pequeñas empresas necesitan una plataforma que
           evolucione con su negocio. Brindales una herramienta flexible y con un
           alto nivel de configuración que se adapte a cada una de ellas.
-        icon: /images/empresas.png
+        icon: /images/group-197.png
         ctaText: Conocer más
         ctaLink: /servicios/banca-digital-para-empresas
         features:
           - text: " Seguridad y control en cada transacción, con trazabilidad total."
             icon: /images/check-circle.png
-          - text: Acceso ágil a servicios bancarios desde cualquier dispositivo.
+          - text: Acceso a servicios bancarios desde cualquier dispositivo.
             icon: /images/check-circle.png
           - icon: /images/check-circle.png
-            text: Gestión transparente para facilitar auditorías y toma de decisiones.
+            text: Gestión ágil que facilita las decisiones financieras.
       - title: Banca digital para gobiernos
         content: Plataforma de alta disponibilidad diseñada que aporta agilidad y
           transparencia en la gestión pública. Con servicios personalizados,
@@ -56,6 +56,6 @@ sections:
             text: Operaciones de alto volumen, centralizadas y siempre disponibles.
           - text: " Seguridad certificada y control total para cada transacción."
             icon: /images/check-circle.png
-          - text: Gestión ágil, transparente y personalizada para cada nivel de gobierno.
+          - text: Gestión transparente y personalizada para cada segmento de gobierno.
             icon: /images/check-circle.png
 ---

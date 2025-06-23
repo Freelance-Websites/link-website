@@ -1,7 +1,7 @@
-local_backend: true
 publish_mode: editorial_workflow
 media_folder: "public/images"
 public_folder: "/images"
+locale: 'es'
 backend:
   name: git-gateway
   branch: main
@@ -26,12 +26,9 @@ collections:
                 widget: relation
                 collection: blog
                 multiple: true
-                search_fields: [title]
-                display_fields: [title]
+                search_fields: ["title"]
+                display_fields: ["title"]
                 value_field: '{{slug}}'
-                filters: 
-                  - field: draft
-                    values: [false]
           - label: "Encabezado"
             name: "hero"
             fields:
@@ -370,12 +367,9 @@ collections:
             widget: relation
             collection: blog
             multiple: true
-            search_fields: [title]
-            display_fields: [title]
+            search_fields: ["title"]
+            display_fields: ["title"]
             value_field: '{{slug}}'
-            filters: 
-              - field: draft
-                values: [false]
           - label: "Encabezado"
             name: "hero"
             fields:
@@ -694,7 +688,6 @@ collections:
         name: "timestamp"
         widget: "datetime"
         default: "{{now}}"
-        date_format: "DD.MM.YYYY"
         time_format: false
         picker_utc: false
       - label: "Encabezado"

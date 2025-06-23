@@ -62,7 +62,7 @@ const ArticleCard: React.FC<ArticleProps> = ({
             text-dark
           `}
           >
-            {new Date(timestamp).toLocaleDateString('en-GB').replace(/\//g, '/')}
+            {new Date(timestamp || Date.now()).toISOString().slice(0, 10).split('-').reverse().join('/')}
           </p>
         )}
         <h3
