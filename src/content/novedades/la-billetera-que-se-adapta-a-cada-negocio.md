@@ -8,7 +8,7 @@ hero:
   decorations: false
   media: /images/billetera_ilus.png
   mediaSize: full
-  colorScheme: primary
+  colorScheme: dark
   layout: boxed
   byline: Servicios
   title: La billetera que se adapta a cada negocio
