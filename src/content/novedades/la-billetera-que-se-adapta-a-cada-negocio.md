@@ -6,9 +6,9 @@ hero:
     - link: https://link-website-2025.netlify.app/servicios/billeteras-digitales
       text: Conocer más
   decorations: false
-  media: /images/billetera_ilus.png
+  media: /images/06-pago-qr-celular_v1_filete-blanco_ok.png
   mediaSize: full
-  colorScheme: light
+  colorScheme: dark
   layout: boxed
   byline: Servicios
   title: La billetera que se adapta a cada negocio
