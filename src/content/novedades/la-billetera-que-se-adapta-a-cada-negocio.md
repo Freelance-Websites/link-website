@@ -7,7 +7,7 @@ hero:
       text: Conocer más
   decorations: false
   media: /images/billetera_ilus.png
-  mediaSize: boxed
+  mediaSize: full
   colorScheme: primary
   layout: boxed
   byline: Servicios
