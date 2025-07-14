@@ -12,5 +12,5 @@ hero:
   layout: full
   byline: Servicios
   title: Somos la API que conecta servicios, plataformas y productos
-  description: Desarrollamos APIs abiertas, seguras y listas para usar.
+  description: Ofrecemos un entorno de APIs abiertas, seguras y listas para usar.
 ---
