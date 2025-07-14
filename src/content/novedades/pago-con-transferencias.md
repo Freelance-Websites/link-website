@@ -6,8 +6,7 @@ hero:
   media: /images/nordwood-themes-q8u1ygbarqk-unsplash.jpg
   byline: Servicios
   title: Somos la transferencia a un amigo
-  description: Ofrecé transferencias en tiempo real, con seguridad garantizada y
-    total control de operaciones.
+  description: Transferencias seguras y en tiempo real para una experiencia sin fricción.
   layout: full
   colorScheme: dark
   ctas:
