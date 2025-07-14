@@ -5,7 +5,7 @@ hero:
   ctas:
     - text: Conocer más
       link: https://link-website-2025.netlify.app/servicios/api-banco
-  decorations: true
+  decorations: false
   media: /images/adobestock_705684260.jpeg
   mediaSize: full
   colorScheme: dark
