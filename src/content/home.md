@@ -4,9 +4,7 @@ sections:
   - type: slider
     slider:
       - la-billetera-que-se-adapta-a-cada-negocio
-      - predictor-de-efectivo-eficiencia-real-en-la-gestión-de-atm
-      - transferencias-2
-      - prueba-transferencias
+      - apis
   - mediaPlacement: right
     ctas:
       - link: /quienes-somos
