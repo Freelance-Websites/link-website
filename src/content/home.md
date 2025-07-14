@@ -3,8 +3,11 @@ title: Inicio
 sections:
   - type: slider
     slider:
-      - la-billetera-que-se-adapta-a-cada-negocio
       - apis
+      - billeteras
+      - cobros-con-transferencia
+      - pago-con-transferencias
+      - token
   - mediaPlacement: right
     ctas:
       - link: /quienes-somos
