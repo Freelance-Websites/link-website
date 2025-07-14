@@ -10,7 +10,7 @@ hero:
   mediaSize: full
   colorScheme: dark
   layout: full
-  byline: Servicios
+  byline: Seguridad
   title: Somos el token que protege pagos y datos
   description: Blindamos todas las operaciones financieras con estándares globales.
 ---
