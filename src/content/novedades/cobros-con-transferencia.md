@@ -11,7 +11,7 @@ hero:
   colorScheme: dark
   layout: full
   byline: Servicios
-  title: Somos la compra con QR en el comercio del barrio
+  title: Somos la compra con QR en un comercio
   description: Usamos APIs y toda la tecnología link para procesar millones de
     cobros en tiempo real.
 ---
