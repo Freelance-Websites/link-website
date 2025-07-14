@@ -11,7 +11,7 @@ hero:
   colorScheme: dark
   layout: full
   byline: Servicios
-  title: Somos la compra en el comercio del barrio
-  description: Activá cobros con QR usando APIs y toda la tecnología link para
-    procesar millones de transacciones en tiempo real.
+  title: Somos la compra con QR en el comercio del barrio
+  description: Usamos APIs y toda la tecnología link para procesar millones de
+    cobros en tiempo real.
 ---
