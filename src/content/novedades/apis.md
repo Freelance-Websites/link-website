@@ -6,7 +6,7 @@ hero:
     - text: Conocer más
       link: https://link-website-2025.netlify.app/servicios/api-banco
   decorations: false
-  media: /images/apis.png
+  media: /images/adobestock_705684260.jpeg
   mediaSize: full
   colorScheme: dark
   layout: full
