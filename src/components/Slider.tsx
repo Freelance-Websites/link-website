@@ -110,7 +110,7 @@ const Slider: React.FC<MainProps> = ({
               )}
               {/* Content */}
               <div
-                className="container mx-auto px-4 md:px-0 relative z-10 w-full h-full flex justify-center md:justify-start md:items-center flex-col md:flex-row gap-4 md:gap-12"
+                className="container mx-auto px-4 relative z-10 w-full h-full flex justify-center md:justify-start md:items-center flex-col md:flex-row gap-4 md:gap-12"
               >
                 <div className="md:max-w-4xl flex gap-4 md:gap-8 items-start flex-col md:flex-row">
                   {/* Decorations */}

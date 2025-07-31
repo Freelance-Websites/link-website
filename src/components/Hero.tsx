@@ -76,7 +76,7 @@ const Hero: React.FC<HeroProps> = ({
       {/* Content */}
       <div
         className={`
-          container mx-auto px-4 md:px-0 z-10 w-full h-full flex items-center
+          container mx-auto px-4 z-10 w-full h-full flex items-center
           ${layout === 'full' ? 'absolute' : 'relative pt-4 md:pt-12 lg:pt-16'}
         `}
       >
