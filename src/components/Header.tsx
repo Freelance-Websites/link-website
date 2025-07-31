@@ -73,7 +73,7 @@ const Header: React.FC = ({
       }
     >
       <div
-        className='flex items-center justify-between container mx-auto px-4 md:px-0'
+        className='flex items-center justify-between container mx-auto px-4'
       >
         <Link
           href='/'
