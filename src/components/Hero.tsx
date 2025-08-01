@@ -43,7 +43,11 @@ const Hero: React.FC<HeroProps> = ({
     >
       {/* Image/Video content with overlay */}
       {media && (
-        <div className='relative w-full h-full'>
+        <div className={`
+          w-full h-full relative
+          ${layout !== 'full' && 'aspect-video overflow-hidden mt-16'}
+        `}
+        >
           {/* Overlay */}
           {layout === 'full' && <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20 z-10"></div>}
           {isVideo(media) ?
@@ -67,7 +71,7 @@ const Hero: React.FC<HeroProps> = ({
               fill
               className={`
                 object-cover object-center w-full h-full z-0
-                ${layout === 'full' ? 'absolute top-0 left-0' : 'relative aspect-video mt-16'}
+                ${layout === 'full' ? 'absolute top-0 left-0' : 'relative aspect-video'}
               `}
             />
           }
@@ -76,8 +80,8 @@ const Hero: React.FC<HeroProps> = ({
       {/* Content */}
       <div
         className={`
-          container mx-auto px-4 z-10 w-full h-full flex items-center
-          ${layout === 'full' ? 'absolute' : 'relative pt-4 md:pt-12 lg:pt-16'}
+          container mx-auto px-4 z-10 w-full md:h-full
+          ${layout === 'full' ? 'absolute' : 'relative py-4 md:py-12 lg:py-16'}
         `}
       >
         <div className="md:max-w-3xl flex gap-4 md:gap-8 items-start flex-col md:flex-row">
