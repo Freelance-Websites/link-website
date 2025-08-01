@@ -10,6 +10,7 @@ const Footer: React.FC = ({
     <footer
       className={
         `
+          px-4
           py-4 md:py-8
           container mx-auto
         `
