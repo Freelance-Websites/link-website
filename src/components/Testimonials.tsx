@@ -75,7 +75,7 @@ const Testimonials: React.FC<TestimonialsProp> = ({
       <div
         className={`
           container mx-auto relative
-          px-4 md:px-0
+          px-4
         `}
       >
         {decorations &&

@@ -42,7 +42,7 @@ const Features: React.FC<CardGridProps> = ({
       <div
         className={`
           container mx-auto
-          px-4 md:px-0
+          px-4
           py-8 lg:py-16 xl:py-24
         `}
       >

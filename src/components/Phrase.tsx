@@ -76,7 +76,7 @@ const Phrase: React.FC<PhraseProps> = ({
           }
         `}
       >
-        <div className='container mx-auto px-4 md:px-0 py-8 lg:py-16 xl:py-24'>
+        <div className='container mx-auto px-4 py-8 lg:py-16 xl:py-24'>
           <h2
             className={`
               text-3xl md:text-5xl lg:text-6xl xl:text-7xl

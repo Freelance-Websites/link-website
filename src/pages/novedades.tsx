@@ -54,7 +54,7 @@ export default function Page({
         <ul
           className={`
             relative container mx-auto
-            px-4 md:px-0
+            px-4
             grid gap-8 md:gap-4
             ${gridLayout}
             py-4 md:py-4
