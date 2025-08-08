@@ -42,7 +42,13 @@ const Slider: React.FC<MainProps> = ({
   useEffect(() => {
     async function fetchContent(slug: string) {
       const content = await import(`@/content/novedades/${slug || 'index'}.md`);
-      setSlides((prev) => [...prev, content.attributes.hero]);
+      setSlides((prev) => {
+        // Check if this slide already exists to prevent duplicates
+        const slideExists = prev.some((existingSlide) => 
+          JSON.stringify(existingSlide) === JSON.stringify(content.attributes.hero)
+        );
+        return slideExists ? prev : [...prev, content.attributes.hero];
+      });
 
       // Needed to ensure the slider gets rendered correctly when the data is fetched
       if (resizeFlag === false) {
