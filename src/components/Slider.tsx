@@ -36,31 +36,67 @@ export interface SliderContent {
 const Slider: React.FC<MainProps> = ({
   slider
 }) => {
-  const [resizeFlag, setResizeFlag] = useState(false);
   const [slides, setSlides] = useState<SliderProps[]>([]);
   
   useEffect(() => {
-    async function fetchContent(slug: string) {
-      const content = await import(`@/content/novedades/${slug || 'index'}.md`);
-      setSlides((prev) => {
-        // Check if this slide already exists to prevent duplicates
-        const slideExists = prev.some((existingSlide) => 
-          JSON.stringify(existingSlide) === JSON.stringify(content.attributes.hero)
-        );
-        return slideExists ? prev : [...prev, content.attributes.hero];
-      });
+    if (!slider || slider.length === 0) {
+      setSlides([]);
+      return;
+    }
 
-      // Needed to ensure the slider gets rendered correctly when the data is fetched
-      if (resizeFlag === false) {
-        setResizeFlag(true);
+    let isMounted = true;
+    
+    // Clear slides immediately when slider prop changes
+    setSlides([]);
+    
+    async function loadAllSlides() {
+      const loadedSlides: SliderProps[] = [];
+      
+      for (const slug of slider) {
+        try {
+          const content = await import(`@/content/novedades/${slug || 'index'}.md`);
+          if (content.attributes?.hero && isMounted) {
+            loadedSlides.push(content.attributes.hero);
+          }
+        } catch (error) {
+          console.error(`Failed to load slide content for ${slug}:`, error);
+        }
+      }
+      
+      if (isMounted && loadedSlides.length > 0) {
+        setSlides(loadedSlides);
       }
     }
-    if (slider) {
-      slider.forEach((slide) => fetchContent(slide));
-    }
-  }, [slider, resizeFlag]);
+    
+    // Add a small delay to ensure proper cleanup
+    const timeoutId = setTimeout(() => {
+      loadAllSlides();
+    }, 10);
+
+    return () => {
+      isMounted = false;
+      clearTimeout(timeoutId);
+    };
+  }, [slider]);
 
   const splideRef = React.useRef<{ splide: { go: (direction: string) => void } } | null>(null);
+  
+  // Show loading state only if slider prop exists but no slides loaded yet
+  if (slider && slider.length > 0 && slides.length === 0) {
+    return (
+      <section className='slider'>
+        <div className="w-full h-screen flex items-center justify-center bg-dark">
+          <div className="text-light">Loading slides...</div>
+        </div>
+      </section>
+    );
+  }
+
+  // Don't render anything if no slider prop or slides
+  if (!slider || slider.length === 0 || slides.length === 0) {
+    return null;
+  }
+
   return (
     <section className='slider'>
       <Splide
