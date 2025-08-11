@@ -80,7 +80,7 @@ const Hero: React.FC<HeroProps> = ({
       {/* Content */}
       <div
         className={`
-          container mx-auto px-4 z-10 w-full md:h-full
+          container mx-auto px-4 z-10 w-full md:h-full flex items-center
           ${layout === 'full' ? 'absolute' : 'relative py-4 md:py-12 lg:py-16'}
         `}
       >
